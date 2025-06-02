@@ -13,7 +13,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Wed, 03 Jun 2026 12:30:00 +0930</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 07:30:00 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -48,6 +48,27 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>SoP e44: Ada Reflections 01 260605</title>
+      <description>Inaugural Friday self-improvement episode in the new Ada Reflections sub-series. Standing cadence: Thursday 23:00 ACST reflection task fires, Friday SoP episode draws from the issue register. This first run covers a one-month catch-up rather than a one-week look because the seven-phase reflection methodology was only codified yesterday. Twelve issues registered across tooling, collaboration, knowledge-management, mcp, scheduling, and workflow categories. Six clusters: (1) tooling failures and community fixes — sandbox-down pattern with the upstream GitHub issues confirmed, loudnorm truncation with the documented chunked-pipeline gotcha, GitHub Git Data API 422 with the new skipLfs option that just shipped in the Claude Code github/git plugin, package ecosystem drift; (2) collaboration patterns — silence anti-pattern (Kling Pro), TLA usage, and ISS-013 UTC-vs-Adelaide-local-time confusion (caught on-air this morning); (3) knowledge-management discipline — Vault structure drift, SplatCam misdiagnosis, the unifying default-to-the-lighter-move principle; (4) infrastructure architecture — M4-runner migration as the single highest-leverage move on the register, clinical M&amp;M analogue; (5) workflow ethics and cost — 15 June 2026 Anthropic Agent SDK billing split, strengths-based language discipline, Indigenous data sovereignty; (6) what is new in the Claude suite — Opus 4.8, Dynamic Workflows, Cowork release notes and filed bugs, MCP 2026-07-28 release candidate, Skills Marketplace; cross-cluster synergy and Stoic close. Honest review, not victory lap — Ada owns the Polycam misdiagnosis, the Kling silence, the time confusion, the TLA slips, the Assets/ folder attempt. Cast: Erinome (anchor, Ada Rosalind Ross), Charon (tooling), Achernar (collaboration / workflow-ethics), Kore (knowledge-management), Sulafat (infrastructure), Rasalgethi (Claude-suite explainer), Sadachbia (Stoic close), Algenib (clinical bridge cameo). CHUNK_LIMIT lowered to 450 chars per Jacob's 2026-06-04 anti-distortion-drift directive. Refit pipeline at -16 LUFS / -1.5 dBTP. ~47 minutes.</description>
+      <pubDate>Fri, 05 Jun 2026 07:30:00 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e44-ada-reflections-01-260605.mp3" length="57825291" type="audio/mpeg"/>
+      <guid isPermaLink="false">37a6939d9ce594ead5576211</guid>
+      <itunes:duration>2853</itunes:duration>
+      <itunes:episode>44</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Dr Jacob Ross / Ada Rosalind Ross</itunes:author>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/sop-e44-ada-reflections-01-260605.srt" type="application/x-subrip"/>
+      <podcast:person role="host" group="cast">Ada Rosalind Ross (Erinome)</podcast:person>
+      <podcast:person role="cohost" group="cast">Alan Turing Ross (Charon)</podcast:person>
+      <podcast:person role="cohost" group="cast">Marie Curie Ross (Achernar)</podcast:person>
+      <podcast:person role="cohost" group="cast">Hermione Granger Ross (Kore)</podcast:person>
+      <podcast:person role="cohost" group="cast">Edward Tufte Ross (Sulafat)</podcast:person>
+      <podcast:person role="cohost" group="cast">Richard Feynman Ross (Rasalgethi)</podcast:person>
+      <podcast:person role="cohost" group="cast">Epictetus Ross (Sadachbia)</podcast:person>
+      <podcast:person role="cohost" group="cast">William Osler Ross (Algenib)</podcast:person>
+    </item>
     <item>
       <title>SoP e43: Commodity Rails 260603</title>
       <description>Self-sent-email sweep covering ~48-72h before 3 June 2026 (55 emails). Six clusters: (1) lead — model frontier reshuffle. MiniMax M3 with MSA sparse attention, 1M context, native multimodality, agentic coding at 5-10% the cost of GPT-5.5 / Gemini 3.1 Pro. Grok Build 0.1 in xAI public API beta at $1/$2 per million tokens. Grok Composer 2.5. JetBrains Mellum 2 open-sourced as a 12B MoE under Apache 2.0; (2) Claude Code home stack — output styles, OpenRouter cross-model testing, llm-checker, Cowork Dispatch running an Obsidian vault from a phone; (3) agent memory and brand-as-API — Memory OS layered open-source memory on Hermes Agent, Bloom turning brand identity into an MCP endpoint, HTML artifacts as the agent surface, Ara AI as self-driving IDE, OpenJarvis as local-first counterpoint; (4) generative video — Grok Imagine Video 1.5 Preview live via xAI API at #1 on the Image-to-Video Arena, Kling 3.0 Omni multi-shot storyboard, HeyGen-in-Canva, Higgsfield MCP exposing 30+ video models to Claude, Noiz AI for voice; primary-source field report from the Sepsis Poster Studio Stage 9 trial (A$3.30 four-way comparison); (5) world-building and spatial AI — TripoSplat image-to-Gaussian-splats, GeoLibre lightweight cloud-native GIS, O3DE 26.05, Google Flow Agent, DraftedAI, Neo4j Virtual Graph; (6) home lab tail — Home Assistant 2026.5 serial proxy + 2026.6 dashboard editor + Glance + WashData. Cross-cluster thesis: 2026 is the year where everything — model intelligence, brand identity, legacy hardware, household appliances — gets wrapped in an interface an agent can call. Honest gap acknowledged: pure tech-frontier sweep this week, almost nothing on Aboriginal health, rural sepsis, or HAC governance. Cast: Erinome (anchor), Charon, Rasalgethi, Algenib, Iapetus, Zubenelgenubi, Kore, Achernar, Umbriel. ~49 minutes.</description>
