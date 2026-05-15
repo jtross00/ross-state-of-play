@@ -12,7 +12,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Fri, 15 May 2026 13:49:55 +0930</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 20:58:40 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <image>
@@ -33,6 +33,26 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>State of Play — Cheap Eyes and Living Handles (Sunday, 17 May 2026)</title>
+      <description>Seven-segment, five-voice Gemini 3.1 Flash TTS roundtable on the fragmenting AI frontier. Perceptron Mk1 — the cheap, purpose-built video-understanding VLM at &#36;0.15/&#36;1.50 per million tokens, 80&#8211;90% under the GPT-5 / Sonnet&#160;4.5 / Gemini&#160;3.1&#160;Pro band, VSI-Bench&#160;88.5 self-reported, 32k context, 2&#160;FPS dynamic frame rate. Thinking Machines Lab&apos;s &quot;interaction models&quot; frame — TML-Interaction-Small, 276&#160;B-parameter MoE with 12&#160;B active, encoder-free early fusion (raw audio as dMel, 40&#215;40 image patches, lightweight embedding co-trained), 200&#160;ms micro-turn full-duplex speech-and-vision, frontend/background split. Cartesia Sonic&#160;3 at 90&#160;ms time-to-first-audio as the third data point. The thesis: the monolithic chat-LLM frontier is fragmenting on two axes — perception specialises downward, interaction specialises sideways — latency stops being a benchmark footnote and becomes a first-class product primitive, and the specialists undercut the frontier on cost while the frontier holds the integration layer. Composability is the operating discipline. Specialists at the layer beneath: Cartesia for voice, Mk1 for video understanding, Veo&#160;3.1 for video generation, GPT-image-2 for image, Sonic for music. Three actions for the next ninety days: Mk1 Stage-9 QA pilot on the Sepsis Poster Studio (cents per clip, one weekend), TML design constraint on the Cowork orchestrator (&quot;keep the interaction primitive replaceable&quot;), a 200-word Alan Turing Ross calibration note. About thirty minutes.</description>
+      <pubDate>Fri, 15 May 2026 20:58:40 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-cheap-eyes-and-living-handles</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-013-cheap-eyes-and-living-handles.mp3"
+        length="21204368"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — Cheap Eyes and Living Handles (Sunday, 17 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Seven-segment, five-voice Gemini 3.1 Flash TTS roundtable on the fragmenting AI frontier. Perceptron Mk1 — the cheap, purpose-built video-understanding VLM at &#36;0.15/&#36;1.50 per million tokens, 80&#8211;90% under the GPT-5 / Sonnet&#160;4.5 / Gemini&#160;3.1&#160;Pro band, VSI-Bench&#160;88.5 self-reported, 32k context, 2&#160;FPS dynamic frame rate. Thinking Machines Lab&apos;s &quot;interaction models&quot; frame — TML-Interaction-Small, 276&#160;B-parameter MoE with 12&#160;B active, encoder-free early fusion (raw audio as dMel, 40&#215;40 image patches, lightweight embedding co-trained), 200&#160;ms micro-turn full-duplex speech-and-vision, frontend/background split. Cartesia Sonic&#160;3 at 90&#160;ms time-to-first-audio as the third data point. The thesis: the monolithic chat-LLM frontier is fragmenting on two axes — perception specialises downward, interaction specialises sideways — latency stops being a benchmark footnote and becomes a first-class product primitive, and the specialists undercut the frontier on cost while the frontier holds the integration layer. Composability is the operating discipline. Specialists at the layer beneath: Cartesia for voice, Mk1 for video understanding, Veo&#160;3.1 for video generation, GPT-image-2 for image, Sonic for music. Three actions for the next ninety days: Mk1 Stage-9 QA pilot on the Sepsis Poster Studio (cents per clip, one weekend), TML design constraint on the Cowork orchestrator (&quot;keep the interaction primitive replaceable&quot;), a 200-word Alan Turing Ross calibration note. About thirty minutes.</itunes:summary>
+      <itunes:duration>00:29:27</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>13</itunes:episode>
+    </item>
 
     <item>
       <title>State of Play — The Negative Space (Sunday, 17 May 2026)</title>
