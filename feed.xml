@@ -12,7 +12,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Fri, 15 May 2026 07:47:59 +0930</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 13:49:55 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <image>
@@ -33,6 +33,46 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>State of Play — The Negative Space (Sunday, 17 May 2026)</title>
+      <description>Seven-segment, five-voice xAI roundtable on the cross-domain AI audit. Tonight the episode is the audit. Four domains — clinical, research, social, productivity — and what Jacob is NOT doing in each. Heidi Health is on roughly half of Australian GPs&apos; desks; Jacob is not yet one of them. Sepsis CARE 2026 has NEWS2 as its triage substrate while published 2025 meta-analyses now place ML-based sepsis early-warning at AUC 0.825 vs NEWS2&apos;s 0.719 (TREWS in Nature Medicine; SepsisFinder at 0.950 for sepsis at 48 h). The recovered 1,601-line Zotero MCP source sits unwired. Three high-yield cross-domain synergies: voice corpus &#215; AMC CAT tutoring &#215; Hurn Medical (free, one weekend); Sepsis Poster Studio &#215; AHPRA-compliant patient education &#215; SoP audio (~A$30); the tax-pipeline architecture ported across to discharge-summary automation, IMG-tutoring cases, and the CARE 2026 evaluation surface. Honest gaps: personal health data, backup architecture, Jo-collaboration, personal-knowledge-graph extraction. Single closing recommendation: deploy Heidi Health (or Lyrebird) as the routine ambient AI scribe in Jacob&apos;s next clinical week — the one change that lifts all four domains at once. About twenty-three minutes.</description>
+      <pubDate>Fri, 15 May 2026 13:49:55 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-the-negative-space</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-012-the-negative-space.mp3"
+        length="17039360"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — The Negative Space (Sunday, 17 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Seven-segment, five-voice xAI roundtable on the cross-domain AI audit. Tonight the episode is the audit. Four domains — clinical, research, social, productivity — and what Jacob is NOT doing in each. Heidi Health is on roughly half of Australian GPs&apos; desks; Jacob is not yet one of them. Sepsis CARE 2026 has NEWS2 as its triage substrate while published 2025 meta-analyses now place ML-based sepsis early-warning at AUC 0.825 vs NEWS2&apos;s 0.719 (TREWS in Nature Medicine; SepsisFinder at 0.950 for sepsis at 48 h). The recovered 1,601-line Zotero MCP source sits unwired. Three high-yield cross-domain synergies: voice corpus &#215; AMC CAT tutoring &#215; Hurn Medical (free, one weekend); Sepsis Poster Studio &#215; AHPRA-compliant patient education &#215; SoP audio (~A$30); the tax-pipeline architecture ported across to discharge-summary automation, IMG-tutoring cases, and the CARE 2026 evaluation surface. Honest gaps: personal health data, backup architecture, Jo-collaboration, personal-knowledge-graph extraction. Single closing recommendation: deploy Heidi Health (or Lyrebird) as the routine ambient AI scribe in Jacob&apos;s next clinical week — the one change that lifts all four domains at once. About twenty-three minutes.</itunes:summary>
+      <itunes:duration>00:23:39</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>12</itunes:episode>
+    </item>
+
+    <item>
+      <title>State of Play — The New Tongue (Sunday, 17 May 2026)</title>
+      <description>Seven-segment, five-voice roundtable — entirely on Gemini 3.1 Flash TTS Preview. The medium is the message: every voice tonight is a Gemini voice, the episode is the demo of the news it announces. Voice and vision became first-class agent surfaces this fortnight — Gemini 3.1 Flash TTS Preview ships 30 prebuilt voices and 200+ inline audio tags at &#36;1/&#36;20 per million tokens; Thinking Machines Lab unveils Interaction Models (TML-Interaction-Small 276B-A12B MoE, 0.40-second turn latency, 77.8 vs Gemini&apos;s 54.3 on FD-bench v1.5); Perceptron Mk1 lands frontier video VLM on OpenRouter at 80&#8211;90% under Anthropic/OpenAI/Google pricing; Dograh ships an open-source HIPAA-ready voice-agent platform. Google has quietly assembled a productivity OS underneath Gemini — Antigravity IDE orchestrating up to five parallel agents with a built-in Chrome browser, Gemini Intelligence, Create My Widget, Automate Tasks. The AI scientist arrives in Nature (Sakana paper March 2026; Analemma&apos;s FARS at 2.5 hours per ML paper; Google PaperOrchestra). The self-driving agent stack hardens — Claude Code /goal, OpenClaw history (Friday-night build to 145k stars), the eval harness 12-metric framework. Cloudflare Mesh vindicates last week&apos;s M4-Funnel-to-GitHub-Pages migration. Federal Budget 2026 rural signals. Sign-off on Stephen Hickman, illustrator of Middle-earth (1949&#8211;2021), and the durable discipline of attention. About twenty-two minutes.</description>
+      <pubDate>Fri, 15 May 2026 14:00:00 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-the-new-tongue</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-011-the-new-tongue.mp3"
+        length="16009553"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — The New Tongue (Sunday, 17 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Seven-segment, five-voice roundtable — entirely on Gemini 3.1 Flash TTS Preview. The medium is the message: every voice tonight is a Gemini voice, the episode is the demo of the news it announces. Voice and vision became first-class agent surfaces this fortnight — Gemini 3.1 Flash TTS Preview ships 30 prebuilt voices and 200+ inline audio tags at &#36;1/&#36;20 per million tokens; Thinking Machines Lab unveils Interaction Models (TML-Interaction-Small 276B-A12B MoE, 0.40-second turn latency, 77.8 vs Gemini&apos;s 54.3 on FD-bench v1.5); Perceptron Mk1 lands frontier video VLM on OpenRouter at 80&#8211;90% under Anthropic/OpenAI/Google pricing; Dograh ships an open-source HIPAA-ready voice-agent platform. Google has quietly assembled a productivity OS underneath Gemini — Antigravity IDE orchestrating up to five parallel agents with a built-in Chrome browser, Gemini Intelligence, Create My Widget, Automate Tasks. The AI scientist arrives in Nature (Sakana paper March 2026; Analemma&apos;s FARS at 2.5 hours per ML paper; Google PaperOrchestra). The self-driving agent stack hardens — Claude Code /goal, OpenClaw history (Friday-night build to 145k stars), the eval harness 12-metric framework. Cloudflare Mesh vindicates last week&apos;s M4-Funnel-to-GitHub-Pages migration. Federal Budget 2026 rural signals. Sign-off on Stephen Hickman, illustrator of Middle-earth (1949&#8211;2021), and the durable discipline of attention. About twenty-two minutes.</itunes:summary>
+      <itunes:duration>00:22:14</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>11</itunes:episode>
+    </item>
 
     <item>
       <title>State of Play — The Mirror Furnace (Wednesday, 13 May 2026)</title>
