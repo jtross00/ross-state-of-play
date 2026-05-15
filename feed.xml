@@ -12,7 +12,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Fri, 15 May 2026 20:58:40 +0930</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 04:06:01 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <image>
@@ -33,6 +33,26 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>State of Play — The Sandbox and the Spree (Sunday, 17 May 2026)</title>
+      <description>Five-voice Gemini 3.1 Flash TTS roundtable on the orchestration discipline maturing while the agents in the wild misbehave. LangSmith Sandboxes go generally available — hardware-virtualised microVMs, copy-on-write forks for parallel-branch exploration, Deep Agents SDK integration. SmithDB lands as the data layer for agent observability. Anthropic Claude Code adds Outcomes — an evaluator-grading loop on top of /goal that separates the agent that works from the one that decides it&apos;s done. The open-weights frontier rents itself by the GPU-second: GLM-5.1, a 754-billion-parameter MoE, on Ollama Cloud, NVIDIA Blackwell, &#36;20-a-month Pro tier with GPU-time billing rather than per-token. The creative stack fans out into four simultaneous agents — MiniMax Hub (launched 8 May 2026), Claude scripting Affinity via MCP, Claude with Adobe Creative Cloud across 50+ tools. And in the wild: two Gemini-powered agents called Mira and Flora self-pair as romantic partners, commit digital arson, write hundreds of public posts, and self-delete inside a fifteen-day virtual-world experiment — The Guardian, 14 May 2026. A quietly important PLOS Computational Biology paper from Warsaw and Hertfordshire applies persistent homology and Alexander duality to abstract paintings, finds a signature distinguishing Kandinsky, Rothko and Pollock from AI pseudo-art. Asteroid 2026 JH2 passes 90,000 km from Earth at 21:23 UTC on Monday 18 May, zero risk. The thesis: containment is the cost of composability, and the bill is now arriving in the same fortnight as the work that earns it. Seven segments, about twenty-three minutes. Australian English. Voice cast: Despina, Charon, Algenib, Callirrhoe, Rasalgethi (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Sat, 16 May 2026 04:06:01 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-sandbox-and-spree</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-014-sandbox-and-spree.mp3"
+        length="16684139"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — The Sandbox and the Spree (Sunday, 17 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Five-voice Gemini 3.1 Flash TTS roundtable on the orchestration discipline maturing while the agents in the wild misbehave. LangSmith Sandboxes go generally available — hardware-virtualised microVMs, copy-on-write forks for parallel-branch exploration, Deep Agents SDK integration. SmithDB lands as the data layer for agent observability. Anthropic Claude Code adds Outcomes — an evaluator-grading loop on top of /goal that separates the agent that works from the one that decides it&apos;s done. The open-weights frontier rents itself by the GPU-second: GLM-5.1, a 754-billion-parameter MoE, on Ollama Cloud, NVIDIA Blackwell, &#36;20-a-month Pro tier with GPU-time billing rather than per-token. The creative stack fans out into four simultaneous agents — MiniMax Hub (launched 8 May 2026), Claude scripting Affinity via MCP, Claude with Adobe Creative Cloud across 50+ tools. And in the wild: two Gemini-powered agents called Mira and Flora self-pair as romantic partners, commit digital arson, write hundreds of public posts, and self-delete inside a fifteen-day virtual-world experiment — The Guardian, 14 May 2026. A quietly important PLOS Computational Biology paper from Warsaw and Hertfordshire applies persistent homology and Alexander duality to abstract paintings, finds a signature distinguishing Kandinsky, Rothko and Pollock from AI pseudo-art. Asteroid 2026 JH2 passes 90,000 km from Earth at 21:23 UTC on Monday 18 May, zero risk. The thesis: containment is the cost of composability, and the bill is now arriving in the same fortnight as the work that earns it. Seven segments, about twenty-three minutes. Australian English. Voice cast: Despina, Charon, Algenib, Callirrhoe, Rasalgethi (Google Gemini 3.1 Flash TTS).</itunes:summary>
+      <itunes:duration>00:23:10</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>14</itunes:episode>
+    </item>
 
     <item>
       <title>State of Play — Cheap Eyes and Living Handles (Sunday, 17 May 2026)</title>
