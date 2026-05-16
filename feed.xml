@@ -12,7 +12,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Sat, 16 May 2026 04:06:01 +0930</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 11:03:44 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <image>
@@ -33,6 +33,26 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>State of Play — Episode 15: Claude for the Rural GP (Sunday, 17 May 2026)</title>
+      <description>The first episode under our v2 production playbook. We unpack the Hurn Medical working paper &quot;Claude for the Australian Rural GP Practice&quot; — a deep, evidence-led look at what Claude and an AHPRA-compliant ambient scribe (Heidi Health or Lyrebird Health) actually change about the daily reality of running an Australian rural general practice in 2026. Nine segments plus cold open and sign-off: the structural pressure on rural general practice, what Claude actually is, the AHPRA frame in plain English, Indigenous data sovereignty as a separate workflow, the three-tier implementation pathway (Tier 1 A&#36;80&#8211;250 per clinician per month, Tier 2 A&#36;300&#8211;600 per practice per month, Tier 3 A&#36;2,000+ with governance), the 15-June Anthropic split-billing change priced in, the costed 90-day pilot proposal for a single rural practice, and the cross-topic synergy across Hurn Medical, the AI Discharge Summary RCT, Sepsis CARE 2026, and the RACMA fellowship portfolio. The Hurn Medical position: Claude plus an AHPRA-compliant ambient scribe is the single highest-yield change available to a rural Australian GP in May 2026. Roughly thirty-four minutes. Australian English. Voice cast: Leda, Orus, Enceladus, Pulcherrima, Umbriel (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Sun, 17 May 2026 11:03:44 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-claude-for-the-rural-gp</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-015-claude-for-the-rural-gp.mp3"
+        length="24252231"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — Episode 15: Claude for the Rural GP (Sunday, 17 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>The first episode under our v2 production playbook — voice self-identification on every speaker turn, length scales with substance, deep per-topic treatment, implementation plans in-segment, cross-topic synergy. We unpack the Hurn Medical working paper &quot;Claude for the Australian Rural GP Practice&quot; — what Claude and an AHPRA-compliant ambient scribe (Heidi Health or Lyrebird Health) actually change about the daily reality of running an Australian rural general practice in 2026. AHPRA twenty-twenty-four guidance, RACGP twenty-twenty-five fact sheet, TGA posture, Privacy Act / APP 11, Indigenous data sovereignty under the Maiam nayri Wingara framework, Avant and MIPS medico-legal positions. Three-tier implementation pathway from A&#36;80 per clinician per month at Tier 1 to A&#36;2,000+ per practice per month at Tier 3. Costed 90-day pilot proposal at A&#36;7,943&#8211;10,943 for a four-FTE rural practice. The single highest-yield change available to a rural Australian GP in May 2026. Voice cast: Leda, Orus, Enceladus, Pulcherrima, Umbriel (Google Gemini 3.1 Flash TTS).</itunes:summary>
+      <itunes:duration>00:33:41</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>15</itunes:episode>
+    </item>
 
     <item>
       <title>State of Play — The Sandbox and the Spree (Sunday, 17 May 2026)</title>
