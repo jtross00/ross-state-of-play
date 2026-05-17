@@ -12,7 +12,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Sun, 17 May 2026 11:03:44 +0930</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 18:54:42 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <image>
@@ -35,13 +35,33 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
+      <title>State of Play — Episode 17: The Probe Question — Vscan Air vs Leading Bedside POCUS (Sunday, 17 May 2026)</title>
+      <description>The probe question, answered for a one-clinician rural ED, on-call and clinic workflow at Port Pirie Regional Health Service. Six handheld POCUS devices on the 2026 market — GE Vscan Air, Butterfly iQ3, Philips Lumify, Clarius, Mindray TE Air, EchoNous Kosmos and Exo Iris — deeply compared on price, distribution, AI capability, and Australian regulatory status. Anchored on the Bayrak et al. six-device head-to-head study (Ultrasound Journal 2024, 35 multispecialty POCUS-expert physicians, same patients across cardiac/abdo/lung/vascular views — no single device won every view) and the GE Caption AI FDA De Novo authorisation evidence (Narang et al., JAMA Cardiology 2021 — 8 RNs with no prior ultrasound training, 1 hour didactic plus 9 practice scans, then good-enough TTE clips for cardiologists to assess LV size and function in 98.8 per cent of patients). The recommendation defended in detail: GE Vscan Air SL with Caption AI plus companion Vscan Air CL linear probe — the &quot;Family&quot; bundle — conditional on confirming Caption AI is currently on the ARTG. The single most consequential trade-off — subscription-lock versus hardware ownership — explored on Butterfly iQ3 in particular. Three-tier recommendation: rural ED on-call (Vscan Air Family); AI-novice building POCUS confidence (same, with Exo Iris as a close second if cardiac auto-interpretation matters more); budget-constrained pilot (Clarius C3 HD3 or Butterfly iQ3, with the heavy caveat that Butterfly bricks without subscription). First-week action plan: literal email to GE HealthCare ANZ for ARTG verification plus 30-day on-site demo, parallel email to teair.com.au and Mindray ANZ for TE Air head-to-head, PPRHS HAC and YNLHN governance loop-in within 7 days, DICOM interop cross-check with the Hurn Medical Claude-for-Rural-GP team within 14 days. Cross-topic synergy: Caption AI on the input plus Heidi on the output plus Ross POCUS on the technique plus Hurn Medical on the governance = coherent clinical-AI augmentation stack for under fifteen thousand Australian dollars in year one. Cultural-safety gap (none of the six vendors raises Aboriginal and Torres Strait Islander patient workflow consideration explicitly) flagged as a Marie Curie Ross review item and wired into implementation rather than tacked on afterwards. Roughly twenty-eight minutes. Australian English. Voice cast: Autonoe, Achird, Zubenelgenubi, Erinome, Fenrir (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Sun, 17 May 2026 18:54:42 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-the-probe-question</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-017-the-probe-question.mp3"
+        length="20271658"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — Episode 17: The Probe Question — Vscan Air vs Leading Bedside POCUS (Sunday, 17 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>The probe question, answered for a one-clinician rural ED, on-call and clinic workflow at Port Pirie Regional Health Service. Six handheld POCUS devices on the 2026 market — GE Vscan Air, Butterfly iQ3, Philips Lumify, Clarius, Mindray TE Air, EchoNous Kosmos and Exo Iris — deeply compared on price, distribution, AI capability, and Australian regulatory status. Anchored on the Bayrak et al. six-device head-to-head study (Ultrasound Journal 2024, 35 multispecialty POCUS-expert physicians, same patients across cardiac/abdo/lung/vascular views — no single device won every view) and the GE Caption AI FDA De Novo authorisation evidence (Narang et al., JAMA Cardiology 2021 — 8 RNs with no prior ultrasound training, 1 hour didactic plus 9 practice scans, then good-enough TTE clips for cardiologists to assess LV size and function in 98.8 per cent of patients). The recommendation defended in detail: GE Vscan Air SL with Caption AI plus companion Vscan Air CL linear probe — the &quot;Family&quot; bundle — conditional on confirming Caption AI is currently on the ARTG. The single most consequential trade-off — subscription-lock versus hardware ownership — explored on Butterfly iQ3 in particular. Three-tier recommendation: rural ED on-call (Vscan Air Family); AI-novice building POCUS confidence (same, with Exo Iris as a close second if cardiac auto-interpretation matters more); budget-constrained pilot (Clarius C3 HD3 or Butterfly iQ3, with the heavy caveat that Butterfly bricks without subscription). First-week action plan: literal email to GE HealthCare ANZ for ARTG verification plus 30-day on-site demo, parallel email to teair.com.au and Mindray ANZ for TE Air head-to-head, PPRHS HAC and YNLHN governance loop-in within 7 days, DICOM interop cross-check with the Hurn Medical Claude-for-Rural-GP team within 14 days. Cross-topic synergy: Caption AI on the input plus Heidi on the output plus Ross POCUS on the technique plus Hurn Medical on the governance = coherent clinical-AI augmentation stack for under fifteen thousand Australian dollars in year one. Cultural-safety gap (none of the six vendors raises Aboriginal and Torres Strait Islander patient workflow consideration explicitly) flagged as a Marie Curie Ross review item and wired into implementation rather than tacked on afterwards. Roughly twenty-eight minutes. Australian English. Voice cast: Autonoe, Achird, Zubenelgenubi, Erinome, Fenrir (Google Gemini 3.1 Flash TTS).</itunes:summary>
+      <itunes:duration>00:28:07</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>17</itunes:episode>
+    </item>
+
+    <item>
       <title>State of Play — Episode 15: Claude for the Rural GP (Sunday, 17 May 2026)</title>
       <description>The first episode under our v2 production playbook. We unpack the Hurn Medical working paper &quot;Claude for the Australian Rural GP Practice&quot; — a deep, evidence-led look at what Claude and an AHPRA-compliant ambient scribe (Heidi Health or Lyrebird Health) actually change about the daily reality of running an Australian rural general practice in 2026. Nine segments plus cold open and sign-off: the structural pressure on rural general practice, what Claude actually is, the AHPRA frame in plain English, Indigenous data sovereignty as a separate workflow, the three-tier implementation pathway (Tier 1 A&#36;80&#8211;250 per clinician per month, Tier 2 A&#36;300&#8211;600 per practice per month, Tier 3 A&#36;2,000+ with governance), the 15-June Anthropic split-billing change priced in, the costed 90-day pilot proposal for a single rural practice, and the cross-topic synergy across Hurn Medical, the AI Discharge Summary RCT, Sepsis CARE 2026, and the RACMA fellowship portfolio. The Hurn Medical position: Claude plus an AHPRA-compliant ambient scribe is the single highest-yield change available to a rural Australian GP in May 2026. Roughly thirty-four minutes. Australian English. Voice cast: Leda, Orus, Enceladus, Pulcherrima, Umbriel (Google Gemini 3.1 Flash TTS).</description>
       <pubDate>Sun, 17 May 2026 11:03:44 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-17-claude-for-the-rural-gp</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/audio/episode-015-claude-for-the-rural-gp.mp3"
-        length="24279013"
+        length="24252231"
         type="audio/mpeg"/>
       <itunes:title>State of Play — Episode 15: Claude for the Rural GP (Sunday, 17 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -61,7 +81,7 @@
       <guid isPermaLink="false">sop-2026-05-17-sandbox-and-spree</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/audio/episode-014-sandbox-and-spree.mp3"
-        length="16703598"
+        length="16684139"
         type="audio/mpeg"/>
       <itunes:title>State of Play — The Sandbox and the Spree (Sunday, 17 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -81,7 +101,7 @@
       <guid isPermaLink="false">sop-2026-05-17-cheap-eyes-and-living-handles</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/audio/episode-013-cheap-eyes-and-living-handles.mp3"
-        length="21228351"
+        length="21204368"
         type="audio/mpeg"/>
       <itunes:title>State of Play — Cheap Eyes and Living Handles (Sunday, 17 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -101,7 +121,7 @@
       <guid isPermaLink="false">sop-2026-05-17-the-negative-space</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/audio/episode-012-the-negative-space.mp3"
-        length="17058950"
+        length="17039360"
         type="audio/mpeg"/>
       <itunes:title>State of Play — The Negative Space (Sunday, 17 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -121,7 +141,7 @@
       <guid isPermaLink="false">sop-2026-05-17-the-new-tongue</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/audio/episode-011-the-new-tongue.mp3"
-        length="16028326"
+        length="16009553"
         type="audio/mpeg"/>
       <itunes:title>State of Play — The New Tongue (Sunday, 17 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -141,7 +161,7 @@
       <guid isPermaLink="false">sop-2026-05-13-the-mirror-furnace</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/audio/episode-010-the-mirror-furnace.mp3"
-        length="13798469"
+        length="13782040"
         type="audio/mpeg"/>
       <itunes:title>State of Play — The Mirror Furnace (Wednesday, 13 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -161,7 +181,7 @@
       <guid isPermaLink="false">sop-2026-05-09-when-the-wires-meet-the-world</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/audio/episode-008-when-the-wires-meet-the-world.mp3"
-        length="14607087"
+        length="14589850"
         type="audio/mpeg"/>
       <itunes:title>State of Play — When the Wires Meet the World (Saturday, 9 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -181,7 +201,7 @@
       <guid isPermaLink="false">sop-2026-05-08-retrieval-renaissance</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/audio/episode-007-the-retrieval-renaissance.mp3"
-        length="14933243"
+        length="14915858"
         type="audio/mpeg"/>
       <itunes:title>State of Play — The Retrieval Renaissance (Friday, 8 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -201,7 +221,7 @@
       <guid isPermaLink="false">sop-2026-05-07-shaders-extension</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-07-shaders-extension.mp3"
-        length="23717295"
+        length="23691165"
         type="audio/mpeg"/>
       <itunes:title>State of Play — Shaders Compendium Extension (Thursday, 7 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -220,7 +240,7 @@
       <guid isPermaLink="false">sop-2026-05-06-shaders-roundtable</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-06-shaders-roundtable.mp3"
-        length="32654932"
+        length="32620077"
         type="audio/mpeg"/>
       <itunes:title>State of Play — The Shaders Compendium Roundtable (Wednesday, 6 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -239,7 +259,7 @@
       <guid isPermaLink="false">sop-2026-05-05-04-procedural-methods</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-05-04-procedural-methods.mp3"
-        length="26005555"
+        length="25977261"
         type="audio/mpeg"/>
       <itunes:title>State of Play — Procedural Methods (Tuesday, 5 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -258,7 +278,7 @@
       <guid isPermaLink="false">sop-2026-05-05-03-hybrid-architecture</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-05-03-hybrid-architecture.mp3"
-        length="20449216"
+        length="20426541"
         type="audio/mpeg"/>
       <itunes:title>State of Play — Hybrid Architecture (Tuesday, 5 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -277,7 +297,7 @@
       <guid isPermaLink="false">sop-2026-05-05-02-strategic-integration</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-05-02-strategic-integration.mp3"
-        length="21590103"
+        length="21566253"
         type="audio/mpeg"/>
       <itunes:title>State of Play — Strategic Integration (Tuesday, 5 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
@@ -296,7 +316,7 @@
       <guid isPermaLink="false">sop-2026-05-05-01-bookmark-audit</guid>
       <enclosure
         url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-05-01-bookmark-audit.mp3"
-        length="23778789"
+        length="23752749"
         type="audio/mpeg"/>
       <itunes:title>State of Play — The Bookmark Audit (Tuesday, 5 May 2026)</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
