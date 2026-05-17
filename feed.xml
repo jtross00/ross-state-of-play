@@ -12,7 +12,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Sun, 17 May 2026 18:54:42 +0930</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 00:18:23 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <image>
@@ -33,6 +33,26 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>State of Play — Episode 18: The Host Layer — Hermes Desktop, SANA-WM, and Harness Engineering (Sunday, 17 May 2026)</title>
+      <description>The host layer underneath the agent matures while the surfaces above it explode. Nous Research's Hermes Agent gets a dedicated desktop client distinct from web; Grok subscriptions from xAI now drive autonomous agent workflows directly inside Hermes Agent; Anthropic reverses the March policy and reinstates OpenClaw plus third-party agent usage on Claude subscriptions, with usage-share controls and rate-limit posture that keep industrial-scale OpenClaw-on-Claude infeasible at the free tier. NVIDIA drops SANA-WM, a 2.6-billion-parameter open-source world model that generates minute-scale 720p video on a single GPU — the first credible sovereign-tier text-to-video for clinical use. BytePlus Seedance 2.0 and HeyGen-in-Codex round out the AI-video wave. The vibe-design field crystallises into a four-corner shape: Claude Design wins static UI fidelity, Replit wins full-stack deployment, Figma Make wins designer-handoff, Google Stitch wins Material-3-native Android. Harness engineering named as the most important new skill in enterprise AI — the methodology beneath the sandbox; LangChain Labs launches as the practitioner R&amp;D arm. YC verticals PLAN0 (US$20 B of construction projects already through the platform) and PerfectBit (training data correct by construction, verified against physics simulators and formal proof systems) demonstrate that the next competitive primitive in vertical AI is the data moat, not the model. The faceless-creator stack matures with Google Rambler, NotebookLM in Workspace Studio, and the AI Faceless Series Episode 2. Cross-topic synergy: the four-layer stack — host underneath, methodology beneath, data moat in the middle, surface above — is now the architectural frame for the Ross Family pipeline. Sign-off: Monet's Impression, Sunrise (1872) laid alongside SANA-WM — same question about minimum sufficient detail, 154 years apart. Roughly twenty-nine minutes. Australian English. Honest substitution note: Carme and Themisto and Pasithea all 404 on Gemini 3.1 Flash TTS catalogue at smoke test; Laomedeia and Zephyr swapped in as fresh substitutes and Despina is a second-pass voice. Voice cast: Laomedeia, Zephyr, Gacrux, Despina, Sadachbia (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Sun, 17 May 2026 00:18:23 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-the-host-layer</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-018-the-host-layer.mp3"
+        length="20900791"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — Episode 18: The Host Layer — Hermes Desktop, SANA-WM, and Harness Engineering (Sunday, 17 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>The host layer underneath the agent matures while the surfaces above it explode. Nous Research's Hermes Agent gets a dedicated desktop client distinct from web; Grok subscriptions from xAI now drive autonomous agent workflows directly inside Hermes Agent; Anthropic reverses the March policy and reinstates OpenClaw plus third-party agent usage on Claude subscriptions, with usage-share controls and rate-limit posture that keep industrial-scale OpenClaw-on-Claude infeasible at the free tier. NVIDIA drops SANA-WM, a 2.6-billion-parameter open-source world model that generates minute-scale 720p video on a single GPU — the first credible sovereign-tier text-to-video for clinical use. BytePlus Seedance 2.0 and HeyGen-in-Codex round out the AI-video wave. The vibe-design field crystallises into a four-corner shape: Claude Design wins static UI fidelity, Replit wins full-stack deployment, Figma Make wins designer-handoff, Google Stitch wins Material-3-native Android. Harness engineering named as the most important new skill in enterprise AI — the methodology beneath the sandbox; LangChain Labs launches as the practitioner R&amp;D arm. YC verticals PLAN0 (US$20 B of construction projects already through the platform) and PerfectBit (training data correct by construction, verified against physics simulators and formal proof systems) demonstrate that the next competitive primitive in vertical AI is the data moat, not the model. The faceless-creator stack matures with Google Rambler, NotebookLM in Workspace Studio, and the AI Faceless Series Episode 2. Cross-topic synergy: the four-layer stack — host underneath, methodology beneath, data moat in the middle, surface above — is now the architectural frame for the Ross Family pipeline. Sign-off: Monet's Impression, Sunrise (1872) laid alongside SANA-WM — same question about minimum sufficient detail, 154 years apart. Roughly twenty-nine minutes. Australian English. Honest substitution note: Carme and Themisto and Pasithea all 404 on Gemini 3.1 Flash TTS catalogue at smoke test; Laomedeia and Zephyr swapped in as fresh substitutes and Despina is a second-pass voice. Voice cast: Laomedeia, Zephyr, Gacrux, Despina, Sadachbia (Google Gemini 3.1 Flash TTS).</itunes:summary>
+      <itunes:duration>00:29:00</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>18</itunes:episode>
+    </item>
 
     <item>
       <title>State of Play — Episode 17: The Probe Question — Vscan Air vs Leading Bedside POCUS (Sunday, 17 May 2026)</title>
