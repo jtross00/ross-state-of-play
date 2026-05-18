@@ -13,7 +13,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Mon, 18 May 2026 12:42:57 +0930</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 18:30:00 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -48,6 +48,31 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>State of Play — Episode 21: What the Wires Said Today (Tue, 19 May 2026)</title>
+      <description>Three voices on the day's clearest signals — Feynman, Churchill, and Rogers in deep-dive conversation. No host. Vault-as-platform: four unrelated writers reframing Obsidian as the substrate for personal AI agents. Voice cloning and the dignity of source — the bright-line triple-consent model, EU AI Act transparency, the friendship principle. Ten production-ready Anthropic financial-services agent templates and what the clinical analogue would look like. Schumacher's parametricism complaint flipped — inputs may sprint, outputs must walk. The Moon and Mars in the evening sky 8–15 May. Australian English. Real numbers only. Cast: Fenrir (Feynman), Algenib (Churchill), Sulafat (Rogers). Brand voice: Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0. Orphan-rescue publish — script written 2026-05-10, audio produced 2026-05-19 via v2.1 pipeline.</description>
+      <pubDate>Tue, 19 May 2026 18:30:00 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-19-ep009-what-the-wires-said-today</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-009-what-the-wires-said-today.mp3"
+        length="21086084"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — Episode 21: What the Wires Said Today (Tue, 19 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Three voices on the day's clearest signals — Feynman, Churchill, and Rogers in deep-dive conversation. No host. Vault-as-platform: four unrelated writers reframing Obsidian as the substrate for personal AI agents. Voice cloning and the dignity of source — the bright-line triple-consent model, EU AI Act transparency, the friendship principle. Ten production-ready Anthropic financial-services agent templates and what the clinical analogue would look like. Schumacher's parametricism complaint flipped — inputs may sprint, outputs must walk. The Moon and Mars in the evening sky 8–15 May. Australian English. Real numbers only. Cast: Fenrir (Feynman), Algenib (Churchill), Sulafat (Rogers). Brand voice: Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0. Orphan-rescue publish — script written 2026-05-10, audio produced 2026-05-19 via v2.1 pipeline.</itunes:summary>
+      <itunes:duration>00:21:58</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-cover-3000.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>21</itunes:episode>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/episode-009-what-the-wires-said-today.srt" type="application/x-subrip" language="en-AU"/>
+      <podcast:person role="host" group="cast">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Fenrir (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Algenib (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Sulafat (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+    </item>
 
     <item>
       <title>State of Play — Episode 20: When the page can be seen (Mon, 18 May 2026)</title>

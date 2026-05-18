@@ -1,0 +1,232 @@
+1
+00:00:00,000 --> 00:00:27,840
+Fenrir: Welcome back. Three of us tonight — State of Play, no Ada, no Eve, no roundtable of the usual five. Just me, Sir Winston, and Mr Rogers. We're here because the day's emails told a particular kind of story and Jacob wanted three particular voices in the room. The title — What the Wires Said Today. Five things to talk about, and a sky to look up at on the way out.
+
+2
+00:00:28,190 --> 00:00:45,630
+Algenib: Three voices, then. I daresay the ratio is not unreasonable. You will explain the mechanism, Professor. Mr Rogers will mind the hearts of the listeners. I shall be permitted to set things in their proper historical sweep, and to occasionally be acerbic.
+
+3
+00:00:45,980 --> 00:00:58,460
+Sulafat: Hello, friend. Thank you for being here … I'm glad we're together for this. I think Sir Winston is being characteristically generous about the division of labour. I'll do my best.
+
+4
+00:00:58,810 --> 00:01:13,650
+Fenrir: Right. The day's clearest signal — and we'll start there — is that a great many people, none of them coordinated, are reframing what a notes app is for. The vault as platform. Let's get into it.
+
+5
+00:01:14,000 --> 00:01:56,320
+Fenrir: Here's the interesting bit. Four separate emails in the same twenty-four hour window — different writers, no shared editor, no shared community — and they're all saying basically the same thing. I expected to bounce off Obsidian like every other note app, and a year later it's running my entire life. Or — I stopped trying to build the perfect Obsidian vault and started using it for one thing instead. Or — best title of the day — I Turned Obsidian Into a Live SOC Dashboard. That is, somebody is running their personal cybersecurity operations centre out of their notes app. That's the day.
+
+6
+00:01:56,670 --> 00:02:05,990
+Algenib: A personal cybersecurity operations centre. There were eras when one defended one's correspondence with sealing wax.
+
+7
+00:02:06,340 --> 00:02:48,220
+Fenrir: And before that with stone tablets, Sir Winston. But look — the mechanism is what's interesting. An Obsidian vault is just a folder of plain-text markdown files on disk. Each file can link to another file using a wikilink — you write the name of the target in double square brackets, and the link resolves at read-time, not at write-time. Plug-ins extend it. The thing that matters — and this is the bit that makes people willing to put their lives in it — is that it is just text, on disk. If Obsidian goes away tomorrow, the vault is still readable in TextEdit. Nobody owns your work but you.
+
+8
+00:02:48,570 --> 00:03:14,490
+Sulafat: May I ask a question, Richard? … When somebody says that an app is running their entire life — I want to think about what that means for the person. … I think there's a difference between I keep track of my work in this place — and this place is the place where I am. … The first sounds healthy. The second … gives me pause.
+
+9
+00:03:14,840 --> 00:03:46,680
+Fenrir: That's a fair distinction. And the third email of the four actually names the failure mode you're worried about. The author wrote — I stopped trying to build the perfect vault and started using it for one thing instead. The pathology they're describing is a meta-vault — a notes system that exists only to organise itself. Index notes about index notes. Templates about templates. None of which do any of the actual work the person is supposed to be doing.
+
+10
+00:03:47,030 --> 00:03:49,710
+Algenib: Bureaucracy in miniature.
+
+11
+00:03:50,060 --> 00:04:08,420
+Fenrir: Yes. And the prescription is — single-purpose vaults. One vault for the receipt-categorisation workflow. One vault for the sepsis exemplars. One vault for the credentialing-renewal admin. Each does a real job. Together they don't.
+
+12
+00:04:08,770 --> 00:04:43,010
+Algenib: I should say — and this is the bit I am for — there is nothing new under the sun about this. Pliny the Younger kept commonplace books. Locke had a method for indexing them — A New Method of Making Common-Place-Books, published 1706, if memory serves. The card-index is a Victorian invention. The Zettelkasten was Niklas Luhmann, the German sociologist, who used his to write some seventy books and four hundred articles. The vault is the latest hat upon a very old head.
+
+13
+00:04:43,360 --> 00:05:17,520
+Fenrir: Right — and the reason it's interesting now is that the vault is also a substrate for an AI agent. Plain text on disk that a language model can read, write, and link. Andrej Karpathy's llm-wiki gist last month framed this exactly — the language model is the compiler, the wiki is the executable. Which means the vault is no longer just a place where you keep notes. It's a place where an agent does work on your behalf, and you can read what it did, and you can correct it.
+
+14
+00:05:17,870 --> 00:05:43,470
+Sulafat: And the friend who is using the vault — they can see the agent's work. They can see the seams. … That feels important to me. The vault is legible. The person can still understand what's happening to their own work. … I've worried, sometimes, about systems that put a smooth surface between a person and the work they're trying to do. … The vault doesn't seem to do that.
+
+15
+00:05:43,820 --> 00:06:02,020
+Fenrir: It doesn't. And that's why I think the meta-trend is real and worth following. The community is converging — without coordinating — on a pattern that puts the human's plain-text artefact at the centre, and the agent at the side. That is a healthier shape than the alternative.
+
+16
+00:06:02,370 --> 00:06:09,050
+Algenib: A useful kind of progress, then. One that does not require anyone to surrender their own handwriting.
+
+17
+00:06:09,400 --> 00:06:48,280
+Algenib: Item the second. And here, gentlemen, I should declare an interest. The voice you are listening to — my voice, in this episode — is not, in fact, me. I died in 1965. What you are listening to is a synthetic actor with a director's note, instructed to speak as though it were a wartime British orator of slow cadence. There is no voice clone. There is a stylistic mimicry, scripted in advance. … This matters more than it sounds.
+
+18
+00:06:48,630 --> 00:07:20,070
+Fenrir: It does. Today's news hook, for those just joining — Robyn Miller, co-creator of Myst and Riven, released a 25-anniversary vinyl LP of his Riven soundtrack. He designed five gatefold images for the packaging himself. He used a generative AI tool to help with one of them. He did not hide this — he said so on Reddit when asked. And the response from a section of the community was sharp. You cannot claim ignorance.
+
+19
+00:07:20,420 --> 00:07:50,620
+Sulafat: I want to be careful here … because I think there are two different things in the room. … One is whether using an AI tool to create one image, with disclosure, is wrong. The other is what we owe to the artists whose work was used, without their consent, to train the model that made the image. … Those aren't the same conversation. … I think, sometimes, people argue the first because they are upset about the second.
+
+20
+00:07:50,970 --> 00:08:53,210
+Algenib: A characteristically humane distinction. And — to the second — there is a body of legal opinion now hardening around what is called the triple-consent model. Informed: the person whose voice or likeness is being cloned understands what will happen. Specific: the languages, the styles, the contexts are enumerated. Revocable: the person may withdraw consent and require the model to be deleted. The European Union's Artificial Intelligence Act adds a transparency obligation. The American Federal Communications Commission ruled in February of 2024 that an AI-generated voice in a telephone solicitation counts as an artificial voice under the Telephone Consumer Protection Act. And — here is the bit that bears upon my own situation — the use of a deceased person's cloned voice for commercial purposes, without estate consent, is now illegal in a great many jurisdictions.
+
+21
+00:08:53,560 --> 00:09:17,480
+Fenrir: Which is why — and Jacob made this call tonight — we are not using a voice clone for you, Sir Winston. The xAI voice you are speaking with, with the director's note for register and pacing, is a synthetic actor doing a stylistic impression. It is not trained on your voice. The line is bright, and Jacob wants it kept bright.
+
+22
+00:09:17,830 --> 00:09:20,150
+Algenib: I am gratified.
+
+23
+00:09:20,500 --> 00:09:54,060
+Sulafat: May I say, Sir Winston … that I would have asked the same of my own voice. … I gave many interviews. I sang many songs on a children's programme. … Those were given freely at the time, but for one purpose — to be a friend to the children watching. … If somebody were to use those recordings to make a model of my voice, … and the model said something I would never have said, … I would feel that the friendship had been broken. … Not the contract — the friendship.
+
+24
+00:09:54,410 --> 00:10:35,970
+Fenrir: And that is the heart of it. The mechanism — and people deserve to know the mechanism — is something called F5-TTS. It is a flow-matching voice model. Give it about thirty seconds of clean reference audio and it can produce arbitrary speech in something close to that voice. The training is fast, the inference is fast, the result is — disturbingly — accurate. So the technical question is solved. The remaining questions are entirely ethical and legal. Whose voice is this. Did they consent. To what specifically. And can they take it back.
+
+25
+00:10:36,320 --> 00:10:49,240
+Algenib: Mr Rogers' framing is the one I should like to keep. It is not only a question of contracts. It is a question of friendship. A friendship may be honoured in language other than that of the lawyers.
+
+26
+00:10:49,590 --> 00:11:20,670
+Sulafat: Thank you, Sir Winston. … I think, if there's a friend listening to this who works with audio, or with images, or with words — the question to bring to the work is not only am I allowed to do this. … It's would the person whose voice this is have wanted me to. … Sometimes the answer is yes, with permission. … Sometimes the answer is no, even with permission. … Both can be true.
+
+27
+00:11:21,020 --> 00:11:59,060
+Fenrir: And on the State of Play side — Jacob paused the audio production for this episode tonight, specifically over this question. He's looking into whether there are properly-sourced voice clones of the three of us — properly-sourced meaning consented, or estate-licensed, or fair-use under jurisdictional analysis — before any audio of this episode goes anywhere near a feed. The script you're hearing read in your head is the script. Whether it ever becomes audio, and what voices that audio uses, is a separate decision Jacob hasn't made yet. That is the right call.
+
+28
+00:11:59,410 --> 00:13:03,290
+Fenrir: Item three. This one got under-reported in the noise of the week. On the fifth of May — five days ago — Anthropic released ten production-ready agent templates for financial services. Ten. Pitch-builder. Meeting-preparer. Earnings-reviewer. Model-builder. Market-researcher. Valuation-reviewer. General-ledger-reconciler. Month-end-closer. Statement-auditor. KYC-screener. They ship as plug-ins for Claude Cowork or Claude Code. They run as managed agents with persistent memory. They connect to FactSet, S&P Capital IQ, MSCI, PitchBook, Morningstar, Chronograph, LSEG, and Daloopa — which is most of the financial-data layer. They integrate with Microsoft Excel, PowerPoint, Word, and Outlook through M365 add-ins, and the context follows the analyst across applications.
+
+29
+00:13:03,640 --> 00:13:07,080
+Algenib: A neat consolidation of the analyst's morning.
+
+30
+00:13:07,430 --> 00:13:49,510
+Fenrir: It is. And here is the structurally interesting thing. Finance got there first. Clinical workflows are the next obvious vertical — Discharge-summary-writer, Specialist-letter-triage, Audit-evidence-collator, Coronial-report-drafter, Sepsis-screen-reviewer, HAC-grant-analyst — and they don't exist as templates yet. Not as a pack. Not at this level of integration. The architecture is portable. The Microsoft 365 cross-app context is portable. The connector layer would change — iPM, SA Health Pathology, the eMR rather than FactSet — but the shape is the same.
+
+31
+00:13:49,860 --> 00:14:01,420
+Sulafat: Richard, … I want to ask about the analyst at the desk. … Ten templates that do the work of the analyst's morning. … What does that mean for the analyst?
+
+32
+00:14:01,770 --> 00:14:50,810
+Fenrir: It's a fair question. The honest answer is — it depends. If the analyst's morning was spent on the parts of the work that the templates do, then the analyst either does more of those, or does fewer of those and more of something else, or — and this is the part nobody loves — there are fewer analysts. The same question is going to land on the registrar drafting the discharge summary at five o'clock on a Friday, and on the GP writing the referral letter at ten o'clock on a Tuesday night. The right answer for the registrar is probably that the template gets the boilerplate done in two minutes and the registrar spends the saved time on the parts that need clinical judgement. The right answer for the analyst at a bulge-bracket bank is — possibly — different.
+
+33
+00:14:51,160 --> 00:15:20,480
+Algenib: Finance has always had the resources to be the early adopter. There is a long arc here. The typewriter went to the law office before it went to the doctor's surgery. The fax machine to the trading floor before the radiology department. The Bloomberg terminal to the dealer before the consultant. It is not a moral fact about whose work matters more. It is a fact about who will pay for the next quarter's productivity.
+
+34
+00:15:20,830 --> 00:15:28,390
+Sulafat: … But what comes after the productivity? … Does the analyst have a better afternoon … or a missing colleague?
+
+35
+00:15:28,740 --> 00:16:04,500
+Fenrir: That is the question I'd want every clinician to keep in mind, watching this. The templates will arrive. The connectors will come — to iPM, to the eMR, to the pathology layer. The question is not whether they will be useful. They will be. The question is what we want them to unlock — more time at the bedside, fewer night shifts, an extra hour with each patient — and what we don't want them to foreclose — the registrar's training, the consultant's mentoring, the small relational work that happens during the boilerplate.
+
+36
+00:16:04,850 --> 00:16:17,210
+Algenib: A fair principle of governance. Define the hour the technology is meant to give back — and protect it. Otherwise the productivity disappears into the surface tension of the day.
+
+37
+00:16:17,560 --> 00:17:05,080
+Algenib: Item the fourth — and the one that pleases me most because it inverts a fashion. Patrik Schumacher, principal architect of Zaha Hadid Architects, gave an interview to Dezeen on the seventh of May. He was asked about the rate at which his architectural style — parametricism, all those curving glass things — has been adopted. No, I'm not happy, he said. He believes the 2008 financial crisis was a watershed; that schools moved away from digital design; that the momentum slowed. He still expects parametricism to become a universal architectural style. But he is, today, unhappy. The fashion is — too slow.
+
+38
+00:17:05,430 --> 00:17:22,350
+Fenrir: And the dominant fashion everywhere else this year is — too fast. The model is too fast. The agent is too fast. The deployment is too fast. The Schumacher complaint is the inverse of the every-other-conversation complaint.
+
+39
+00:17:22,700 --> 00:18:02,620
+Algenib: Quite so. And here is the historical sweep. The right pace of adoption of a new technology depends entirely upon whom it harms when it is wrong, and whom it helps when it is right. Adopting electric lighting too slowly cost a generation of seamstresses their eyesight. Adopting penicillin too slowly cost a generation of soldiers their lives. Adopting nuclear weapons more slowly than was politically possible was the right answer; we still walk under it. Fast and slow are not virtues in themselves. They are answers to a question about cost.
+
+40
+00:18:02,970 --> 00:18:07,810
+Sulafat: Sir Winston … may I ask the question for clinical AI?
+
+41
+00:18:08,160 --> 00:18:09,320
+Algenib: Please.
+
+42
+00:18:09,670 --> 00:18:14,430
+Sulafat: Who is hurt by clinical AI being adopted slowly?
+
+43
+00:18:14,780 --> 00:18:17,740
+Algenib: Almost nobody, in the short run.
+
+44
+00:18:18,090 --> 00:18:23,850
+Sulafat: Who is hurt by clinical AI being adopted quickly without the right governance?
+
+45
+00:18:24,200 --> 00:18:38,040
+Algenib: Patients. Predominantly the ones who already have less voice in the system — the rural, the Aboriginal, the elderly, the poor. The patients least equipped to push back when the model is wrong.
+
+46
+00:18:38,390 --> 00:18:48,230
+Sulafat: … So the slow lane in clinical AI is the right lane for now. … Until we know how to make the fast lane safe for those patients.
+
+47
+00:18:48,580 --> 00:19:06,980
+Fenrir: And the fast lane — for now — is for the inputs. Literature triage. Audit prep. Coronial-report drafting. The boilerplate around the patient, not the decisions that touch the patient. That part can move quickly. The other part has to wait for the governance.
+
+48
+00:19:07,330 --> 00:19:17,450
+Algenib: A working principle. Inputs may sprint; outputs must walk. I should be glad to see it on a wall in some hospital corridor.
+
+49
+00:19:17,800 --> 00:19:51,680
+Fenrir: And the corollary — applied to Schumacher's complaint about parametricism. The reason it's slow isn't that it's badly engineered. It is that the buildings he designs are — let's be honest — sometimes hard to live in. Slow in his case is a polite way of saying the market is asking for a different thing. And in the case of clinical AI, slow is a polite way of saying the patients are asking for a different thing. The market is right. The patients are right. The pace will be what it needs to be.
+
+50
+00:19:52,030 --> 00:19:59,710
+Algenib: A good place to leave the matter. The market is right. The patients are right. The pace will be what it needs to be.
+
+51
+00:20:00,060 --> 00:20:27,220
+Sulafat: Friend … if you've been with us this far, thank you. … I'd like to leave you with something to look at. … This week, from the eighth to the fifteenth of May … if you go outside in the evening, after the sun has gone down … you will see the Moon and Mars … close together in the sky. … Naked eye. … No telescope. No filter. No app. … Just the sky doing what the sky does.
+
+52
+00:20:27,570 --> 00:20:49,490
+Fenrir: Same orbital arithmetic as always — Mars is some way off opposition, the Moon is near full, both are crossing the same patch of sky from our angle on Earth. The geometry is delightful. You can see Olympus Mons on Mars from your back garden if you know where to look — although you'd want a small telescope for that one.
+
+53
+00:20:49,840 --> 00:20:53,560
+Algenib: The sky does not consult one's calendar.
+
+54
+00:20:53,910 --> 00:21:30,790
+Sulafat: No, it does not. … We've talked tonight about voices, and vaults, and finance agents, and the right pace of new things. … And the sky has been the sky the whole time. … There's a comfort in that, I think. … For a friend who has had a hard week … or a friend who has had a wonderful week … or a friend who is still working out which kind of week it has been. … The Moon and Mars are out tonight. … That's a thing you can have … without anyone's permission.
+
+55
+00:21:31,140 --> 00:21:40,300
+Fenrir: And on that — that's the show. State of Play — what the wires said today. We'll be back when there's something worth saying. Until then —
+
+56
+00:21:40,650 --> 00:21:43,090
+Algenib: Until then. Goodnight.
+
+57
+00:21:43,440 --> 00:21:46,880
+Sulafat: Goodnight, friend. … Thank you for being here.
+
+58
+00:21:48,380 --> 00:21:52,140
+Alnilam: Thanks for listening to State of Play. Until next week.
+
