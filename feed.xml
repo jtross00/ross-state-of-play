@@ -2,7 +2,8 @@
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:atom="http://www.w3.org/2005/Atom">
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
   <channel>
     <title>State of Play</title>
@@ -12,8 +13,22 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Sun, 17 May 2026 07:28:53 +0930</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 12:42:57 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
+         under namespace ead4c236-bf58-58c6-a2c6-a6b28d128cb6.
+         Generated 2026-05-18 from "jtross00.github.io/ross-state-of-play/feed.xml".
+         This MUST NEVER change — it survives feed URL migrations. -->
+    <podcast:guid>7e0181f3-f064-5b31-b4bb-693db4f53168</podcast:guid>
+
+    <!-- Show-level people (role="host" for the brand sign-off voice; xAI/Gemini
+         voice cast personae are declared per-item from Ep 20 onwards as
+         <podcast:person role="cohost"/>. Personas are AI-generated voices;
+         the disclosure is intentional and aligns with Indigenous-data-
+         sovereignty / AI-provenance principles in Ada's operating brief. -->
+    <podcast:person role="host" group="cast"
+        img="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
 
     <image>
       <url>https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg</url>
@@ -33,6 +48,33 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>State of Play — Episode 20: When the page can be seen (Mon, 18 May 2026)</title>
+      <description>ColPali and whole-page document embeddings — the first State of Play on the new v2.1 audio pipeline. A 57-minute deep dive into the open-source visual retrieval stack — ColPali (Faysse et al. 2024), ColQwen2/2.5, ColFlor, ColSmol, the ViDoRe v1/v2/v3 benchmark suite, DSE as the single-vector contrast, VisRAG / ViDoRAG / VISA as the framework literature. Six concrete applications mapped to current clinical and research work — POCUS image-retrieval pedagogy, tax-receipt visual deduplication, Obsidian Vault navigation, mixed-media RAG over the Ross Family corpus, the Sepsis Poster Studio retrieval extension, and PICC business-case clinical-evidence retrieval. Cross-topic synergy analysis. The new biometric risk surface — whole-page embeddings retain handwriting, faces, signatures, ward whiteboards — placed inside the CARE / Maiam nayri Wingara Indigenous Data Sovereignty frameworks. Cast: Charon (anchor), Kore, Vindemiatrix (clinical/ethics), Rasalgethi (builder), Achernar (counterpoint). Brand voice Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0. Vault Project entry spawned at ~/Ross/Vault/Work/Projects/ColPali Whole-Page Embeddings/ (tagged for_review).</description>
+      <pubDate>Mon, 18 May 2026 12:42:57 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-18-ep020-when-the-page-can-be-seen</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-020-when-the-page-can-be-seen.mp3"
+        length="55014408"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — Episode 20: When the page can be seen (Mon, 18 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>ColPali and whole-page document embeddings — the first State of Play on the new v2.1 audio pipeline. A 57-minute deep dive into the open-source visual retrieval stack — ColPali (Faysse et al. 2024), ColQwen2/2.5, ColFlor, ColSmol, the ViDoRe v1/v2/v3 benchmark suite, DSE as the single-vector contrast, VisRAG / ViDoRAG / VISA as the framework literature. Six concrete applications mapped to current clinical and research work — POCUS image-retrieval pedagogy, tax-receipt visual deduplication, Obsidian Vault navigation, mixed-media RAG over the Ross Family corpus, the Sepsis Poster Studio retrieval extension, and PICC business-case clinical-evidence retrieval. Cross-topic synergy analysis. The new biometric risk surface — whole-page embeddings retain handwriting, faces, signatures, ward whiteboards — placed inside the CARE / Maiam nayri Wingara Indigenous Data Sovereignty frameworks. Cast: Charon (anchor), Kore, Vindemiatrix (clinical/ethics), Rasalgethi (builder), Achernar (counterpoint). Brand voice Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0. Vault Project entry spawned at ~/Ross/Vault/Work/Projects/ColPali Whole-Page Embeddings/ (tagged for_review).</itunes:summary>
+      <itunes:duration>00:57:15</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-cover-3000.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>20</itunes:episode>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/episode-020-when-the-page-can-be-seen.srt" type="application/x-subrip" language="en-AU"/>
+      <podcast:person role="host" group="cast">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Charon (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Kore (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Vindemiatrix (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Rasalgethi (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Achernar (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+    </item>
 
     <item>
       <title>State of Play — Episode 19: A Line for the Mid-North — PICC Credentialing for PPRHS (Sunday, 17 May 2026)</title>
