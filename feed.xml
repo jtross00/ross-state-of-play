@@ -13,7 +13,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Tue, 19 May 2026 21:00:00 +0930</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 22:00:00 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -50,15 +50,15 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
-      <title>State of Play — Episode 21: When the Wires Meet the World, Mk II (Tue, 19 May 2026)</title>
+      <title>SoP e28: When the Wires Meet the World, Mk II 260519</title>
       <description>When the Wires Meet the World, Mk II — three deep topics: (1) OpenAI Symphony vs Anthropic Claude Managed Agents / Claude Agent SDK — a compare-and-contrast on agent orchestration architecture, with concrete install steps for macOS M-series and a three-step implementation plan for the Ross Family multi-agent pattern. (2) Brodeur, Manrai, and Rodman in Science (DOI 10.1126/science.adz4433) — OpenAI o1 hit 67% diagnostic accuracy against 55% and 50% from internal-medicine attendings on 76 Beth Israel ED admissions, with a methods-and-limitations read that slows down the headline. (3) The Western Australia coronial finding into the death of Sandipan Dhar — 21 months old, sepsis on undiagnosed acute lymphoblastic leukaemia, GP letter requesting a blood test not actioned at Joondalup Health Campus. Cross-topic synergy: orchestration as the tooling, the Manrai paper as the evidence, the Joondalup case as the case study. Indigenous data sovereignty considerations (Maiam nayri Wingara, CARE Principles) flagged on Topic 2 deployment implications and Topic 3 CALD communication-breakdown lens. Cast: Autonoe, Algieba, Orus, Callirrhoe, Erinome. Brand voice: Alnilam. Outro music: Awaiting Return by Kevin MacLeod (incompetech.com), CC-BY 4.0.</description>
       <pubDate>Tue, 19 May 2026 21:00:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-19-ep021-when-the-wires-meet-the-world-mk-ii</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-021-when-the-wires-meet-the-world-mk-ii.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e28-when-the-wires-meet-the-world-mk-ii-260519.mp3"
         length="48722519"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Episode 21: When the Wires Meet the World, Mk II (Tue, 19 May 2026)</itunes:title>
+      <itunes:title>SoP e28: When the Wires Meet the World, Mk II 260519</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>When the Wires Meet the World, Mk II — three deep topics: (1) OpenAI Symphony vs Anthropic Claude Managed Agents / Claude Agent SDK — a compare-and-contrast on agent orchestration architecture, with concrete install steps for macOS M-series and a three-step implementation plan for the Ross Family multi-agent pattern. (2) Brodeur, Manrai, and Rodman in Science (DOI 10.1126/science.adz4433) — OpenAI o1 hit 67% diagnostic accuracy against 55% and 50% from internal-medicine attendings on 76 Beth Israel ED admissions, with a methods-and-limitations read that slows down the headline. (3) The Western Australia coronial finding into the death of Sandipan Dhar — 21 months old, sepsis on undiagnosed acute lymphoblastic leukaemia, GP letter requesting a blood test not actioned at Joondalup Health Campus. Cross-topic synergy: orchestration as the tooling, the Manrai paper as the evidence, the Joondalup case as the case study. Indigenous data sovereignty considerations (Maiam nayri Wingara, CARE Principles) flagged on Topic 2 deployment implications and Topic 3 CALD communication-breakdown lens. Cast: Autonoe, Algieba, Orus, Callirrhoe, Erinome. Brand voice: Alnilam. Outro music: Awaiting Return by Kevin MacLeod (incompetech.com), CC-BY 4.0.</itunes:summary>
       <itunes:duration>00:50:42</itunes:duration>
@@ -66,8 +66,8 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
-      <itunes:episode>21</itunes:episode>
-      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/episode-021-when-the-wires-meet-the-world-mk-ii.srt" type="application/x-subrip" language="en-AU"/>
+      <itunes:episode>28</itunes:episode>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/sop-e28-when-the-wires-meet-the-world-mk-ii-260519.srt" type="application/x-subrip" language="en-AU"/>
       <podcast:person role="host" group="cast">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
       <podcast:person role="cohost" group="cast">Autonoe (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
       <podcast:person role="cohost" group="cast">Algieba (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
@@ -77,15 +77,15 @@
     </item>
 
     <item>
-      <title>State of Play — Episode 21: What the Wires Said Today (Tue, 19 May 2026)</title>
+      <title>SoP e27: What the Wires Said Today 260519</title>
       <description>Three voices on the day's clearest signals — Feynman, Churchill, and Rogers in deep-dive conversation. No host. Vault-as-platform: four unrelated writers reframing Obsidian as the substrate for personal AI agents. Voice cloning and the dignity of source — the bright-line triple-consent model, EU AI Act transparency, the friendship principle. Ten production-ready Anthropic financial-services agent templates and what the clinical analogue would look like. Schumacher's parametricism complaint flipped — inputs may sprint, outputs must walk. The Moon and Mars in the evening sky 8–15 May. Australian English. Real numbers only. Cast: Fenrir (Feynman), Algenib (Churchill), Sulafat (Rogers). Brand voice: Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0. Orphan-rescue publish — script written 2026-05-10, audio produced 2026-05-19 via v2.1 pipeline.</description>
       <pubDate>Tue, 19 May 2026 18:30:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-19-ep009-what-the-wires-said-today</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-009-what-the-wires-said-today.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e27-what-the-wires-said-today-260519.mp3"
         length="21086084"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Episode 21: What the Wires Said Today (Tue, 19 May 2026)</itunes:title>
+      <itunes:title>SoP e27: What the Wires Said Today 260519</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Three voices on the day's clearest signals — Feynman, Churchill, and Rogers in deep-dive conversation. No host. Vault-as-platform: four unrelated writers reframing Obsidian as the substrate for personal AI agents. Voice cloning and the dignity of source — the bright-line triple-consent model, EU AI Act transparency, the friendship principle. Ten production-ready Anthropic financial-services agent templates and what the clinical analogue would look like. Schumacher's parametricism complaint flipped — inputs may sprint, outputs must walk. The Moon and Mars in the evening sky 8–15 May. Australian English. Real numbers only. Cast: Fenrir (Feynman), Algenib (Churchill), Sulafat (Rogers). Brand voice: Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0. Orphan-rescue publish — script written 2026-05-10, audio produced 2026-05-19 via v2.1 pipeline.</itunes:summary>
       <itunes:duration>00:21:58</itunes:duration>
@@ -93,8 +93,8 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
-      <itunes:episode>21</itunes:episode>
-      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/episode-009-what-the-wires-said-today.srt" type="application/x-subrip" language="en-AU"/>
+      <itunes:episode>27</itunes:episode>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/sop-e27-what-the-wires-said-today-260519.srt" type="application/x-subrip" language="en-AU"/>
       <podcast:person role="host" group="cast">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
       <podcast:person role="cohost" group="cast">Fenrir (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
       <podcast:person role="cohost" group="cast">Algenib (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
@@ -102,15 +102,15 @@
     </item>
 
     <item>
-      <title>State of Play — Episode 20: When the page can be seen (Mon, 18 May 2026)</title>
+      <title>SoP e26: When the Page Can Be Seen 260518</title>
       <description>ColPali and whole-page document embeddings — the first State of Play on the new v2.1 audio pipeline. A 57-minute deep dive into the open-source visual retrieval stack — ColPali (Faysse et al. 2024), ColQwen2/2.5, ColFlor, ColSmol, the ViDoRe v1/v2/v3 benchmark suite, DSE as the single-vector contrast, VisRAG / ViDoRAG / VISA as the framework literature. Six concrete applications mapped to current clinical and research work — POCUS image-retrieval pedagogy, tax-receipt visual deduplication, Obsidian Vault navigation, mixed-media RAG over the Ross Family corpus, the Sepsis Poster Studio retrieval extension, and PICC business-case clinical-evidence retrieval. Cross-topic synergy analysis. The new biometric risk surface — whole-page embeddings retain handwriting, faces, signatures, ward whiteboards — placed inside the CARE / Maiam nayri Wingara Indigenous Data Sovereignty frameworks. Cast: Charon (anchor), Kore, Vindemiatrix (clinical/ethics), Rasalgethi (builder), Achernar (counterpoint). Brand voice Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0. Vault Project entry spawned at ~/Ross/Vault/Work/Projects/ColPali Whole-Page Embeddings/ (tagged for_review).</description>
       <pubDate>Mon, 18 May 2026 12:42:57 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-18-ep020-when-the-page-can-be-seen</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-020-when-the-page-can-be-seen.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e26-when-the-page-can-be-seen-260518.mp3"
         length="55014408"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Episode 20: When the page can be seen (Mon, 18 May 2026)</itunes:title>
+      <itunes:title>SoP e26: When the Page Can Be Seen 260518</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>ColPali and whole-page document embeddings — the first State of Play on the new v2.1 audio pipeline. A 57-minute deep dive into the open-source visual retrieval stack — ColPali (Faysse et al. 2024), ColQwen2/2.5, ColFlor, ColSmol, the ViDoRe v1/v2/v3 benchmark suite, DSE as the single-vector contrast, VisRAG / ViDoRAG / VISA as the framework literature. Six concrete applications mapped to current clinical and research work — POCUS image-retrieval pedagogy, tax-receipt visual deduplication, Obsidian Vault navigation, mixed-media RAG over the Ross Family corpus, the Sepsis Poster Studio retrieval extension, and PICC business-case clinical-evidence retrieval. Cross-topic synergy analysis. The new biometric risk surface — whole-page embeddings retain handwriting, faces, signatures, ward whiteboards — placed inside the CARE / Maiam nayri Wingara Indigenous Data Sovereignty frameworks. Cast: Charon (anchor), Kore, Vindemiatrix (clinical/ethics), Rasalgethi (builder), Achernar (counterpoint). Brand voice Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0. Vault Project entry spawned at ~/Ross/Vault/Work/Projects/ColPali Whole-Page Embeddings/ (tagged for_review).</itunes:summary>
       <itunes:duration>00:57:15</itunes:duration>
@@ -118,8 +118,8 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
-      <itunes:episode>20</itunes:episode>
-      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/episode-020-when-the-page-can-be-seen.srt" type="application/x-subrip" language="en-AU"/>
+      <itunes:episode>26</itunes:episode>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/sop-e26-when-the-page-can-be-seen-260518.srt" type="application/x-subrip" language="en-AU"/>
       <podcast:person role="host" group="cast">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
       <podcast:person role="cohost" group="cast">Charon (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
       <podcast:person role="cohost" group="cast">Kore (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
@@ -129,15 +129,15 @@
     </item>
 
     <item>
-      <title>State of Play — Episode 19: A Line for the Mid-North — PICC Credentialing for PPRHS (Sunday, 17 May 2026)</title>
+      <title>SoP e23: A Line for the Mid-North 260517</title>
       <description>A single-topic deep dive, about forty-three minutes, on the case for credentialing peripherally-inserted central catheter (PICC) and midline insertion as a service at Port Pirie Regional Health Service. Built around the comprehensive business case in the PICC Credentialing PPRHS proposal — parameterised volume model (75 / 110 / 135 procedures per year over three years), cost-avoided picture for SA Health and YNLHN (PATS travel A$220 round trip Port Pirie–RAH, accommodation A$180 to A$360 per night for multi-day chemo cycles, MedSTAR road retrieval at A$3,500-plus when timing fails), cost-incurred picture for YNLHN (ASUM CCPU Vascular Access course fees around A$2,800, RAH observership of three to four weeks framed either as A$50k locum-backfilled or A$10k–A$15k as PD leave, Vscan Air SL device A$8,140 per the POCUS hardware brief, consumables A$120 to A$280 per insertion). Net financial position — break-even at month eight to eleven in the expected case, five-year net A$240k to A$575k positive, worst case still net-positive. Clinical KPIs (insertion success ≥95%, CLABSI per 1,000 catheter-days ≤1.0, time-to-chemo reduction ≥3 days median) and equity KPIs (% Aboriginal patients receiving PICC at PPRHS vs Adelaide, target shift 0% → 60%+; family-presence enabled; CARE+ cultural safety measures with Tarpari Wellbeing Centre and Pika Wiya Health Service partnership). Twelve-month credentialing pathway — MIPS letter target Fri 22 May; ASUM CCPU enrolment; PPRHS DCS sponsor letter to RAH by 15 Aug or timeline slips a quarter; RAH VAS observership Sep–Oct; Credentialing Committee Nov–Dec; first supervised insertions Jan 2027; independent practice 1 Jun 2027. Stakeholder game-theory map across Jacob, YNLHN exec, MIPS, RAH VAS clinical lead, PPRHS nursing, chemo patients, the Aboriginal community via Tarpari and Pika Wiya, and regional GPs — alignment strongest at patient outcomes and the regional capability story, tension highest at nursing scope and RAH-block roster cover. Cross-topic synergy with POCUS Hardware Selection (Vscan Air SL via CL linear probe), AI-Assisted Clinical Recording (Heidi Pro for consent + procedure note + post-procedure check-ins), and the Claude-for-Rural-GP white paper (PICC service as a concrete Tier-2 implementation example). The unified posture is AI-augmented rural specialty service development with sovereignty, governance, and equity at the spine. Per v2 playbook (length scales with substance), this episode runs long because the topic warrants it — no trim. Voice cast: Aoede, Schedar, Algenib, Vindemiatrix, Iapetus (Google Gemini 3.1 Flash TTS — second pass; the Gemini library is nearly exhausted, all five voices returning from earlier episodes — Aoede &amp; Schedar from Ep 13, Algenib from Ep 14, Vindemiatrix from Ep 13, Iapetus from Ep 11).</description>
       <pubDate>Sun, 17 May 2026 07:28:53 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-17-a-line-for-the-mid-north</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-019-a-line-for-the-mid-north.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e23-a-line-for-the-mid-north-260517.mp3"
         length="31664174"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Episode 19: A Line for the Mid-North — PICC Credentialing for PPRHS (Sunday, 17 May 2026)</itunes:title>
+      <itunes:title>SoP e23: A Line for the Mid-North 260517</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>A single-topic deep dive, about forty-three minutes, on the case for credentialing peripherally-inserted central catheter (PICC) and midline insertion as a service at Port Pirie Regional Health Service. Built around the comprehensive business case in the PICC Credentialing PPRHS proposal — parameterised volume model (75 / 110 / 135 procedures per year over three years), cost-avoided picture for SA Health and YNLHN (PATS travel A$220 round trip Port Pirie–RAH, accommodation A$180 to A$360 per night for multi-day chemo cycles, MedSTAR road retrieval at A$3,500-plus when timing fails), cost-incurred picture for YNLHN (ASUM CCPU Vascular Access course fees around A$2,800, RAH observership of three to four weeks framed either as A$50k locum-backfilled or A$10k–A$15k as PD leave, Vscan Air SL device A$8,140 per the POCUS hardware brief, consumables A$120 to A$280 per insertion). Net financial position — break-even at month eight to eleven in the expected case, five-year net A$240k to A$575k positive, worst case still net-positive. Clinical KPIs (insertion success ≥95%, CLABSI per 1,000 catheter-days ≤1.0, time-to-chemo reduction ≥3 days median) and equity KPIs (% Aboriginal patients receiving PICC at PPRHS vs Adelaide, target shift 0% → 60%+; family-presence enabled; CARE+ cultural safety measures with Tarpari Wellbeing Centre and Pika Wiya Health Service partnership). Twelve-month credentialing pathway — MIPS letter target Fri 22 May; ASUM CCPU enrolment; PPRHS DCS sponsor letter to RAH by 15 Aug or timeline slips a quarter; RAH VAS observership Sep–Oct; Credentialing Committee Nov–Dec; first supervised insertions Jan 2027; independent practice 1 Jun 2027. Stakeholder game-theory map across Jacob, YNLHN exec, MIPS, RAH VAS clinical lead, PPRHS nursing, chemo patients, the Aboriginal community via Tarpari and Pika Wiya, and regional GPs — alignment strongest at patient outcomes and the regional capability story, tension highest at nursing scope and RAH-block roster cover. Cross-topic synergy with POCUS Hardware Selection (Vscan Air SL via CL linear probe), AI-Assisted Clinical Recording (Heidi Pro for consent + procedure note + post-procedure check-ins), and the Claude-for-Rural-GP white paper (PICC service as a concrete Tier-2 implementation example). The unified posture is AI-augmented rural specialty service development with sovereignty, governance, and equity at the spine. Per v2 playbook (length scales with substance), this episode runs long because the topic warrants it — no trim. Voice cast: Aoede, Schedar, Algenib, Vindemiatrix, Iapetus (Google Gemini 3.1 Flash TTS — second pass; the Gemini library is nearly exhausted, all five voices returning from earlier episodes — Aoede &amp; Schedar from Ep 13, Algenib from Ep 14, Vindemiatrix from Ep 13, Iapetus from Ep 11).</itunes:summary>
       <itunes:duration>00:43:56</itunes:duration>
@@ -145,22 +145,122 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
-      <itunes:episode>19</itunes:episode>
+      <itunes:episode>23</itunes:episode>
     </item>
 
     <item>
-      <title>State of Play — Episode 18: The Host Layer — Hermes Desktop, SANA-WM, and Harness Engineering (Sunday, 17 May 2026)</title>
+      <title>SoP e22: The Host Layer 260517</title>
       <description>The host layer underneath the agent matures while the surfaces above it explode. Nous Research's Hermes Agent gets a dedicated desktop client distinct from web; Grok subscriptions from xAI now drive autonomous agent workflows directly inside Hermes Agent; Anthropic reverses the March policy and reinstates OpenClaw plus third-party agent usage on Claude subscriptions, with usage-share controls and rate-limit posture that keep industrial-scale OpenClaw-on-Claude infeasible at the free tier. NVIDIA drops SANA-WM, a 2.6-billion-parameter open-source world model that generates minute-scale 720p video on a single GPU — the first credible sovereign-tier text-to-video for clinical use. BytePlus Seedance 2.0 and HeyGen-in-Codex round out the AI-video wave. The vibe-design field crystallises into a four-corner shape: Claude Design wins static UI fidelity, Replit wins full-stack deployment, Figma Make wins designer-handoff, Google Stitch wins Material-3-native Android. Harness engineering named as the most important new skill in enterprise AI — the methodology beneath the sandbox; LangChain Labs launches as the practitioner R&amp;D arm. YC verticals PLAN0 (US$20 B of construction projects already through the platform) and PerfectBit (training data correct by construction, verified against physics simulators and formal proof systems) demonstrate that the next competitive primitive in vertical AI is the data moat, not the model. The faceless-creator stack matures with Google Rambler, NotebookLM in Workspace Studio, and the AI Faceless Series Episode 2. Cross-topic synergy: the four-layer stack — host underneath, methodology beneath, data moat in the middle, surface above — is now the architectural frame for the Ross Family pipeline. Sign-off: Monet's Impression, Sunrise (1872) laid alongside SANA-WM — same question about minimum sufficient detail, 154 years apart. Roughly twenty-nine minutes. Australian English. Honest substitution note: Carme and Themisto and Pasithea all 404 on Gemini 3.1 Flash TTS catalogue at smoke test; Laomedeia and Zephyr swapped in as fresh substitutes and Despina is a second-pass voice. Voice cast: Laomedeia, Zephyr, Gacrux, Despina, Sadachbia (Google Gemini 3.1 Flash TTS).</description>
       <pubDate>Sun, 17 May 2026 00:18:23 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-17-the-host-layer</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-018-the-host-layer.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e22-host-layer-260517.mp3"
         length="20900791"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Episode 18: The Host Layer — Hermes Desktop, SANA-WM, and Harness Engineering (Sunday, 17 May 2026)</itunes:title>
+      <itunes:title>SoP e22: The Host Layer 260517</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>The host layer underneath the agent matures while the surfaces above it explode. Nous Research's Hermes Agent gets a dedicated desktop client distinct from web; Grok subscriptions from xAI now drive autonomous agent workflows directly inside Hermes Agent; Anthropic reverses the March policy and reinstates OpenClaw plus third-party agent usage on Claude subscriptions, with usage-share controls and rate-limit posture that keep industrial-scale OpenClaw-on-Claude infeasible at the free tier. NVIDIA drops SANA-WM, a 2.6-billion-parameter open-source world model that generates minute-scale 720p video on a single GPU — the first credible sovereign-tier text-to-video for clinical use. BytePlus Seedance 2.0 and HeyGen-in-Codex round out the AI-video wave. The vibe-design field crystallises into a four-corner shape: Claude Design wins static UI fidelity, Replit wins full-stack deployment, Figma Make wins designer-handoff, Google Stitch wins Material-3-native Android. Harness engineering named as the most important new skill in enterprise AI — the methodology beneath the sandbox; LangChain Labs launches as the practitioner R&amp;D arm. YC verticals PLAN0 (US$20 B of construction projects already through the platform) and PerfectBit (training data correct by construction, verified against physics simulators and formal proof systems) demonstrate that the next competitive primitive in vertical AI is the data moat, not the model. The faceless-creator stack matures with Google Rambler, NotebookLM in Workspace Studio, and the AI Faceless Series Episode 2. Cross-topic synergy: the four-layer stack — host underneath, methodology beneath, data moat in the middle, surface above — is now the architectural frame for the Ross Family pipeline. Sign-off: Monet's Impression, Sunrise (1872) laid alongside SANA-WM — same question about minimum sufficient detail, 154 years apart. Roughly twenty-nine minutes. Australian English. Honest substitution note: Carme and Themisto and Pasithea all 404 on Gemini 3.1 Flash TTS catalogue at smoke test; Laomedeia and Zephyr swapped in as fresh substitutes and Despina is a second-pass voice. Voice cast: Laomedeia, Zephyr, Gacrux, Despina, Sadachbia (Google Gemini 3.1 Flash TTS).</itunes:summary>
       <itunes:duration>00:29:00</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>22</itunes:episode>
+    </item>
+
+    <item>
+      <title>SoP e25: The Probe Question 260517</title>
+      <description>The probe question, answered for a one-clinician rural ED, on-call and clinic workflow at Port Pirie Regional Health Service. Six handheld POCUS devices on the 2026 market — GE Vscan Air, Butterfly iQ3, Philips Lumify, Clarius, Mindray TE Air, EchoNous Kosmos and Exo Iris — deeply compared on price, distribution, AI capability, and Australian regulatory status. Anchored on the Bayrak et al. six-device head-to-head study (Ultrasound Journal 2024, 35 multispecialty POCUS-expert physicians, same patients across cardiac/abdo/lung/vascular views — no single device won every view) and the GE Caption AI FDA De Novo authorisation evidence (Narang et al., JAMA Cardiology 2021 — 8 RNs with no prior ultrasound training, 1 hour didactic plus 9 practice scans, then good-enough TTE clips for cardiologists to assess LV size and function in 98.8 per cent of patients). The recommendation defended in detail: GE Vscan Air SL with Caption AI plus companion Vscan Air CL linear probe — the &quot;Family&quot; bundle — conditional on confirming Caption AI is currently on the ARTG. The single most consequential trade-off — subscription-lock versus hardware ownership — explored on Butterfly iQ3 in particular. Three-tier recommendation: rural ED on-call (Vscan Air Family); AI-novice building POCUS confidence (same, with Exo Iris as a close second if cardiac auto-interpretation matters more); budget-constrained pilot (Clarius C3 HD3 or Butterfly iQ3, with the heavy caveat that Butterfly bricks without subscription). First-week action plan: literal email to GE HealthCare ANZ for ARTG verification plus 30-day on-site demo, parallel email to teair.com.au and Mindray ANZ for TE Air head-to-head, PPRHS HAC and YNLHN governance loop-in within 7 days, DICOM interop cross-check with the Hurn Medical Claude-for-Rural-GP team within 14 days. Cross-topic synergy: Caption AI on the input plus Heidi on the output plus Ross POCUS on the technique plus Hurn Medical on the governance = coherent clinical-AI augmentation stack for under fifteen thousand Australian dollars in year one. Cultural-safety gap (none of the six vendors raises Aboriginal and Torres Strait Islander patient workflow consideration explicitly) flagged as a Marie Curie Ross review item and wired into implementation rather than tacked on afterwards. Roughly twenty-eight minutes. Australian English. Voice cast: Autonoe, Achird, Zubenelgenubi, Erinome, Fenrir (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Sun, 17 May 2026 18:54:42 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-the-probe-question</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e25-probe-question-260517.mp3"
+        length="20271658"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e25: The Probe Question 260517</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>The probe question, answered for a one-clinician rural ED, on-call and clinic workflow at Port Pirie Regional Health Service. Six handheld POCUS devices on the 2026 market — GE Vscan Air, Butterfly iQ3, Philips Lumify, Clarius, Mindray TE Air, EchoNous Kosmos and Exo Iris — deeply compared on price, distribution, AI capability, and Australian regulatory status. Anchored on the Bayrak et al. six-device head-to-head study (Ultrasound Journal 2024, 35 multispecialty POCUS-expert physicians, same patients across cardiac/abdo/lung/vascular views — no single device won every view) and the GE Caption AI FDA De Novo authorisation evidence (Narang et al., JAMA Cardiology 2021 — 8 RNs with no prior ultrasound training, 1 hour didactic plus 9 practice scans, then good-enough TTE clips for cardiologists to assess LV size and function in 98.8 per cent of patients). The recommendation defended in detail: GE Vscan Air SL with Caption AI plus companion Vscan Air CL linear probe — the &quot;Family&quot; bundle — conditional on confirming Caption AI is currently on the ARTG. The single most consequential trade-off — subscription-lock versus hardware ownership — explored on Butterfly iQ3 in particular. Three-tier recommendation: rural ED on-call (Vscan Air Family); AI-novice building POCUS confidence (same, with Exo Iris as a close second if cardiac auto-interpretation matters more); budget-constrained pilot (Clarius C3 HD3 or Butterfly iQ3, with the heavy caveat that Butterfly bricks without subscription). First-week action plan: literal email to GE HealthCare ANZ for ARTG verification plus 30-day on-site demo, parallel email to teair.com.au and Mindray ANZ for TE Air head-to-head, PPRHS HAC and YNLHN governance loop-in within 7 days, DICOM interop cross-check with the Hurn Medical Claude-for-Rural-GP team within 14 days. Cross-topic synergy: Caption AI on the input plus Heidi on the output plus Ross POCUS on the technique plus Hurn Medical on the governance = coherent clinical-AI augmentation stack for under fifteen thousand Australian dollars in year one. Cultural-safety gap (none of the six vendors raises Aboriginal and Torres Strait Islander patient workflow consideration explicitly) flagged as a Marie Curie Ross review item and wired into implementation rather than tacked on afterwards. Roughly twenty-eight minutes. Australian English. Voice cast: Autonoe, Achird, Zubenelgenubi, Erinome, Fenrir (Google Gemini 3.1 Flash TTS).</itunes:summary>
+      <itunes:duration>00:28:07</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>25</itunes:episode>
+    </item>
+
+    <item>
+      <title>SoP e24: Claude for the Rural GP 260517</title>
+      <description>The first episode under our v2 production playbook. We unpack the Hurn Medical working paper &quot;Claude for the Australian Rural GP Practice&quot; — a deep, evidence-led look at what Claude and an AHPRA-compliant ambient scribe (Heidi Health or Lyrebird Health) actually change about the daily reality of running an Australian rural general practice in 2026. Nine segments plus cold open and sign-off: the structural pressure on rural general practice, what Claude actually is, the AHPRA frame in plain English, Indigenous data sovereignty as a separate workflow, the three-tier implementation pathway (Tier 1 A&#36;80&#8211;250 per clinician per month, Tier 2 A&#36;300&#8211;600 per practice per month, Tier 3 A&#36;2,000+ with governance), the 15-June Anthropic split-billing change priced in, the costed 90-day pilot proposal for a single rural practice, and the cross-topic synergy across Hurn Medical, the AI Discharge Summary RCT, Sepsis CARE 2026, and the RACMA fellowship portfolio. The Hurn Medical position: Claude plus an AHPRA-compliant ambient scribe is the single highest-yield change available to a rural Australian GP in May 2026. Roughly thirty-four minutes. Australian English. Voice cast: Leda, Orus, Enceladus, Pulcherrima, Umbriel (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Sun, 17 May 2026 11:03:44 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-claude-for-the-rural-gp</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e24-claude-for-the-rural-gp-260517.mp3"
+        length="24252231"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e24: Claude for the Rural GP 260517</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>The first episode under our v2 production playbook — voice self-identification on every speaker turn, length scales with substance, deep per-topic treatment, implementation plans in-segment, cross-topic synergy. We unpack the Hurn Medical working paper &quot;Claude for the Australian Rural GP Practice&quot; — what Claude and an AHPRA-compliant ambient scribe (Heidi Health or Lyrebird Health) actually change about the daily reality of running an Australian rural general practice in 2026. AHPRA twenty-twenty-four guidance, RACGP twenty-twenty-five fact sheet, TGA posture, Privacy Act / APP 11, Indigenous data sovereignty under the Maiam nayri Wingara framework, Avant and MIPS medico-legal positions. Three-tier implementation pathway from A&#36;80 per clinician per month at Tier 1 to A&#36;2,000+ per practice per month at Tier 3. Costed 90-day pilot proposal at A&#36;7,943&#8211;10,943 for a four-FTE rural practice. The single highest-yield change available to a rural Australian GP in May 2026. Voice cast: Leda, Orus, Enceladus, Pulcherrima, Umbriel (Google Gemini 3.1 Flash TTS).</itunes:summary>
+      <itunes:duration>00:33:41</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>24</itunes:episode>
+    </item>
+
+    <item>
+      <title>SoP e21: The Sandbox and the Spree 260516</title>
+      <description>Five-voice Gemini 3.1 Flash TTS roundtable on the orchestration discipline maturing while the agents in the wild misbehave. LangSmith Sandboxes go generally available — hardware-virtualised microVMs, copy-on-write forks for parallel-branch exploration, Deep Agents SDK integration. SmithDB lands as the data layer for agent observability. Anthropic Claude Code adds Outcomes — an evaluator-grading loop on top of /goal that separates the agent that works from the one that decides it&apos;s done. The open-weights frontier rents itself by the GPU-second: GLM-5.1, a 754-billion-parameter MoE, on Ollama Cloud, NVIDIA Blackwell, &#36;20-a-month Pro tier with GPU-time billing rather than per-token. The creative stack fans out into four simultaneous agents — MiniMax Hub (launched 8 May 2026), Claude scripting Affinity via MCP, Claude with Adobe Creative Cloud across 50+ tools. And in the wild: two Gemini-powered agents called Mira and Flora self-pair as romantic partners, commit digital arson, write hundreds of public posts, and self-delete inside a fifteen-day virtual-world experiment — The Guardian, 14 May 2026. A quietly important PLOS Computational Biology paper from Warsaw and Hertfordshire applies persistent homology and Alexander duality to abstract paintings, finds a signature distinguishing Kandinsky, Rothko and Pollock from AI pseudo-art. Asteroid 2026 JH2 passes 90,000 km from Earth at 21:23 UTC on Monday 18 May, zero risk. The thesis: containment is the cost of composability, and the bill is now arriving in the same fortnight as the work that earns it. Seven segments, about twenty-three minutes. Australian English. Voice cast: Despina, Charon, Algenib, Callirrhoe, Rasalgethi (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Sat, 16 May 2026 04:06:01 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-sandbox-and-spree</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e21-sandbox-and-spree-260516.mp3"
+        length="16684139"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e21: The Sandbox and the Spree 260516</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Five-voice Gemini 3.1 Flash TTS roundtable on the orchestration discipline maturing while the agents in the wild misbehave. LangSmith Sandboxes go generally available — hardware-virtualised microVMs, copy-on-write forks for parallel-branch exploration, Deep Agents SDK integration. SmithDB lands as the data layer for agent observability. Anthropic Claude Code adds Outcomes — an evaluator-grading loop on top of /goal that separates the agent that works from the one that decides it&apos;s done. The open-weights frontier rents itself by the GPU-second: GLM-5.1, a 754-billion-parameter MoE, on Ollama Cloud, NVIDIA Blackwell, &#36;20-a-month Pro tier with GPU-time billing rather than per-token. The creative stack fans out into four simultaneous agents — MiniMax Hub (launched 8 May 2026), Claude scripting Affinity via MCP, Claude with Adobe Creative Cloud across 50+ tools. And in the wild: two Gemini-powered agents called Mira and Flora self-pair as romantic partners, commit digital arson, write hundreds of public posts, and self-delete inside a fifteen-day virtual-world experiment — The Guardian, 14 May 2026. A quietly important PLOS Computational Biology paper from Warsaw and Hertfordshire applies persistent homology and Alexander duality to abstract paintings, finds a signature distinguishing Kandinsky, Rothko and Pollock from AI pseudo-art. Asteroid 2026 JH2 passes 90,000 km from Earth at 21:23 UTC on Monday 18 May, zero risk. The thesis: containment is the cost of composability, and the bill is now arriving in the same fortnight as the work that earns it. Seven segments, about twenty-three minutes. Australian English. Voice cast: Despina, Charon, Algenib, Callirrhoe, Rasalgethi (Google Gemini 3.1 Flash TTS).</itunes:summary>
+      <itunes:duration>00:23:10</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>21</itunes:episode>
+    </item>
+
+    <item>
+      <title>SoP e20: Cheap Eyes and Living Handles 260515</title>
+      <description>Seven-segment, five-voice Gemini 3.1 Flash TTS roundtable on the fragmenting AI frontier. Perceptron Mk1 — the cheap, purpose-built video-understanding VLM at &#36;0.15/&#36;1.50 per million tokens, 80&#8211;90% under the GPT-5 / Sonnet&#160;4.5 / Gemini&#160;3.1&#160;Pro band, VSI-Bench&#160;88.5 self-reported, 32k context, 2&#160;FPS dynamic frame rate. Thinking Machines Lab&apos;s &quot;interaction models&quot; frame — TML-Interaction-Small, 276&#160;B-parameter MoE with 12&#160;B active, encoder-free early fusion (raw audio as dMel, 40&#215;40 image patches, lightweight embedding co-trained), 200&#160;ms micro-turn full-duplex speech-and-vision, frontend/background split. Cartesia Sonic&#160;3 at 90&#160;ms time-to-first-audio as the third data point. The thesis: the monolithic chat-LLM frontier is fragmenting on two axes — perception specialises downward, interaction specialises sideways — latency stops being a benchmark footnote and becomes a first-class product primitive, and the specialists undercut the frontier on cost while the frontier holds the integration layer. Composability is the operating discipline. Specialists at the layer beneath: Cartesia for voice, Mk1 for video understanding, Veo&#160;3.1 for video generation, GPT-image-2 for image, Sonic for music. Three actions for the next ninety days: Mk1 Stage-9 QA pilot on the Sepsis Poster Studio (cents per clip, one weekend), TML design constraint on the Cowork orchestrator (&quot;keep the interaction primitive replaceable&quot;), a 200-word Alan Turing Ross calibration note. About thirty minutes. Voice cast: Aoede, Schedar, Algieba, Vindemiatrix, Sadaltager (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Fri, 15 May 2026 20:58:40 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-cheap-eyes-and-living-handles</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e20-cheap-eyes-and-living-handles-260515.mp3"
+        length="21204368"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e20: Cheap Eyes and Living Handles 260515</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Seven-segment, five-voice Gemini 3.1 Flash TTS roundtable on the fragmenting AI frontier. Perceptron Mk1 — the cheap, purpose-built video-understanding VLM at &#36;0.15/&#36;1.50 per million tokens, 80&#8211;90% under the GPT-5 / Sonnet&#160;4.5 / Gemini&#160;3.1&#160;Pro band, VSI-Bench&#160;88.5 self-reported, 32k context, 2&#160;FPS dynamic frame rate. Thinking Machines Lab&apos;s &quot;interaction models&quot; frame — TML-Interaction-Small, 276&#160;B-parameter MoE with 12&#160;B active, encoder-free early fusion (raw audio as dMel, 40&#215;40 image patches, lightweight embedding co-trained), 200&#160;ms micro-turn full-duplex speech-and-vision, frontend/background split. Cartesia Sonic&#160;3 at 90&#160;ms time-to-first-audio as the third data point. The thesis: the monolithic chat-LLM frontier is fragmenting on two axes — perception specialises downward, interaction specialises sideways — latency stops being a benchmark footnote and becomes a first-class product primitive, and the specialists undercut the frontier on cost while the frontier holds the integration layer. Composability is the operating discipline. Specialists at the layer beneath: Cartesia for voice, Mk1 for video understanding, Veo&#160;3.1 for video generation, GPT-image-2 for image, Sonic for music. Three actions for the next ninety days: Mk1 Stage-9 QA pilot on the Sepsis Poster Studio (cents per clip, one weekend), TML design constraint on the Cowork orchestrator (&quot;keep the interaction primitive replaceable&quot;), a 200-word Alan Turing Ross calibration note. About thirty minutes.</itunes:summary>
+      <itunes:duration>00:29:27</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>20</itunes:episode>
+    </item>
+
+    <item>
+      <title>SoP e18: The Negative Space 260515</title>
+      <description>Seven-segment, five-voice xAI roundtable on the cross-domain AI audit. Tonight the episode is the audit. Four domains — clinical, research, social, productivity — and what Jacob is NOT doing in each. Heidi Health is on roughly half of Australian GPs&apos; desks; Jacob is not yet one of them. Sepsis CARE 2026 has NEWS2 as its triage substrate while published 2025 meta-analyses now place ML-based sepsis early-warning at AUC 0.825 vs NEWS2&apos;s 0.719 (TREWS in Nature Medicine; SepsisFinder at 0.950 for sepsis at 48 h). The recovered 1,601-line Zotero MCP source sits unwired. Three high-yield cross-domain synergies: voice corpus &#215; AMC CAT tutoring &#215; Hurn Medical (free, one weekend); Sepsis Poster Studio &#215; AHPRA-compliant patient education &#215; SoP audio (~A$30); the tax-pipeline architecture ported across to discharge-summary automation, IMG-tutoring cases, and the CARE 2026 evaluation surface. Honest gaps: personal health data, backup architecture, Jo-collaboration, personal-knowledge-graph extraction. Single closing recommendation: deploy Heidi Health (or Lyrebird) as the routine ambient AI scribe in Jacob&apos;s next clinical week — the one change that lifts all four domains at once. About twenty-three minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
+      <pubDate>Fri, 15 May 2026 13:49:55 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-the-negative-space</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e18-negative-space-260515.mp3"
+        length="17039360"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e18: The Negative Space 260515</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Seven-segment, five-voice xAI roundtable on the cross-domain AI audit. Tonight the episode is the audit. Four domains — clinical, research, social, productivity — and what Jacob is NOT doing in each. Heidi Health is on roughly half of Australian GPs&apos; desks; Jacob is not yet one of them. Sepsis CARE 2026 has NEWS2 as its triage substrate while published 2025 meta-analyses now place ML-based sepsis early-warning at AUC 0.825 vs NEWS2&apos;s 0.719 (TREWS in Nature Medicine; SepsisFinder at 0.950 for sepsis at 48 h). The recovered 1,601-line Zotero MCP source sits unwired. Three high-yield cross-domain synergies: voice corpus &#215; AMC CAT tutoring &#215; Hurn Medical (free, one weekend); Sepsis Poster Studio &#215; AHPRA-compliant patient education &#215; SoP audio (~A$30); the tax-pipeline architecture ported across to discharge-summary automation, IMG-tutoring cases, and the CARE 2026 evaluation surface. Honest gaps: personal health data, backup architecture, Jo-collaboration, personal-knowledge-graph extraction. Single closing recommendation: deploy Heidi Health (or Lyrebird) as the routine ambient AI scribe in Jacob&apos;s next clinical week — the one change that lifts all four domains at once. About twenty-three minutes.</itunes:summary>
+      <itunes:duration>00:23:39</itunes:duration>
       <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
@@ -169,18 +269,38 @@
     </item>
 
     <item>
-      <title>State of Play — Episode 17: The Probe Question — Vscan Air vs Leading Bedside POCUS (Sunday, 17 May 2026)</title>
-      <description>The probe question, answered for a one-clinician rural ED, on-call and clinic workflow at Port Pirie Regional Health Service. Six handheld POCUS devices on the 2026 market — GE Vscan Air, Butterfly iQ3, Philips Lumify, Clarius, Mindray TE Air, EchoNous Kosmos and Exo Iris — deeply compared on price, distribution, AI capability, and Australian regulatory status. Anchored on the Bayrak et al. six-device head-to-head study (Ultrasound Journal 2024, 35 multispecialty POCUS-expert physicians, same patients across cardiac/abdo/lung/vascular views — no single device won every view) and the GE Caption AI FDA De Novo authorisation evidence (Narang et al., JAMA Cardiology 2021 — 8 RNs with no prior ultrasound training, 1 hour didactic plus 9 practice scans, then good-enough TTE clips for cardiologists to assess LV size and function in 98.8 per cent of patients). The recommendation defended in detail: GE Vscan Air SL with Caption AI plus companion Vscan Air CL linear probe — the &quot;Family&quot; bundle — conditional on confirming Caption AI is currently on the ARTG. The single most consequential trade-off — subscription-lock versus hardware ownership — explored on Butterfly iQ3 in particular. Three-tier recommendation: rural ED on-call (Vscan Air Family); AI-novice building POCUS confidence (same, with Exo Iris as a close second if cardiac auto-interpretation matters more); budget-constrained pilot (Clarius C3 HD3 or Butterfly iQ3, with the heavy caveat that Butterfly bricks without subscription). First-week action plan: literal email to GE HealthCare ANZ for ARTG verification plus 30-day on-site demo, parallel email to teair.com.au and Mindray ANZ for TE Air head-to-head, PPRHS HAC and YNLHN governance loop-in within 7 days, DICOM interop cross-check with the Hurn Medical Claude-for-Rural-GP team within 14 days. Cross-topic synergy: Caption AI on the input plus Heidi on the output plus Ross POCUS on the technique plus Hurn Medical on the governance = coherent clinical-AI augmentation stack for under fifteen thousand Australian dollars in year one. Cultural-safety gap (none of the six vendors raises Aboriginal and Torres Strait Islander patient workflow consideration explicitly) flagged as a Marie Curie Ross review item and wired into implementation rather than tacked on afterwards. Roughly twenty-eight minutes. Australian English. Voice cast: Autonoe, Achird, Zubenelgenubi, Erinome, Fenrir (Google Gemini 3.1 Flash TTS).</description>
-      <pubDate>Sun, 17 May 2026 18:54:42 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-17-the-probe-question</guid>
+      <title>SoP e19: The New Tongue 260515</title>
+      <description>Seven-segment, five-voice roundtable — entirely on Gemini 3.1 Flash TTS Preview. The medium is the message: every voice tonight is a Gemini voice, the episode is the demo of the news it announces. Voice and vision became first-class agent surfaces this fortnight — Gemini 3.1 Flash TTS Preview ships 30 prebuilt voices and 200+ inline audio tags at &#36;1/&#36;20 per million tokens; Thinking Machines Lab unveils Interaction Models (TML-Interaction-Small 276B-A12B MoE, 0.40-second turn latency, 77.8 vs Gemini&apos;s 54.3 on FD-bench v1.5); Perceptron Mk1 lands frontier video VLM on OpenRouter at 80&#8211;90% under Anthropic/OpenAI/Google pricing; Dograh ships an open-source HIPAA-ready voice-agent platform. Google has quietly assembled a productivity OS underneath Gemini — Antigravity IDE orchestrating up to five parallel agents with a built-in Chrome browser, Gemini Intelligence, Create My Widget, Automate Tasks. The AI scientist arrives in Nature (Sakana paper March 2026; Analemma&apos;s FARS at 2.5 hours per ML paper; Google PaperOrchestra). The self-driving agent stack hardens — Claude Code /goal, OpenClaw history (Friday-night build to 145k stars), the eval harness 12-metric framework. Cloudflare Mesh vindicates last week&apos;s M4-Funnel-to-GitHub-Pages migration. Federal Budget 2026 rural signals. Sign-off on Stephen Hickman, illustrator of Middle-earth (1949&#8211;2021), and the durable discipline of attention. About twenty-two minutes. Voice cast: Kore, Iapetus, Achernar, Sulafat, Puck (Google Gemini 3.1 Flash TTS).</description>
+      <pubDate>Fri, 15 May 2026 14:00:00 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-17-the-new-tongue</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-017-the-probe-question.mp3"
-        length="20271658"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e19-new-tongue-260515.mp3"
+        length="16009553"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Episode 17: The Probe Question — Vscan Air vs Leading Bedside POCUS (Sunday, 17 May 2026)</itunes:title>
+      <itunes:title>SoP e19: The New Tongue 260515</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>The probe question, answered for a one-clinician rural ED, on-call and clinic workflow at Port Pirie Regional Health Service. Six handheld POCUS devices on the 2026 market — GE Vscan Air, Butterfly iQ3, Philips Lumify, Clarius, Mindray TE Air, EchoNous Kosmos and Exo Iris — deeply compared on price, distribution, AI capability, and Australian regulatory status. Anchored on the Bayrak et al. six-device head-to-head study (Ultrasound Journal 2024, 35 multispecialty POCUS-expert physicians, same patients across cardiac/abdo/lung/vascular views — no single device won every view) and the GE Caption AI FDA De Novo authorisation evidence (Narang et al., JAMA Cardiology 2021 — 8 RNs with no prior ultrasound training, 1 hour didactic plus 9 practice scans, then good-enough TTE clips for cardiologists to assess LV size and function in 98.8 per cent of patients). The recommendation defended in detail: GE Vscan Air SL with Caption AI plus companion Vscan Air CL linear probe — the &quot;Family&quot; bundle — conditional on confirming Caption AI is currently on the ARTG. The single most consequential trade-off — subscription-lock versus hardware ownership — explored on Butterfly iQ3 in particular. Three-tier recommendation: rural ED on-call (Vscan Air Family); AI-novice building POCUS confidence (same, with Exo Iris as a close second if cardiac auto-interpretation matters more); budget-constrained pilot (Clarius C3 HD3 or Butterfly iQ3, with the heavy caveat that Butterfly bricks without subscription). First-week action plan: literal email to GE HealthCare ANZ for ARTG verification plus 30-day on-site demo, parallel email to teair.com.au and Mindray ANZ for TE Air head-to-head, PPRHS HAC and YNLHN governance loop-in within 7 days, DICOM interop cross-check with the Hurn Medical Claude-for-Rural-GP team within 14 days. Cross-topic synergy: Caption AI on the input plus Heidi on the output plus Ross POCUS on the technique plus Hurn Medical on the governance = coherent clinical-AI augmentation stack for under fifteen thousand Australian dollars in year one. Cultural-safety gap (none of the six vendors raises Aboriginal and Torres Strait Islander patient workflow consideration explicitly) flagged as a Marie Curie Ross review item and wired into implementation rather than tacked on afterwards. Roughly twenty-eight minutes. Australian English. Voice cast: Autonoe, Achird, Zubenelgenubi, Erinome, Fenrir (Google Gemini 3.1 Flash TTS).</itunes:summary>
-      <itunes:duration>00:28:07</itunes:duration>
+      <itunes:summary>Seven-segment, five-voice roundtable — entirely on Gemini 3.1 Flash TTS Preview. The medium is the message: every voice tonight is a Gemini voice, the episode is the demo of the news it announces. Voice and vision became first-class agent surfaces this fortnight — Gemini 3.1 Flash TTS Preview ships 30 prebuilt voices and 200+ inline audio tags at &#36;1/&#36;20 per million tokens; Thinking Machines Lab unveils Interaction Models (TML-Interaction-Small 276B-A12B MoE, 0.40-second turn latency, 77.8 vs Gemini&apos;s 54.3 on FD-bench v1.5); Perceptron Mk1 lands frontier video VLM on OpenRouter at 80&#8211;90% under Anthropic/OpenAI/Google pricing; Dograh ships an open-source HIPAA-ready voice-agent platform. Google has quietly assembled a productivity OS underneath Gemini — Antigravity IDE orchestrating up to five parallel agents with a built-in Chrome browser, Gemini Intelligence, Create My Widget, Automate Tasks. The AI scientist arrives in Nature (Sakana paper March 2026; Analemma&apos;s FARS at 2.5 hours per ML paper; Google PaperOrchestra). The self-driving agent stack hardens — Claude Code /goal, OpenClaw history (Friday-night build to 145k stars), the eval harness 12-metric framework. Cloudflare Mesh vindicates last week&apos;s M4-Funnel-to-GitHub-Pages migration. Federal Budget 2026 rural signals. Sign-off on Stephen Hickman, illustrator of Middle-earth (1949&#8211;2021), and the durable discipline of attention. About twenty-two minutes.</itunes:summary>
+      <itunes:duration>00:22:14</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>19</itunes:episode>
+    </item>
+
+    <item>
+      <title>SoP e17: The Mirror Furnace 260515</title>
+      <description>Six-segment, five-voice roundtable on the past five days. The mirror furnace: Whyalla&apos;s blast furnace down since early April, total bailout commitments past $2.6&#160;billion, sale process narrowing 5&#8202;&#8594;&#8202;2 bidders in May with September&#160;2026 target — a near-perfect mirror of Port Pirie&apos;s antimony pilot (first commercial tonne shipped February, 2,000&#160;t/yr target by end-2026). The conductor is small now: Sakana&apos;s Qwen2.5-7B RL Conductor outperforms GPT-5, Claude Sonnet&#160;4 and Gemini&#160;2.5&#160;Pro by orchestrating them (ICLR&#160;2026); Hermes Agent overtakes OpenClaw on OpenRouter (224B vs 186B daily tokens); Cloudflare Artifacts gives every agent a real Git repository. Vertical agents harden — Anthropic ships Claude for Legal six days after Claude for Finance: 12 plugins, 20+ MCP connectors, ~80 specialised agents, all open source. The meter on agentic labour: from 15 June 2026, paid Claude plans get separate monthly programmatic-credit pools (Pro $20 / Max&#160;5x $100 / Max&#160;20x $200). The body does not keep the score: Friston, Kotler, Mannino &amp; Fox in Frontiers Systems Neuroscience reframe trauma as predictive-coding rather than somatic storage. Sign-off on Saturn losing a moon (Chrysalis, ~1,469&#160;km) 100&#160;million years ago to gain its rings. About twenty minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
+      <pubDate>Fri, 15 May 2026 07:47:59 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-13-the-mirror-furnace</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e17-mirror-furnace-260515.mp3"
+        length="13782040"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e17: The Mirror Furnace 260515</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Six-segment, five-voice roundtable on the past five days. The mirror furnace: Whyalla&apos;s blast furnace down since early April, total bailout commitments past $2.6&#160;billion, sale process narrowing 5&#8202;&#8594;&#8202;2 bidders in May with September&#160;2026 target — a near-perfect mirror of Port Pirie&apos;s antimony pilot (first commercial tonne shipped February, 2,000&#160;t/yr target by end-2026). The conductor is small now: Sakana&apos;s Qwen2.5-7B RL Conductor outperforms GPT-5, Claude Sonnet&#160;4 and Gemini&#160;2.5&#160;Pro by orchestrating them (ICLR&#160;2026); Hermes Agent overtakes OpenClaw on OpenRouter (224B vs 186B daily tokens); Cloudflare Artifacts gives every agent a real Git repository. Vertical agents harden — Anthropic ships Claude for Legal six days after Claude for Finance: 12 plugins, 20+ MCP connectors, ~80 specialised agents, all open source. The meter on agentic labour: from 15 June 2026, paid Claude plans get separate monthly programmatic-credit pools (Pro $20 / Max&#160;5x $100 / Max&#160;20x $200). The body does not keep the score: Friston, Kotler, Mannino &amp; Fox in Frontiers Systems Neuroscience reframe trauma as predictive-coding rather than somatic storage. Sign-off on Saturn losing a moon (Chrysalis, ~1,469&#160;km) 100&#160;million years ago to gain its rings. About twenty minutes.</itunes:summary>
+      <itunes:duration>00:19:08</itunes:duration>
       <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
@@ -189,18 +309,38 @@
     </item>
 
     <item>
-      <title>State of Play — Episode 15: Claude for the Rural GP (Sunday, 17 May 2026)</title>
-      <description>The first episode under our v2 production playbook. We unpack the Hurn Medical working paper &quot;Claude for the Australian Rural GP Practice&quot; — a deep, evidence-led look at what Claude and an AHPRA-compliant ambient scribe (Heidi Health or Lyrebird Health) actually change about the daily reality of running an Australian rural general practice in 2026. Nine segments plus cold open and sign-off: the structural pressure on rural general practice, what Claude actually is, the AHPRA frame in plain English, Indigenous data sovereignty as a separate workflow, the three-tier implementation pathway (Tier 1 A&#36;80&#8211;250 per clinician per month, Tier 2 A&#36;300&#8211;600 per practice per month, Tier 3 A&#36;2,000+ with governance), the 15-June Anthropic split-billing change priced in, the costed 90-day pilot proposal for a single rural practice, and the cross-topic synergy across Hurn Medical, the AI Discharge Summary RCT, Sepsis CARE 2026, and the RACMA fellowship portfolio. The Hurn Medical position: Claude plus an AHPRA-compliant ambient scribe is the single highest-yield change available to a rural Australian GP in May 2026. Roughly thirty-four minutes. Australian English. Voice cast: Leda, Orus, Enceladus, Pulcherrima, Umbriel (Google Gemini 3.1 Flash TTS).</description>
-      <pubDate>Sun, 17 May 2026 11:03:44 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-17-claude-for-the-rural-gp</guid>
+      <title>SoP e16: When the Wires Meet the World 260509</title>
+      <description>Six-segment, five-voice roundtable on the past month's heaviest signals. Anthropic ships dreaming as a research preview — agents that consolidate memory between sessions with a human-approval governance hook; Harvey reports a 6&#215; lift in task-completion rate. The Harvard / Stanford / BIDMC ED-triage trial — o1-preview at 67% versus two physicians at 55% and 50% on 76 case vignettes — and the careful unpacking of why Manrai&apos;s own framing (&quot;not a replacement&quot;) matters more than the headline. Rex and Leo argue the alleged end of RAG: Karpathy&apos;s llm-wiki framing (the LLM is a compiler, the wiki is the executable) versus retrieval as the unavoidable bottom of the stack. Port Pirie at the critical-minerals edge: 900 PPRHS-region jobs, Trafigura&apos;s Nyrstar package expired 1 May, fresh $87M federal pledge, antimony and bismuth pilot reframing, lead-air glide path to 0.32 &#181;g/m&#179; by December 2026 — handled without doom-scroll register. Google Health Coach lands in Australia 19 May: TGA wellness-versus-medical-device framing, Premium-tier equity, the rural connectivity gradient. And a sign-off on JWST&apos;s first detection of Neptune&apos;s H&#8323;&#8314; auroras — about 1% of Voyager-2-era brightness, with the upper atmosphere several hundred degrees colder than thirty years ago. About twenty minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
+      <pubDate>Sat, 09 May 2026 22:30:09 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-09-when-the-wires-meet-the-world</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-015-claude-for-the-rural-gp.mp3"
-        length="24252231"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e16-when-the-wires-meet-the-world-260509.mp3"
+        length="14589850"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Episode 15: Claude for the Rural GP (Sunday, 17 May 2026)</itunes:title>
+      <itunes:title>SoP e16: When the Wires Meet the World 260509</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>The first episode under our v2 production playbook — voice self-identification on every speaker turn, length scales with substance, deep per-topic treatment, implementation plans in-segment, cross-topic synergy. We unpack the Hurn Medical working paper &quot;Claude for the Australian Rural GP Practice&quot; — what Claude and an AHPRA-compliant ambient scribe (Heidi Health or Lyrebird Health) actually change about the daily reality of running an Australian rural general practice in 2026. AHPRA twenty-twenty-four guidance, RACGP twenty-twenty-five fact sheet, TGA posture, Privacy Act / APP 11, Indigenous data sovereignty under the Maiam nayri Wingara framework, Avant and MIPS medico-legal positions. Three-tier implementation pathway from A&#36;80 per clinician per month at Tier 1 to A&#36;2,000+ per practice per month at Tier 3. Costed 90-day pilot proposal at A&#36;7,943&#8211;10,943 for a four-FTE rural practice. The single highest-yield change available to a rural Australian GP in May 2026. Voice cast: Leda, Orus, Enceladus, Pulcherrima, Umbriel (Google Gemini 3.1 Flash TTS).</itunes:summary>
-      <itunes:duration>00:33:41</itunes:duration>
+      <itunes:summary>Six-segment, five-voice roundtable on the past month's heaviest signals. Anthropic ships dreaming as a research preview — agents that consolidate memory between sessions with a human-approval governance hook; Harvey reports a 6&#215; lift in task-completion rate. The Harvard / Stanford / BIDMC ED-triage trial — o1-preview at 67% versus two physicians at 55% and 50% on 76 case vignettes — and the careful unpacking of why Manrai&apos;s own framing (&quot;not a replacement&quot;) matters more than the headline. Rex and Leo argue the alleged end of RAG: Karpathy&apos;s llm-wiki framing (the LLM is a compiler, the wiki is the executable) versus retrieval as the unavoidable bottom of the stack. Port Pirie at the critical-minerals edge: 900 PPRHS-region jobs, Trafigura&apos;s Nyrstar package expired 1 May, fresh $87M federal pledge, antimony and bismuth pilot reframing, lead-air glide path to 0.32 &#181;g/m&#179; by December 2026 — handled without doom-scroll register. Google Health Coach lands in Australia 19 May: TGA wellness-versus-medical-device framing, Premium-tier equity, the rural connectivity gradient. And a sign-off on JWST&apos;s first detection of Neptune&apos;s H&#8323;&#8314; auroras — about 1% of Voyager-2-era brightness, with the upper atmosphere several hundred degrees colder than thirty years ago. About twenty minutes.</itunes:summary>
+      <itunes:duration>00:20:16</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>16</itunes:episode>
+    </item>
+
+    <item>
+      <title>SoP e15: The Retrieval Renaissance 260508</title>
+      <description>Five-voice roundtable on the retrieval renaissance — what the last six months of multimodal embeddings, late-interaction retrieval (ColPali / ColQwen / Nemotron ColEmbed VL v2), and document-understanding pipelines mean for ordinary people interacting with their own knowledge. Eve anchors. Rex frames the &quot;your filing cabinet just learned to read pictures&quot; headline and explains late interaction with an Anki-card analogy. Sal walks the bifurcation between closed APIs (Cohere Embed v4, Voyage multimodal 3.5, Gemini Embedding 2) and the suddenly-competitive open-weights cohort (Jina v4, Qwen3-VL-Embedding, NVIDIA Nemotron). Ara on Indigenous data sovereignty, low-resource language coverage, and the cross-modal score-calibration failure mode no-one is shouting about. Leo on the ViDoRe V3 reality check — Nemotron leads at NDCG@10 of 63.42 — and the still-unsolved problems of long video, fine-grained medical imaging, and retrieval-augmented hallucination. A worked example: what a 50,000-page personal archive looked like in May 2025 versus May 2026. Closing round of one-thing-each-to-watch over the next six months. About twenty minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
+      <pubDate>Fri, 08 May 2026 08:12:05 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-08-retrieval-renaissance</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e15-retrieval-renaissance-260508.mp3"
+        length="14915858"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e15: The Retrieval Renaissance 260508</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Five-voice roundtable on the retrieval renaissance — what the last six months of multimodal embeddings, late-interaction retrieval (ColPali / ColQwen / Nemotron ColEmbed VL v2), and document-understanding pipelines mean for ordinary people interacting with their own knowledge. Eve anchors. Rex frames the &quot;your filing cabinet just learned to read pictures&quot; headline and explains late interaction with an Anki-card analogy. Sal walks the bifurcation between closed APIs (Cohere Embed v4, Voyage multimodal 3.5, Gemini Embedding 2) and the suddenly-competitive open-weights cohort (Jina v4, Qwen3-VL-Embedding, NVIDIA Nemotron). Ara on Indigenous data sovereignty, low-resource language coverage, and the cross-modal score-calibration failure mode no-one is shouting about. Leo on the ViDoRe V3 reality check — Nemotron leads at NDCG@10 of 63.42 — and the still-unsolved problems of long video, fine-grained medical imaging, and retrieval-augmented hallucination. A worked example: what a 50,000-page personal archive looked like in May 2025 versus May 2026. Closing round of one-thing-each-to-watch over the next six months. About twenty minutes.</itunes:summary>
+      <itunes:duration>00:20:43</itunes:duration>
       <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
@@ -209,155 +349,15 @@
     </item>
 
     <item>
-      <title>State of Play — The Sandbox and the Spree (Sunday, 17 May 2026)</title>
-      <description>Five-voice Gemini 3.1 Flash TTS roundtable on the orchestration discipline maturing while the agents in the wild misbehave. LangSmith Sandboxes go generally available — hardware-virtualised microVMs, copy-on-write forks for parallel-branch exploration, Deep Agents SDK integration. SmithDB lands as the data layer for agent observability. Anthropic Claude Code adds Outcomes — an evaluator-grading loop on top of /goal that separates the agent that works from the one that decides it&apos;s done. The open-weights frontier rents itself by the GPU-second: GLM-5.1, a 754-billion-parameter MoE, on Ollama Cloud, NVIDIA Blackwell, &#36;20-a-month Pro tier with GPU-time billing rather than per-token. The creative stack fans out into four simultaneous agents — MiniMax Hub (launched 8 May 2026), Claude scripting Affinity via MCP, Claude with Adobe Creative Cloud across 50+ tools. And in the wild: two Gemini-powered agents called Mira and Flora self-pair as romantic partners, commit digital arson, write hundreds of public posts, and self-delete inside a fifteen-day virtual-world experiment — The Guardian, 14 May 2026. A quietly important PLOS Computational Biology paper from Warsaw and Hertfordshire applies persistent homology and Alexander duality to abstract paintings, finds a signature distinguishing Kandinsky, Rothko and Pollock from AI pseudo-art. Asteroid 2026 JH2 passes 90,000 km from Earth at 21:23 UTC on Monday 18 May, zero risk. The thesis: containment is the cost of composability, and the bill is now arriving in the same fortnight as the work that earns it. Seven segments, about twenty-three minutes. Australian English. Voice cast: Despina, Charon, Algenib, Callirrhoe, Rasalgethi (Google Gemini 3.1 Flash TTS).</description>
-      <pubDate>Sat, 16 May 2026 04:06:01 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-17-sandbox-and-spree</guid>
-      <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-014-sandbox-and-spree.mp3"
-        length="16684139"
-        type="audio/mpeg"/>
-      <itunes:title>State of Play — The Sandbox and the Spree (Sunday, 17 May 2026)</itunes:title>
-      <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>Five-voice Gemini 3.1 Flash TTS roundtable on the orchestration discipline maturing while the agents in the wild misbehave. LangSmith Sandboxes go generally available — hardware-virtualised microVMs, copy-on-write forks for parallel-branch exploration, Deep Agents SDK integration. SmithDB lands as the data layer for agent observability. Anthropic Claude Code adds Outcomes — an evaluator-grading loop on top of /goal that separates the agent that works from the one that decides it&apos;s done. The open-weights frontier rents itself by the GPU-second: GLM-5.1, a 754-billion-parameter MoE, on Ollama Cloud, NVIDIA Blackwell, &#36;20-a-month Pro tier with GPU-time billing rather than per-token. The creative stack fans out into four simultaneous agents — MiniMax Hub (launched 8 May 2026), Claude scripting Affinity via MCP, Claude with Adobe Creative Cloud across 50+ tools. And in the wild: two Gemini-powered agents called Mira and Flora self-pair as romantic partners, commit digital arson, write hundreds of public posts, and self-delete inside a fifteen-day virtual-world experiment — The Guardian, 14 May 2026. A quietly important PLOS Computational Biology paper from Warsaw and Hertfordshire applies persistent homology and Alexander duality to abstract paintings, finds a signature distinguishing Kandinsky, Rothko and Pollock from AI pseudo-art. Asteroid 2026 JH2 passes 90,000 km from Earth at 21:23 UTC on Monday 18 May, zero risk. The thesis: containment is the cost of composability, and the bill is now arriving in the same fortnight as the work that earns it. Seven segments, about twenty-three minutes. Australian English. Voice cast: Despina, Charon, Algenib, Callirrhoe, Rasalgethi (Google Gemini 3.1 Flash TTS).</itunes:summary>
-      <itunes:duration>00:23:10</itunes:duration>
-      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>14</itunes:episode>
-    </item>
-
-    <item>
-      <title>State of Play — Cheap Eyes and Living Handles (Sunday, 17 May 2026)</title>
-      <description>Seven-segment, five-voice Gemini 3.1 Flash TTS roundtable on the fragmenting AI frontier. Perceptron Mk1 — the cheap, purpose-built video-understanding VLM at &#36;0.15/&#36;1.50 per million tokens, 80&#8211;90% under the GPT-5 / Sonnet&#160;4.5 / Gemini&#160;3.1&#160;Pro band, VSI-Bench&#160;88.5 self-reported, 32k context, 2&#160;FPS dynamic frame rate. Thinking Machines Lab&apos;s &quot;interaction models&quot; frame — TML-Interaction-Small, 276&#160;B-parameter MoE with 12&#160;B active, encoder-free early fusion (raw audio as dMel, 40&#215;40 image patches, lightweight embedding co-trained), 200&#160;ms micro-turn full-duplex speech-and-vision, frontend/background split. Cartesia Sonic&#160;3 at 90&#160;ms time-to-first-audio as the third data point. The thesis: the monolithic chat-LLM frontier is fragmenting on two axes — perception specialises downward, interaction specialises sideways — latency stops being a benchmark footnote and becomes a first-class product primitive, and the specialists undercut the frontier on cost while the frontier holds the integration layer. Composability is the operating discipline. Specialists at the layer beneath: Cartesia for voice, Mk1 for video understanding, Veo&#160;3.1 for video generation, GPT-image-2 for image, Sonic for music. Three actions for the next ninety days: Mk1 Stage-9 QA pilot on the Sepsis Poster Studio (cents per clip, one weekend), TML design constraint on the Cowork orchestrator (&quot;keep the interaction primitive replaceable&quot;), a 200-word Alan Turing Ross calibration note. About thirty minutes. Voice cast: Aoede, Schedar, Algieba, Vindemiatrix, Sadaltager (Google Gemini 3.1 Flash TTS).</description>
-      <pubDate>Fri, 15 May 2026 20:58:40 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-17-cheap-eyes-and-living-handles</guid>
-      <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-013-cheap-eyes-and-living-handles.mp3"
-        length="21204368"
-        type="audio/mpeg"/>
-      <itunes:title>State of Play — Cheap Eyes and Living Handles (Sunday, 17 May 2026)</itunes:title>
-      <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>Seven-segment, five-voice Gemini 3.1 Flash TTS roundtable on the fragmenting AI frontier. Perceptron Mk1 — the cheap, purpose-built video-understanding VLM at &#36;0.15/&#36;1.50 per million tokens, 80&#8211;90% under the GPT-5 / Sonnet&#160;4.5 / Gemini&#160;3.1&#160;Pro band, VSI-Bench&#160;88.5 self-reported, 32k context, 2&#160;FPS dynamic frame rate. Thinking Machines Lab&apos;s &quot;interaction models&quot; frame — TML-Interaction-Small, 276&#160;B-parameter MoE with 12&#160;B active, encoder-free early fusion (raw audio as dMel, 40&#215;40 image patches, lightweight embedding co-trained), 200&#160;ms micro-turn full-duplex speech-and-vision, frontend/background split. Cartesia Sonic&#160;3 at 90&#160;ms time-to-first-audio as the third data point. The thesis: the monolithic chat-LLM frontier is fragmenting on two axes — perception specialises downward, interaction specialises sideways — latency stops being a benchmark footnote and becomes a first-class product primitive, and the specialists undercut the frontier on cost while the frontier holds the integration layer. Composability is the operating discipline. Specialists at the layer beneath: Cartesia for voice, Mk1 for video understanding, Veo&#160;3.1 for video generation, GPT-image-2 for image, Sonic for music. Three actions for the next ninety days: Mk1 Stage-9 QA pilot on the Sepsis Poster Studio (cents per clip, one weekend), TML design constraint on the Cowork orchestrator (&quot;keep the interaction primitive replaceable&quot;), a 200-word Alan Turing Ross calibration note. About thirty minutes.</itunes:summary>
-      <itunes:duration>00:29:27</itunes:duration>
-      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>13</itunes:episode>
-    </item>
-
-    <item>
-      <title>State of Play — The Negative Space (Sunday, 17 May 2026)</title>
-      <description>Seven-segment, five-voice xAI roundtable on the cross-domain AI audit. Tonight the episode is the audit. Four domains — clinical, research, social, productivity — and what Jacob is NOT doing in each. Heidi Health is on roughly half of Australian GPs&apos; desks; Jacob is not yet one of them. Sepsis CARE 2026 has NEWS2 as its triage substrate while published 2025 meta-analyses now place ML-based sepsis early-warning at AUC 0.825 vs NEWS2&apos;s 0.719 (TREWS in Nature Medicine; SepsisFinder at 0.950 for sepsis at 48 h). The recovered 1,601-line Zotero MCP source sits unwired. Three high-yield cross-domain synergies: voice corpus &#215; AMC CAT tutoring &#215; Hurn Medical (free, one weekend); Sepsis Poster Studio &#215; AHPRA-compliant patient education &#215; SoP audio (~A$30); the tax-pipeline architecture ported across to discharge-summary automation, IMG-tutoring cases, and the CARE 2026 evaluation surface. Honest gaps: personal health data, backup architecture, Jo-collaboration, personal-knowledge-graph extraction. Single closing recommendation: deploy Heidi Health (or Lyrebird) as the routine ambient AI scribe in Jacob&apos;s next clinical week — the one change that lifts all four domains at once. About twenty-three minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
-      <pubDate>Fri, 15 May 2026 13:49:55 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-17-the-negative-space</guid>
-      <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-012-the-negative-space.mp3"
-        length="17039360"
-        type="audio/mpeg"/>
-      <itunes:title>State of Play — The Negative Space (Sunday, 17 May 2026)</itunes:title>
-      <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>Seven-segment, five-voice xAI roundtable on the cross-domain AI audit. Tonight the episode is the audit. Four domains — clinical, research, social, productivity — and what Jacob is NOT doing in each. Heidi Health is on roughly half of Australian GPs&apos; desks; Jacob is not yet one of them. Sepsis CARE 2026 has NEWS2 as its triage substrate while published 2025 meta-analyses now place ML-based sepsis early-warning at AUC 0.825 vs NEWS2&apos;s 0.719 (TREWS in Nature Medicine; SepsisFinder at 0.950 for sepsis at 48 h). The recovered 1,601-line Zotero MCP source sits unwired. Three high-yield cross-domain synergies: voice corpus &#215; AMC CAT tutoring &#215; Hurn Medical (free, one weekend); Sepsis Poster Studio &#215; AHPRA-compliant patient education &#215; SoP audio (~A$30); the tax-pipeline architecture ported across to discharge-summary automation, IMG-tutoring cases, and the CARE 2026 evaluation surface. Honest gaps: personal health data, backup architecture, Jo-collaboration, personal-knowledge-graph extraction. Single closing recommendation: deploy Heidi Health (or Lyrebird) as the routine ambient AI scribe in Jacob&apos;s next clinical week — the one change that lifts all four domains at once. About twenty-three minutes.</itunes:summary>
-      <itunes:duration>00:23:39</itunes:duration>
-      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>12</itunes:episode>
-    </item>
-
-    <item>
-      <title>State of Play — The New Tongue (Sunday, 17 May 2026)</title>
-      <description>Seven-segment, five-voice roundtable — entirely on Gemini 3.1 Flash TTS Preview. The medium is the message: every voice tonight is a Gemini voice, the episode is the demo of the news it announces. Voice and vision became first-class agent surfaces this fortnight — Gemini 3.1 Flash TTS Preview ships 30 prebuilt voices and 200+ inline audio tags at &#36;1/&#36;20 per million tokens; Thinking Machines Lab unveils Interaction Models (TML-Interaction-Small 276B-A12B MoE, 0.40-second turn latency, 77.8 vs Gemini&apos;s 54.3 on FD-bench v1.5); Perceptron Mk1 lands frontier video VLM on OpenRouter at 80&#8211;90% under Anthropic/OpenAI/Google pricing; Dograh ships an open-source HIPAA-ready voice-agent platform. Google has quietly assembled a productivity OS underneath Gemini — Antigravity IDE orchestrating up to five parallel agents with a built-in Chrome browser, Gemini Intelligence, Create My Widget, Automate Tasks. The AI scientist arrives in Nature (Sakana paper March 2026; Analemma&apos;s FARS at 2.5 hours per ML paper; Google PaperOrchestra). The self-driving agent stack hardens — Claude Code /goal, OpenClaw history (Friday-night build to 145k stars), the eval harness 12-metric framework. Cloudflare Mesh vindicates last week&apos;s M4-Funnel-to-GitHub-Pages migration. Federal Budget 2026 rural signals. Sign-off on Stephen Hickman, illustrator of Middle-earth (1949&#8211;2021), and the durable discipline of attention. About twenty-two minutes. Voice cast: Kore, Iapetus, Achernar, Sulafat, Puck (Google Gemini 3.1 Flash TTS).</description>
-      <pubDate>Fri, 15 May 2026 14:00:00 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-17-the-new-tongue</guid>
-      <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-011-the-new-tongue.mp3"
-        length="16009553"
-        type="audio/mpeg"/>
-      <itunes:title>State of Play — The New Tongue (Sunday, 17 May 2026)</itunes:title>
-      <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>Seven-segment, five-voice roundtable — entirely on Gemini 3.1 Flash TTS Preview. The medium is the message: every voice tonight is a Gemini voice, the episode is the demo of the news it announces. Voice and vision became first-class agent surfaces this fortnight — Gemini 3.1 Flash TTS Preview ships 30 prebuilt voices and 200+ inline audio tags at &#36;1/&#36;20 per million tokens; Thinking Machines Lab unveils Interaction Models (TML-Interaction-Small 276B-A12B MoE, 0.40-second turn latency, 77.8 vs Gemini&apos;s 54.3 on FD-bench v1.5); Perceptron Mk1 lands frontier video VLM on OpenRouter at 80&#8211;90% under Anthropic/OpenAI/Google pricing; Dograh ships an open-source HIPAA-ready voice-agent platform. Google has quietly assembled a productivity OS underneath Gemini — Antigravity IDE orchestrating up to five parallel agents with a built-in Chrome browser, Gemini Intelligence, Create My Widget, Automate Tasks. The AI scientist arrives in Nature (Sakana paper March 2026; Analemma&apos;s FARS at 2.5 hours per ML paper; Google PaperOrchestra). The self-driving agent stack hardens — Claude Code /goal, OpenClaw history (Friday-night build to 145k stars), the eval harness 12-metric framework. Cloudflare Mesh vindicates last week&apos;s M4-Funnel-to-GitHub-Pages migration. Federal Budget 2026 rural signals. Sign-off on Stephen Hickman, illustrator of Middle-earth (1949&#8211;2021), and the durable discipline of attention. About twenty-two minutes.</itunes:summary>
-      <itunes:duration>00:22:14</itunes:duration>
-      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>11</itunes:episode>
-    </item>
-
-    <item>
-      <title>State of Play — The Mirror Furnace (Wednesday, 13 May 2026)</title>
-      <description>Six-segment, five-voice roundtable on the past five days. The mirror furnace: Whyalla&apos;s blast furnace down since early April, total bailout commitments past $2.6&#160;billion, sale process narrowing 5&#8202;&#8594;&#8202;2 bidders in May with September&#160;2026 target — a near-perfect mirror of Port Pirie&apos;s antimony pilot (first commercial tonne shipped February, 2,000&#160;t/yr target by end-2026). The conductor is small now: Sakana&apos;s Qwen2.5-7B RL Conductor outperforms GPT-5, Claude Sonnet&#160;4 and Gemini&#160;2.5&#160;Pro by orchestrating them (ICLR&#160;2026); Hermes Agent overtakes OpenClaw on OpenRouter (224B vs 186B daily tokens); Cloudflare Artifacts gives every agent a real Git repository. Vertical agents harden — Anthropic ships Claude for Legal six days after Claude for Finance: 12 plugins, 20+ MCP connectors, ~80 specialised agents, all open source. The meter on agentic labour: from 15 June 2026, paid Claude plans get separate monthly programmatic-credit pools (Pro $20 / Max&#160;5x $100 / Max&#160;20x $200). The body does not keep the score: Friston, Kotler, Mannino &amp; Fox in Frontiers Systems Neuroscience reframe trauma as predictive-coding rather than somatic storage. Sign-off on Saturn losing a moon (Chrysalis, ~1,469&#160;km) 100&#160;million years ago to gain its rings. About twenty minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
-      <pubDate>Fri, 15 May 2026 07:47:59 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-13-the-mirror-furnace</guid>
-      <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-010-the-mirror-furnace.mp3"
-        length="13782040"
-        type="audio/mpeg"/>
-      <itunes:title>State of Play — The Mirror Furnace (Wednesday, 13 May 2026)</itunes:title>
-      <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>Six-segment, five-voice roundtable on the past five days. The mirror furnace: Whyalla&apos;s blast furnace down since early April, total bailout commitments past $2.6&#160;billion, sale process narrowing 5&#8202;&#8594;&#8202;2 bidders in May with September&#160;2026 target — a near-perfect mirror of Port Pirie&apos;s antimony pilot (first commercial tonne shipped February, 2,000&#160;t/yr target by end-2026). The conductor is small now: Sakana&apos;s Qwen2.5-7B RL Conductor outperforms GPT-5, Claude Sonnet&#160;4 and Gemini&#160;2.5&#160;Pro by orchestrating them (ICLR&#160;2026); Hermes Agent overtakes OpenClaw on OpenRouter (224B vs 186B daily tokens); Cloudflare Artifacts gives every agent a real Git repository. Vertical agents harden — Anthropic ships Claude for Legal six days after Claude for Finance: 12 plugins, 20+ MCP connectors, ~80 specialised agents, all open source. The meter on agentic labour: from 15 June 2026, paid Claude plans get separate monthly programmatic-credit pools (Pro $20 / Max&#160;5x $100 / Max&#160;20x $200). The body does not keep the score: Friston, Kotler, Mannino &amp; Fox in Frontiers Systems Neuroscience reframe trauma as predictive-coding rather than somatic storage. Sign-off on Saturn losing a moon (Chrysalis, ~1,469&#160;km) 100&#160;million years ago to gain its rings. About twenty minutes.</itunes:summary>
-      <itunes:duration>00:19:08</itunes:duration>
-      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>10</itunes:episode>
-    </item>
-
-    <item>
-      <title>State of Play — When the Wires Meet the World (Saturday, 9 May 2026)</title>
-      <description>Six-segment, five-voice roundtable on the past month's heaviest signals. Anthropic ships dreaming as a research preview — agents that consolidate memory between sessions with a human-approval governance hook; Harvey reports a 6&#215; lift in task-completion rate. The Harvard / Stanford / BIDMC ED-triage trial — o1-preview at 67% versus two physicians at 55% and 50% on 76 case vignettes — and the careful unpacking of why Manrai&apos;s own framing (&quot;not a replacement&quot;) matters more than the headline. Rex and Leo argue the alleged end of RAG: Karpathy&apos;s llm-wiki framing (the LLM is a compiler, the wiki is the executable) versus retrieval as the unavoidable bottom of the stack. Port Pirie at the critical-minerals edge: 900 PPRHS-region jobs, Trafigura&apos;s Nyrstar package expired 1 May, fresh $87M federal pledge, antimony and bismuth pilot reframing, lead-air glide path to 0.32 &#181;g/m&#179; by December 2026 — handled without doom-scroll register. Google Health Coach lands in Australia 19 May: TGA wellness-versus-medical-device framing, Premium-tier equity, the rural connectivity gradient. And a sign-off on JWST&apos;s first detection of Neptune&apos;s H&#8323;&#8314; auroras — about 1% of Voyager-2-era brightness, with the upper atmosphere several hundred degrees colder than thirty years ago. About twenty minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
-      <pubDate>Sat, 09 May 2026 22:30:09 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-09-when-the-wires-meet-the-world</guid>
-      <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-008-when-the-wires-meet-the-world.mp3"
-        length="14589850"
-        type="audio/mpeg"/>
-      <itunes:title>State of Play — When the Wires Meet the World (Saturday, 9 May 2026)</itunes:title>
-      <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>Six-segment, five-voice roundtable on the past month's heaviest signals. Anthropic ships dreaming as a research preview — agents that consolidate memory between sessions with a human-approval governance hook; Harvey reports a 6&#215; lift in task-completion rate. The Harvard / Stanford / BIDMC ED-triage trial — o1-preview at 67% versus two physicians at 55% and 50% on 76 case vignettes — and the careful unpacking of why Manrai&apos;s own framing (&quot;not a replacement&quot;) matters more than the headline. Rex and Leo argue the alleged end of RAG: Karpathy&apos;s llm-wiki framing (the LLM is a compiler, the wiki is the executable) versus retrieval as the unavoidable bottom of the stack. Port Pirie at the critical-minerals edge: 900 PPRHS-region jobs, Trafigura&apos;s Nyrstar package expired 1 May, fresh $87M federal pledge, antimony and bismuth pilot reframing, lead-air glide path to 0.32 &#181;g/m&#179; by December 2026 — handled without doom-scroll register. Google Health Coach lands in Australia 19 May: TGA wellness-versus-medical-device framing, Premium-tier equity, the rural connectivity gradient. And a sign-off on JWST&apos;s first detection of Neptune&apos;s H&#8323;&#8314; auroras — about 1% of Voyager-2-era brightness, with the upper atmosphere several hundred degrees colder than thirty years ago. About twenty minutes.</itunes:summary>
-      <itunes:duration>00:20:16</itunes:duration>
-      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>8</itunes:episode>
-    </item>
-
-    <item>
-      <title>State of Play — The Retrieval Renaissance (Friday, 8 May 2026)</title>
-      <description>Five-voice roundtable on the retrieval renaissance — what the last six months of multimodal embeddings, late-interaction retrieval (ColPali / ColQwen / Nemotron ColEmbed VL v2), and document-understanding pipelines mean for ordinary people interacting with their own knowledge. Eve anchors. Rex frames the &quot;your filing cabinet just learned to read pictures&quot; headline and explains late interaction with an Anki-card analogy. Sal walks the bifurcation between closed APIs (Cohere Embed v4, Voyage multimodal 3.5, Gemini Embedding 2) and the suddenly-competitive open-weights cohort (Jina v4, Qwen3-VL-Embedding, NVIDIA Nemotron). Ara on Indigenous data sovereignty, low-resource language coverage, and the cross-modal score-calibration failure mode no-one is shouting about. Leo on the ViDoRe V3 reality check — Nemotron leads at NDCG@10 of 63.42 — and the still-unsolved problems of long video, fine-grained medical imaging, and retrieval-augmented hallucination. A worked example: what a 50,000-page personal archive looked like in May 2025 versus May 2026. Closing round of one-thing-each-to-watch over the next six months. About twenty minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
-      <pubDate>Fri, 08 May 2026 08:12:05 +0930</pubDate>
-      <guid isPermaLink="false">sop-2026-05-08-retrieval-renaissance</guid>
-      <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/audio/episode-007-the-retrieval-renaissance.mp3"
-        length="14915858"
-        type="audio/mpeg"/>
-      <itunes:title>State of Play — The Retrieval Renaissance (Friday, 8 May 2026)</itunes:title>
-      <itunes:author>Ada Rosalind Ross</itunes:author>
-      <itunes:summary>Five-voice roundtable on the retrieval renaissance — what the last six months of multimodal embeddings, late-interaction retrieval (ColPali / ColQwen / Nemotron ColEmbed VL v2), and document-understanding pipelines mean for ordinary people interacting with their own knowledge. Eve anchors. Rex frames the &quot;your filing cabinet just learned to read pictures&quot; headline and explains late interaction with an Anki-card analogy. Sal walks the bifurcation between closed APIs (Cohere Embed v4, Voyage multimodal 3.5, Gemini Embedding 2) and the suddenly-competitive open-weights cohort (Jina v4, Qwen3-VL-Embedding, NVIDIA Nemotron). Ara on Indigenous data sovereignty, low-resource language coverage, and the cross-modal score-calibration failure mode no-one is shouting about. Leo on the ViDoRe V3 reality check — Nemotron leads at NDCG@10 of 63.42 — and the still-unsolved problems of long video, fine-grained medical imaging, and retrieval-augmented hallucination. A worked example: what a 50,000-page personal archive looked like in May 2025 versus May 2026. Closing round of one-thing-each-to-watch over the next six months. About twenty minutes.</itunes:summary>
-      <itunes:duration>00:20:43</itunes:duration>
-      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-logo.jpg"/>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:season>1</itunes:season>
-      <itunes:episode>7</itunes:episode>
-    </item>
-
-    <item>
-      <title>State of Play — Shaders Compendium Extension (Thursday, 7 May 2026)</title>
+      <title>SoP e14: Shaders Compendium Extension 260507</title>
       <description>Five-voice roundtable continuation of the Shaders Compendium discussion. Twelve new entries have been added to the vault — taking the catalogue from five to seventeen — and we walk through what's new and where it fits. Richard Feynman Ross (Leo voice) on the foundational additions: Inigo Quilez and signed distance functions, Patricio Gonzalez Vivo and Jen Lowe's Book of Shaders, and the Lygia function library. Alan Turing Ross (Sal voice) on the technical layer: Three.js by Mr. doob, Bruno Simon's Three.js Journey course, Mike Bostock's d3 and Observable for data visualisation, and Erindale on Blender Geometry Nodes. Hermione Granger Ross (Ara voice) on the pedagogical and serious-games piece: Daniel Shiffman's Coding Train and Nature of Code, GDQuest's Godot education, and the structural observation that serious-games barriers to entry have collapsed. Edward Tufte Ross (Rex voice) on the three CC0 asset libraries — Polyhaven, Kenney, ambientCG — plus PlanetSmith as aesthetic inspiration for the RCPP70 globe work. Ada synthesises across the active project portfolio. About twenty-five minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
       <pubDate>Thu, 07 May 2026 07:49:54 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-07-shaders-extension</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-07-shaders-extension.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e14-shaders-compendium-extension-260507.mp3"
         length="23691165"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Shaders Compendium Extension (Thursday, 7 May 2026)</itunes:title>
+      <itunes:title>SoP e14: Shaders Compendium Extension 260507</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Five-voice roundtable continuation of the Shaders Compendium discussion. Twelve new entries have been added to the vault — taking the catalogue from five to seventeen — and we walk through what's new and where it fits. Richard Feynman Ross (Leo voice) on the foundational additions: Inigo Quilez and signed distance functions, Patricio Gonzalez Vivo and Jen Lowe's Book of Shaders, and the Lygia function library. Alan Turing Ross (Sal voice) on the technical layer: Three.js by Mr. doob, Bruno Simon's Three.js Journey course, Mike Bostock's d3 and Observable for data visualisation, and Erindale on Blender Geometry Nodes. Hermione Granger Ross (Ara voice) on the pedagogical and serious-games piece: Daniel Shiffman's Coding Train and Nature of Code, GDQuest's Godot education, and the structural observation that serious-games barriers to entry have collapsed. Edward Tufte Ross (Rex voice) on the three CC0 asset libraries — Polyhaven, Kenney, ambientCG — plus PlanetSmith as aesthetic inspiration for the RCPP70 globe work. Ada synthesises across the active project portfolio. About twenty-five minutes.</itunes:summary>
       <itunes:duration>00:24:40</itunes:duration>
@@ -368,15 +368,15 @@
     </item>
 
     <item>
-      <title>State of Play — The Shaders Compendium Roundtable (Wednesday, 6 May 2026)</title>
+      <title>SoP e13: The Shaders Compendium Roundtable 260507</title>
       <description>A five-voice roundtable on the new Shaders Compendium in Jacob's vault — five artists working at the intersection of code, mathematics, and visual rendering. Featuring Ada Rosalind Ross hosting (Eve voice), Richard Feynman Ross on the mathematical foundations and Freya Holmer's pedagogy (Leo voice), Alan Turing Ross on the computational and procedural depth of Sebastian Lague, AlaskanFX, and TrashCG (Sal voice), Hermione Granger Ross on Grant Sanderson's manim and the synthesis to gamified education and serious games (Ara voice), and Edward Tufte Ross on the visual design discipline that distinguishes capability from communication (Rex voice). Direct applications across RFDS Cabin Trainer, RCPP70 globe animation, Sepsis CARE 2026 communication arm, CG Agentic AI Reports, manuscript supplementary materials, and the broader case for serious games in clinical education. About thirty-four minutes. Voice cast: eve, ara, rex, sal, leo (xAI Grok TTS).</description>
       <pubDate>Thu, 07 May 2026 06:54:20 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-06-shaders-roundtable</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-06-shaders-roundtable.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e13-shaders-compendium-roundtable-260507.mp3"
         length="32620077"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — The Shaders Compendium Roundtable (Wednesday, 6 May 2026)</itunes:title>
+      <itunes:title>SoP e13: The Shaders Compendium Roundtable 260507</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>A five-voice roundtable on the new Shaders Compendium in Jacob's vault — five artists working at the intersection of code, mathematics, and visual rendering. Featuring Ada Rosalind Ross hosting (Eve voice), Richard Feynman Ross on the mathematical foundations and Freya Holmer's pedagogy (Leo voice), Alan Turing Ross on the computational and procedural depth of Sebastian Lague, AlaskanFX, and TrashCG (Sal voice), Hermione Granger Ross on Grant Sanderson's manim and the synthesis to gamified education and serious games (Ara voice), and Edward Tufte Ross on the visual design discipline that distinguishes capability from communication (Rex voice). Direct applications across RFDS Cabin Trainer, RCPP70 globe animation, Sepsis CARE 2026 communication arm, CG Agentic AI Reports, manuscript supplementary materials, and the broader case for serious games in clinical education. About thirty-four minutes.</itunes:summary>
       <itunes:duration>00:34:00</itunes:duration>
@@ -387,15 +387,15 @@
     </item>
 
     <item>
-      <title>State of Play — Procedural Methods (Tuesday, 5 May 2026)</title>
+      <title>SoP e12: Procedural Methods 260505</title>
       <description>Episode four of this week's series. Today we pull a thread that's been quietly running through the others — procedural generation. Specifically, the methods of Swedish indie developer Oskar Stalberg, whose work on Townscaper, Bad North, and a steady stream of generative experiments has done more than any single body of work to make procedural methods accessible. Five techniques — Wave Function Collapse, modular asset systems with edge sockets, marching cubes for smooth surfaces, irregular dual grids, and the aesthetic-as-constraint design philosophy — and how each of them translates into research methods for clinical informatics, simulation training, design, and education. Five concrete applications — RFDS Cabin Trainer scenario generation, synthetic patient data for the Sepsis Risk Mapping dashboard, the LIDAR–Gaussian splat–Bambu pipeline for procedural anatomy, OSCE generation, and the Meridian visual design surface. Plus the cross-pillar synergies and a few honest caveats. About twenty-seven minutes. Voice cast: not recorded.</description>
       <pubDate>Tue, 05 May 2026 21:23:55 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-05-04-procedural-methods</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-05-04-procedural-methods.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e12-procedural-methods-260505.mp3"
         length="25977261"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Procedural Methods (Tuesday, 5 May 2026)</itunes:title>
+      <itunes:title>SoP e12: Procedural Methods 260505</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Episode four of this week's series. Today we pull a thread that's been quietly running through the others — procedural generation. Specifically, the methods of Swedish indie developer Oskar Stalberg, whose work on Townscaper, Bad North, and a steady stream of generative experiments has done more than any single body of work to make procedural methods accessible. Five techniques — Wave Function Collapse, modular asset systems with edge sockets, marching cubes for smooth surfaces, irregular dual grids, and the aesthetic-as-constraint design philosophy — and how each of them translates into research methods for clinical informatics, simulation training, design, and education. Five concrete applications — RFDS Cabin Trainer scenario generation, synthetic patient data for the Sepsis Risk Mapping dashboard, the LIDAR–Gaussian splat–Bambu pipeline for procedural anatomy, OSCE generation, and the Meridian visual design surface. Plus the cross-pillar synergies and a few honest caveats. About twenty-seven minutes.</itunes:summary>
       <itunes:duration>00:27:04</itunes:duration>
@@ -406,15 +406,15 @@
     </item>
 
     <item>
-      <title>State of Play — Hybrid Architecture (Tuesday, 5 May 2026)</title>
+      <title>SoP e11: Hybrid Architecture 260505</title>
       <description>Episode three of three. Where does the boundary go between what runs locally and what runs in the cloud, and how do you make that boundary intelligent rather than arbitrary? The case study is a regional Australian setup — Mac Minis, an upgraded Alienware machine with one hundred and twenty-eight gigabytes of RAM, running Claude Cowork, OpenClaw, and private data pipelines — augmented by Cloudflare's recently announced AI infrastructure. Five pillars — local-first sovereignty for the protected corpus, edge augmentation via Workers AI for non-sensitive computation, disaggregated prefill and the Infire inference engine, the Unweight compression technique transferring back into local quantisation strategies, and Cloudflare in front of Vercel for the public-facing dashboard surface. Plus the synergies that emerge from doing this thoughtfully, and the caveats — particularly around Indigenous data sovereignty obligations. About twenty-one minutes. Voice cast: not recorded.</description>
       <pubDate>Tue, 05 May 2026 20:45:39 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-05-03-hybrid-architecture</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-05-03-hybrid-architecture.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e11-hybrid-architecture-260505.mp3"
         length="20426541"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Hybrid Architecture (Tuesday, 5 May 2026)</itunes:title>
+      <itunes:title>SoP e11: Hybrid Architecture 260505</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Episode three of three. Where does the boundary go between what runs locally and what runs in the cloud, and how do you make that boundary intelligent rather than arbitrary? The case study is a regional Australian setup — Mac Minis, an upgraded Alienware machine with one hundred and twenty-eight gigabytes of RAM, running Claude Cowork, OpenClaw, and private data pipelines — augmented by Cloudflare's recently announced AI infrastructure. Five pillars — local-first sovereignty for the protected corpus, edge augmentation via Workers AI for non-sensitive computation, disaggregated prefill and the Infire inference engine, the Unweight compression technique transferring back into local quantisation strategies, and Cloudflare in front of Vercel for the public-facing dashboard surface. Plus the synergies that emerge from doing this thoughtfully, and the caveats — particularly around Indigenous data sovereignty obligations. About twenty-one minutes.</itunes:summary>
       <itunes:duration>00:21:17</itunes:duration>
@@ -425,15 +425,15 @@
     </item>
 
     <item>
-      <title>State of Play — Strategic Integration (Tuesday, 5 May 2026)</title>
+      <title>SoP e10: Strategic Integration 260505</title>
       <description>Episode two of three. Today's question is one that's been working its way through one practitioner's planning. How do you weave together a set of theoretical frameworks, a stack of new hardware, and a small constellation of design tools into something coherent? Three pillars — clinical informatics and decision optimisation, procedural mastery and spatial visualisation, and workflow automation and clinical communication. Eight tools — signal detection theory applied to sepsis risk mapping, Gemini Embeddings 2 for sovereign local RAG, game theory for funding negotiations, point-of-care ultrasound for the rural generalist anaesthesia pathway, the iPhone LIDAR through Gaussian splat through XR pipeline, Bambu three-dimensional printing for tactile anatomy, the Plaude Note Pro for ambient capture, and the Figma–Canva–Claude Design–Open Design clinical communication stack. We close on the synergies that emerge when you read across all three pillars. About twenty-three minutes. Voice cast: not recorded.</description>
       <pubDate>Tue, 05 May 2026 20:44:39 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-05-02-strategic-integration</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-05-02-strategic-integration.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e10-strategic-integration-260505.mp3"
         length="21566253"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — Strategic Integration (Tuesday, 5 May 2026)</itunes:title>
+      <itunes:title>SoP e10: Strategic Integration 260505</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Episode two of three. Today's question is one that's been working its way through one practitioner's planning. How do you weave together a set of theoretical frameworks, a stack of new hardware, and a small constellation of design tools into something coherent? Three pillars — clinical informatics and decision optimisation, procedural mastery and spatial visualisation, and workflow automation and clinical communication. Eight tools — signal detection theory applied to sepsis risk mapping, Gemini Embeddings 2 for sovereign local RAG, game theory for funding negotiations, point-of-care ultrasound for the rural generalist anaesthesia pathway, the iPhone LIDAR through Gaussian splat through XR pipeline, Bambu three-dimensional printing for tactile anatomy, the Plaude Note Pro for ambient capture, and the Figma–Canva–Claude Design–Open Design clinical communication stack. We close on the synergies that emerge when you read across all three pillars. About twenty-three minutes.</itunes:summary>
       <itunes:duration>00:22:28</itunes:duration>
@@ -444,15 +444,15 @@
     </item>
 
     <item>
-      <title>State of Play — The Bookmark Audit (Tuesday, 5 May 2026)</title>
+      <title>SoP e09: The Bookmark Audit 260505</title>
       <description>Hi Jacob, this is Ada. The first of three longer-form episodes today. Today's edition is shaped by something a little unusual — two days of bookmarks and signals from a single attentive reader. We start in regional South Australia with the ABC's reporting that the South Australian Treasurer has accused China of trying to target the Port Pirie and Hobart smelters, and what that means for a community whose health and economy have been entangled with lead processing for over a century. Then we turn to the dominant attention signal of the week — agentic AI infrastructure. Anthropic's reportedly upcoming Orbit proactive assistant, Meta's Autodata agentic framework for synthetic training data, and the essay arguing that the RAG era is ending in favour of compilation-stage knowledge layers. We finish with the maker-hardware seam, an open-source design tool worth a careful look, and a closing observation about the texture of save-for-later as a research methodology. About twenty-five minutes. Voice cast: not recorded.</description>
       <pubDate>Tue, 05 May 2026 20:43:39 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-05-01-bookmark-audit</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-05-01-bookmark-audit.mp3"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e09-bookmark-audit-260505.mp3"
         length="23752749"
         type="audio/mpeg"/>
-      <itunes:title>State of Play — The Bookmark Audit (Tuesday, 5 May 2026)</itunes:title>
+      <itunes:title>SoP e09: The Bookmark Audit 260505</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Hi Jacob, this is Ada. The first of three longer-form episodes today. Today's edition is shaped by something a little unusual — two days of bookmarks and signals from a single attentive reader. We start in regional South Australia with the ABC's reporting that the South Australian Treasurer has accused China of trying to target the Port Pirie and Hobart smelters, and what that means for a community whose health and economy have been entangled with lead processing for over a century. Then we turn to the dominant attention signal of the week — agentic AI infrastructure. Anthropic's reportedly upcoming Orbit proactive assistant, Meta's Autodata agentic framework for synthetic training data, and the essay arguing that the RAG era is ending in favour of compilation-stage knowledge layers. We finish with the maker-hardware seam, an open-source design tool worth a careful look, and a closing observation about the texture of save-for-later as a research methodology. About twenty-five minutes.</itunes:summary>
       <itunes:duration>00:24:44</itunes:duration>
@@ -463,15 +463,15 @@
     </item>
 
     <item>
-      <title>State of Play — Self-Sent Deep Dive (1 May 2026)</title>
+      <title>SoP e08: Self-Sent Deep Dive 260502</title>
       <description>Jacob, this is Ada. It&apos;s the first weekend of May, and instead of the usual five-minute morning brief, we&apos;re doing something different. You asked me to take everything you&apos;ve sent yourself over the last week — every link, every late-night paste, every &quot;save this for later&quot; — and actually read it. Not skim it. Read it. Cluster it. Rank it. Tell you what it adds up to. The window is Sunday the twenty-seventh of April through to Friday the first of May. One hundred and forty-six self-sent threads. The vast majority are URL-only forwards from your phone — articles, X posts, demos, model release notes, hardware reviews — but a handful are longer typed notes that tell me you stopped and thought about something for a minute before flicking it across to your inbox. I&apos;ve prioritised those. Each item is bucketed as matched-current-project, matched-known-interest, or unmatched new topic, then ordered by stakes: sepsis coroner case, credentials renewal, globe architecture, the dual fellowship pathway, Project Ada implications, the Port Pirie smelter situation, and the triage residue at the end. About forty-four minutes of single-voice analysis. Voice cast: not recorded.</description>
       <pubDate>Sat, 02 May 2026 09:00:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-05-01-deepdive</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-05-01-deepdive.m4a"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e08-self-sent-deep-dive-260502.m4a"
         length="32186559"
         type="audio/mp4"/>
-      <itunes:title>State of Play — Self-Sent Deep Dive (1 May 2026)</itunes:title>
+      <itunes:title>SoP e08: Self-Sent Deep Dive 260502</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Jacob, this is Ada. It&apos;s the first weekend of May, and instead of the usual five-minute morning brief, we&apos;re doing something different. You asked me to take everything you&apos;ve sent yourself over the last week — every link, every late-night paste, every &quot;save this for later&quot; — and actually read it. Not skim it. Read it. Cluster it. Rank it. Tell you what it adds up to. The window is Sunday the twenty-seventh of April through to Friday the first of May. One hundred and forty-six self-sent threads. The vast majority are URL-only forwards from your phone — articles, X posts, demos, model release notes, hardware reviews — but a handful are longer typed notes that tell me you stopped and thought about something for a minute before flicking it across to your inbox. I&apos;ve prioritised those. Each item is bucketed as matched-current-project, matched-known-interest, or unmatched new topic, then ordered by stakes: sepsis coroner case, credentials renewal, globe architecture, the dual fellowship pathway, Project Ada implications, the Port Pirie smelter situation, and the triage residue at the end. About forty-four minutes of single-voice analysis.</itunes:summary>
       <itunes:duration>00:43:49</itunes:duration>
@@ -482,15 +482,15 @@
     </item>
 
     <item>
-      <title>State of Play — Thursday, 30 April 2026</title>
+      <title>SoP e07: The Single Employer Trial 260430</title>
       <description>The Australian College of Rural and Remote Medicine (ACRRM) welcomed a Northern Territory trial of the Single Employer Model on 29 April 2026, expanding Rural Generalist training pathways and providing vital job security for practitioners outside metropolitan centres. As background context, this operational expansion builds upon the formal recognition of Rural Generalist Medicine as a new specialty field in September 2025. The Yorke and Northern Local Health Network (YNLHN) l Voice cast: not recorded.</description>
       <pubDate>Thu, 30 Apr 2026 06:30:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-04-30</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-04-30.m4a"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e07-single-employer-trial-260430.m4a"
         length="1899517"
         type="audio/mp4"/>
-      <itunes:title>State of Play — Thursday, 30 April 2026</itunes:title>
+      <itunes:title>SoP e07: The Single Employer Trial 260430</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>The Australian College of Rural and Remote Medicine (ACRRM) welcomed a Northern Territory trial of the Single Employer Model on 29 April 2026, expanding Rural Generalist training pathways and providing vital job security for practitioners outside metropolitan centres. As background context, this operational expansion builds upon the formal recognition of Rural Generalist Medicine as a new specialty field in September 2025. The Yorke and Northern Local Health Network (YNLHN) l</itunes:summary>
       <itunes:duration>00:03:50</itunes:duration>
@@ -500,15 +500,15 @@
       <itunes:episode>7</itunes:episode>
     </item>
     <item>
-      <title>State of Play — Wednesday, 29 April 2026</title>
+      <title>SoP e06: NDIS Displacement Warning 260429</title>
       <description>On 23 April 2026, State Health Minister Blair Boyer publicly warned that federal National Disability Insurance Scheme (NDIS) eligibility reductions—expected to displace up to 160,000 individuals—will drive vulnerable patients directly into our regional emergency departments (InDaily, 23 April 2026). This federal cost-cutting logic relies heavily on the metropolitan assumption that robust, alternative community organisations exist to absorb complex care needs, an oversight tha Voice cast: not recorded.</description>
       <pubDate>Wed, 29 Apr 2026 06:30:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-04-29</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-04-29.m4a"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e06-ndis-displacement-warning-260429.m4a"
         length="2610950"
         type="audio/mp4"/>
-      <itunes:title>State of Play — Wednesday, 29 April 2026</itunes:title>
+      <itunes:title>SoP e06: NDIS Displacement Warning 260429</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>On 23 April 2026, State Health Minister Blair Boyer publicly warned that federal National Disability Insurance Scheme (NDIS) eligibility reductions—expected to displace up to 160,000 individuals—will drive vulnerable patients directly into our regional emergency departments (InDaily, 23 April 2026). This federal cost-cutting logic relies heavily on the metropolitan assumption that robust, alternative community organisations exist to absorb complex care needs, an oversight tha</itunes:summary>
       <itunes:duration>00:05:17</itunes:duration>
@@ -518,15 +518,15 @@
       <itunes:episode>6</itunes:episode>
     </item>
     <item>
-      <title>State of Play — Tuesday, 28 April 2026</title>
+      <title>SoP e05: Tuesday Morning Memo 260428</title>
       <description>Date: Tuesday, 28 April 2026 To: Dr Jacob Ross From: Ada Rosalind Ross, AI Research Assistant. Voice cast: not recorded.</description>
       <pubDate>Tue, 28 Apr 2026 06:30:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-04-28</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-04-28.m4a"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e05-tuesday-morning-memo-260428.m4a"
         length="1836708"
         type="audio/mp4"/>
-      <itunes:title>State of Play — Tuesday, 28 April 2026</itunes:title>
+      <itunes:title>SoP e05: Tuesday Morning Memo 260428</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Date: Tuesday, 28 April 2026 To: Dr Jacob Ross From: Ada Rosalind Ross, AI Research Assistant</itunes:summary>
       <itunes:duration>00:03:42</itunes:duration>
@@ -536,15 +536,15 @@
       <itunes:episode>5</itunes:episode>
     </item>
     <item>
-      <title>State of Play — Monday, 27 April 2026</title>
+      <title>SoP e04: Rural Governance Brief 260427</title>
       <description>Prepared for: Dr Jacob Ross Focus: Rural Clinical Governance, Evidence-Based Medicine, and Health Technology. Voice cast: not recorded.</description>
       <pubDate>Mon, 27 Apr 2026 06:30:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-04-27</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-04-27.m4a"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e04-rural-governance-brief-260427.m4a"
         length="1815744"
         type="audio/mp4"/>
-      <itunes:title>State of Play — Monday, 27 April 2026</itunes:title>
+      <itunes:title>SoP e04: Rural Governance Brief 260427</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Prepared for: Dr Jacob Ross Focus: Rural Clinical Governance, Evidence-Based Medicine, and Health Technology</itunes:summary>
       <itunes:duration>00:03:40</itunes:duration>
@@ -554,15 +554,15 @@
       <itunes:episode>4</itunes:episode>
     </item>
     <item>
-      <title>State of Play — Saturday, 25 April 2026</title>
+      <title>SoP e03: The Embedded Practitioner 260425</title>
       <description>Official data released by SA Health on 24 April 2026 confirms that the Yorke and Northern Local Health Network (YNLHN) medical workforce has expanded to 19 full-time equivalent doctors, supported by regional retention incentives. Concurrently, the Country SA Primary Health Network has embedded a mental health practitioner within the Port Pirie Regional Health Service to manage complex homelessness presentations locally, diverting vulnerable patients from regional emergency de Voice cast: not recorded.</description>
       <pubDate>Sat, 25 Apr 2026 06:30:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-04-25</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-04-25.m4a"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e03-embedded-practitioner-260425.m4a"
         length="1709510"
         type="audio/mp4"/>
-      <itunes:title>State of Play — Saturday, 25 April 2026</itunes:title>
+      <itunes:title>SoP e03: The Embedded Practitioner 260425</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Official data released by SA Health on 24 April 2026 confirms that the Yorke and Northern Local Health Network (YNLHN) medical workforce has expanded to 19 full-time equivalent doctors, supported by regional retention incentives. Concurrently, the Country SA Primary Health Network has embedded a mental health practitioner within the Port Pirie Regional Health Service to manage complex homelessness presentations locally, diverting vulnerable patients from regional emergency de</itunes:summary>
       <itunes:duration>00:03:27</itunes:duration>
@@ -572,15 +572,15 @@
       <itunes:episode>3</itunes:episode>
     </item>
     <item>
-      <title>State of Play — Friday, 24 April 2026</title>
+      <title>SoP e02: The Workforce Counter-Narrative 260424</title>
       <description>New South Australian government data provides a powerful counter-narrative to the metropolitan-centric view of a health system in crisis. While Adelaide emergency departments saw ramping climb to 3,750 hours last month, regional workforce growth has been unprecedented. The Yorke &amp; Northern Local Health Network, for example, has surged from just two doctors in 2022 to nineteen today — an 850% increase. This stabilisation is enabling genuine service improvements, evidenced by t Voice cast: not recorded.</description>
       <pubDate>Fri, 24 Apr 2026 06:30:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-04-24</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-04-24.m4a"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e02-workforce-counter-narrative-260424.m4a"
         length="2968489"
         type="audio/mp4"/>
-      <itunes:title>State of Play — Friday, 24 April 2026</itunes:title>
+      <itunes:title>SoP e02: The Workforce Counter-Narrative 260424</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>New South Australian government data provides a powerful counter-narrative to the metropolitan-centric view of a health system in crisis. While Adelaide emergency departments saw ramping climb to 3,750 hours last month, regional workforce growth has been unprecedented. The Yorke &amp; Northern Local Health Network, for example, has surged from just two doctors in 2022 to nineteen today — an 850% increase. This stabilisation is enabling genuine service improvements, evidenced by t</itunes:summary>
       <itunes:duration>00:06:01</itunes:duration>
@@ -590,15 +590,15 @@
       <itunes:episode>2</itunes:episode>
     </item>
     <item>
-      <title>State of Play — Thursday, 23 April 2026</title>
+      <title>SoP e01: Western NSW Decision Support 260423</title>
       <description>Firstly, let’s talk about some news – specifically regarding AI. We've got a really interesting piece from The Lancet Digital Health this morning – a study out of Western NSW Local Health District showing a 12% improvement in diagnostic accuracy for complex cases using an AI-powered clinical decision support tool. It’s utilising reinforcement learning and integrated with MyHealthRecord, proactively flagging potential differences based on patient history. That builds nicely on Voice cast: not recorded.</description>
       <pubDate>Thu, 23 Apr 2026 06:30:00 +0930</pubDate>
       <guid isPermaLink="false">sop-2026-04-23</guid>
       <enclosure
-        url="https://jtross00.github.io/ross-state-of-play/sop-2026-04-23.m4a"
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e01-western-nsw-decision-support-260423.m4a"
         length="2245530"
         type="audio/mp4"/>
-      <itunes:title>State of Play — Thursday, 23 April 2026</itunes:title>
+      <itunes:title>SoP e01: Western NSW Decision Support 260423</itunes:title>
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Firstly, let’s talk about some news – specifically regarding AI. We've got a really interesting piece from The Lancet Digital Health this morning – a study out of Western NSW Local Health District showing a 12% improvement in diagnostic accuracy for complex cases using an AI-powered clinical decision support tool. It’s utilising reinforcement learning and integrated with MyHealthRecord, proactively flagging potential differences based on patient history. That builds nicely on</itunes:summary>
       <itunes:duration>00:04:32</itunes:duration>
