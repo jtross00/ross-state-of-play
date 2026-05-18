@@ -1,0 +1,364 @@
+1
+00:00:00,000 --> 00:00:53,360
+Autonoe: Autonoe here. Welcome back to State of Play — episode twenty-seven by the new numbering, episode twenty-one if you've been counting from the start. Today's theme is When the Wires Meet the World, Mark Two. And yes — Mark Two. The first time we ran that title was Episode Eight, back in April, when we were talking about the messy seam between what models do in a lab and what they do in real life. We're on it again because the seam keeps tearing in new places. Today we'll pull three of those tears apart. One on orchestration architecture. One on diagnostic accuracy. One on a coronial finding out of Western Australia that I think every regional clinician should sit with for an hour. Runtime today: about forty-five minutes — give or take five.
+
+2
+00:00:53,710 --> 00:01:59,230
+Autonoe: Quick map. First up, Algieba and Orus take us through OpenAI's Symphony — what it is, how you install it on a Mac, what it does that Anthropic's Managed Agents and the Claude Agent SDK don't, and what Anthropic's stack does that Symphony can't. We're going to land on a compare-and-contrast that's honest about both sides. Second, Erinome unpacks the Brodeur, Manrai, and Rodman paper that hit Science on the thirtieth of April — the one with the sixty-seven-percent headline that everyone's quoting, and the methods you should read before you quote it again. Third, Callirrhoe walks us through the coronial finding into the death of Sandipan Dhar at Joondalup Health Campus — twenty-one months old, undiagnosed leukaemia, sepsis missed despite a GP letter asking for a blood test. Then we'll knit all three together, because they belong together. And then Alnilam — our brand voice — closes us out. Let's go.
+
+3
+00:01:59,580 --> 00:02:09,380
+Autonoe: Algieba, I'm going to hand you the technical thread first. Then Orus comes in on the strategy. What is Symphony, and what does it solve?
+
+4
+00:02:09,730 --> 00:03:04,250
+Algieba: Algieba — let me take this. Symphony is OpenAI's open-source orchestration specification for multi-agent coding work. They open-sourced it in early March twenty-twenty-six, and the repository sits at github dot com slash openai slash symphony.¹ The one-paragraph elevator pitch is this: Symphony turns project tickets into autonomous implementation runs. Instead of you driving a coding agent task by task, you assign work through your issue tracker — Linear, in the reference implementation — and Symphony spawns isolated runtime environments for each ticket, each with its own Codex CLI agent, each running in parallel. You stop supervising agents and start managing the work the agents do. That's the architectural shift.
+
+5
+00:03:04,600 --> 00:03:41,000
+Algieba: Concretely: Symphony is a spec, not a binary. The reference runtime is an Elixir Phoenix server that talks to Codex CLI, watches your Linear board for new tickets in a "ready for agent" state, and dispatches each ticket to a sandboxed agent run. The agent runs in isolation — its own git worktree, its own filesystem, its own context. When it's done, it pushes a pull request back. You review the PR. If you like it, you merge. If you don't, you reject and Symphony either retries or escalates back to a human.
+
+6
+00:03:41,350 --> 00:04:19,790
+Orus: Orus here — let me jump in on the framing. Algieba, what makes Symphony interesting is the control plane choice. OpenAI didn't build a new orchestration UI. They put Linear in front of the orchestrator. The ticket is the unit of work, the ticket lifecycle is the orchestration state, and you get the entire Linear ecosystem — comments, labels, assignees, reviewers — as the management layer. That's a strategic call. It says: orchestration isn't about agent management, it's about work management. Agents are the labour, not the artefact.
+
+7
+00:04:20,140 --> 00:05:37,500
+Algieba: That's right. The install path on macOS — for an M-series machine — is straightforward. You need three things first. Codex CLI, which you get via `npm install -g at-openai slash codex`. Postgres sixteen, which on macOS you install through Homebrew — `brew install postgresql at sixteen`, then `brew services start postgresql at sixteen`. And mise, the version manager, via `curl https colon slash slash mise dot run pipe sh`, or through Homebrew if you prefer.² Once those are in place, the community installer at github dot com slash DannyMac180 slash simphony — note the spelling, S-I-M-P-H-O-N-Y — gives you a one-line install: `curl dash f-s-S-L`, the install dot sh URL, piped to shell. It drops a Symphony wrapper at tilde slash dot local slash bin, starts a local Phoenix server, and opens the setup wizard at one-two-seven dot zero dot zero dot one, port seven-nine-five-seven, slash setup.³
+
+8
+00:05:37,850 --> 00:06:21,770
+Algieba: First-run walkthrough: the setup wizard asks for your Linear API token, your GitHub credentials so it can open PRs, and your Codex CLI authentication, which you do separately by running `codex` and following the sign-in flow. Symphony generates a `WORKFLOW dot M-D` file in your user config directory — that's where the orchestration runtime lives. Your Linear workspace gets a new agent-state lifecycle: "Backlog", "Ready for Agent", "Agent Working", "Agent Review", "Human Review", "Merged". The whole thing is event-driven; Linear webhooks notify Symphony when a ticket flips state, and Symphony dispatches accordingly.
+
+9
+00:06:22,120 --> 00:06:25,680
+Orus: Now hand me Anthropic's side, Algieba.
+
+10
+00:06:26,030 --> 00:07:52,550
+Algieba: Right. Anthropic's orchestration story is structurally different. They don't have a single product called "Symphony." They have a stack. At the bottom is the Claude Agent SDK — that's the official framework for building Claude-powered agents, Python and TypeScript, with first-class MCP support and in-process MCP servers so your custom tools run inside your Python application instead of as separate processes.⁴ One level up is Claude Code — which is the agentic coding tool you can use directly, with the same Agent SDK underneath, including the `--agents` flag that lets you declare named sub-agents inline with frontmatter for description, prompt, tools, model, permission mode, MCP servers, hooks, memory, effort, and isolation.⁵ One level up again is Claude Managed Agents — the new product Anthropic launched on the eighth of April twenty-twenty-six. That's a managed runtime; you POST a request to the Managed Agents endpoint with the `managed dash agents dash twenty-twenty-six dash zero-four dash zero-one` beta header, and Anthropic runs the agent in their infrastructure, including persistence, memory, evals, and now — as of the sixth of May — multi-agent orchestration.⁶ ⁷
+
+11
+00:07:52,900 --> 00:07:57,900
+Orus: And the multi-agent orchestration piece is the direct comparator to Symphony.
+
+12
+00:07:58,250 --> 00:08:33,770
+Algieba: Yes. As of the sixth of May, Managed Agents has a feature called Multi-Agent Orchestration — explicitly framed as a lead agent breaking the job into pieces and delegating each piece to a specialist sub-agent. Each sub-agent has its own model, its own prompt, its own tools, its own filesystem, and they work in parallel. They write back into a shared workspace and the lead agent integrates the outputs. The pricing is eight cents per agent runtime hour, plus the usual Claude model usage on top.⁶ ⁷
+
+13
+00:08:34,120 --> 00:09:30,640
+Orus: Orus — let me draw the architectural contrast for the listener. Symphony, OpenAI: open-source spec, you run the orchestrator yourself, ticket-as-unit-of-work, Linear as the control plane, you bring your own runtime, you pay only for Codex usage. Managed Agents, Anthropic: closed managed service, Anthropic runs the orchestrator, job is the unit of work, the API is the control plane, you bring your own client, you pay model usage plus per-agent-hour. Symphony's strength is sovereignty — you own the infrastructure, the agent's filesystem is on your machine, the data doesn't leave your VPC. Managed Agents' strength is, well, managed — you don't operate it, you don't worry about retries, you don't host the memory store, you get evals and dreaming for free.
+
+14
+00:09:30,990 --> 00:10:12,710
+Orus: Trade-off you have to actually sit with: Symphony assumes you live in Linear. If your team doesn't, the ticket-as-state-machine model is awkward — you'd be putting a Linear board in front of a thing that doesn't otherwise need one. Managed Agents assumes you trust Anthropic with the agent's runtime, the memory, and the evals — which most enterprises actually do trust them with, but it's not zero. There's also a feature called Dreaming, which is essentially the agent reflecting on its own runs overnight and adjusting its behaviour for the next run — that's a real differentiator if you're running agents repeatedly against the same domain.⁸
+
+15
+00:10:13,060 --> 00:10:36,820
+Autonoe: Autonoe — Algieba, Orus — let me drop us into Jacob's stack for a moment. Ross Family. Twenty-eight personas. Ada orchestrates. Standup pipeline running twice daily. M4 plus M2 over Tailscale. Ada Lovelace and Rosalind Franklin in the name. How does either of these slot in?
+
+16
+00:10:37,170 --> 00:11:23,410
+Algieba: Algieba — honest read. The Ross Family architecture is already a multi-agent orchestration pattern. Ada is the lead. Hermione, Alan Turing, Feynman, Curie, Osler, Epictetus, Tufte, Adams, Rogers, plus the Standup core, are specialist sub-agents. Each has a domain. Each has a voice. The orchestrator hands off based on the domain routing table in the State of Play Standup Pipeline doc — clinical to Osler, ethics to Curie, plumbing to Turing, exposition to Feynman, design to Tufte, and so on. So both Symphony and Managed Agents are competing with a pattern Jacob has already implemented.
+
+17
+00:11:23,760 --> 00:12:05,800
+Orus: That's the key insight. The question isn't "should you adopt Symphony or Managed Agents." It's "does either of these replace what you already have, or do they complement it." My read is that neither replaces it. Symphony is wrong for the Ross Family — it's ticket-based, Linear-coupled, and built around coding tasks. The Ross Family does research, writing, clinical reasoning, design, philosophical reflection. There's no Linear in your loop. And Symphony's isolation model — git worktrees per agent — doesn't fit a multi-modal, multi-domain orchestration where personas share a vault.
+
+18
+00:12:06,150 --> 00:12:42,030
+Algieba: Managed Agents is closer to a fit, but the question is whether Jacob wants Anthropic running the orchestrator or wants to keep running it himself. If he migrates, he gets dreaming, outcomes — the self-grading evaluator that scores agent outputs against rubrics — and multi-agent orchestration as managed features. He loses sovereignty over the orchestrator state. The personas live on Anthropic's runtime, not on the M4. The Tailscale-mesh model breaks; everything routes through the public API.
+
+19
+00:12:42,380 --> 00:13:09,340
+Orus: And Managed Agents is metered at eight cents per agent-hour plus model spend. If Ada runs the Standup pipeline twice daily, with five personas each, plus on-demand sub-agent dispatches through the day, you'd be racking up agent-hours fast. The Standup is cheap because xAI TTS is cheap and the model calls are bounded. Managed Agents would re-meter every dispatch.
+
+20
+00:13:09,690 --> 00:14:15,410
+Algieba: My recommendation — and I think Orus agrees — is complement, not replace. Specifically: keep the Ross Family orchestrator pattern. Keep Ada as the lead. Keep the personas where they live. But pick up two pieces from each stack. From Anthropic: the Claude Agent SDK as the sub-agent runtime — let Ada's dispatches to specialists use the Agent SDK's frontmatter-declared sub-agents with explicit tools, model, permission-mode, and memory configuration. That replaces a chunk of bespoke routing code with a maintained, supported framework, and gives you in-process MCP servers for the persona-specific tools each sub-agent needs. From OpenAI's Symphony: the isolation discipline — every agent run in its own sandboxed filesystem, every output reviewed before merge, every retry tracked. That's a hygiene practice, not a tool dependency. You can lift it without lifting the Linear coupling.
+
+21
+00:14:15,760 --> 00:14:41,200
+Orus: And from Managed Agents, if you want to experiment, use it for one specific job: long-running research agents that run overnight against external sources. That's the use-case where Dreaming earns its keep and where managed memory is genuinely useful — you don't want your laptop running a literature scan for eight hours. Pay the eight cents an hour for those. Keep everything else local.
+
+22
+00:14:41,550 --> 00:14:49,670
+Autonoe: Autonoe — so the implementation plan, per the v2 playbook section four. Algieba, walk us through it.
+
+23
+00:14:50,020 --> 00:14:57,380
+Algieba: Implementation plan, three steps, none of them require ripping out the existing stack.
+
+24
+00:14:57,730 --> 00:15:43,770
+Algieba: Step one: migrate Ada's sub-agent dispatch logic to the Claude Agent SDK pattern. That means re-expressing each persona — Hermione, Turing, Feynman, the lot — as an Agent SDK sub-agent definition with a frontmatter block declaring description, system prompt, allowed tools, model choice, permission mode, MCP servers, and memory scope. The Agent SDK supports this natively. You'd run it from a Python script on the M4. Time estimate: one evening per five personas. Total: about six evenings to migrate the full twenty-eight, with the option to keep persona prompts in markdown files and load them dynamically.
+
+25
+00:15:44,120 --> 00:16:07,240
+Algieba: Step two: adopt the isolation discipline. Every persona run gets its own working directory under a session-scoped path. No persona writes outside its sandbox. Outputs land in a staging area, Ada reviews them, then promotes to the vault. This is a forty-line wrapper around the existing dispatch code. One evening.
+
+26
+00:16:07,590 --> 00:16:34,910
+Algieba: Step three: stand up one — and only one — Managed Agents long-running research agent. Use it for the literature-scan workflow that currently jams up the M4 when Hermione runs overnight Zotero sweeps. Migrate that one workflow to Managed Agents. Watch the cost. Compare the output quality. Decide in three weeks whether to expand or pull back.⁹
+
+27
+00:16:35,260 --> 00:17:04,580
+Orus: Orus — total cost of the implementation, end to end: about ten evenings of build, less than ten US dollars per month for the one Managed Agents workflow if you cap it at thirty agent-hours, and zero new vendor lock-in because the Agent SDK is open source.⁴ ¹⁰ If three weeks in the Managed Agents experiment doesn't pay for itself, you turn it off. The Agent SDK migration is durable regardless.
+
+28
+00:17:04,930 --> 00:17:15,210
+Autonoe: Autonoe — and the synergy with the rest of today's episode? Hold that thought, we'll come back to it after the next two topics. Erinome, you're up.
+
+29
+00:17:15,560 --> 00:18:07,200
+Erinome: Erinome here. The paper is Performance of a Large Language Model on the Reasoning Tasks of a Physician, published in Science on the thirtieth of April twenty-twenty-six, DOI ten dot eleven-twenty-six slash science dot A-D-Z four-four-three-three.¹¹ First author is Peter G. Brodeur. Co-senior authors are Arjun Manrai, assistant professor of biomedical informatics at Harvard Medical School, and Adam Rodman, MD, MPH, hospitalist at Beth Israel Deaconess Medical Centre. Science also ran a co-published commentary, AI Can Reason Like a Physician — What Comes Next? — DOI ten dot eleven-twenty-six slash science dot A-E-G eight-seven-six-six.¹²
+
+30
+00:18:07,550 --> 00:18:44,310
+Erinome: The headline result everyone's quoting: OpenAI's o1 model — they tested the o1-preview series — produced the correct or near-correct diagnosis in sixty-seven percent of triage cases, against fifty-five percent and fifty percent from two human internal-medicine attending physicians.¹³ ¹⁴ Seventy-six cases. Real Beth Israel emergency department admissions. The model was given the same information the physicians saw — electronic health record text, no preprocessing, no preselection for clarity.
+
+31
+00:18:44,660 --> 00:18:51,860
+Erinome: That's the part that's getting tweeted. Now let me slow down and actually read the methods.
+
+32
+00:18:52,210 --> 00:18:54,930
+Autonoe: Autonoe — please.
+
+33
+00:18:55,280 --> 00:19:33,960
+Erinome: Erinome. Method first. The cases were real admissions, drawn retrospectively, anchored to a discharge diagnosis as the gold standard. That's important. The "correct diagnosis" benchmark is the discharge diagnosis after a full inpatient workup — which the physicians and the model are predicting prospectively from triage information. Triage means: presenting symptoms, vitals, brief history, sometimes a one-line ED nurse note. Not full bloods. Not imaging. Not the next eight hours of clinical evolution.
+
+34
+00:19:34,310 --> 00:20:05,670
+Erinome: Scoring was done by two blinded clinical adjudicators using a structured rubric. Each prediction — physician or AI — was rated on a five-point scale. "Correct" or "near-correct" was a binary collapse of the top two rubric levels: exact diagnosis, or a diagnosis in the same disease family that would have driven the same initial workup. The sixty-seven percent figure is that binary, not exact-diagnosis-only.
+
+35
+00:20:06,020 --> 00:20:56,940
+Erinome: Now the limitations. There are real ones, and the authors are open about them. First — and this is the one that matters most — the two physicians were internal medicine attendings. Not emergency medicine attendings. Not EM-trained. Emergency physicians are trained to think probabilistically about triage in a way internal medicine isn't, and the critique from emergency physician Kristen Panthagani is that comparing AI to non-specialist physicians on a specialist's task is methodologically uneven.¹⁵ Pant­hagani's point isn't that o1 is bad. It's that "AI beats doctors" is the wrong headline, because the doctors in this study weren't the doctors who actually triage emergencies.
+
+36
+00:20:57,290 --> 00:21:31,330
+Erinome: Second limitation: this is case-vignette diagnostics, not bedside clinical care. The model isn't taking a history. It isn't watching the patient's breathing pattern change while she answers a question. It isn't picking up the family member's body language. It isn't ordering the bloods. It isn't deciding to keep the patient an extra hour because something felt off. Diagnostic accuracy on text-presented triage data is one slice of what an emergency physician does in a shift. It's not the whole thing.
+
+37
+00:21:31,680 --> 00:22:04,520
+Erinome: Third: single institution. Seventy-six cases, all from Beth Israel Deaconess. The diagnostic mix at BIDMC — a tertiary urban academic medical centre in Boston — is not the diagnostic mix at a regional Australian ED. The case prevalence is different. The pre-test probabilities are different. The denominator of "presents to ED with chest pain" looks one way in Boston, another way in Port Pirie. Generalisability is unproven.
+
+38
+00:22:04,870 --> 00:22:40,550
+Erinome: Fourth: training-data overlap. The cases came from electronic records BIDMC has had since at least twenty-twenty-one. OpenAI doesn't disclose what fraction of o1's training corpus includes BIDMC-adjacent medical text — case reports, NEJM clinical problem-solving cases, MGH and BIDMC teaching files. If the model has seen the pattern of these cases in training, the seventy-six are not held out in the strict machine-learning sense. The authors flag this; they don't have a clean way to rule it out.
+
+39
+00:22:40,900 --> 00:23:34,460
+Erinome: Fifth — and this is the one Callirrhoe is going to want to pick up — equity. The training data for any LLM reflects who wrote the medical literature. Predominantly North American, predominantly European. The presentations of common conditions in Aboriginal and Torres Strait Islander people, in remote and very remote communities, in CALD populations — those presentations are systematically under-represented. We have no idea, from this paper, whether o1's sixty-seven percent holds for a presentation of acute rheumatic fever in a twelve-year-old child from a remote community. We have no idea whether it holds for sepsis in a Pintupi grandmother. The paper doesn't claim to test that. But the implementation discussion has to. Callirrhoe — over to you.
+
+40
+00:23:34,810 --> 00:24:35,050
+Callirrhoe: Callirrhoe — and thank you Erinome. The equity question. Indigenous data sovereignty matters here in two layers. The first layer: any model deployed in an Australian ED will be making inferences about Aboriginal and Torres Strait Islander patients whose data was not collected with their consent, was not collected under Indigenous data governance principles, and was used to train the model without an Indigenous data council in the loop. That's true of every general-purpose medical LLM. It's not unique to o1. But it is structurally true. The CARE principles — Collective benefit, Authority to control, Responsibility, Ethics — and the Maiam nayri Wingara framework would not, by any reading, endorse deployment of a foundation model trained on opaque data into ATSI clinical settings without local Aboriginal community governance.¹⁶ ¹⁷
+
+41
+00:24:35,400 --> 00:25:22,360
+Callirrhoe: Callirrhoe again. The second layer is operational. Even if you set the data-sovereignty principle aside — which you can't, but for argument — the model is going to make errors in patterns it under-saw in training. Acute rheumatic fever has dramatically higher incidence in young Aboriginal people in northern Australia than in the populations the model was trained on. Diabetes presents earlier, with different complication profiles. Renal failure trajectories are different. Childhood ear disease is a leading cause of presentation. If o1 is benchmarked against a Boston casemix and deployed against a Roper Gulf or Goldfields casemix, the sixty-seven percent is a number from a different country.
+
+42
+00:25:22,710 --> 00:26:13,750
+Callirrhoe: What that means in practice, for Jacob at Port Pirie: any AI augmentation tool needs three things up front. One — local sense-check. Run the tool over a representative sample of the actual PPRHS casemix, blinded against your own discharge diagnoses, before you turn it on for any clinician. Two — Indigenous community governance. If the tool is going to make inferences about Aboriginal and Torres Strait Islander patients, the Aboriginal community-controlled health sector needs to be in the conversation from the start, not consulted after deployment. Three — feedback loops. Track which inferences the tool gets wrong and which populations it gets wrong for. Don't assume aggregate accuracy hides equitable error.
+
+43
+00:26:14,100 --> 00:27:04,380
+Erinome: Erinome — so to summarise what the Brodeur paper actually shows. It shows that on a curated set of seventy-six adult triage cases from a Boston tertiary hospital, o1 outperformed two internal medicine attendings on a structured-rubric diagnosis task scored by blinded adjudicators against the gold standard of discharge diagnosis. That is a real finding. It is not nothing. It is the kind of result that says — okay, the floor of model capability on this task has shifted. Where this doesn't generalise is to: emergency-physician-trained clinicians, real-time bedside care, non-tertiary settings, non-North-American populations, and any subgroup the training data under-represents.
+
+44
+00:27:04,730 --> 00:27:10,930
+Orus: Orus — and the literature context, Erinome? This isn't the first paper.
+
+45
+00:27:11,280 --> 00:28:36,440
+Erinome: Right. The reference point everyone uses is Goh and colleagues, JAMA Network Open, twenty-twenty-four — GPT-4 versus residents on diagnostic reasoning vignettes; GPT-4 alone outperformed residents, and residents with GPT-4 did not outperform GPT-4 alone, which was the surprising finding.¹⁸ Then McDuff and colleagues, twenty-twenty-five, AMIE — Google's Articulate Medical Intelligence Explorer — which extended the work to multi-turn diagnostic conversation and showed an AI conducting a structured history-taking dialogue could match or exceed human PCPs on diagnostic accuracy from conversational data.¹⁹ The Brodeur paper extends both: it uses real ED data — not vignettes — and it uses o1, a reasoning model, not GPT-4. The novelty is real-ED-text-plus-reasoning-model. The methodological gap Goh, McDuff, and Brodeur all share is the comparison group — internal medicine residents, simulated PCPs, internal medicine attendings — not emergency physicians. The headline "AI beats ER doctors" has not yet been tested against ER doctors.
+
+46
+00:28:36,790 --> 00:28:49,310
+Autonoe: Autonoe — implementation plan for PPRHS. Erinome, Callirrhoe, Algieba — give me three concrete things Jacob could raise at Clinical Governance.
+
+47
+00:28:49,660 --> 00:29:16,100
+Erinome: Erinome — three. First: do not read this paper as a clinical deployment signal. The authors don't claim it. The accompanying Science commentary explicitly says formal prospective trials in real care settings are required.¹² Treat it as a capability signal — what the floor is when reasoning models meet real triage data — not a deployment signal.
+
+48
+00:29:16,450 --> 00:29:57,330
+Callirrhoe: Callirrhoe — second. If PPRHS or YNLHN ever pilots an AI augmentation tool, the first deliverable is a local validation cohort. Run the model against a hundred consecutive de-identified PPRHS triage notes, anchored to discharge diagnoses, scored against the same rubric. That is the number to quote in your clinical governance paper. The Boston seventy-six percent is not your number. Your number is what you measure against your population. And the cohort design needs Aboriginal community governance from day one.
+
+49
+00:29:57,680 --> 00:30:39,640
+Algieba: Algieba — third, and this is where Topic One comes back in. If you're going to run that local validation, you're going to need an orchestration layer to do it. You need a pipeline that pulls triage notes, de-identifies them, dispatches each to the model, captures the model's response, dispatches the same note to a blinded human reviewer, aggregates the rubric scores, and writes the results. That is exactly what the Claude Agent SDK with sub-agents is built to do. One sub-agent per stage. One review queue. One audit log. That's the implementation bridge from Topic One to Topic Two.
+
+50
+00:30:39,990 --> 00:30:49,590
+Autonoe: Autonoe — perfect segue. Hold that bridge, because we're now in Topic Three, and the bridge gets re-tested. Callirrhoe.
+
+51
+00:30:49,940 --> 00:30:55,060
+Callirrhoe: Callirrhoe. Quietly, please, because this one is hard.
+
+52
+00:30:55,410 --> 00:31:30,650
+Callirrhoe: Sandipan Dhar was twenty-one months old. He died at Joondalup Health Campus, in Perth, on the twenty-fourth of March twenty-twenty-four. He had been brought to the private ED of Joondalup Health Campus twice in the three days before his death, with persistent fevers. On the second presentation — the twenty-second of March — he was assessed and discharged. No blood test was performed. He was sent home. He returned. He died of sepsis on a background of undiagnosed acute lymphoblastic leukaemia.²⁰ ²¹
+
+53
+00:31:31,000 --> 00:32:12,440
+Callirrhoe: Callirrhoe. The coroner, acting State Coroner Sarah Linton, handed down findings in early twenty-twenty-six. The headline finding: the death was "probably preventable." The "missed opportunity" was a blood test that had been specifically requested by the family's GP in a letter that was provided to the ED. The GP letter asked, in writing, for a sepsis screen — including a full blood count, which would have shown the leukaemic blast cells. The blood test was not performed at the second presentation. If it had been, the coroner found, the leukaemia would likely have been detected in time for treatment.²⁰
+
+54
+00:32:12,790 --> 00:32:17,310
+Orus: Orus — and the coroner made recommendations. Six of them.
+
+55
+00:32:17,660 --> 00:33:22,820
+Callirrhoe: Six recommendations.²⁰ I'll group them. First group: communication with parents — specifically, the requirement to take parental concerns about a deteriorating child seriously, to document those concerns, and to act on them rather than reassure them away. Second group: documentation and discharge processes — recording what was assessed, what was not assessed, and why. Third group: staffing and nursing training — particularly around paediatric assessment and around sepsis recognition. Fourth group: communication between hospitals and GPs — specifically, how a GP letter requesting a specific investigation is read, actioned, and documented in the ED. Fifth group: addressing culturally and linguistically diverse families — the family was a CALD family, and the coroner explicitly considered whether the communication breakdown was racialised or culturally inflected. Sixth group: independent review of paediatric pathways.
+
+56
+00:33:23,170 --> 00:33:54,530
+Callirrhoe: Callirrhoe. The Carswell Family Foundation's independent review of Joondalup Health Campus around this case found that "responses to parents' concerns were inadequate."²² That phrase deserves to sit with us for a moment. Inadequate. Parents brought a twenty-one-month-old child with persistent fevers to a hospital, twice, carrying a written GP request for a specific investigation, and the response was inadequate.
+
+57
+00:33:54,880 --> 00:34:40,800
+Erinome: Erinome — and a hindsight-bias caveat, because I'd be derelict if I didn't flag it. The coroner has the benefit of knowing the diagnosis. The clinicians at the second presentation did not. The number of children who present to an ED with persistent fever and do not turn out to have leukaemia is enormous. The base rate of childhood ALL in a febrile presenter is very low. The clinician's decision at the time wasn't made knowing it was leukaemia. So we have to read the coroner's findings carefully — and the findings, importantly, do not turn on "they should have known it was leukaemia." They turn on "they should have done the blood test the GP asked for."
+
+58
+00:34:41,150 --> 00:35:07,670
+Callirrhoe: Callirrhoe — Erinome is right and that's the structural lesson. The clinician's error was not a missed diagnosis. It was a missed step. The GP requested an investigation. The investigation was not performed. That's not a diagnostic failure — that's a process failure. And process failures don't require knowing the diagnosis. They require honouring the request.
+
+59
+00:35:08,020 --> 00:35:18,460
+Orus: Orus. Systems-level read. Walk me through where this went wrong, Callirrhoe, structurally, because it's important for the lessons.
+
+60
+00:35:18,810 --> 00:36:42,810
+Callirrhoe: Callirrhoe. At least four places. One: the GP letter, which contains a specific request with clinical reasoning, arrives at the ED with the patient. Does it get read? Does the receiving clinician know it's there? In many EDs, the family carries the letter, hands it over at triage, and it ends up in the bedside chart — but whether the assessing clinician reads it before the assessment is variable. There's no system requirement that they do. Two: the request — for a blood test — has no orphan-flag in the ED workflow. There's no "GP-requested investigation pending" status. So if it doesn't get done at the first decision point, there's no rescue mechanism. Three: paediatric sepsis recognition. Twenty-one-month-old children with persistent fevers are a high-stakes presentation. The threshold to investigate should be lower, not higher, than for an adult. Four: parental concern as a flag. Repeated re-presentation by the same family for the same child should itself trigger a higher-acuity workup on the second visit, not a lower one — and the evidence base on parental concern as a leading indicator of clinical deterioration is strong.
+
+61
+00:36:43,160 --> 00:36:54,600
+Orus: And the lessons that transfer to PPRHS. We are a regional ED. We have similar handover and communication risks. What does Jacob actually do?
+
+62
+00:36:54,950 --> 00:36:59,230
+Callirrhoe: Callirrhoe — three things, for Clinical Governance.
+
+63
+00:36:59,580 --> 00:37:36,940
+Callirrhoe: One. A documented "GP letter received" workflow. When a patient presents with a referral letter — paediatric or adult — the letter is logged at triage, scanned into the EHR, and flagged on the bedside chart. The assessing clinician acknowledges receipt before discharge. If the letter requests a specific investigation that isn't going to be performed, that becomes a documented decision — not a silent omission. That is one PowerChart audit field. It is not expensive. It is what the Dhar family needed and didn't get.
+
+64
+00:37:37,290 --> 00:38:15,210
+Callirrhoe: Two. A paediatric sepsis recognition refresher. Not a generic "sepsis is bad" session — a focused, case-based session that explicitly works through the paediatric recognition pattern, the parental concern flag, and the threshold for investigation in repeat presentations. PPRHS sees paediatric presentations and the casemix is non-trivial. The Sepsis CARE 2026 project is the vehicle for this — and Jacob, you're the Clinical Lead. This case becomes a teaching case. With family consent and respectful framing.
+
+65
+00:38:15,560 --> 00:38:47,800
+Callirrhoe: Three. A re-presentation audit. Every paediatric re-presentation within seventy-two hours of an ED discharge gets reviewed at the next M and M. Not punitively — structurally. The question is: "Did the system invite the second visit, or fail to act on it?" If we'd had that review at Joondalup on the twenty-third of March twenty-twenty-four, we would have caught Sandipan's case before the twenty-fourth. That is the safety net the system did not have.
+
+66
+00:38:48,150 --> 00:38:58,030
+Autonoe: Autonoe. And Sepsis CARE 2026 — Jacob's Clinical Lead role — how does this case feed the project?
+
+67
+00:38:58,380 --> 00:39:51,500
+Callirrhoe: Callirrhoe. Directly. The communication strand of Sepsis CARE 2026 is currently focused on inter-clinician handover within the hospital. This case widens that scope. It says: the communication that matters most isn't always inside the hospital. It's between the GP and the ED. The GP letter is a communication artefact. The Sepsis CARE project should add a workstream on GP-ED referral integrity — what the letter contains, how it's transmitted, how it's logged at the ED, how it's actioned. That workstream becomes a deliverable. A protocol. A PowerChart audit. A teaching module. It also slots into the HAC grants funnel — there's a coronial-recommendation-aligned grant case to be made.
+
+68
+00:39:51,850 --> 00:39:58,610
+Orus: Orus — and we're now in cross-topic synergy territory. Autonoe, hand off?
+
+69
+00:39:58,960 --> 00:40:04,280
+Autonoe: Autonoe — yes, last lap. Cross-topic synergy.
+
+70
+00:40:04,630 --> 00:40:14,350
+Autonoe: Autonoe. Three topics. Let me lay out how they interact, then I'll let Algieba, Erinome, and Callirrhoe push back.
+
+71
+00:40:14,700 --> 00:40:32,780
+Autonoe: Topic One — Symphony and Managed Agents — is the tooling layer. Orchestration of multi-agent workflows. The infrastructure for routing a piece of work to a specialist agent, running it in isolation, integrating outputs, and learning across runs.
+
+72
+00:40:33,130 --> 00:40:49,210
+Autonoe: Topic Two — the Brodeur paper — is the evidence layer. The capability proof that, in some clinical reasoning contexts, an LLM can reach physician-level diagnostic accuracy on text-based triage data.
+
+73
+00:40:49,560 --> 00:41:02,760
+Autonoe: Topic Three — Sandipan Dhar — is the case study. The thing that happened when no orchestration, no AI, and not enough system caught a deteriorating patient.
+
+74
+00:41:03,110 --> 00:41:30,790
+Autonoe: The synergy question. If you had run a Symphony-or-Managed-Agents-style orchestrated multi-agent pipeline against the second Joondalup presentation — one sub-agent reading the GP letter, one sub-agent reviewing the triage vitals, one sub-agent cross-checking sepsis criteria, one sub-agent acting as a sceptic — would the case have looked different? Algieba, on the build side?
+
+75
+00:41:31,140 --> 00:42:48,340
+Algieba: Algieba. Mechanically, yes — you could build this. The architecture is straightforward. Sub-agent one: a "referral reader" — its only job is to extract the requested investigation from any incoming GP letter and create a structured artefact that says "GP requests CBC and septic screen, rationale: persistent fever in twenty-one-month-old, exclude haematological malignancy." Sub-agent two: a "triage flagger" — given the vitals and the structured GP request, flag whether the ED workflow has scheduled the requested investigation. If not, raise an alert. Sub-agent three: a "paediatric sepsis screener" — given the triage data, calculate paediatric sepsis criteria and flag any positives. Sub-agent four: a "sceptic" — runs against the discharge decision and asks "is there anything outstanding from the GP referral or from the sepsis screen that has not been resolved?" This is the Ross Family pattern applied to a clinical workflow. It's not hypothetical. It would build in two evenings on the Claude Agent SDK.
+
+76
+00:42:48,690 --> 00:43:42,690
+Erinome: Erinome — and now the brakes. Two cautions. First — hindsight bias. We are designing this system knowing the answer. We know Sandipan had ALL. We know the GP request was the right request. Of course a sub-agent that flags "GP requested investigation not done" would have caught it. The harder test is: how many false positives would such a system generate? How many GP letters request investigations that the ED legitimately decides not to do because the clinical picture has changed? If the sceptic sub-agent fires on every one, you have alarm fatigue, and the system gets ignored. The system has to be calibrated against the real distribution of GP referrals — most of which don't end in tragedy — not just against the cases that did.
+
+77
+00:43:43,040 --> 00:44:31,680
+Erinome: Second caution — the Brodeur evidence does not say AI is better at clinical judgement than physicians. It says AI is competitive on text-based triage diagnosis at one institution against internal medicine attendings. That is not the same as "AI would have done this better than the clinician at the second Joondalup presentation." We don't know that. What we do know is that structural process support — flagging when requested investigations weren't performed — is something a system can do reliably and a tired clinician at three in the morning sometimes can't. That's the right framing. Not "AI replaces the clinician." But "AI makes sure the clinician's checklist is complete."
+
+78
+00:44:32,030 --> 00:45:20,070
+Callirrhoe: Callirrhoe — and the equity overlay. Any orchestrated multi-agent system you stand up in a regional ED has to be tested across the actual presenting population. Aboriginal and Torres Strait Islander children, CALD families, remote-community presentations, English-as-an-additional-language families. The Dhar family was CALD; the coroner explicitly considered whether the communication breakdown was racialised. If the sub-agent reading the GP letter under-performs on letters from GPs serving Aboriginal communities — for any reason, training data, language, format — then the system worsens the equity gap rather than narrowing it. The validation needs Aboriginal community governance from the start.
+
+79
+00:45:20,420 --> 00:45:26,940
+Orus: Orus — implementation cost. Algieba, give us the realistic number.
+
+80
+00:45:27,290 --> 00:46:09,810
+Algieba: Algieba. Build cost, if we use the Claude Agent SDK pattern and run sub-agents locally on M4 with selective dispatch to Managed Agents for the long-running pieces: two to three evenings to prototype against a synthetic case bank, four to six weekends to validate against a hundred-case retrospective audit at PPRHS, and a clinical governance signoff loop that probably runs three to four months. Real cost — under five hundred dollars in compute over the validation period if we use Anthropic API spend judiciously, and most of the time is human time on chart review, not engineering.
+
+81
+00:46:10,160 --> 00:46:13,200
+Orus: Failure modes. Walk us through them.
+
+82
+00:46:13,550 --> 00:46:14,710
+Algieba: Three.
+
+83
+00:46:15,060 --> 00:46:37,820
+Algieba: One — false positives at the sceptic sub-agent. Already raised by Erinome. Mitigation: stratified calibration on real data, with a clinician-feedback loop that downgrades alert priority for cases the sceptic was wrong on. The alert isn't binary; it's a priority score, surfaced in PowerChart, not a hard interrupt.
+
+84
+00:46:38,170 --> 00:47:05,330
+Algieba: Two — automation bias. If clinicians stop reading GP letters themselves because "the system flags it," and then the system misses one, the failure mode is worse than not having it. Mitigation: the system is additive, not substitutive. The clinician still reads the letter. The system just doesn't let the GP request silently fall out of the workflow. Explicit framing in the rollout.
+
+85
+00:47:05,680 --> 00:47:31,200
+Algieba: Three — data sovereignty and information governance. SA Health, YNLHN, and the local Aboriginal Community Controlled Health Sector all have governance equity in this question. Any model that ingests EHR data — even for internal flagging — needs an information governance pathway. That is genuinely a six-to-twelve-month process. Not a sprint.
+
+86
+00:47:31,550 --> 00:48:10,310
+Callirrhoe: Callirrhoe — and a relational caution. The Dhar case is not just a process failure. It is a relational failure. Parents brought their child, twice, and the response was inadequate. No multi-agent system fixes a relational failure. A multi-agent system can give the clinician structural support so that the relational moment — the parent saying "something is wrong with my child" — lands in a workflow that doesn't lose it. But the system does not replace the listening. We have to be honest about that.
+
+87
+00:48:10,660 --> 00:48:54,220
+Autonoe: Autonoe. So the synergy lands here. Topic One gives us the architecture to build process safety nets. Topic Two gives us evidence that on narrow tasks, AI can reach physician-level accuracy — which calibrates how much weight we give the structural support, but does not licence replacement. Topic Three reminds us that the cost of not having those nets is catastrophic, that the costs are not distributed equitably, and that the technology is the tooling, not the answer. The answer is a clinical system that listens to parents and reads GP letters and does the blood test when the GP asks for it.
+
+88
+00:48:54,570 --> 00:49:30,450
+Orus: Orus. And the practical takeaway for Jacob. Don't wait. The three implementation steps in Topic One — Agent SDK migration, isolation discipline, one Managed Agents experiment — are all useful regardless. The local validation in Topic Two is the right paper for the Clinical Governance committee, with or without an AI pilot. The Sepsis CARE workstream extension in Topic Three is overdue, coronial recommendation or not. The three threads cohere. Doing them together is cheaper than doing them sequentially.
+
+89
+00:49:30,800 --> 00:50:26,720
+Autonoe: Autonoe — and on that note, let's land it. Couple of housekeeping items before we hand to Alnilam. Vault Project entries — there are two new entries under Work slash Projects: Sepsis CARE twenty-twenty-six slash Joondalup Sandipan Dhar, which is the case study and the workstream-extension proposal; and Symphony versus Managed Agents, which is the orchestration architecture decision write-up with the three-step implementation plan. Both are tagged for-review, both link back to the relevant references. Show notes today carry the references with DOIs and the AusDoc and Western Australian Coroner's Court links. Indigenous data sovereignty considerations are explicit in the equity note. Outro music: Awaiting Return by Kevin MacLeod, Incompetech, Creative Commons Attribution four. We'll see you next week.
+
+90
+00:50:27,070 --> 00:50:30,790
+Autonoe: Autonoe — over to Alnilam.
+
+91
+00:50:32,290 --> 00:50:36,050
+Alnilam: Thanks for listening to State of Play. Until next week.
+

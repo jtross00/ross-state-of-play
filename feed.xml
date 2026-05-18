@@ -13,7 +13,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Tue, 19 May 2026 18:30:00 +0930</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 21:00:00 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -48,6 +48,33 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>State of Play — Episode 21: When the Wires Meet the World, Mk II (Tue, 19 May 2026)</title>
+      <description>When the Wires Meet the World, Mk II — three deep topics: (1) OpenAI Symphony vs Anthropic Claude Managed Agents / Claude Agent SDK — a compare-and-contrast on agent orchestration architecture, with concrete install steps for macOS M-series and a three-step implementation plan for the Ross Family multi-agent pattern. (2) Brodeur, Manrai, and Rodman in Science (DOI 10.1126/science.adz4433) — OpenAI o1 hit 67% diagnostic accuracy against 55% and 50% from internal-medicine attendings on 76 Beth Israel ED admissions, with a methods-and-limitations read that slows down the headline. (3) The Western Australia coronial finding into the death of Sandipan Dhar — 21 months old, sepsis on undiagnosed acute lymphoblastic leukaemia, GP letter requesting a blood test not actioned at Joondalup Health Campus. Cross-topic synergy: orchestration as the tooling, the Manrai paper as the evidence, the Joondalup case as the case study. Indigenous data sovereignty considerations (Maiam nayri Wingara, CARE Principles) flagged on Topic 2 deployment implications and Topic 3 CALD communication-breakdown lens. Cast: Autonoe, Algieba, Orus, Callirrhoe, Erinome. Brand voice: Alnilam. Outro music: Awaiting Return by Kevin MacLeod (incompetech.com), CC-BY 4.0.</description>
+      <pubDate>Tue, 19 May 2026 21:00:00 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-19-ep021-when-the-wires-meet-the-world-mk-ii</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/episode-021-when-the-wires-meet-the-world-mk-ii.mp3"
+        length="48722519"
+        type="audio/mpeg"/>
+      <itunes:title>State of Play — Episode 21: When the Wires Meet the World, Mk II (Tue, 19 May 2026)</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>When the Wires Meet the World, Mk II — three deep topics: (1) OpenAI Symphony vs Anthropic Claude Managed Agents / Claude Agent SDK — a compare-and-contrast on agent orchestration architecture, with concrete install steps for macOS M-series and a three-step implementation plan for the Ross Family multi-agent pattern. (2) Brodeur, Manrai, and Rodman in Science (DOI 10.1126/science.adz4433) — OpenAI o1 hit 67% diagnostic accuracy against 55% and 50% from internal-medicine attendings on 76 Beth Israel ED admissions, with a methods-and-limitations read that slows down the headline. (3) The Western Australia coronial finding into the death of Sandipan Dhar — 21 months old, sepsis on undiagnosed acute lymphoblastic leukaemia, GP letter requesting a blood test not actioned at Joondalup Health Campus. Cross-topic synergy: orchestration as the tooling, the Manrai paper as the evidence, the Joondalup case as the case study. Indigenous data sovereignty considerations (Maiam nayri Wingara, CARE Principles) flagged on Topic 2 deployment implications and Topic 3 CALD communication-breakdown lens. Cast: Autonoe, Algieba, Orus, Callirrhoe, Erinome. Brand voice: Alnilam. Outro music: Awaiting Return by Kevin MacLeod (incompetech.com), CC-BY 4.0.</itunes:summary>
+      <itunes:duration>00:50:42</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-cover-3000.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>21</itunes:episode>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/episode-021-when-the-wires-meet-the-world-mk-ii.srt" type="application/x-subrip" language="en-AU"/>
+      <podcast:person role="host" group="cast">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Autonoe (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Algieba (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Orus (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Callirrhoe (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Erinome (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+    </item>
 
     <item>
       <title>State of Play — Episode 21: What the Wires Said Today (Tue, 19 May 2026)</title>
