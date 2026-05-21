@@ -13,7 +13,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Tue, 19 May 2026 22:00:00 +0930</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 21:00:00 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -48,6 +48,33 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>SoP e29: Pictures in Layers 260520</title>
+      <description>Pictures in Layers. A landscape brief on the AI creativity tools available in May 2026, filtered through Jacob's actual deliverables: a Rotary 70th anniversary slideshow, a clinical poster studio, patient handouts and conference posters. We survey 24 tools, resolve name ambiguities ("ChatGPT Architecture AI", "Claude Design"), and land on a three-layer creative stack — layout, generation, and finish. Cast: Achird (Anchor), Gacrux (Strategist), Laomedeia (Designer), Umbriel (Sceptic), Zubenelgenubi (Clinician). Brand voice: Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0.</description>
+      <pubDate>Wed, 20 May 2026 21:00:00 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-20-ep029-pictures-in-layers</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e29-pictures-in-layers-260520.mp3"
+        length="49782723"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e29: Pictures in Layers 260520</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Pictures in Layers. A landscape brief on the AI creativity tools available in May 2026, filtered through Jacob's actual deliverables: a Rotary 70th anniversary slideshow, a clinical poster studio, patient handouts and conference posters. We survey 24 tools, resolve name ambiguities ("ChatGPT Architecture AI", "Claude Design"), and land on a three-layer creative stack — layout, generation, and finish. Cast: Achird (Anchor), Gacrux (Strategist), Laomedeia (Designer), Umbriel (Sceptic), Zubenelgenubi (Clinician). Brand voice: Alnilam. Outro music: 'Awaiting Return' by Kevin MacLeod (incompetech.com), CC-BY 4.0.</itunes:summary>
+      <itunes:duration>00:51:48</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-cover-3000.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>29</itunes:episode>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/sop-e29-pictures-in-layers-260520.srt" type="application/x-subrip" language="en-AU"/>
+      <podcast:person role="host" group="cast">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Achird (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Gacrux (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Laomedeia (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Umbriel (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Zubenelgenubi (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+    </item>
 
     <item>
       <title>SoP e28: When the Wires Meet the World, Mk II 260519</title>

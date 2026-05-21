@@ -1,0 +1,512 @@
+1
+00:00:00,000 --> 00:00:23,160
+Achird: Achird here. Welcome to State of Play, episode twenty-nine — and you'll hear me drop the "twenty-nine" rather than "twenty-something" because last week we renumbered the back catalogue into a single chronological sequence. So we're properly numbered now. Today's title: Pictures in Layers. Runtime: about fifty minutes — give or take three.
+
+2
+00:00:23,510 --> 00:01:13,790
+Achird: Here's the shape of the next fifty minutes. Jacob asked us a deceptively simple question. He's got an upcoming Rotary Club of Port Pirie seventieth-anniversary slideshow, a fifteen-minute personal Rotary talk on Thursday this week, a clinical project called the Sepsis Poster Studio that already generates illustrations through an OpenAI image API, and a stack of other clinical communication deliverables — patient handouts, conference posters, infographics. He wants to know: which of these newly-released creativity tools should he actually use? Google Stitch. Google Flow. "ChatGPT Architecture AI" — whatever that is. ChatGPT Images Two. Claude Design. And the rest of the wave that's washed in over the past six months.
+
+3
+00:01:14,140 --> 00:01:39,780
+Achird: We surveyed twenty-four tools. We talked through five major use-cases. And we landed on what I think is the most useful insight of the whole exercise — which is that the right answer for almost every creative project in May twenty-twenty-six is not one tool. It's three layers, each one served by a different specialist tool. That's the thesis of today's episode and the reason I picked the title.
+
+4
+00:01:40,130 --> 00:02:06,330
+Achird: I'm hosting. Gacrux — strategy, the stack, the synergy. Laomedeia — design taste and aesthetic choices. Umbriel — the sceptic; he's going to make sure we don't fall for the launch hype. Zubenelgenubi — the clinician; he's the one keeping us honest about anatomical accuracy, identifiable-person risk, and Aboriginal data sovereignty. Alnilam closes us out at the end.
+
+5
+00:02:06,680 --> 00:02:15,400
+Achird: Let's begin with the five tools Jacob named, because two of them have name ambiguity that we need to resolve before we can recommend anything.
+
+6
+00:02:15,750 --> 00:02:28,510
+Gacrux: Gacrux here. I'll take the resolution. Two of the five names Jacob used don't resolve cleanly. We owe him an honest answer about what each one is before we recommend a workflow built on it.
+
+7
+00:02:28,860 --> 00:03:34,140
+Gacrux: First — "ChatGPT Architecture AI." There is no OpenAI product in May twenty-twenty-six called "Architecture AI." There never has been. Three plausible interpretations. One — and this is the most plausible — Jacob means GPT-5.4 Thinking, which launched on the fifth of March. Its signature behaviour is to generate an upfront plan — an architecture of its reasoning — that the user can steer mid-response. Commentators commonly call this "architect mode." Two — there are third-party Custom GPTs in the GPT Store with names like ArchitectGPT and MyArchitectAI; these render building exteriors, interiors, floor plans, and have no clinical relevance. Three — the old Sora Architect feature; moot, because Sora was discontinued on the twenty-sixth of April. We're going with interpretation one. If Jacob actually meant interpretation two, the answer is straightforward: not relevant to any of his four use-cases.
+
+8
+00:03:34,490 --> 00:03:57,810
+Gacrux: Second — "Claude Design." This resolved cleanly. It's an Anthropic Labs research-preview product, launched on the seventeenth of April, powered by Claude Opus 4.7. Bundled with every paid Claude tier — Pro, Max, Team, Enterprise. No separate purchase. Jacob is already on Claude Pro, so he already has access.
+
+9
+00:03:58,160 --> 00:04:29,920
+Umbriel: Umbriel here. Just to push back gently — Anthropic calls Claude Design a "research preview." That phrase is doing real work. Features churn. The PPTX export pipeline drops gradients and shifts image crops, which means anything you build there and need to project in a venue needs final repair in Keynote or PowerPoint. Don't make it the sole layer on a time-critical deliverable. ### 1.2 Google Stitch — refreshed yesterday
+
+10
+00:04:30,270 --> 00:05:02,790
+Laomedeia: Laomedeia here. Stitch is the one I keep getting questions about because Google has put a lot of marketing behind it. So let's be honest. Stitch is a UI and UX design tool. It takes a prompt and produces an app or web mockup. The output is editable in Figma, or it exports semantic HTML with Tailwind, React, Vue, Angular, Flutter, or SwiftUI. It is not a slide tool. It is not a poster tool. It is not a clinical-illustration tool.
+
+11
+00:05:03,140 --> 00:05:32,540
+Laomedeia: What it's brilliant for — and this is a real thing — is when Jacob says, "I want to build a web page for a sepsis decision aid. What might it look like?" Stitch will give him a designed mock that an actual developer — or Alan Turing Ross in our family registry — can then turn into real code. For the four use-cases Jacob asked about, Stitch is wrong-tool for three of them and only useful for the fourth one in the narrow case of web-prototype mockups.
+
+12
+00:05:32,890 --> 00:05:54,210
+Umbriel: And one important thing — Stitch was refreshed yesterday. Twentieth of May, at Google I/O. Stitch 2.0. Real-time streaming agent, multiplayer co-editing, Gemini 2.5 Flash backbone. So anything anyone wrote before yesterday about its limits — re-check.
+
+13
+00:05:54,560 --> 00:06:13,760
+Gacrux: And it's still free. Three hundred and fifty generations per month per user. No card required. Bookmark it; don't subscribe. There's no subscription to subscribe to yet. ### 1.3 Google Flow — Veo 3.1 in a filmmaking shell
+
+14
+00:06:14,110 --> 00:06:53,430
+Laomedeia: Flow is the cinematic-quality video generator backed by Veo 3.1 — Veo 3.1 Standard, Veo 3.1 Fast, and Veo 3.1 Lite. Veo 3.1 generates native audio inside the video — which means you don't need to layer a Suno or ElevenLabs track on top of your clips. Flow is the production environment for Veo: an Ingredients-to-Video feature lets you upload reference stills — old Rotary photographs, for example — and animate them. A Scenebuilder timeline keeps story continuity across clips without exporting to a separate editor.
+
+15
+00:06:53,780 --> 00:07:34,460
+Umbriel: And here's where the price comes in. Google AI Pro — the tier you'd realistically use Flow on — is thirty-three Australian dollars a month. About fifty Veo 3.1 Fast clips per month at ten-eighty pee. Google AI Ultra is three hundred and thirty Australian dollars a month. Ten thousand to twenty-five thousand Flow credits. Clip length up to sixty seconds. Advanced camera controls. That's a serious subscription. For a one-off Rotary anniversary slideshow you do not need Ultra. You need Google AI Pro for the one month you're producing the slideshow.
+
+16
+00:07:34,810 --> 00:08:06,890
+Zubenelgenubi: And — Zubenelgenubi here — let me put a clinical foot down. Flow doesn't have clinical accuracy controls. Veo will invent anatomy. It will invent drug packaging. It will invent equipment. So Flow is not a primary medical-illustration pipeline, and any patient-education micro-video you make with it needs senior clinician review before publication. ### 1.4 GPT-5.4 Thinking — the "Architecture" mode
+
+17
+00:08:07,240 --> 00:08:44,640
+Gacrux: Here's what GPT-5.4 Thinking actually does. You give it a brief — say, "Write me a fifteen-minute Rotary talk for Thursday night on three things I'm building for Port Pirie." It generates a plan first. The plan is visible. You can edit it. You can say, "Move the SISU story to the end, lead with sepsis." And then it executes the plan. That two-step pattern is what's been called architect mode. It's a meaningful upgrade over GPT-5.3 Instant for any deliverable where the structure matters as much as the content.
+
+18
+00:08:44,990 --> 00:09:03,910
+Umbriel: The slower-than-Instant trade-off is real. Don't use GPT-5.4 Thinking for quick lookups. Use it for plans. Slide decks. Posters. Pipeline specs. Talk scripts. Coroner reports. Discharge summaries where the structure is half the deliverable.
+
+19
+00:09:04,260 --> 00:09:28,860
+Achird: And the price — ChatGPT Plus at about thirty Australian dollars a month with usage caps; ChatGPT Pro at three hundred and four dollars a month with unlimited five-point-four Thinking and five-point-four Pro. Most people, Jacob included, stay on Plus. ### 1.5 ChatGPT Images Two — gpt-image-2
+
+20
+00:09:29,210 --> 00:09:53,090
+Zubenelgenubi: Now the one Jacob already uses. gpt-image-2. Snapshot `gpt-image-2-2026-04-21`. Released on the twenty-first of April. The Sepsis Poster Studio pipeline already calls this through Jacob's verified OpenAI organisation account. So this isn't should-I-adopt; this is what changed.
+
+21
+00:09:53,440 --> 00:10:17,040
+Zubenelgenubi: What changed is that gpt-image-2 is the first agentic image model. It plans before it renders. It can run a web search during planning. That two-step pattern dramatically reduces anatomy errors and text errors compared to gpt-image-1. Output is up to two-kay resolution. Transparent backgrounds. Multi-image edits and inpainting.
+
+22
+00:10:17,390 --> 00:10:41,030
+Zubenelgenubi: Pricing — per-image at one-zero-two-four by one-zero-two-four — low quality is about nine-tenths of a cent; medium is about eight cents; high quality is about thirty-two cents in Australian dollars. A high-quality poster panel will cost Jacob about a third of a dollar. For the Sepsis Studio pipeline, that's affordable.
+
+23
+00:10:41,380 --> 00:11:14,460
+Umbriel: Two cautions. The organisation-verification gate is brittle — many users got stuck on Persona ID issues during the April rollout; Jacob already passed this so it's fine for him. And the model still hallucinates Australian-specific clinical detail — PBS packaging, SA Health branding, RACGP forms, RACP / RACMA letterheads. Human verification is mandatory. ### 1.6 Claude Design — the design system layer
+
+24
+00:11:14,810 --> 00:11:46,810
+Laomedeia: Claude Design. Anthropic Labs. Seventeenth of April. Bundled with Claude Pro and above. Here's why it matters. You drop in your existing brand files — old Rotary newsletters, the Port Pirie regional logo, the SA Health colour palette — and Claude Design extracts a design system. Colours. Typography. Components. Layout patterns. Reusable. Every future deck you generate from that workspace inherits the system.
+
+25
+00:11:47,160 --> 00:12:17,840
+Laomedeia: It builds interactive HTML prototypes, PPTX, PDF, standalone HTML, ZIPs. It can send to Canva. It accepts DOCX, PPTX, XLSX, and image inputs. It can scrape your website to pull brand elements. For a doctor in a regional hospital who needs deck after deck after deck — this is exactly the workflow that turns one-evening's design work into a year of consistent visual identity.
+
+26
+00:12:18,190 --> 00:12:32,870
+Umbriel: PPTX export is semi-broken — that's the honest answer. Gradients drop; image crops shift. Treat Claude Design as the drafting layer and treat Keynote or PowerPoint as the finishing layer.
+
+27
+00:12:33,220 --> 00:12:59,020
+Achird: Right. That's the five Jacob named. Two ambiguous names resolved — Architecture AI is GPT-5.4 Thinking, Claude Design is Anthropic Labs from April seventeenth. Stitch is for web mockups. Flow is for cinematic video. GPT-Image Two is the Sepsis Studio image API upgrade. Claude Design is the design-system layer. Now let's broaden out.
+
+28
+00:12:59,370 --> 00:13:19,810
+Gacrux: Six tools. Adobe Firefly Image Four and Five. Midjourney v7. Ideogram v3. Black Forest Labs FLUX.2. Recraft V4. Leonardo AI. I'll give Laomedeia the floor on aesthetic decisions and Umbriel the sceptic role.
+
+29
+00:13:20,160 --> 00:13:31,720
+Laomedeia: Let's start with the only tool in this wave that gives Jacob enterprise-grade legal indemnification. ### 2.1 Adobe Firefly — the indemnification layer
+
+30
+00:13:32,070 --> 00:13:54,590
+Laomedeia: Adobe Firefly. firefly.adobe.com. Image Model Four, Image Model Four Ultra, Image Model Five — Five launched at MAX in October last year with native four-megapixel photorealism. Firefly Video is generally available, and in February of this year Adobe removed generation caps for paying subscribers.
+
+31
+00:13:54,940 --> 00:14:09,660
+Laomedeia: The pricing — Firefly Standard is about fifteen Australian dollars a month. Firefly Pro is about forty-five. Firefly Premium is about three hundred and five with fifty thousand credits and unlimited video.
+
+32
+00:14:10,010 --> 00:14:47,970
+Zubenelgenubi: And here's why I — speaking as the clinical voice — like Firefly. It's the only major model that provides enterprise IP indemnification. Adobe trained on licensed Stock content, public-domain material, and openly licensed work. They will legally defend paying users against infringement claims. That matters for any image destined for a Rotary newsletter, a SISU charity publication, a peer-reviewed clinical journal, or a coronial submission. If the image gets into the wild, you've got Adobe behind you. With Midjourney, Leonardo, Stable Diffusion derivatives — you don't.
+
+33
+00:14:48,320 --> 00:15:11,760
+Umbriel: And here's why Firefly is not the only tool you need. Conservative content filters block legitimate clinical imagery — wounds, anatomy, IV access. The output ceiling is two-kay, so for A0 poster work you have to upscale externally. And anatomical accuracy lags Midjourney v7 and FLUX.2.
+
+34
+00:15:12,110 --> 00:15:36,230
+Gacrux: The recommendation. Subscribe Firefly Standard at fifteen dollars a month for three months, and route any externally-published image through Firefly first. Forty-five dollars over the next quarter to remove legal risk from charitable and clinical work — that's a clear yes. ### 2.2 Midjourney v7 — the aesthetic monster
+
+35
+00:15:36,580 --> 00:16:05,380
+Laomedeia: Midjourney v7. Best-in-class aesthetic quality. Cinematic lighting, painterly atmosphere, considered colour grading. For Rotary heritage-style imagery — the brassy, dusk-lit, evocative seventy-year retrospective frames — v7 is the right hammer. Anatomical accuracy is up about forty percent over v6. Eighty-five to ninety percent on simple hand poses.
+
+36
+00:16:05,730 --> 00:16:43,930
+Umbriel: Three problems. One — the default "Midjourney look" is strong. Every image leans filmic or painterly unless you force `--style raw`. That's the wrong default for neutral clinical handouts. Two — text rendering is poor. Thirty to forty percent accuracy. Useless for poster overlays without external typesetting. Three — no commercial indemnification. And there's no public API. Which means Midjourney cannot be the Sepsis Studio image layer. It's a personal subscription tool only.
+
+37
+00:16:44,280 --> 00:17:03,880
+Laomedeia: For the slideshow, though — for the one or two hero shots in the RCPP-Seventy that need to feel like a film still — Midjourney Standard, forty-five Australian a month, one month during the production window. That's the right buy. ### 2.3 Ideogram v3 — the text layer
+
+38
+00:17:04,230 --> 00:17:30,190
+Gacrux: Here's the model that solves the text problem. Ideogram v3. Ninety to ninety-five percent accuracy on embedded typography. Correct kerning. Correct ligatures. Multi-line layouts. Versus Midjourney's thirty to forty percent. This is the difference between a poster that says "70 YEARS OF SERVICE" and a poster that says "7O YERSAS OF SERVUCE."
+
+39
+00:17:30,540 --> 00:17:46,020
+Laomedeia: Free tier — ten generations a day. Basic at twelve Australian dollars a month. Plus at thirty dollars a month with API access. For any slide, handout, or poster that has embedded text, this is the layer.
+
+40
+00:17:46,370 --> 00:18:05,690
+Umbriel: Limits. Anatomical accuracy is only average — not the right tool for surgical or pathology imagery. Stylistic range is narrower than Midjourney; outputs can feel "design-y" rather than photographic. Curved text paths and extreme perspective distortion still fail.
+
+41
+00:18:06,040 --> 00:18:22,840
+Zubenelgenubi: So pair it. Ideogram for the text layer. Something else — gpt-image-2 or FLUX.2 — for the photo layer underneath. That's the synergy thesis showing up again. ### 2.4 FLUX.2 — open weights on Apple Silicon
+
+42
+00:18:23,190 --> 00:18:48,590
+Gacrux: Black Forest Labs FLUX.2. This is the most interesting infrastructure story in the image cluster. The family includes max, pro, flex, dev, and klein variants. The dev and klein variants are Apache 2.0 open weights. Which means Jacob can pull them down to his MacBook and run them locally. Free after model download. No data leaves his device.
+
+43
+00:18:48,940 --> 00:19:05,580
+Laomedeia: Quality-wise — twenty-twenty-six gold standard for text-in-image embedded in physical scenes. Big jump in anatomy and material texture — faces, hands, fabrics ahead of FLUX.1 and competitive with Midjourney v7.
+
+44
+00:19:05,930 --> 00:19:32,010
+Zubenelgenubi: And for the Sepsis Studio, this is where it gets clinically interesting. Local execution means no PHI ever leaves the M-series MacBook. The `mflux` library on PyPI gives you a native Apple MLX port. On an M3 Max or M4, the klein four-billion-parameter variant fits in about thirteen gigabytes of VRAM and runs end-to-end on the laptop.
+
+45
+00:19:32,360 --> 00:19:47,440
+Umbriel: It's five to ten times slower than an RTX 4090. Text rendering degrades beyond about ten words — for poster-length copy still use Ideogram. And the [max] tier is not open-weights; that's still BFL-hosted.
+
+46
+00:19:47,790 --> 00:20:06,590
+Gacrux: Net — FLUX.2-dev or klein locally on the Mac for cost-and-privacy; FLUX.2-pro hosted via OpenRouter for quality; Ideogram for any text overlay. ### 2.5 Recraft V4 — the vector layer
+
+47
+00:20:06,940 --> 00:20:27,780
+Laomedeia: Recraft V4. Only mainstream model that produces true editable SVG. Scalable to A0 poster size without resolution loss. Outputs open cleanly in Illustrator or Affinity. Brand Kit retains uploaded colour palettes, fonts, and reference style across all generations.
+
+48
+00:20:28,130 --> 00:20:51,490
+Laomedeia: For Jacob this matters for one specific thing. Conference posters. A clinical poster is a layered artefact — central illustration, embedded text, plus an icon and flow-diagram layer. Recraft is the icon and flow-diagram layer. It outputs SVG that scales to A0 with no upscaling artefacts.
+
+49
+00:20:51,840 --> 00:21:06,200
+Umbriel: Photorealistic humans is its weakest area — not suitable for clinical photography. Precise local edits still require reprompting. Complex multi-layered medical diagrams need manual cleanup.
+
+50
+00:21:06,550 --> 00:21:21,190
+Achird: Recraft for icons and vectors. Plus tier — twenty-five US dollars a month — about thirty-eight Australian. For poster work, not for slides. ### 2.6 Leonardo AI — the all-rounder
+
+51
+00:21:21,540 --> 00:21:45,380
+Gacrux: Last in the image cluster. Leonardo Phoenix 2.0. Cheap entry tier — eighteen Australian dollars a month. Hands and teeth materially improved — the so-called "spooky hands" problem largely solved. Custom model training — upload twenty Rotary historical photographs or your own clinical sketches to enforce style consistency.
+
+52
+00:21:45,730 --> 00:22:01,450
+Umbriel: No commercial indemnification. Training data sources are not as airtight as Adobe's. Treat clinical-publication use cautiously. Anatomy still breaks under complex poses. No standout text rendering.
+
+53
+00:22:01,800 --> 00:22:14,040
+Achird: Leonardo is fine. It's not the first choice for any of Jacob's specific use-cases. It's the second-or-third choice everywhere. So unless he loves the custom-model feature, skip it.
+
+54
+00:22:14,390 --> 00:22:27,110
+Achird: Video. We've already covered Google Flow, which sits at the top of the cinematic-quality table. What else is in the field? ### 3.1 Runway Gen-4.5
+
+55
+00:22:27,460 --> 00:22:47,820
+Laomedeia: Runway Gen-4.5. Currently number one on the Artificial Analysis text-to-video leaderboard — twelve hundred and forty-seven Elo. Best general motion fidelity for cinematic B-roll. Standard at eighteen Australian a month; Pro at forty-three; Unlimited at one hundred and sixteen.
+
+56
+00:22:48,170 --> 00:23:02,930
+Umbriel: Ten-second hard clip ceiling — longer B-roll needs stitched extensions, which raises continuity risk. Gen-4.5 burns twenty-five credits per second. That gets expensive fast on a heavy iteration day.
+
+57
+00:23:03,280 --> 00:23:33,280
+Zubenelgenubi: No medical training corpus. Anatomical motion — gait, respiration, wound healing — frequently hallucinates. Use only for stylised narrative framing, never as clinical reference. And the terms of service permit using uploads for product improvement on lower tiers — so do not upload patient photos or unconsented Rotarian portraits. ### 3.2 Kling 2.6 Pro
+
+58
+00:23:33,630 --> 00:24:04,550
+Laomedeia: Kling 2.6 Pro. Best-in-class realistic human motion. Gait, gesture, micro-expression. Native audio in 2.6 Pro removes a separate sound-design step. Pay-per-second on fal.ai — no subscription. About eleven cents Australian per second with audio off; about twenty-six cents Australian per second with native audio and voice control. A five-second audio-on clip is about one Australian dollar.
+
+59
+00:24:04,900 --> 00:24:17,780
+Achird: For Jacob this Thursday — if he wanted a five-second cinematic opener for Thursday night's talk, sign up to fal.ai, generate three clips, total cost under five dollars, done in an evening.
+
+60
+00:24:18,130 --> 00:24:36,770
+Zubenelgenubi: But. Kling actively filters healthcare prompts. Anatomically accurate clinical demos are essentially impossible. So Kling for non-clinical short cinematic openers — yes. Kling for Sepsis Studio Stage 9 — no. ### 3.3 Pika 2.2
+
+61
+00:24:37,120 --> 00:25:03,440
+Laomedeia: Pika 2.2 — and 2.5 generally available now too. Two features matter for Jacob's seventieth-anniversary slideshow. Scene Ingredients — you upload a person, a background, and an object as separate references and Pika composites them. Pikaframes — define first and last keyframes; Pika interpolates the in-between for smooth one-to-ten-second transitions.
+
+62
+00:25:03,790 --> 00:25:29,870
+Laomedeia: Pikaframes is exactly the seventieth-anniversary brief. Cross-fade a 1956 photograph to a 1996 photograph to a 2026 photograph. Smooth. Cinematic. About forty-three Australian dollars for one month of Pika Pro — that's the recommendation. One month of Pika Pro covers the entire RCPP-Seventy production window.
+
+63
+00:25:30,220 --> 00:25:49,940
+Umbriel: Short-form by design — not built for fifteen-minute narrative arcs. Clinical accuracy risk same as Runway. Scene Ingredients explicitly invites face uploads — never upload patient images. ### 3.4 Higgsfield, Krea — and the open-weights cluster
+
+64
+00:25:50,290 --> 00:25:59,090
+Gacrux: Two more cloud tools and then I want to spend serious time on the open-weights cluster, because that's where the Sepsis Studio future lives.
+
+65
+00:25:59,440 --> 00:26:15,240
+Gacrux: Higgsfield AI. Soul ID — train a persistent character identity from twenty-plus photos in five minutes, then reuse across many videos with consistent face, expression, lighting. Industry-leading character lock.
+
+66
+00:26:15,590 --> 00:26:39,590
+Zubenelgenubi: Identifiable-person risk is the headline issue with Higgsfield. Soul ID is explicitly a face-clone tool. The terms of service shift consent burden to the user; uploads may train future models. Do not upload Rotarians, patients, or staff without written consent. In a clinical governance setting, the biometric framing is a hard sell. Avoid for now.
+
+67
+00:26:39,940 --> 00:27:00,020
+Laomedeia: Krea AI — real-time canvas; sketch, drag, slide, and Krea re-renders in about fifty milliseconds. Aggregates Veo, Sora, Kling, Wan, Runway. Useful for storyboarding live during a planning session. Pro tier is fifty-three Australian a month.
+
+68
+00:27:00,370 --> 00:27:21,570
+Umbriel: Free tier is now heavily restricted. Inherits the same hallucination problems as its underlying models. The upscaler will sharpen incorrect anatomy as confidently as correct anatomy. ### 3.5 Open weights — Mochi, Hunyuan, LTX-2.3, Wan 2.2
+
+69
+00:27:21,920 --> 00:27:34,720
+Gacrux: The open-weights video cluster is where I want to spend a couple of minutes because this is the answer to Sepsis Studio Stage 9 — the video stage currently stubbed pending the SANA-WM weights verdict.
+
+70
+00:27:35,070 --> 00:28:26,350
+Gacrux: Four candidates. Genmo Mochi 1 — Apache 2.0, ten-billion params, four-eighty pee at thirty frames per second, up to five-point-four seconds per clip. Tencent HunyuanVideo — custom community licence with EU, UK, and South Korea carve-outs. Lightricks LTX-2 and LTX-2.3 — LTX-2.3 from the fifth of March is Apache 2.0 with unrestricted commercial use, native four-kay at fifty fps, clips to twenty seconds, designed for consumer GPUs. Alibaba Wan 2.2 — also Apache 2.0, 1.3-billion variant runs on eight gigabytes of VRAM, confirmed working on M3 Max and M4 MacBooks via ComfyUI with GGUF quantised models.
+
+71
+00:28:26,700 --> 00:28:43,340
+Zubenelgenubi: Strengths of the cluster — zero per-second cost after download; full data sovereignty for any clinical work; Apache 2.0 licences on Wan and LTX-2.3 permit redistribution, fine-tuning, and commercial use without revenue caps.
+
+72
+00:28:43,690 --> 00:29:10,250
+Umbriel: Limitations of the cluster — quality gap below Veo 3.1, Gen-4.5, and Kling 2.6 on motion fidelity. Setup tax — ComfyUI plus GGUF plus custom-node configuration is an evening-long install; not a Thursday-deadline solution. Clinical accuracy risk persists — open weights don't fix medical hallucinations.
+
+73
+00:29:10,600 --> 00:29:38,200
+Gacrux: Recommendation. If SANA-WM weights have not landed by the Sepsis Studio Stage 9 deadline — default to LTX-2.3 locally. Apache 2.0. Twenty-second clips. Four-kay output. Runs on Apple Silicon. And keep pay-per-second Kling 2.6 Pro via fal.ai as the cinematic-quality fallback for any one-off launch clip that doesn't contain patient context.
+
+74
+00:29:38,550 --> 00:30:01,830
+Achird: Deck builders. Seven of them. Gamma. Beautiful.ai. Tome. Decktopus. Plus AI for Google Slides. Microsoft Designer plus Copilot in PowerPoint. Canva Magic Studio. Let me start with the one Jacob already pays for. ### 4.1 Gamma — what's changed
+
+75
+00:30:02,180 --> 00:30:25,860
+Laomedeia: Gamma 3.0 lineage with a March-twenty-twenty-six image-generation refresh. The Agent now rewrites tone, restyles whole decks, and accepts long-form input. Studio Mode on Pro and Ultra ships premium image models — Flux family and Nano-Banana Pro. Image generation is genuinely better in twenty-twenty-six than it was six months ago.
+
+76
+00:30:26,210 --> 00:30:43,770
+Laomedeia: For the seventieth-anniversary slideshow draft and the Thursday talk — Gamma is the right drafting layer. Plus tier at about twelve Australian a month for the Thursday talk. Pro tier at about twenty-three Australian a month if you want Studio Mode for the seventieth-anniversary deck.
+
+77
+00:30:44,120 --> 00:31:14,640
+Umbriel: PPTX export flattens interactive cards, expandable sections, and embedded media. Typography defaults skew small and modern — for an older Rotary audience in a Port Pirie venue you must manually bump body text and contrast in Keynote afterwards. Credit-metered image generation — a thirty-slide heritage deck with several regenerations can chew through Plus-tier credits. ### 4.2 Beautiful.ai, Tome, Decktopus
+
+78
+00:31:14,990 --> 00:31:17,390
+Gacrux: Three I'll cover briefly.
+
+79
+00:31:17,740 --> 00:31:31,780
+Gacrux: Beautiful.ai — outline-first generation, Smart Slides auto-layout. Eighteen Australian a month on Pro. Corporate by default. Not the right tone for a Rotary heritage moment.
+
+80
+00:31:32,130 --> 00:31:58,490
+Gacrux: Tome. Important to say clearly. Tome shut down its AI presentation product in April twenty-twenty-five. The founders pivoted into Lightfield. Anything anyone is recommending Tome for for presentations in twenty-twenty-six is working from stale information. If Jacob has any old Tome decks sitting in a legacy account, export them to PDF now before access goes dark.
+
+81
+00:31:58,840 --> 00:32:28,760
+Gacrux: Decktopus — twenty-three Australian a month for Pro AI. Image quality is the weakest in the comparison set. Less projection-friendly than Gamma — default font sizes are small and accent colours often fail WCAG contrast against light backgrounds. For an older Rotary audience this is a real issue. Skip for RCPP-Seventy. ### 4.3 Plus AI and Copilot — the governance layer
+
+82
+00:32:29,110 --> 00:32:52,750
+Gacrux: Plus AI for Google Slides — and the PowerPoint variant — is the one tool in this cluster I want to single out. It's a Google Workspace add-on and a PowerPoint add-in. The output is native Google Slides and native PowerPoint PPTX. No proprietary card model. SOC 2 Type II. Fifteen to twenty-three Australian a month.
+
+83
+00:32:53,100 --> 00:33:14,780
+Gacrux: Why this matters for clinical governance. Audit-grade fidelity. Edits travel. Comments, version history, Drive permissions all work as expected. For YNLHN's governance dashboard slide decks — this is the right tool, paired with the `governance-dashboard` skill in Jacob's Cowork stack.
+
+84
+00:33:15,130 --> 00:33:49,570
+Laomedeia: Copilot in PowerPoint plus Microsoft Designer is the alternative governance answer. M365 Personal at one hundred and fifty-nine Australian dollars a year; Copilot business add-on at the promotional twenty-six dollars ninety-one a month until June, reverting to about thirty-one dollars forty after. Narrative Builder, Agent Mode in PowerPoint, image-model picker between GPT-Image and Flux. Higher total cost than Plus AI, but PowerPoint is the lingua franca of clinical governance committees.
+
+85
+00:33:49,920 --> 00:34:11,720
+Achird: That's Decision Two in the brief. Plus AI for Google Slides, or PowerPoint plus Copilot? Lower total cost favours Plus AI. Higher integration with M365 favours Copilot. Pick one. ### 4.4 Canva Magic Studio — the most underrated tool in this brief
+
+86
+00:34:12,070 --> 00:34:42,950
+Laomedeia: Canva. Canva Pro Australia at twelve dollars ninety-nine a month or one hundred and nineteen ninety-nine a year. Magic Studio bundles everything — Magic Design, Magic Write, Dream Lab powered by Leonardo Phoenix, Magic Charts, Canva Sheets, Magic Eraser, Magic Expand. And Magic Layers — public beta in Australia since April — turns flat AI images into editable multilayer designs.
+
+87
+00:34:43,300 --> 00:35:12,300
+Laomedeia: Here's why I think Canva is the most underrated tool in this brief. It's the only tool that covers all four of Jacob's use-cases — decks, patient handouts, infographics, and conference posters that are A0 or A1 print-ready — in one app. Best accessibility defaults. Large type. High-contrast templates. Brand-kit colour enforcement. Health-literacy-friendly for patient handouts.
+
+88
+00:35:12,650 --> 00:35:32,330
+Umbriel: Two cautions. Long-form prompt-to-thirty-slide-deck generation is weaker than Gamma — Magic Design is more layout-per-slide than narrative-per-deck. Five hundred credits a month on Pro disappears fast if Dream Lab is your primary image source for a thirty-slide heritage deck.
+
+89
+00:35:32,680 --> 00:35:51,760
+Achird: Decision Four in the brief — Adopt Canva Pro AU now or wait? Ada's default recommendation is adopt now. Twelve dollars ninety-nine a month gets you the entire patient-handout / infographic / poster stack and the Dream Lab layer for slide art.
+
+90
+00:35:52,110 --> 00:36:10,430
+Achird: This is the v2 playbook §4 — implementation plans for each use-case. Concrete steps. Tonight's task list, this week's task list, the next month's task list. ### 5.1 Implementation — RCPP-Seventy slideshow
+
+91
+00:36:10,780 --> 00:36:50,420
+Gacrux: Two to three weeks of lead time. Phase one — narrative scaffolding. Open ChatGPT, GPT-5.4 Thinking. Prompt for a slide-by-slide outline of the thirty-slide deck. Lock the outline. Half an hour in the Vault collecting RCPP archive references. Drop these into a Claude Project so Claude Design can ingest them. Open Claude Design in Claude Pro; feed the outline plus the references; ask for a design system — Rotary blue plus a heritage gold accent, body thirty-two point for projection, headings fifty-six point, ample whitespace.
+
+92
+00:36:50,770 --> 00:37:27,330
+Laomedeia: Phase two — assets and draft. In Gamma Pro, paste the outline and generate the thirty-slide draft. Iterate twice on tone. Image generation in three passes — gpt-image-2 for heritage-illustration cards at thirty-two cents each; Ideogram v3 for any card with embedded text; Adobe Firefly Standard for any image that might appear in the post-event newsletter. Video B-roll — subscribe Pika Pro for one month, generate three Pikaframes morphs cross-fading archival photos across decades.
+
+93
+00:37:27,680 --> 00:37:57,680
+Zubenelgenubi: Phase three — finishing and venue prep. Export Gamma deck as PPTX. Open in Keynote. Repair flattened cards. Drop in Pika MP4s. Test on the venue laptop one full week before the event. Print Acknowledgement of Country in handout form. Save the deck as both `.key` working and `.pdf` venue fallback. ### 5.2 Implementation — Thursday Get-to-Know-Me talk
+
+94
+00:37:58,030 --> 00:38:23,950
+Achird: This one is forty-eight hours away. Tonight — Wednesday twenty-first of May. Open ChatGPT, GPT-5.4 Thinking. Prompt for a fifteen-minute Rotary talk. Three things you're building for Port Pirie and the Mid-North. Open with Acknowledgement of Country. End with a story. Ten image-led slides. Lock the script and timing per slide.
+
+95
+00:38:24,300 --> 00:38:43,580
+Laomedeia: Open Gamma Plus. Paste the outline. Generate ten slides. Iterate once for tone. Identify the two slides that need a hero image rather than archival photo. Generate via gpt-image-2 high quality, three variants each. Two dollars total.
+
+96
+00:38:43,930 --> 00:38:57,730
+Achird: Thursday morning — export Gamma deck to PPTX. Open in Keynote. Bump body text to thirty-two point or higher for projection. Set the title slide. Run through once with a timer.
+
+97
+00:38:58,080 --> 00:39:05,000
+Laomedeia: Print a one-page A4 handout via Claude Design from the same prompt. Same three sections.
+
+98
+00:39:05,350 --> 00:39:19,790
+Achird: Thursday evening — arrive at venue thirty minutes early. Test slide projector. Test Keynote. Have a coffee. Talk. ### 5.3 Implementation — Sepsis Poster Studio upgrade
+
+99
+00:39:20,140 --> 00:39:54,980
+Zubenelgenubi: Now this week. Read the credentials inventory. Confirm gpt-image-2 snapshot is current — it is, `gpt-image-2-2026-04-21`. In Stage Four, swap model parameter from `gpt-image-1` to `gpt-image-2-2026-04-21`. Generate one test poster end-to-end. QA against an existing clinically reviewed Sepsis Studio output. Note quality jumps and any new failure modes.
+
+100
+00:39:55,330 --> 00:40:18,970
+Gacrux: Within two weeks — add a parallel Ideogram v3 path for any figure with more than five words of embedded text. Add a parallel Recraft V4 path for any vector icon set or flow diagram. Install `mflux` locally on the M-series; pull FLUX.2-dev. Use it for free prompt iteration on non-photographic frames.
+
+101
+00:40:19,320 --> 00:40:52,880
+Zubenelgenubi: Within four weeks — Stage Nine planning. If SANA-WM weights have landed, integrate per the existing Stage Nine plan. If not, pilot LTX-2.3 via ComfyUI on Apple Silicon for a twenty-second clinical demo clip. Document the workflow. For any individual showcase clip that needs cinematic motion fidelity — pay-per-second via Kling 2.6 Pro on fal.ai. ### 5.4 Implementation — other clinical communication artefacts
+
+102
+00:40:53,230 --> 00:41:45,670
+Achird: Catch-all. Each artefact type pairs with a Cowork skill Jacob already has installed. Patient handouts — invoke `clinical-infographic` skill, use Canva Pro plus Dream Lab. Conference posters — invoke `poster-design` skill, use Recraft V4 plus gpt-image-2 plus Canva Pro. Illness scripts — invoke `illness-script` skill, use gpt-image-2 with the Netter-style prompt. Discharge summaries — invoke `discharge-summary` skill, text only, Recraft for icons only. Coroner reports — invoke `coroner-report` skill, text only, no image generation. Governance dashboards — invoke `governance-dashboard` skill, use Plus AI for Google Slides or Copilot in PowerPoint, plus Canva Pro for designed visual summaries.
+
+103
+00:41:46,020 --> 00:42:04,580
+Achird: This is the v2 playbook §5 — cross-topic synergy. Concrete multi-tool combinations that unlock capability neither tool alone provides. Three combinations. ### 6.1 Synergy one — design system once, deploy everywhere
+
+104
+00:42:04,930 --> 00:42:33,730
+Laomedeia: Claude Design plus Canva Brand Kit plus Gamma Workspace Templates. Build the design system once in Claude Design. Rotary blue plus heritage gold. Body thirty-two point for projection. Acknowledgement of Country footer. Export the brand tokens. Drop them into Canva Brand Kit and Gamma Workspace Templates. Every future deck, handout, or poster inherits the system without re-prompting.
+
+105
+00:42:34,080 --> 00:43:02,360
+Laomedeia: Critical for the RCPP-Seventy project — thirty slides plus three or four downstream artefacts — the program booklet, the photographer's brief, the post-event newsletter — all need to feel like one design. Estimated saving — eight to twelve hours over the project lifetime versus restyling each artefact. ### 6.2 Synergy two — three image models, three layers
+
+106
+00:43:02,710 --> 00:43:22,590
+Gacrux: This is the thesis of the entire episode. Modern clinical posters are layered artefacts. A photo-realistic central illustration. Embedded text labels and call-outs. A vector icon set or flowchart. No single image model in May twenty-twenty-six does all three layers well.
+
+107
+00:43:22,940 --> 00:43:55,900
+Gacrux: So you pipe each layer through its specialist. gpt-image-2 for the central illustration. Ideogram v3 for any text-heavy block. Recraft V4 for vector icons and flow diagrams. Compose in Canva Pro. This is the same pattern as a real medical illustrator's workflow — photographic plates plus typography plus diagrammatic icons — done with three APIs at about one Australian dollar per finished poster instead of four hundred for a freelancer.
+
+108
+00:43:56,250 --> 00:44:35,810
+Zubenelgenubi: And it's not just cost. It's correctness. Each layer is rendered by the tool that's best at that layer. The result is more accurate than what any single tool would produce. Anatomy from gpt-image-2 because gpt-image-2 plans before it renders. Text from Ideogram because Ideogram's text accuracy is in the ninetieth percentile. Vectors from Recraft because Recraft is the only one outputting true SVG. Three specialists. Not one generalist. ### 6.3 Synergy three — local for privacy, cloud for cinematics
+
+109
+00:44:36,160 --> 00:44:59,240
+Zubenelgenubi: FLUX.2-dev locally on the M-series plus Wan 2.2 or LTX-2.3 locally for prototyping plus Kling 2.6 Pro via fal.ai for the one hero shot. For any clinical work involving patient context — even hypothetical — iterate locally on Apple Silicon. No data leaves the device. No licence ambiguity.
+
+110
+00:44:59,590 --> 00:45:15,470
+Zubenelgenubi: When you've nailed the prompt and have one clinical-safe scene that needs cinematic motion fidelity for a launch video or grand round — render that single hero shot via Kling on fal.ai. Pay per second. No subscription.
+
+111
+00:45:15,820 --> 00:45:35,300
+Gacrux: The combination preserves data sovereignty and gives you cinematic quality only where it matters. Total cost for a launch clip — one to three Australian dollars. Versus fifty for a month's Runway Pro subscription. And you can sleep at night knowing no patient context touched any cloud servers.
+
+112
+00:45:35,650 --> 00:45:51,530
+Achird: Per the v2 playbook §6 — does this brief clear the threshold to spawn a standalone Vault Project entry? Genuinely actionable, plus clear synergy with existing projects, plus worth more than two hours of Jacob's time to act on.
+
+113
+00:45:51,880 --> 00:46:18,640
+Gacrux: Yes. By all three tests. Actionable — five subscription decisions plus four implementation plans. Synergy — the stack interlocks with Sepsis CARE 2026, RCPP-Seventy, the Daily Brief Podcast, and the AI Tool for Medical Illustration project. Time — easily forty to sixty hours of Jacob's time over the next ninety days if he adopts the recommended stack.
+
+114
+00:46:18,990 --> 00:46:41,110
+Gacrux: So we're spawning a Vault Project entry at `Work / Projects / Creative Stack 2026`. Landing file. Deep dive. References. Proposal. Thirty-sixty-ninety strategic plan. Execution plan with named owners. Tagged `for_review: true` so Jacob can review and bless before it goes operational.
+
+115
+00:46:41,460 --> 00:46:49,220
+Achird: Five decisions. Letter format. Star marks Ada's default. We'll cover them quickly because they're all in the brief.
+
+116
+00:46:49,570 --> 00:47:05,370
+Achird: Decision one — subscribe Adobe Firefly Standard at about fifteen dollars a month as the indemnification layer for charitable and clinical publications? Default — yes, for three months — forty-five dollars to remove a downstream legal risk.
+
+117
+00:47:05,720 --> 00:47:21,320
+Achird: Decision two — adopt Plus AI for Google Slides as the default for governance dashboard decks, or stay with Copilot in PowerPoint? Default — Plus AI, lower total cost, lives in your existing Drive ecosystem.
+
+118
+00:47:21,670 --> 00:47:37,750
+Achird: Decision three — Sepsis Studio Stage Nine video — default to LTX-2.3 locally, or Kling 2.6 Pro via fal.ai? Default — LTX-2.3 locally, fits the data-sovereignty principle.
+
+119
+00:47:38,100 --> 00:47:53,100
+Achird: Decision four — Canva Pro Australia at twelve dollars ninety-nine a month — adopt now or wait? Default — adopt now, it's the right answer for all four of Jacob's other-clinical-comms sub-cases.
+
+120
+00:47:53,450 --> 00:48:10,290
+Achird: Decision five — Pika Pro for RCPP-Seventy video B-roll — one-month subscription or commission a videographer? Default — Pika Pro one month, forty-three dollars, six hours of work, Pikaframes morphs are exactly the brief.
+
+121
+00:48:10,640 --> 00:48:41,120
+Achird: Let me knit this together. Twenty-four tools surveyed. Five decisions on Jacob's desk. The recommended Ross creativity stack for the next ninety days is five subscriptions — Gamma Plus, Canva Pro, Claude Pro which Jacob already pays for, ChatGPT Plus which Jacob already pays for, and Adobe Firefly Standard as the indemnification layer. Marginal cost above current spend — about forty Australian dollars a month. Roughly a coffee a day.
+
+122
+00:48:41,470 --> 00:49:04,590
+Gacrux: Plus the opportunistic one-month subscriptions for Pika, Google AI Pro, and Ideogram Plus when specific projects demand them. Plus per-image gpt-image-2 spend on the Sepsis Studio operational budget. Plus the locally-run FLUX.2 and Wan 2.2 and LTX-2.3 on Apple Silicon for the data-sovereignty layer.
+
+123
+00:49:04,940 --> 00:49:27,980
+Laomedeia: The aesthetic story is — layering matters. The day of the single-tool design pipeline is gone. Modern creative work in May twenty-twenty-six is three layers per artefact. A photo layer. A text layer. A vector layer. Different specialists for each. The new design literacy is knowing which tool serves which layer.
+
+124
+00:49:28,330 --> 00:49:57,490
+Umbriel: The sceptic's note is — every cloud tool's terms of service shifts consent burden to the user. Identifiable-person risk is real. Indemnification matters. Clinical accuracy still needs human review. And — repeating Zubenelgenubi from the Aboriginal-data-sovereignty angle — historical photographs of Aboriginal community members should never be uploaded to any cloud tool without community gatekeeping.
+
+125
+00:49:57,840 --> 00:50:38,240
+Zubenelgenubi: The clinical note is — none of these tools are doctors. Every artefact destined for clinical use needs senior clinician verification. Every image touching PHI stays on the M-series MacBook. Every cloud tool gets a second look before any patient-context prompt goes in. Strengths-based language for Aboriginal health. Indigenous data sovereignty for Aboriginal images. Australian-specific clinical detail — PBS packaging, SA Health branding, RACGP and RACP and ACRRM and RACMA letterheads — verify every single one.
+
+126
+00:50:38,590 --> 00:51:20,430
+Achird: Companion brief at `JTR Inbox / JTR brief-260520-creativity-tools-landscape`. Vault Project entry at `Work / Projects / Creative Stack 2026`. Five decisions on Jacob's desk. And one specific note — the Thursday talk is forty-eight hours away. Don't switch tools. Open Gamma Plus tonight. Run GPT-5.4 Thinking on the script. Generate two hero images via gpt-image-2. Finish before midnight Wednesday. Test on Thursday morning. Talk Thursday evening. You've got this.
+
+127
+00:51:20,780 --> 00:51:37,380
+Achird: That's Pictures in Layers. Companion brief in the Vault. New Project entry standing up. Decisions in the brief. We'll be back tomorrow with whatever the world drops on us between now and then. Achird, signing off — and over to Alnilam to close us out.
+
+128
+00:51:38,880 --> 00:51:42,640
+Alnilam: Thanks for listening to State of Play. Until next week.
+
