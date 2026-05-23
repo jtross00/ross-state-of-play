@@ -13,7 +13,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Sat, 23 May 2026 14:30:00 +0930</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 20:30:00 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -48,6 +48,33 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>SoP e31: Where Each Thread Sits 260523</title>
+      <description>Where Each Thread Sits. Portfolio sweep across eight live Ross-family projects (Aussie Boxing App, Respond Global, Phlox cluster, POCUS, Creative Tools, Meridian, PICC Credentialing PPRHS, Sepsis CARE 2026) plus the meta line on State of Play itself — what's locked, what's blocked, what's the next concrete step. Plus a focused refresh of the Sepsis Poster Studio Stage-9 video pipeline given May 2026 releases (SANA-WM, Wan 2.2, LTX-Video 2.3): adopt LTX-Video 2.3 locally on Apple Silicon as the new default; hold SANA-WM on tier-B watch. First episode on the v2.2 audio pipeline — Comparsa intro stinger, body-matched outro, target -13 LUFS (Jacob's perceived +25% interpretation locked 23 May). Cast: Zephyr (Anchor), Schedar (Builder), Puck (Industry), Sadachbia (Sceptic), Despina (Ethics/wrap). Brand voice: Alnilam. Intro: 'Comparsa' by Kevin MacLeod (Incompetech, CC-BY 4.0). Outro: 'Awaiting Return' by Kevin MacLeod (Incompetech, CC-BY 4.0).</description>
+      <pubDate>Sat, 23 May 2026 20:30:00 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-23-where-each-thread-sits</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e31-where-each-thread-sits-260523.mp3"
+        length="51657566"
+        type="audio/mpeg"/>
+      <itunes:title>SoP e31: Where Each Thread Sits 260523</itunes:title>
+      <itunes:author>Ada Rosalind Ross</itunes:author>
+      <itunes:summary>Where Each Thread Sits. Portfolio sweep across eight live Ross-family projects (Aussie Boxing App, Respond Global, Phlox cluster, POCUS, Creative Tools, Meridian, PICC Credentialing PPRHS, Sepsis CARE 2026) plus the meta line on State of Play itself — what's locked, what's blocked, what's the next concrete step. Plus a focused refresh of the Sepsis Poster Studio Stage-9 video pipeline given May 2026 releases (SANA-WM, Wan 2.2, LTX-Video 2.3): adopt LTX-Video 2.3 locally on Apple Silicon as the new default; hold SANA-WM on tier-B watch. First episode on the v2.2 audio pipeline — Comparsa intro stinger, body-matched outro, target -13 LUFS (Jacob's perceived +25% interpretation locked 23 May). Cast: Zephyr (Anchor), Schedar (Builder), Puck (Industry), Sadachbia (Sceptic), Despina (Ethics/wrap). Brand voice: Alnilam. Intro: 'Comparsa' by Kevin MacLeod (Incompetech, CC-BY 4.0). Outro: 'Awaiting Return' by Kevin MacLeod (Incompetech, CC-BY 4.0).</itunes:summary>
+      <itunes:duration>00:53:45</itunes:duration>
+      <itunes:image href="https://jtross00.github.io/ross-state-of-play/SoP-cover-3000.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>31</itunes:episode>
+      <podcast:transcript url="https://jtross00.github.io/ross-state-of-play/transcripts/srt/sop-e31-where-each-thread-sits-260523.srt" type="application/x-subrip" language="en-AU"/>
+      <podcast:person role="host" group="cast">Alnilam (AI brand voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Zephyr (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Schedar (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Puck (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Sadachbia (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+      <podcast:person role="cohost" group="cast">Despina (AI cast voice — Gemini 3.1 Flash TTS)</podcast:person>
+    </item>
 
     <item>
       <title>SoP e30: Voices and Bridges 260523</title>
