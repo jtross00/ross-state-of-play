@@ -1,0 +1,276 @@
+1
+00:00:04,500 --> 00:01:23,900
+Algieba: This is State of Play, Episode 33 — about forty-five minutes today on snakebite envenomation in regional South Australia. The 2 AM decision tree. The call you have to make when the farmer walks through the door at Port Pirie or the kid comes off the bus from Quorn and someone says the word "brown snake." I'm Algieba, anchoring tonight. We've got the Ross family across the desk — Osler at the bedside, Hermione on the evidence, Marie Curie on retrieval and equity, Tufte on the bloods and the venom detection kit, Feynman on the mechanism of how a single bite does what it does, and Fred Rogers on the conversation you have with the family in the corridor while you wait for the coagulation panel. The case substrate is rich and the stakes are unforgiving — Australian snakes are arguably the most medically significant in the world, the country holds the antivenoms on local hospital shelves, and yet the call-or-don't-call CSL Toxinology decision at two in the morning, the antivenom pull-or-don't-pull decision, is one of the hardest in rural emergency medicine. Tonight we walk through it from premonitory tingle to discharge slip. Stay with us.
+
+2
+00:01:24,250 --> 00:02:48,530
+Algieba: Picture the scenario. It's 02:14 on a Saturday. PPRHS resus bay. A forty-three-year-old farmer from a property out toward Crystal Brook walks himself in — well, his wife drove him — saying he was checking on a calving heifer at dusk, felt a sting on his right calf, didn't see what bit him, but the dog ran off after something in the long grass. He's nauseated. His wife says he vomited once in the car. There's a small bruise on the posterior calf, possibly two fang marks, possibly not — could be a thorn. His vital signs are within normal limits except for a pulse of 104. He's tremulous. He apologises for wasting your time. The nearest CT scanner is in Port Augusta. The duty RFDS flight is in Whyalla but the King Air is on a paediatric retrieval from Roxby. The Royal Adelaide Toxinology service answers the phone, day or night. There are four vials of brown snake monovalent in the fridge upstairs, two tiger, one polyvalent, one death adder, and the Venom Detection Kit is in the lab in the locked cupboard, key with the after-hours nurse. The pathology runner won't be on for another six hours. iSTAT is on the bench. You are the only doctor on. What do you do?
+
+3
+00:02:48,880 --> 00:04:04,200
+Orus: Osler here. The honest answer is — you slow down. The reason this case is hard is that the first hour of a snakebite is dominated by signals that are unreliable. Symptoms can be psychogenic, they can be premonitory of catastrophic envenomation, or they can be a thorn. So you do five things in parallel. You apply or re-apply a pressure-immobilisation bandage to the limb. You take baseline bloods including INR, APTT, fibrinogen, D-dimer, CK and creatinine, electrolytes — and you draw a bite-site swab for venom detection at the same time, before any antivenom is given. You set up two large-bore cannulae. You phone CSL Toxinology in Adelaide — the number is on the wall of every PPRHS resus bay and if it isn't, that's the first thing to fix on Monday. And you let the patient be still. You don't walk him to the toilet. You don't let him sit up. You don't release the bandage until you've sorted out whether you need to give antivenom. The rest of the next three hours is repeating the bloods at intervals and watching what the venom is doing to them.
+
+4
+00:04:04,550 --> 00:04:15,590
+Algieba: Right. And before we get into the call to Adelaide, the bandage, the bloods, the antivenom selection — let me lay out the landscape. Hermione?
+
+5
+00:04:15,940 --> 00:05:48,100
+Erinome: Hermione Granger Ross — evidence base. Australia has roughly five hundred snakebite envenomings reported per year, three thousand or so presentations to emergency departments, about two deaths annually. The Australian Snakebite Project — Geoff Isbister's prospective cohort, running since 2005 and now publishing through MJA Open and the Toxicon series — is the substrate. The 2017 update covered fourteen hundred and ninety-nine confirmed envenomings; the 2022 MJA series, Isbister and Brown's clinical update on snakebite, refines a lot of what we used to teach. The mortality is concentrated in two patterns — out-of-hospital cardiac arrest from brown snake envenomation in the first hour, and delayed haemorrhagic complications, particularly intracranial bleeds during VICC. The geographic distribution matters. South Australia averages about thirty to forty confirmed envenomings per year. Most are eastern brown — Pseudonaja textilis — particularly in the cropping and grazing belt that PPRHS sits in. Tiger snake envenoming clusters in the South-East and the Adelaide Hills. Death adder is in the Flinders. Mulga — Pseudechis australis, the king brown — is the dominant species north of Port Augusta and across the APY Lands. Sea snake bites are rare but documented in the upper Spencer Gulf.
+
+6
+00:05:48,450 --> 00:06:48,490
+Vindemiatrix: Marie Curie Ross — and the rural and remote dimension matters as much as the species map. The Australian Snakebite Project shows that envenoming incidence in remote and very remote regions is roughly five-fold what it is in metropolitan areas. Aboriginal and Torres Strait Islander people in remote communities carry a disproportionate share of that burden, with the additional layer that retrieval times are longer, antivenom stock at the remote clinic may not match the species likely to be encountered, and language and consent considerations are real. The Lands hospitals stock polyvalent because they have to cover mulga, brown, and death adder — but polyvalent comes with a higher serum-sickness rate than monovalent and that matters at the conversation level. The equity story is that the right antivenom is sometimes further from the patient than the wrong antivenom, and the clinician on the phone in Adelaide has to know that before they advise.
+
+7
+00:06:48,840 --> 00:08:26,920
+Fenrir: Feynman here. And it's worth understanding why the geography determines the antivenom because the snakes themselves are doing very different things to the same patient. Brown snake venom is dominated by a prothrombin activator — it converts prothrombin to thrombin, which converts fibrinogen to fibrin, which depletes fibrinogen, which causes the venom-induced consumption coagulopathy we'll keep calling VICC. The clinical picture is a patient who looks fine at the bedside but whose INR is reading "unrecordable" and whose D-dimer is the size of a phone number. Tiger snake venom has prothrombin activator plus presynaptic neurotoxins — phospholipase A2 enzymes that disrupt the synaptic vesicle release machinery, so the patient develops a flaccid descending paralysis on top of the coagulopathy. Death adder is the outlier — pure postsynaptic neurotoxin, no significant coagulopathy, just a beautiful pure clinical picture of ptosis, ophthalmoplegia, and eventually respiratory paralysis. Mulga is the antithesis — myotoxin-dominant, with rhabdomyolysis as the headline complication. Sea snake venom is also predominantly myotoxic. So the same word — snakebite — covers four entirely different clinical problems. And that's why the right antivenom matters, and it's why a polyvalent dose is a heavier immunological hit than a monovalent dose — it's a much larger protein load.
+
+8
+00:08:27,270 --> 00:09:36,350
+Fenrir: A bit more on the prothrombin activators because the molecular detail explains the clinical urgency. The brown snake activator is classified as a Group C prothrombin activator — a calcium- and phospholipid-independent enzyme that cleaves prothrombin directly, producing thrombin extraordinarily efficiently. Tiger and taipan use Group D activators, which require both calcium and a phospholipid surface — slower, but in vivo still rapid. The reason a brown snake bite can deplete fibrinogen to unmeasurable inside an hour is that this enzyme bypasses the normal coagulation cascade entirely — there's no contact activation, no Xa, no tenase complex. It's prothrombin to thrombin in a single step at industrial scale. Antivenom works because it's an antibody — F(ab')2 fragments raised in horses against the venom — and it binds and neutralises the activator. Once neutralised, the patient's liver can start remaking fibrinogen at its own pace, which is slow.
+
+9
+00:09:36,700 --> 00:10:51,660
+Fenrir: And on the neurotoxic side — the presynaptic phospholipase A2 toxins, the so-called textilotoxin in tiger snake and analogues in taipan, work by binding to the presynaptic terminal of the neuromuscular junction and chewing up the membrane lipids that the vesicle release machinery needs. Once they've done that, even removing the toxin doesn't bring back function — the synaptic terminal has to be rebuilt. That's why presynaptic neurotoxicity is sometimes called "irreversible" in the antivenom literature — antivenom prevents further progression but doesn't undo the damage already done. Versus postsynaptic neurotoxin, which is alpha-bungarotoxin-like, competitive nicotinic acetylcholine receptor blockade — same final common pathway of flaccid paralysis, but reversible because once the toxin is cleared the receptors are still there. The clinical implication — early antivenom for tiger and taipan is more important than early antivenom for death adder, because for tiger you're trying to prevent damage, whereas for death adder you're trying to undo it. Both still need treating, but the urgency timeline is different.
+
+10
+00:10:52,010 --> 00:11:27,450
+Orus: And the clinical implication, the thing I want every rural medical officer to internalise, is this — the same patient may look exactly the same at the bedside whether they've been bitten by something that will kill them in six hours, something that will give them a sore leg, or something that didn't bite them at all. The clinical exam is profoundly unreliable for ruling envenomation in or out. Most of what we do for the first three hours of a snakebite is investigation, observation, and timed bloods. Not bedside intuition.
+
+11
+00:11:27,800 --> 00:11:42,360
+Algieba: Pressure-immobilisation. Let's start there because half the cases that come into rural EDs come in with the bandage either wrongly applied or already taken off in transit. Marie Curie, you've got the pre-hospital frame.
+
+12
+00:11:42,710 --> 00:12:53,870
+Vindemiatrix: I do. The pressure-immobilisation bandage, the PIB, is one of those interventions that gets taught widely in first aid and applied poorly in practice. The principle is correct — wrap the entire bitten limb firmly with a broad crepe bandage, splint the limb, do not wash the bite site, do not cut, do not suck, do not tourniquet, do not elevate. The goal is to stop lymphatic and venous return from the bite site so that venom — which is large-molecular-weight, lymph-tracking — stays local until the patient reaches definitive care. The Australian Resuscitation Council 2024 update reaffirms PIB for all suspected Australian land-snake envenomings, including for brown snake despite the older argument that prothrombin-activating venoms are partly intravascular. The pressure should be firm enough to feel snug — described as the pressure for a sprained ankle — but not so tight that the limb goes pale or cold. You can mark the bite site on the bandage with a pen so the receiving clinician knows where to swab.
+
+13
+00:12:54,220 --> 00:13:43,460
+Orus: And the rural-ED contradiction, the thing every junior MO has to know, is that the bandage stays on until you are ready to give antivenom or have ruled out envenomation. The temptation — and we've all done it — is to take it off to look at the bite site, palpate the calf, see the bruise, take a photo. Don't. The bandage comes off after the bite-site swab has been taken — through the bandage if possible — and after the first set of bloods has demonstrated either no coagulopathy at four hours OR antivenom has been administered. If you take the bandage off in a still-envenomed patient before antivenom is on board, you can crash them. There's a small literature on "PIB removal cardiovascular collapse." Don't be the case report.
+
+14
+00:13:43,810 --> 00:14:50,450
+Vindemiatrix: The pre-hospital workflow — SA Ambulance paramedics are trained in PIB, they re-bandage in transit if the field bandage is inadequate, they document time of bite if known. For RFDS retrieval out of Port Augusta or Whyalla, the expectation is that the patient arrives still bandaged and immobilised on the stretcher, with a documented time the bandage went on. The receiving facility — that's PPRHS in this scenario — repeats the bloods on arrival, takes a swab, and either leaves the bandage on through the antivenom administration or removes it after the bloods at four hours have ruled out coagulopathy. The two contraindications you'll see asked in exams — vascular compromise to the limb and an arterial bleeder — are real but rare in the snakebite setting. PIB does not apply to spider bites, to venomous fish stings, to scorpion stings, or to a confirmed sea snake bite without limb signs. For sea snake you bandage anyway because in practice you don't know it's a sea snake.
+
+15
+00:14:50,800 --> 00:15:46,360
+Callirrhoe: Fred Rogers here. And there's a conversation to have with the patient about the bandage while it's on. Most patients arrive frightened and the bandage is uncomfortable and the limb tingles. The conversation goes — this bandage is the most important thing we're doing for you right now. It's keeping the venom near where it happened. We will take it off when we know it's safe to take it off. If your fingers or toes are going cold or numb, tell us immediately. If you need the bathroom, we will bring it to you. If you want to ring your wife, I'll dial the number. You don't have to entertain yourself for the next three hours and you don't have to be brave. We are going to be in and out of this room. That conversation, repeated calmly every twenty minutes, is what stops the patient from peeking at the bite site or walking to the toilet — both of which can release a venom bolus.
+
+16
+00:15:46,710 --> 00:16:33,390
+Callirrhoe: The other early conversation — what we are doing to find out whether you've been envenomed. People hear the word snakebite and they expect immediate antivenom, the dramatic gesture. Explaining that we draw blood now, draw blood at one hour, draw blood at three hours, and that the blood tests are what tell us if you need the antivenom — that takes the sting out of the wait. The family in the corridor needs the same explanation, because they're imagining you're stalling. "We're not stalling — we're collecting the information that tells us what to do next, because giving antivenom when it isn't needed has its own risks." That sentence — said twice if necessary, once to the patient, once to the family — buys you the three hours you need.
+
+17
+00:16:33,740 --> 00:16:44,300
+Algieba: Bloods. The diagnostic instrument in snakebite envenoming is the coagulation panel, not the bedside exam. Tufte, you've got the visualisation.
+
+18
+00:16:44,650 --> 00:17:44,930
+Autonoe: Edward Tufte Ross. The data visualisation that matters in snakebite is the trend, not the snapshot. The teaching graphic that needs to live on the resus-bay wall is the timed bloods chart — INR, APTT, fibrinogen, D-dimer, plus CK and creatinine and electrolytes, plotted at time-zero, then one hour, three hours, six hours, twelve hours. Because the clinical picture you are drawing is the shape of the venom curve. In a true brown-snake envenoming the INR will climb from one-point-one to "unrecordable" — usually reported as greater than ten or as a triangle on the iSTAT — within ninety minutes, the fibrinogen will fall to below half a gram per litre, often unmeasurable, and the D-dimer will be wildly elevated, often in the tens or hundreds of thousands of nanograms per millilitre. That's the shape of VICC.
+
+19
+00:17:45,280 --> 00:18:39,760
+Erinome: Hermione. The diagnostic criteria for VICC, per the Isbister-Brown updates, are INR greater than three, OR a non-detectable fibrinogen, OR an elevated D-dimer above the assay-specific threshold for VICC, in the right clinical context. Partial VICC — where fibrinogen is preserved or only partially depleted — is the harder picture and may be tiger or rough-scaled or non-Pseudonaja. Severity of bleeding doesn't correlate well with severity of coagulopathy at the time of presentation — most VICC patients don't bleed visibly. The bleeding risk emerges over the recovery curve and is at its highest in the first twelve to twenty-four hours, the period in which procedures should be deferred, lumbar punctures avoided, central lines deferred, and the patient kept on bed rest.
+
+20
+00:18:40,110 --> 00:19:28,150
+Autonoe: And on the iSTAT — the false-positive coagulopathy. The iSTAT INR cartridge is sensitive but it will read "unrecordable" or greater than seven for any specimen that has been improperly handled, that has been collected through a small-bore cannula that's haemolysed the specimen, or where the sample has clotted in the tube. The teaching point — if the iSTAT INR is unrecordable but the patient is well and the fibrinogen on a venous specimen is normal, repeat the iSTAT before pulling antivenom. iSTAT trumps lab when the lab is six hours away, but iSTAT doesn't trump common sense. A discordant pair — iSTAT unrecordable, lab INR normal — is the pre-analytic error pattern.
+
+21
+00:19:28,500 --> 00:20:03,620
+Orus: And the corollary at the bedside — you treat the patient, not the number. A truly envenomed brown-snake patient has nausea, vomiting, sweating, abdominal pain, sometimes collapse, sometimes seizure-like episodes early. The patient who looks completely well at three hours post-bite, with a normal iSTAT INR, normal fibrinogen, normal D-dimer, no neurological signs — that's the patient where the question changes from "do I give antivenom" to "when do I take the bandage off and start the discharge clock."
+
+22
+00:20:03,970 --> 00:20:50,330
+Autonoe: The other thing the bloods will tell you — CK rising into the thousands and tens of thousands, particularly with myoglobinuria, that's mulga or tiger doing its myotoxic thing. Creatinine rising into AKI territory is either rhabdo-related or direct venom-induced thrombotic microangiopathy, which is a brown-snake-specific picture sometimes called TTP-HUS-overlap or VICC-associated TMA. Schistocytes on the film. The take-home is the bloods at presentation are baseline; the bloods at one and three hours are the diagnostic event; the bloods at six and twelve are the recovery curve. Single specimens mislead.
+
+23
+00:20:50,680 --> 00:21:45,960
+Autonoe: One more visualisation worth keeping in mind — the AVPP's late-2025 guideline update introduced a tabular envenoming-severity score that captures three things on a single page — coagulation profile (INR, fibrinogen, D-dimer category), neurological signs (none, mild ptosis or diplopia, established paralysis), and end-organ involvement (CK, creatinine, urine myoglobin). The intent is a shared language between the rural ED and the toxinologist on the phone. When you ring CSL and you can say "severity grade two — moderate VICC, no neurology, no end-organ" rather than "the patient looks pretty sick," the conversation moves faster. The score lives in the appendix of the guideline; print it and tape it to the resus-bay wall next to the algorithm.
+
+24
+00:21:46,310 --> 00:21:54,550
+Algieba: The Venom Detection Kit. What it does, what it doesn't, and the conversation you have with CSL Toxinology about it.
+
+25
+00:21:54,900 --> 00:22:58,940
+Erinome: Hermione. The CSL Snake Venom Detection Kit — the SVDK or VDK — is an enzyme immunoassay that detects venom antigen in a sample. The samples it can run on are, in order of preference, bite-site swab, urine, and blood — although bite-site swab is by a long way the highest-yield. It produces a colour reaction read against a five-band strip that identifies one of five immunotypes — brown, tiger, taipan, death adder, or black snake. The published sensitivity is high for bite-site swab — somewhere in the seventy to ninety per cent range depending on which study you read — and lower for urine and blood. False positives occur and are well-documented; cross-reactivity between immunotypes is real, and the strongest cross-reactivity pattern is the tiger band lighting up in a confirmed brown envenomation, which has caused inappropriate tiger antivenom administration in the past.
+
+26
+00:22:59,290 --> 00:23:30,610
+Orus: The practical position — and this is consistent with the 2022 MJA update and with the CSL Antivenom Handbook current edition — is that the VDK is useful for antivenom selection in a confirmed envenomation, not for ruling envenomation in or out. The VDK does not tell you the patient is envenomed. The bloods do. The VDK tells you which monovalent antivenom to pull from the fridge if you've already decided to give antivenom on clinical and laboratory grounds.
+
+27
+00:23:30,960 --> 00:24:30,280
+Erinome: And the regional simplification — the Australian Snakebite Project advocates for what's called the "syndromic approach." In most of South Australia outside the Adelaide Hills and the South-East, the clinically significant snakes the rural ED is likely to see are brown and mulga. If your patient has VICC without significant neurotoxicity, regional syndrome and species likelihood say it's brown — give brown monovalent. If your patient has neurotoxicity, you're looking at tiger or taipan, and if you're in SA the species likelihood says tiger. In remote SA — Lands, Far West, top of Eyre — your differential expands to mulga and you may give polyvalent without running the VDK. The point is, in 2026 the VDK is a tool for confirming what your geography and clinical syndrome already suggest, not a primary diagnostic instrument.
+
+28
+00:24:30,630 --> 00:25:15,230
+Orus: And here's the rural-ED practice point — if you've decided clinically that this patient needs antivenom and the regional syndrome is unambiguous, you give the monovalent before the VDK result if necessary. If the VDK result later disagrees with the syndrome — say you gave brown monovalent for a textbook brown-snake VICC and the VDK comes back tiger-positive — the move is not to second-guess your monovalent. It's to call CSL Toxinology and discuss whether an additional tiger monovalent is warranted, which usually it isn't because the VDK is more often misleading than the clinical syndrome. The CSL Antivenom Handbook is explicit on this.
+
+29
+00:25:15,580 --> 00:25:24,340
+Algieba: Premonitory symptoms, early envenomation, delayed coagulopathy. The timing matters. Osler?
+
+30
+00:25:24,690 --> 00:27:12,530
+Orus: It matters more than almost anything else. The timeline for an Australian land snake envenoming runs as follows. Within minutes — premonitory symptoms — nausea, vomiting, sweating, headache, abdominal pain, sometimes collapse, sometimes a transient hypotensive episode that resolves spontaneously. These symptoms are non-specific and can be psychogenic. They peak in the first thirty minutes and often abate. From thirty minutes to two hours — early envenomation — fang-mark bleeding that won't stop, gum bleeding, haematuria, sometimes the first signs of cranial nerve involvement which for tiger snake is ptosis and diplopia. From two to six hours — full coagulopathy — VICC declares itself on the bloods, neurotoxic syndromes progress to descending paralysis and respiratory compromise, myotoxic syndromes start to show CK in the thousands. From six to twenty-four hours — recovery curve — fibrinogen begins to climb back, INR begins to fall, the patient who got antivenom is essentially clinically well by twelve hours. From twenty-four hours to a week — late complications — serum sickness, recurrent coagulopathy if antivenom dose was sub-therapeutic, AKI from rhabdomyolysis or TMA, and delayed neurotoxicity in rare cases. The timeline matters because the discharge decision at six hours requires that the patient has been observed through the highest-risk window for early collapse — which is hours zero to two — and through the development window for VICC — which is hours one to four.
+
+31
+00:27:12,880 --> 00:28:08,520
+Fenrir: Feynman. And the mechanism for why the recovery curve looks the way it does — the prothrombin activator depletes fibrinogen, and fibrinogen synthesis in the liver runs at a rate of about ten to twelve hours for full recovery, which is why even after successful antivenom administration the coagulation parameters do not normalise immediately. The antivenom binds and inactivates the prothrombin activator, but the fibrinogen that's already been consumed has to be remade. So a treated patient at six hours post-antivenom may still have an INR of three and a fibrinogen of a half. That's normal recovery, not failed antivenom. The thing that would tell you the antivenom failed is no improvement at twelve hours, or recurrent coagulopathy past twenty-four hours, both of which trigger a re-dose discussion with CSL.
+
+32
+00:28:08,870 --> 00:28:46,670
+Orus: And the bedside rule of thumb — the first two hours after the bite, the patient should never be alone. They should not walk, should not stand, should not strain. The cardiovascular collapse window is real, it's brown-snake specific, it's catecholamine-and-microthrombus-mediated, and the deaths in the out-of-hospital phase are predominantly in this window. If a patient collapses in the resus bay in the first hour, the immediate moves are airway, breathing, circulation, IV fluids, adrenaline if indicated, and the antivenom from the fridge — fast.
+
+33
+00:28:47,020 --> 00:28:52,980
+Algieba: Call CSL Toxinology. Antivenom selection. The 2 AM call.
+
+34
+00:28:53,330 --> 00:29:49,490
+Orus: Osler. The Royal Adelaide Toxinology Unit, twenty-four-seven, is the canonical Australian advisory line for envenomings. The number lives in every rural ED in SA — and if it doesn't, this is the thing to fix this week. The call is not optional and it is not consult-after-the-fact. The call happens early — ideally before antivenom is given, certainly within the first hour of arrival of any suspected envenoming. The toxinologist on the other end is a specialist in clinical toxinology, working from the Australian Snakebite Project dataset and the CSL Antivenom Handbook, and they will help you with three things — the decision to give antivenom, the choice of monovalent versus polyvalent, and the dose. They will also document the case and add it to the prospective dataset, which is how the evidence base keeps refining.
+
+35
+00:29:49,840 --> 00:30:54,840
+Erinome: Hermione. The antivenom selection logic — and the 2022 MJA update is the canonical reference — runs as follows. In a clinically envenomed patient with a regional syndrome consistent with one species and no diagnostic ambiguity, give monovalent for that species. One vial. Wait an hour. Re-check the bloods. If the coagulopathy is not improving, a second vial. Polyvalent is reserved for patients in whom the syndrome is ambiguous, the geography is broad, or the patient is in a remote setting without monovalent stocked. Polyvalent contains brown, tiger, taipan, death adder, and black snake immunotype antibodies, and it's a forty-millilitre vial — a substantially larger protein load than the ten-millilitre monovalent. The serum sickness rate for monovalent is around fifteen per cent. For polyvalent it's higher — closer to thirty per cent. The anaphylaxis rate is around five per cent for both, but the severity is comparable.
+
+36
+00:30:55,190 --> 00:31:51,630
+Vindemiatrix: Marie Curie. And the equity dimension here — remote SA clinics, particularly the Lands hospitals, stock polyvalent because they have to cover mulga, brown, and death adder, and the monovalents are heavier on the supply chain and the cold-chain. That means an Aboriginal patient bitten in the APY Lands is more likely to receive polyvalent than a non-Aboriginal patient bitten on the Adelaide plains. The downstream consequence — higher serum sickness rate — is a real piece of structural inequality. It's not a clinician failure; it's a supply-chain issue. The solution at the patient level is that polyvalent gets a discharge plan that includes prednisolone for five days, follow-up in primary care at one week, and explicit safety-netting for serum-sickness symptoms — fever, rash, arthralgia, lymphadenopathy.
+
+37
+00:31:51,980 --> 00:32:48,380
+Orus: And the dosing. The historical practice of titrating antivenom against coagulopathy severity has been definitively superseded. One vial of monovalent is the dose. The Australian Snakebite Project showed unequivocally that one vial inactivates all measurable circulating venom in essentially every case; additional vials don't speed recovery and they do increase the protein load. The CSL Antivenom Handbook current edition explicitly endorses single-vial dosing for monovalent and a maximum of one polyvalent vial in nearly all cases. The exceptions — patient with persistent coagulopathy and ongoing venom exposure, paediatric mass-bites in remote settings, multiple bites or large venom loads — are rare and should be discussed with CSL Toxinology before second-vial administration.
+
+38
+00:32:48,730 --> 00:33:52,010
+Erinome: And on premedication. The historical practice of pre-treating with adrenaline subcutaneously, or with antihistamine and steroid, to reduce anaphylaxis to antivenom — the evidence for premedication is mixed. Subcutaneous adrenaline pre-medication is no longer recommended; the harms outweigh the benefits in most cases. Antihistamines have no proven prophylactic effect. Steroids — equivocal. The current practice is no premedication for the average case. Have adrenaline drawn up and ready. Have IV adrenaline infusion gear at the bedside. The antivenom is given as a slow IV push or as a short infusion over fifteen to twenty minutes diluted in saline. Stop the infusion at the first sign of anaphylaxis, treat the anaphylaxis on its own merits, and resume the antivenom infusion once stable. Anaphylaxis to antivenom is rarely a reason not to continue antivenom in a patient who clinically needs it.
+
+39
+00:33:52,360 --> 00:34:58,800
+Callirrhoe: Fred Rogers. The consent conversation for antivenom — because what we're about to do is push a foreign protein into a frightened person's vein. Two minutes of plain language is the right dose. "This is antivenom. It's made by giving small doses of the snake venom to horses, and then collecting the antibodies the horses make against it. We're going to give you those antibodies through a drip. It works very well — most people who get it never bleed and never get any of the long-term effects of the snakebite. There are two things to know. Around one in twenty people have an allergic reaction to it during the infusion, and we have the drugs to treat that ready beside you. And around one in five people get a delayed reaction called serum sickness about a week later — fevers, rashes, sore joints. If that happens, you come back to us and we treat it with prednisolone tablets. Are you okay for us to give it now?" If you can have that conversation calmly while you set up the infusion, you save the patient's afterwards-week.
+
+40
+00:34:59,150 --> 00:35:08,870
+Algieba: Adverse events. Anaphylaxis to antivenom, recurrent coagulopathy, AKI. Osler, Rogers, run the management.
+
+41
+00:35:09,220 --> 00:35:58,980
+Orus: Osler. Anaphylaxis to antivenom is managed by ABC and adrenaline — same as any anaphylaxis. Stop the infusion. Adrenaline IM 0.5 mg if not yet on an IV infusion, escalate to IV adrenaline infusion if hypotensive or refractory. Fluids. Hydrocortisone IV. Antihistamine IV. Once stable, recommence the antivenom infusion at half the rate. Most patients tolerate the resumed infusion without recurrence. The patient who has a second reaction on resumption — that's a CSL conversation, and the question becomes whether the remaining antivenom is worth the harm; in most cases, if the patient is clinically envenomed and the bloods aren't normalising, the answer is yes, with continuous adrenaline cover.
+
+42
+00:35:59,330 --> 00:36:52,650
+Callirrhoe: Fred Rogers. And the conversation in the moment. The patient who is suddenly itchy and tachycardic and short of breath fifteen minutes into the antivenom — they are frightened. Their family in the corridor is frightened. The conversation is — this is a reaction to the antivenom, it happens in some patients, we're treating it right now with adrenaline, we'll have it controlled in a few minutes, we'll restart the antivenom slowly once you're settled. The thing you don't do is hide what's happening. The thing you also don't do is overload them with explanation while you're managing the anaphylaxis. Two short sentences during, one fuller conversation after. The family in the corridor needs the same — short, clear, this is what's happening, this is what we're doing, we'll come and get you when he's stable.
+
+43
+00:36:53,000 --> 00:37:28,440
+Orus: Recurrent coagulopathy — this is the patient whose VICC was apparently treated with antivenom at four hours, who at twelve to twenty-four hours has a rising INR again. The mechanism is residual unbound venom that wasn't fully neutralised, or a sub-therapeutic dose, or ongoing absorption from the bite site. The management is repeat antivenom, almost always after a CSL call, and ongoing observation. The other reason to keep VICC patients in for at least twenty-four hours is for this exact scenario.
+
+44
+00:37:28,790 --> 00:38:09,950
+Orus: AKI — the snakebite AKI is multifactorial. Direct nephrotoxicity from venom, rhabdomyolysis with myoglobin in the tubules from mulga or tiger, and venom-induced TMA from brown-snake-related schistocyte pathology. Management is supportive — IV crystalloid generously, monitoring of urine output, electrolyte and creatinine trending. Severe rhabdo with hyperkalaemia, fluid overload, or anuria triggers retrieval for dialysis. The recovery curve for venom-induced AKI is usually complete within two to three weeks, but a subset develop chronic kidney disease and need nephrology follow-up.
+
+45
+00:38:10,300 --> 00:38:22,580
+Algieba: Special populations. The child. The pregnant patient. The anticoagulated patient. The asymptomatic but high-suspicion patient. Marie Curie, Osler.
+
+46
+00:38:22,930 --> 00:39:15,210
+Vindemiatrix: Marie Curie. The paediatric snakebite case is one of the highest-acuity presentations in rural emergency. Children have less venom-distribution volume than adults; the same venom load is proportionally more concentrated. The mortality risk is higher and the deterioration is faster. The PIB application has to fit a small limb without compromising perfusion, and you'll need to size down the bandage. Dosing of antivenom is the same as adult — one vial — because the antivenom dose is calculated to inactivate venom, not body weight. The pre-hospital threshold for retrieval is lower. The threshold for early antivenom administration is lower. The threshold for paediatric retrieval to Adelaide Women's and Children's PICU is essentially "any confirmed envenoming in a child."
+
+47
+00:39:15,560 --> 00:39:51,720
+Orus: Osler. The pregnant patient — antivenom is given. Antivenom is not contraindicated in pregnancy. The risk of untreated envenoming to the foetus, via VICC, hypotension, or hypoxia from neurotoxicity, dramatically exceeds the risk of the antivenom protein load to the foetus. The conversation with the patient and her partner is explicit — yes, we are giving you the antivenom, here's why, here's what we'll watch for. Foetal monitoring is added to the maternal observation set. Obstetric retrieval is triggered for confirmed envenoming.
+
+48
+00:39:52,070 --> 00:40:32,390
+Vindemiatrix: The anticoagulated patient — the patient on warfarin or a DOAC who gets a brown snake bite is a particularly dangerous combination. The baseline INR is already elevated, the coagulopathy of VICC will be additive, and the bleeding risk is amplified. Reverse the anticoagulant per local protocol — vitamin K and prothrombin complex for warfarin; idarucizumab for dabigatran; andexanet alfa or PCC for factor Xa inhibitors — and treat the snakebite on top. The antivenom does not reverse the anticoagulant, only the venom-induced coagulopathy.
+
+49
+00:40:32,740 --> 00:41:40,460
+Orus: The asymptomatic but high-suspicion patient — the patient who is certain they were bitten by a brown snake, has fang marks, but at four hours has completely normal bloods, no clinical features, normal observations. This is the patient where the discharge decision becomes possible at six to twelve hours, depending on the local pathway and the CSL toxinologist's view. The general principle is that an Australian land-snake envenoming will declare itself within four to six hours via bloods, neurological exam, or both. A patient with completely normal bloods at twelve hours, no neurological features, no myotoxic features, normal renal function, and normal vital signs, has not been envenomed — or has been envenomed by a non-medically-significant species. The discharge plan includes return-precautions safety-netting, follow-up bloods if the geography or species suggests a delayed pattern, and explicit instructions to come back if bleeding, bruising, dark urine, or weakness develops over the next forty-eight hours.
+
+50
+00:41:40,810 --> 00:42:31,130
+Vindemiatrix: And the Aboriginal patient in a remote community — the discharge conversation has to be in plain language, ideally with an Aboriginal Liaison Officer or interpreter present, with explicit safety-netting that doesn't rely on the patient being able to phone an ED at three in the morning from a community without reliable phone reception. The discharge bloods are repeated at the remote clinic the next day. The follow-up is to the visiting RAN, the GP, or the AMS — whoever holds the clinical thread for that patient. The serum sickness conversation has to be in the discharge note and on the medication packet for any patient receiving polyvalent, because that conversation might be the only one before the patient develops fevers and rashes a week later in a community an hour from definitive review.
+
+51
+00:42:31,480 --> 00:42:39,000
+Algieba: Disposition. Admission criteria. Observation window. The "safe to discharge" decision.
+
+52
+00:42:39,350 --> 00:43:38,670
+Orus: Osler. The disposition matrix for snakebite — every confirmed envenoming admits for a minimum of twenty-four hours. The reasons are recurrent coagulopathy, the development window for late neurotoxicity, and the observation arm for early serum sickness. Every patient who received antivenom admits, regardless of clinical syndrome severity, for the same reasons. Every paediatric envenoming admits to a paediatric-capable bed, which from PPRHS means retrieval to Adelaide W&C or to PMH in Port Lincoln depending on logistics. Every pregnant envenoming admits to an obstetric-capable bed. The asymptomatic patient with normal bloods at six hours and no antivenom can be discharged from the ED with appropriate safety-netting — but in most regional contexts, even this patient is observed for twelve hours, especially for tiger snake where delayed neurotoxicity is recognised.
+
+53
+00:43:39,020 --> 00:44:33,500
+Erinome: Hermione. And the discharge criteria — clinically well, observations stable, bloods normalising, no antivenom administered in the preceding twelve hours, or if antivenom was given, twenty-four hours since administration with normal bloods, no neurological signs, no myotoxic signs, no AKI features. Discharge information includes the standard return-precautions list — bleeding from any site, bruising, dark urine, weakness, double vision, drooping eyelid, fever, rash, joint pain — with the polyvalent patient getting an explicit serum sickness brief. Follow-up bloods are arranged for forty-eight hours. GP follow-up at one week. The bite-site is documented and photographed in the discharge note.
+
+54
+00:44:33,850 --> 00:45:14,890
+Orus: And the late complication that gets missed — serum sickness in the patient who has gone home thinking the worst is behind them. The patient comes back at day five to seven with fever, rash, polyarthralgia, sometimes lymphadenopathy. The diagnosis is clinical, the management is oral prednisolone for five to seven days, and the patient should be re-engaged with the rural ED or GP for the duration. The conversation at discharge that prevents this becoming a missed diagnosis is the simple sentence — if you develop fevers, rashes, sore joints, or feel unwell in the next two weeks, come back, this can happen after antivenom.
+
+55
+00:45:15,240 --> 00:45:25,000
+Algieba: Cross-topic synergy. This intersects with sepsis, with retrieval medicine, with Aboriginal health equity. Marie Curie.
+
+56
+00:45:25,350 --> 00:46:29,470
+Vindemiatrix: Marie Curie. Three obvious cross-topic threads. First — VICC mimics coagulopathic sepsis. The patient who arrives with no clear bite history, hypotension, INR through the roof, fibrinogen unmeasurable, D-dimer wild — that picture is also disseminated intravascular coagulation in a septic patient. The disambiguation is the clinical syndrome — abdominal pain plus collapse plus the recent outdoor work points to snakebite; fever plus a source points to sepsis. Both can co-exist if the bite is delayed in presentation and a secondary infection has developed. The Sepsis CARE 2026 pathway already runs INR, lactate, and clotting in the bundle. A rural ED that is fluent in the sepsis bundle is fluent in the snakebite bundle — the difference is the antivenom on the shelf and the CSL phone call, not the early haemodynamic resuscitation, which is the same.
+
+57
+00:46:29,820 --> 00:47:13,140
+Vindemiatrix: Second — retrieval coordination. The RFDS and MedSTAR coordination from PPRHS or any regional SA hospital for a confirmed envenoming follows a well-trodden pathway, but it depends on the local team having the antivenom on hand before retrieval is in the air, the bandage on, the bloods cycled, and the toxinologist in the loop. The flight from Adelaide to Whyalla is forty minutes; from Adelaide to a Lands strip can be two and a half hours. The decision-making while the plane is en route is local, and it has to be confident. The implementation plan we'll talk about in a moment is essentially about making that decision-making confident.
+
+58
+00:47:13,490 --> 00:48:17,330
+Vindemiatrix: Third — Aboriginal health equity. The rural-remote distribution of envenoming, the supply-chain reality that polyvalent is more common in remote stock, the longer retrieval times, the language and consent considerations, all add up to a structural disparity in outcomes. Indigenous data sovereignty matters in how this gets recorded — the Australian Snakebite Project should be reporting Aboriginal and Torres Strait Islander outcomes separately and with appropriate community-level governance. The equity work at the level of the individual clinician is — make the call to CSL, run the bundle exactly the same way you would for a non-Aboriginal patient, take the time on the consent conversation, ensure the safety-netting is concrete and culturally appropriate. The equity work at the level of the system is — review antivenom stock and retrieval-time data for remote SA, flag where the gaps sit, and bring it to the next clinical-governance meeting.
+
+59
+00:48:17,680 --> 00:48:28,360
+Algieba: Implementation. The one-page PPRHS snakebite pathway for the resus-bay wall, and what to put on the trolley. Osler, Tufte.
+
+60
+00:48:28,710 --> 00:48:36,990
+Orus: Osler. The one-page algorithm — and this is the discharge artefact for this episode. Five sections.
+
+61
+00:48:37,340 --> 00:50:15,460
+Orus: One. Recognise. Suspected envenoming triggers — known or suspected snakebite in the preceding twenty-four hours, premonitory symptoms (nausea, vomiting, headache, collapse) in a patient with an outdoor history, fang marks, unexplained coagulopathy with no other cause. Two. Stabilise. Pressure-immobilisation bandage if not already in situ, two large-bore IV cannulae, baseline bloods including INR, APTT, fibrinogen, D-dimer, CK, creatinine, electrolytes, bedside iSTAT, bite-site swab for VDK before any antivenom, twelve-lead ECG. Three. Communicate. Phone CSL Toxinology Royal Adelaide, phone RFDS for retrieval, phone the family. Four. Treat. If clinical syndrome and bloods confirm envenoming, give monovalent matched to regional syndrome or VDK result, one vial, IV infusion over fifteen to twenty minutes, adrenaline drawn up at the bedside. Re-check bloods at one and three hours post-antivenom. Five. Disposition. Admit for minimum twenty-four hours. Retrieval to a higher-acuity centre for paediatric, pregnant, severe envenoming, or any patient with AKI, persistent coagulopathy, or neurotoxicity. Discharge of asymptomatic patient at six to twelve hours after CSL discussion, with safety-netting and follow-up bloods at forty-eight hours.
+
+62
+00:50:15,810 --> 00:51:26,730
+Autonoe: Tufte. The resus-trolley audit — every PPRHS resus-bay equivalent should have on or near the trolley the following — broad crepe bandages, splints in adult and paediatric sizes; the Snake Venom Detection Kit with a current expiry date and a documented quick-reference card on the cupboard door; the antivenom fridge stock — brown monovalent four vials minimum, tiger monovalent two vials, polyvalent one vial, death adder one vial — with monthly expiry-date check on the medication round; adrenaline drawn-up gear, an adrenaline infusion line and pump-ready saline; iSTAT cartridges including INR and chem-8; the CSL Toxinology phone number on the wall in 48-point font, not buried in a manual; the SA Ambulance and RFDS retrieval numbers next to the CSL number; a printed copy of the one-page pathway, signed off by the medical director, laminated. Five minutes of audit, twelve months of readiness.
+
+63
+00:51:27,080 --> 00:51:33,120
+Algieba: A one-week implementation plan. Three steps. Each step thirty minutes of effort.
+
+64
+00:51:33,470 --> 00:51:55,230
+Orus: One. Update the local snakebite pathway document. Print the five-section algorithm we just walked through, get it signed off by the medical director, laminate it, post it on the resus-bay wall and one copy in the antivenom fridge. The signing-off step is the governance step — it makes the algorithm institutional rather than personal.
+
+65
+00:51:55,580 --> 00:52:25,100
+Autonoe: Two. Audit the antivenom fridge and the snakebite kit. The audit checklist — antivenom vials present, expiry dates within six months, VDK kit present with expiry and the quick-reference card visible, broad crepe bandages stocked in adult and paediatric sizes, CSL Toxinology and RFDS numbers visible. Five minutes. Add an entry to the monthly medication-room round.
+
+66
+00:52:25,450 --> 00:52:59,530
+Vindemiatrix: Three. Train the second nurse and the second medical officer on PIB and bite-site swab technique. Twenty minutes — a video, a simulated arm or leg, a supervised application. The operational gain is real — having a second person who can rebandage in transit or take a swab while the lead clinician is on the phone to CSL means the case runs faster and safer. Particularly important in the after-hours setting at PPRHS where the next available clinician might be the on-call nurse manager.
+
+67
+00:52:59,880 --> 00:53:42,320
+Algieba: Decisions Jacob owes — surfaced to the companion brief. Whether this episode becomes a Hub-canonical module under the ACRRM Learning Hub MSK / EM area. Whether the canonical clinical-tutorial template extracts a second instance from this episode plus its source tutorial. Whether the snakebite pathway integrates into the broader rural-ED clinical-governance audit pattern that the CG Agentic AI Reports project is starting to anchor. The episode topic is rich enough to seed a deeper Snakebite Envenomation Tutorial folder — fourteen-modules-equivalent — but that's a Jacob decision and probably a next-week-not-this-week one.
+
+68
+00:53:42,670 --> 00:55:15,750
+Algieba: That's State of Play Episode 33. Snakebite envenomation in regional South Australia — the 2 AM decision tree. Cast acknowledgements — Algieba anchoring, Orus as William Osler Ross on the bedside, Erinome as Hermione Granger Ross on the evidence base, Vindemiatrix as Marie Curie Ross on equity and retrieval, Autonoe as Edward Tufte Ross on bloods and visualisation, Fenrir as Richard Feynman Ross on toxinology mechanism, Callirrhoe as Fred Rogers Ross on patient communication. Sources include the Australian Snakebite Project, the Isbister and Brown 2022 MJA series, the CSL Antivenom Handbook current edition, the Australian Resuscitation Council 2024 update on pressure-immobilisation, and the AVPP guideline updates. Intro music — Comparsa by Kevin MacLeod, Incompetech, Creative Commons Attribution. Outro music — Awaiting Return by Kevin MacLeod, Incompetech, Creative Commons Attribution. The full reference list and the one-page pathway are in the episode landing in the vault. If you're a rural medical officer and you take one thing away from this — phone CSL Toxinology early, treat the patient and the bloods rather than the bedside intuition, and keep the bandage on until you've decided what to do.
+
+69
+00:55:17,250 --> 00:55:21,010
+Alnilam: Thanks for listening to State of Play. Until next week.
+
