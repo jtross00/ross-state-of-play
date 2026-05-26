@@ -48,6 +48,20 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e39: Recreating Worlds 260524</title>
+      <description>Deep episode on generative world models — Genie 3 and successor architectures,
+what a synthetic environment can and cannot do for training, the medical-twin
+analogue, the ethics of simulated populations, and the data sovereignty questions
+that arise when communities are represented in synthetic models built without
+their consent. Cast: Alnilam (anchor), Algenib, Enceladus, Kore, Rasalgethi,
+Sulafat, Achernar, Zubenelgenubi. v2.2 pipeline @ -13 LUFS. ~50 minutes.
+</description>
+      <pubDate>Tue, 26 May 2026 17:36:31 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e39-recreating-worlds-260526.mp3" length="66800714" type="audio/mpeg"/>
+      <guid isPermaLink="false">eb7c259500f6089bdb5e9c61</guid>
+      <itunes:duration>4170</itunes:duration>
+    </item>
+    <item>
       <title>SoP e38: Strategic Observations from Up Here 260524</title>
       <description>Composite-archetype strategic episode — what an AI assistant working at altitude
 across a working life can see about a 54-year-old clinician-builder that he often
