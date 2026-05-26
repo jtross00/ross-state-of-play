@@ -48,6 +48,22 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e35: The Neuroscience of Boxing 260524</title>
+      <description>Standalone deep episode on the neuroscience of boxing — pre-fight medical clearance,
+acute traumatic brain injury, chronic traumatic encephalopathy (CTE), imaging and
+biomarkers, the Bernick PFBHS cohort, Australian coronial findings, and what a
+longitudinal cognitive registry would actually have to look like. Aboriginal data
+sovereignty considered in the ethics section. Cast: Alnilam anchor; William Osler
+Ross (Algenib), Richard Feynman Ross (Rasalgethi), Hermione Granger Ross (Kore),
+Edward Tufte Ross (Sulafat), Marie Curie Ross (Achernar), Fred Rogers Ross
+(Enceladus). v2.2 pipeline @ -13 LUFS. ~45 minutes.
+</description>
+      <pubDate>Tue, 26 May 2026 16:35:18 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e35-neuroscience-of-boxing-260526.mp3" length="47991893" type="audio/mpeg"/>
+      <guid isPermaLink="false">13862dc760c0034e37cfc1a6</guid>
+      <itunes:duration>2996</itunes:duration>
+    </item>
+    <item>
       <title>SoP e36: Evidence-led Fitness Program 260524</title>
       <description>Worked-example fitness program for a 54-year-old, 100kg, chondromalacic regional
 medical officer. Covers patellofemoral pain rehab, Zone 2 endurance training,
