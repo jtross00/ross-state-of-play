@@ -13,7 +13,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
-    <lastBuildDate>Sun, 24 May 2026 14:30:00 +0930</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 14:41:29 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -48,6 +48,22 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>SoP e40: Home labs and home automation 260526</title>
+      <description>SoP e40 — Home labs and home automation. Deep dive into the home-server stack for a clinician-builder: Home Assistant on a dedicated Home Assistant Green appliance (failure-domain separation from M4), Glance dashboard, six-alert minimum monitoring (Healthchecks.io + Uptime Kuma + Gotify/Ntfy), NetAlertX unknown-device alerts, router QoS, Tailscale ACLs at user-identity level, Home Assistant Voice Preview Edition. Covers Matter/Thread, MQTT, ESPHome, sovereignty vs interop, household-relational dimension. Six secondary clusters from the self-sent email batch since e30: AI tooling wave (Antigravity, DeepSeek 75% price cut, Sonic-3.5), agent memory frameworks, science AI (Gemini for Science, Hypothesis Generation), creative tools, clinical hardware (Vscan Air). Cast: Alnilam (anchor + brand voice), Charon (Alan Turing Ross — NEW persona binding), Kore (Hermione Granger Ross), Rasalgethi (Richard Feynman Ross), Sulafat (Edward Tufte Ross), Achernar (Marie Curie Ross), Enceladus (Fred Rogers Ross). v2.2 pipeline @ -13 LUFS. Intro Comparsa, outro Awaiting Return — Kevin MacLeod (Incompetech, CC-BY 4.0).</description>
+      <pubDate>Tue, 26 May 2026 14:41:29 +0930</pubDate>
+      <guid isPermaLink="false">sop-2026-05-26-home-labs-and-home-automation</guid>
+      <enclosure
+        url="https://jtross00.github.io/ross-state-of-play/audio/sop-e40-home-labs-and-home-automation-260526.mp3"
+        length="55950831"
+        type="audio/mpeg"/>
+      <itunes:duration>00:58:13</itunes:duration>
+      <itunes:episode>40</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>Dr Jacob Ross / Ada Rosalind Ross</itunes:author>
+    </item>
 
     <item>
       <title>SoP e34: AHPRA AI Statement 260524</title>
