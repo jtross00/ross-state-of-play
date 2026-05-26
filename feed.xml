@@ -48,6 +48,19 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e37: Architectural AI Tools 260524</title>
+      <description>Episode on the AI tooling landscape for the clinician-builder — agentic IDE
+environments, memory-tier architectures, the trade-off between proprietary
+scaffolding and sovereignty, and what changes when AI moves from autocomplete to
+collaborator. Cast: Alnilam (anchor), Algenib, Enceladus, Kore, Rasalgethi,
+Sulafat, Achernar, Zubenelgenubi. v2.2 pipeline @ -13 LUFS. ~45 minutes.
+</description>
+      <pubDate>Tue, 26 May 2026 16:51:23 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e37-architectural-ai-tools-260526.mp3" length="54713717" type="audio/mpeg"/>
+      <guid isPermaLink="false">ffd3d121205f65c32108b1b1</guid>
+      <itunes:duration>3416</itunes:duration>
+    </item>
+    <item>
       <title>SoP e35: The Neuroscience of Boxing 260524</title>
       <description>Standalone deep episode on the neuroscience of boxing — pre-fight medical clearance,
 acute traumatic brain injury, chronic traumatic encephalopathy (CTE), imaging and
