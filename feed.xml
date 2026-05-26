@@ -48,6 +48,24 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e38: Strategic Observations from Up Here 260524</title>
+      <description>Composite-archetype strategic episode — what an AI assistant working at altitude
+across a working life can see about a 54-year-old clinician-builder that he often
+cannot see from inside. Six clusters plus a closing seventh on the working pattern
+with an AI assistant: decisions under decisions, projects to add or not, items
+with short shelf-lives, hidden-in-plain-sight risks, cross-pollination
+opportunities, the Stoic five-year question, and the assistant-at-altitude frame.
+Cast: Alnilam (anchor); William Osler Ross (Algenib), Richard Feynman Ross
+(Rasalgethi), Hermione Granger Ross (Kore), Edward Tufte Ross (Sulafat),
+Marie Curie Ross (Achernar), Fred Rogers Ross (Enceladus),
+Epictetus Ross (Sadachbia). v2.2 pipeline @ -13 LUFS. ~55 minutes.
+</description>
+      <pubDate>Tue, 26 May 2026 17:07:38 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e38-strategic-observations-260526.mp3" length="51884616" type="audio/mpeg"/>
+      <guid isPermaLink="false">e91b8685ad5a746c265a5bb7</guid>
+      <itunes:duration>3239</itunes:duration>
+    </item>
+    <item>
       <title>SoP e37: Architectural AI Tools 260524</title>
       <description>Episode on the AI tooling landscape for the clinician-builder — agentic IDE
 environments, memory-tier architectures, the trade-off between proprietary
