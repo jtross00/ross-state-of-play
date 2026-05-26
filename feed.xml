@@ -47,7 +47,23 @@
       <itunes:category text="Medicine"/>
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:type>episodic</itunes:type>
+    <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e36: Evidence-led Fitness Program 260524</title>
+      <description>Worked-example fitness program for a 54-year-old, 100kg, chondromalacic regional
+medical officer. Covers patellofemoral pain rehab, Zone 2 endurance training,
+closed-chain strength work, swim/cycle/walk prescription, Romanian deadlift
+technique, cycling cadence and bike fit, and sustainability for a clinician with
+a 45-hour clinical week. v2.2 pipeline @ -13 LUFS. ~45-50 minutes.
+Cast: Alnilam (anchor), Orus (Osler), Erinome (Hermione), Fenrir (Feynman),
+Autonoe (Tufte), Callirrhoe (Rogers), Vindemiatrix (Curie cameo),
+Sadachbia (Epictetus cameo).
+</description>
+      <pubDate>Tue, 26 May 2026 16:19:40 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e36-evidence-led-fitness-program-260526.mp3" length="65479156" type="audio/mpeg"/>
+      <guid isPermaLink="false">98dc7faf303d5840ed3e89dc</guid>
+      <itunes:duration>4088</itunes:duration>
+    </item>
+
 
     <item>
       <title>SoP e40: Home labs and home automation 260526</title>
