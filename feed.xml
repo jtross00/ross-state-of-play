@@ -48,6 +48,27 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e41: Agent Memory and the Autonomy Curve 260528</title>
+      <description>Self-sent-email sweep covering 26-28 May 2026. Five clusters:
+(1) agent memory architecture phase change — GBrain, Acontext, TencentDB
+Agent Memory, Hermes Desktop, all in the same week; (2) autonomous coding
+agents pass the day-long mark — Qwen 3.7-Max 35-hour runs, harness
+compatibility, cost economics; (3) open-source voice/audio/video AI stack
+consolidates — OmniVoice Studio, Veo 3, Stable Audio 3, LiveKit lip-sync,
+Canva+HeyGen; (4) home lab choices for the clinician-builder — N100 mini
+PCs vs Raspberry Pi, Tailscale+Pi-hole, Cowork+Home Assistant; (5) public
+health echoes — WHO lead poisoning message with Port Pirie context.
+~45 minutes. Cast: Ada Rosalind Ross (anchor, Erinome — first episode in
+the new anchor seat), Alan Turing Ross, Hermione Granger Ross, Richard
+Feynman Ross, Edward Tufte Ross, Marie Curie Ross, William Osler Ross,
+Ansel Adams Ross, Epictetus Ross. v2.3 pipeline @ -13 LUFS.
+</description>
+      <pubDate>Sat, 30 May 2026 03:46:39 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e41-agent-memory-and-autonomy-260530.mp3" length="35177315" type="audio/mpeg"/>
+      <guid isPermaLink="false">c5c4563d99019fe7b62397fe</guid>
+      <itunes:duration>2196</itunes:duration>
+    </item>
+    <item>
       <title>SoP e39: Recreating Worlds 260524</title>
       <description>Deep episode on generative world models — Genie 3 and successor architectures,
 what a synthetic environment can and cannot do for training, the medical-twin
