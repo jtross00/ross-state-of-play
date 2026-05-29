@@ -48,6 +48,27 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e42: Agents as Operators 260530</title>
+      <description>Self-sent-email sweep covering 28-30 May 2026 (21 emails, Wednesday/Saturday
+sweep cadence). Five segments: (1) the lead cluster on agents moving from
+autocomplete to proactive operator — Anthropic dynamic workflows, Gemini
+proactive 24/7, Google Agent Engine on BigQuery, GMaps grounding, Claude Code
+memory in production, Centralcoms vertical agents, coding agents in the
+social sciences; (2) the generative media stack consolidating — Nano Banana
+GA on Gemini API, Genspark Slides 5.0, HeyGen-in-Canva, ElevenLabs, SUBMERGE
+cloud render; (3) personal AI as design partner — Archischool feature, seven
+productivity prompts; (4) research-methods echo — h-index citation networks,
+coding agents in social sciences; HAC accountability bridge; Stoic close.
+Cast: Ada (anchor), Turing (architecture), Feynman (mechanism), Osler
+(clinical), Tufte (measurement), Adams (aesthetic), Hermione (evidence),
+Curie (ethics + HAC bridge), Epictetus (close). ~40 minutes.
+</description>
+      <pubDate>Sat, 30 May 2026 09:23:23 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e42-agents-as-operators-260530.mp3" length="25416183" type="audio/mpeg"/>
+      <guid isPermaLink="false">1eaa49dd21467aaffc367ea0</guid>
+      <itunes:duration>1586</itunes:duration>
+    </item>
+    <item>
       <title>SoP e41: Agent Memory and the Autonomy Curve 260528</title>
       <description>Self-sent-email sweep covering 26-28 May 2026. Five clusters:
 (1) agent memory architecture phase change — GBrain, Acontext, TencentDB
