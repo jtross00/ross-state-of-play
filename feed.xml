@@ -48,6 +48,26 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e46: Augmentation Roundup — Kickoff 260609</title>
+      <description>Kickoff of the weekly Augmentation Roundup sub-series. A one-month sweep
+(8 May – 8 June 2026) of the Claude augmentation landscape — MCP servers,
+skills, plugins, agent patterns — rated ruthlessly against the current stack
+with concrete install recommendations. Install shortlist: Claude Haiku 4.5 as
+the cheap sub-agent tier; the Zotero MCP server for local, data-sovereign
+research; and the superpowers skill for disciplined sub-agent orchestration.
+The anti-patterns segment covers the May 2026 MCP security wave —
+unauthenticated servers, tool poisoning, confused-deputy and cost-inflation
+attacks — and the data-sovereignty bar for anything patient-adjacent. Cast:
+Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
+(rating + install shortlist), Sulafat (synergies + systems lens), Achernar
+(anti-patterns / security / values), Rasalgethi (mechanism beats). ~45 min.
+</description>
+      <pubDate>Wed, 10 Jun 2026 18:35:16 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e46-augmentation-roundup-kickoff-260610.mp3" length="41264683" type="audio/mpeg"/>
+      <guid isPermaLink="false">925882b01387799089209d97</guid>
+      <itunes:duration>2576</itunes:duration>
+    </item>
+    <item>
       <title>SoP e47: Frames and Foundations 260610</title>
       <description>Wednesday self-sent-email sweep covering 7–10 June 2026 — about seventy
 self-sent emails, ~58 unique — since Episode 45 closed on 6 June. Five
