@@ -47,7 +47,38 @@
       <itunes:category text="Medicine"/>
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:type>episodic</itunes:type>
+    <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e47: Frames and Foundations 260610</title>
+      <description>Wednesday self-sent-email sweep covering 7–10 June 2026 — about seventy
+self-sent emails, ~58 unique — since Episode 45 closed on 6 June. Five
+clusters. (1) Lead — the on-device frontier meeting the agent stack: Gemma 4
+QAT checkpoints (11.4 GB → 1.1 GB), Nemotron 3 Ultra, the Gaianet local agent
+runtime, and the Claude orchestration week (dynamic workflows, Rubrics
+self-correction, Cowork + skills guides) against Google Antigravity 2.0; the
+newly-installed frames layer ties it together. (2) Generative + creative
+media — Three.js ocean systems, a Unity shader build, Veo 3 / Wan 2.7 / Comfy
+Desktop / Google Vids, code-as-animation, Live Translate as a clinical access
+tool. (3) The second brain — NotebookLM's analysis upgrade and Obsidian Bases
+turning the vault into a database. (4) The AR resuscitation trainer — the
+Tasmanian Silent Cell Gaussian splat, delivered direct from the QCAD/Griffith
+artist (full KIRI Engine .ply, SH3), processed and LIVE on Meridian with a
+point-cloud/splat comparison viewer and an AVP composite ALS sim built on it;
+Vision Pro + Valve Index hand-tracking; the AR HUD library that landed today;
+patient-simulation scenario libraries; the clinical-governance validation
+boundary; one outstanding asset (Binnalong Bay boulder). (5) Health system + social determinants — a homelessness
+service's changing demographic (housing-health project candidate), the
+TeamSTEPPS 2.0 AU rollout with rural adaptation, agents-in-biology as a
+supervised research assistant, and the fellowship-pathway thread. Cast:
+Erinome (anchor), Charon (on-device + agent stack + sim engineering),
+Zubenelgenubi (creative media), Kore (knowledge management), Algenib (clinical
+sim + TeamSTEPPS), Achernar (SDoH + ethics + close). ~46 min.
+</description>
+      <pubDate>Wed, 10 Jun 2026 18:06:26 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e47-frames-and-foundations-260610.mp3" length="44711873" type="audio/mpeg"/>
+      <guid isPermaLink="false">0d44009c9ded2b4ff6562abb</guid>
+      <itunes:duration>2791</itunes:duration>
+    </item>
+
     <item>
       <title>SoP e45: Local Frontier 260606</title>
       <description>Self-sent email sweep covering the 36 emails Jacob forwarded between the close of Episode 43 (3 June, Commodity Rails) and Saturday 6 June. Six clusters: (1) lead — on-device and open-weight model frontier. Gemma 4 12B from Google DeepMind on 3 June: encoder-free unified multimodal architecture, Apache 2.0, runs on 16 GB unified memory, AI Edge Gallery now on Mac. MiniMax M3 with MSA architecture, 1M-token context, beats GPT-5.5 on SWE-Bench Pro at 59%. XDA's head-to-head: Qwen 3.5 wins reasoning, Gemma 4 wins multimodal. (2) Agent platforms and the Anthropic stack — Claude Platform CLI (ant) open-sourced 2 June, Managed Agents updates (self-hosted sandboxes, MCP tunnels, dreaming feature, multi-agent orchestration), Cowork best practices guide, CodeBurn cost observability across 25 AI coding tools, Google Antigravity Science Skills bundle, Figma Make Plan mode. (3) Generative + creative media — HeyGen Complete Interface Walkthrough, HeyGen × Google DeepMind LA event 11 June, Blender 5.2 LTS Paint Filter node from Pau Homs, INSYDIUM NeXus for Blender beta, GLSL Shaders + TouchDesigner + Claude Code via satoruhiga, FLUX-2 Klein schematic LoRA, O3DE 26.05, playabl.ai. (4) Geospatial + spatial AI — GeoLibre Desktop 0.7 from Qiusheng Wu (Tauri + MapLibre + DuckDB-WASM Spatial + Whitebox toolbox + GeoAgent), NSF I-GUIDE platform GeoAI session, standalone geospatial image-analysis tooling, Indigenous Data Sovereignty overlay via CARE Principles. (5) Home-lab + maker tail — piBrick Pocket-CM5 OSHWA-certified GPL hardware build (Raspberry Pi CM5 + BBQ20 QWERTY + AMOLED + USB-HID mode), Yanko Design write-up at $172 parts cost, Hackaday on embedding magnets in 3D prints without ruining the printer, Surface RTX Spark Dev Box "not for you", Wi-Fi BFI/WhoFi person identification at near-100% accuracy from KIT and Sapienza Rome. (6) Human signal — Harvard Study of Adult Development 1938 cohort, Waldinger and Schulz Good Life finding (relationships at 50 predict health at 80 better than cholesterol/BMI/SES; loneliness ≈ 15 cigarettes/day mortality), Mindflight7 VR for Australian schools with the moderate-effect evidence base (Hedges' g 0.524), Google Labs Dreambeans hyper-personalised feed. Cross-cluster synergy: local-frontier feeds Managed Agents; the agent layer is eating both the geospatial and creative stacks; Indigenous Data Sovereignty is the binding equity constraint unsolved by any vendor. Honest gap acknowledged in cold open and Stoic close: second consecutive tech-heavy batch, almost nothing on Aboriginal health, rural sepsis, or HAC governance beyond the human-signal cluster. Cast: Erinome (anchor, Ada Rosalind Ross), Charon (lead, Alan Turing Ross), Rasalgethi (mechanism, Richard Feynman Ross), Zubenelgenubi (creative media, Ansel Adams Ross), Sulafat (geospatial, Edward Tufte Ross), Iapetus (home-lab, Alan Turing Ross maker variant), Achernar (ethics, Marie Curie Ross), Enceladus (human signal, Fred Rogers Ross), Sadachbia (Stoic close, Epictetus Ross). REFIT pipeline at -16 LUFS / -1.5 dBTP; CHUNK_LIMIT 450 chars (locked per L33 anti-distortion-drift directive). 52 minutes.</description>
