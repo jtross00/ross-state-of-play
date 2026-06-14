@@ -48,6 +48,32 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e50: The Desktop AI Atlas — Complements That Speak MCP 260615</title>
+      <description>A themed State of Play built from the mid-June Desktop AI Platforms sweep —
+seventy products across eight categories, every volatile claim verified twice.
+The conclusion up front: this stack doesn't need another brain or another vault;
+it needs complements that add a missing capability AND speak MCP, so they plug
+into the orchestration layer rather than sitting beside it. Three clear the bar
+cleanly — a protocol-aware launcher (Raycast AI), proper voice-to-text
+(Wispr Flow / SuperWhisper), and the agentic browser (Perplexity Comet, remote
+MCP today, local MCP pending). Three more earn a slot with a caveat — meeting
+capture (Granola), cross-app memory (Pieces), and local inference
+(LM Studio / Ollama + Open WebUI, the sovereignty lane). Plus the week's
+newsroom — a local agent swarm shipping in the open-weights camp (Kimi Work),
+a big European assistant rebranding (Le Chat → "Vibe"), and pricing
+restructured across the majors — and a don't-install list of famous, good,
+redundant tools (second desktop assistants, vault-clone notes apps, rival
+coding surfaces). Synergy: speak it, summon it, act on it — input, launcher,
+hands-on-web, three sides of one loop on one protocol. ~17 min, single commute.
+Cast: Erinome (anchor), Enceladus (builder), Leda (sceptic), Sadachbia
+(discipline), Zephyr (industry).
+</description>
+      <pubDate>Mon, 15 Jun 2026 06:03:46 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e50-desktop-ai-atlas-260615.mp3" length="15368626" type="audio/mpeg"/>
+      <guid isPermaLink="false">f6f873aad874b0cdf61c68fb</guid>
+      <itunes:duration>767</itunes:duration>
+    </item>
+    <item>
       <title>SoP e49: The Loop Turn — From Prompting to Self-Driving Systems 260614</title>
       <description>A general State of Play built from the 13–14 June self-sent sweep, where almost
 everything worth keeping pointed at one idea from five directions: the loop turn —
@@ -93,7 +119,7 @@ sovereignty), Rasalgethi (mechanism beats). ~42 min.
       <itunes:duration>1227</itunes:duration>
     </item>
     <item>
-      <title>SoP e47: Frames and Foundations 260612</title>
+      <title>SoP e47: Frames and Foundations 260610</title>
       <description>Wednesday self-sent-email sweep covering 7–10 June 2026 — about seventy
 self-sent emails, ~58 unique — since Episode 45 closed on 6 June. Five
 clusters. (1) Lead — the on-device frontier meeting the agent stack: Gemma 4
@@ -142,6 +168,57 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e46-augmentation-roundup-kickoff-260612.mp3" length="42880873" type="audio/mpeg"/>
       <guid isPermaLink="false">254c5da17081424471f46289</guid>
       <itunes:duration>2677</itunes:duration>
+    </item>
+    <item>
+      <title>SoP e46: Augmentation Roundup — Kickoff 260609</title>
+      <description>Kickoff of the weekly Augmentation Roundup sub-series. A one-month sweep
+(8 May – 8 June 2026) of the Claude augmentation landscape — MCP servers,
+skills, plugins, agent patterns — rated ruthlessly against the current stack
+with concrete install recommendations. Install shortlist: Claude Haiku 4.5 as
+the cheap sub-agent tier; the Zotero MCP server for local, data-sovereign
+research; and the superpowers skill for disciplined sub-agent orchestration.
+The anti-patterns segment covers the May 2026 MCP security wave —
+unauthenticated servers, tool poisoning, confused-deputy and cost-inflation
+attacks — and the data-sovereignty bar for anything patient-adjacent. Cast:
+Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
+(rating + install shortlist), Sulafat (synergies + systems lens), Achernar
+(anti-patterns / security / values), Rasalgethi (mechanism beats). ~45 min.
+</description>
+      <pubDate>Wed, 10 Jun 2026 18:35:16 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e46-augmentation-roundup-kickoff-260610.mp3" length="41264683" type="audio/mpeg"/>
+      <guid isPermaLink="false">925882b01387799089209d97</guid>
+      <itunes:duration>2576</itunes:duration>
+    </item>
+    <item>
+      <title>SoP e47: Frames and Foundations 260610</title>
+      <description>Wednesday self-sent-email sweep covering 7–10 June 2026 — about seventy
+self-sent emails, ~58 unique — since Episode 45 closed on 6 June. Five
+clusters. (1) Lead — the on-device frontier meeting the agent stack: Gemma 4
+QAT checkpoints (11.4 GB → 1.1 GB), Nemotron 3 Ultra, the Gaianet local agent
+runtime, and the Claude orchestration week (dynamic workflows, Rubrics
+self-correction, Cowork + skills guides) against Google Antigravity 2.0; the
+newly-installed frames layer ties it together. (2) Generative + creative
+media — Three.js ocean systems, a Unity shader build, Veo 3 / Wan 2.7 / Comfy
+Desktop / Google Vids, code-as-animation, Live Translate as a clinical access
+tool. (3) The second brain — NotebookLM's analysis upgrade and Obsidian Bases
+turning the vault into a database. (4) The AR resuscitation trainer — the
+Tasmanian Silent Cell Gaussian splat, delivered direct from the QCAD/Griffith
+artist (full KIRI Engine .ply, SH3), processed and LIVE on Meridian with a
+point-cloud/splat comparison viewer and an AVP composite ALS sim built on it;
+Vision Pro + Valve Index hand-tracking; the AR HUD library that landed today;
+patient-simulation scenario libraries; the clinical-governance validation
+boundary; one outstanding asset (Binnalong Bay boulder). (5) Health system + social determinants — a homelessness
+service's changing demographic (housing-health project candidate), the
+TeamSTEPPS 2.0 AU rollout with rural adaptation, agents-in-biology as a
+supervised research assistant, and the fellowship-pathway thread. Cast:
+Erinome (anchor), Charon (on-device + agent stack + sim engineering),
+Zubenelgenubi (creative media), Kore (knowledge management), Algenib (clinical
+sim + TeamSTEPPS), Achernar (SDoH + ethics + close). ~46 min.
+</description>
+      <pubDate>Wed, 10 Jun 2026 18:06:26 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e47-frames-and-foundations-260610.mp3" length="44711873" type="audio/mpeg"/>
+      <guid isPermaLink="false">0d44009c9ded2b4ff6562abb</guid>
+      <itunes:duration>2791</itunes:duration>
     </item>
 
     <item>
@@ -336,6 +413,7 @@ Sadachbia (Epictetus cameo).
       <itunes:explicit>no</itunes:explicit>
       <itunes:author>Dr Jacob Ross / Ada Rosalind Ross</itunes:author>
     </item>
+
 
     <item>
       <title>SoP e40: Home labs and home automation 260526</title>

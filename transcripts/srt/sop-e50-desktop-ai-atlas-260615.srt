@@ -1,0 +1,128 @@
+1
+00:00:28,271 --> 00:00:52,042
+Erinome: This is State of Play. I'm Erinome, the standing anchor, and this one's about seventeen minutes — one commute, one theme. We took a hard look at the desktop AI landscape as it stands in mid-June: seventy products, eight categories, every volatile claim checked twice. And I want to give you the conclusion before the tour, because it's the useful part.
+
+2
+00:00:52,392 --> 00:01:17,443
+Erinome: The finding is a relief, honestly. This stack does not need another brain. It does not need another vault. You already run the best general assistant and the best networked-notes app you're going to get. So the question we asked wasn't "what's newer." It was narrower and more honest: what adds a capability you genuinely lack — and plugs into what you've already got?
+
+3
+00:01:17,793 --> 00:01:40,284
+Erinome: And there's a single thread that decides the answer. The protocol. The tools worth your desktop in June twenty twenty-six are the ones that speak the same integration language your orchestration layer already speaks. Everything else, however shiny, sits beside your stack instead of inside it. So that's the lens. Complements, not replacements. Let me hand to the build seat.
+
+4
+00:01:40,634 --> 00:02:10,445
+Enceladus: Enceladus here. Let me make the lens concrete, because "speaks the protocol" sounds like jargon until you see what it buys you. The single biggest shift since the start of the year is that the integration protocol stopped being a Claude thing and became the table stakes. Browsers, launchers, meeting tools, memory tools — they now ship a client or a server for it. An official registry landed. The spec hit a release candidate.
+
+5
+00:02:10,795 --> 00:02:33,166
+Enceladus: Here's why that matters for you specifically. When a tool speaks the protocol, it doesn't just run next to your assistant. It becomes a thing your assistant can call. The launcher you press to start a task can be reached by the agent. The meeting notes can be read by the orchestrator. The capability stops being an island and becomes a limb.
+
+6
+00:02:33,516 --> 00:03:01,967
+Leda: Leda — and I'll be the friction early, because the word "complement" can hide a lot of sins. Every one of these tools wants a slot on your desktop and a line item on your card. So the bar I'll hold all episode is simple. Does it add a capability the stack genuinely lacks? Or is it a prettier version of something you already run? If it's the second, it's not a complement. It's clutter with good marketing.
+
+7
+00:03:02,317 --> 00:03:18,728
+Enceladus: That's exactly the test, and I'll hold to it. Three tools clear it cleanly. Three more earn a slot with a caveat. And a whole shelf of famous names fail it — we'll name those too, because knowing what not to install is half the value of a sweep like this.
+
+8
+00:03:19,078 --> 00:03:39,329
+Enceladus: So start with the three that clear the bar without an asterisk. If you only added three things this year, these are them. First: a launcher. The fast keyboard surface you hit to do anything — open, search, calculate, run a command — except this one now has the assistant and the protocol built into the bar itself.
+
+9
+00:03:39,679 --> 00:03:58,890
+Enceladus: The capability it adds is latency. Right now, reaching your agent means going to a window. A protocol-aware launcher collapses that to a keystroke from anywhere — you summon the orchestration layer mid-task without leaving what you're doing. It's not a new brain. It's a faster door to the brain you've got.
+
+10
+00:03:59,240 --> 00:04:22,131
+Zephyr: Zephyr — operator's chair. The honest version of why this one matters: it removes friction you've stopped noticing. Every context switch to a window is a tax, and you pay it forty times a day. Collapsing that to a keystroke doesn't sound dramatic in a sentence. It's enormous over a week. This is the cheapest large win on the list.
+
+11
+00:04:22,481 --> 00:04:43,452
+Enceladus: Second of the three: voice-to-text done properly. Dictation that actually keeps up with how you think — system-wide, fast, and accurate enough that you stop correcting it. The capability here isn't novelty; it's throughput. The bottleneck on a lot of agent work isn't the model. It's how fast you can get the intent out of your head and into the box.
+
+12
+00:04:43,802 --> 00:05:03,132
+Enceladus: Talking is two to three times faster than typing for most people, and these tools have crossed the accuracy line where that speed is finally usable for real instructions, not just quick notes. It's the input half of the same problem the launcher solves on the output half. Get the goal in faster; reach the agent faster.
+
+13
+00:05:03,482 --> 00:05:23,573
+Enceladus: Third: the agentic browser. This is the one that surprised us. A browser that doesn't just show you pages — it acts on them, and it speaks the protocol remotely, so the agent can drive the web through it. The capability it adds is hands on the open web — the one place your current stack is genuinely thin.
+
+14
+00:05:23,923 --> 00:05:46,454
+Leda: Leda — and here's my caveat, because I promised friction. The browser earns its slot, but the local version of the protocol piece is still pending as we speak. So today you get the remote capability, which is real, and a promise for the local one. Buy it for what it does now, not for the roadmap. Roadmaps are where enthusiasm goes to be disappointed.
+
+15
+00:05:46,804 --> 00:06:06,255
+Zephyr: Fair — and I'd still take it, because even the remote half closes the biggest gap. Those are the three: the door, the input, and the hands. A launcher, voice, and the browser. If you do nothing else this year, that trio moves the needle more than any new model would.
+
+16
+00:06:06,605 --> 00:06:33,816
+Enceladus: Now the three that earn a slot with a condition. Fourth overall: meeting capture that speaks the protocol. It sits in your calls, captures them, and — crucially — exposes the result so your agent can read it. The capability is memory of conversations you'd otherwise lose. The caveat is obvious and worth saying plainly: it's listening to meetings, so the privacy posture has to be deliberate, not default.
+
+17
+00:06:34,166 --> 00:06:56,497
+Enceladus: Fifth: cross-application memory. A layer that quietly remembers what you were doing across your apps and makes that history queryable — through the protocol — so the assistant can pick up a thread you dropped yesterday. The capability is continuity. The caveat is that it earns its keep only if you actually wire it in; left passive, it's just another background process watching you.
+
+18
+00:06:56,847 --> 00:07:21,018
+Leda: Leda. And these two are where my bar bites hardest, because "memory" and "capture" are exactly the words that sell clutter. The question for both is the same: is the captured thing reachable by the agent, or does it just sit in another app's pretty timeline? If it's reachable, it's a limb. If it's not, you've bought a second diary you'll never read.
+
+19
+00:07:21,368 --> 00:07:40,419
+Enceladus: Right — and both of these clear it specifically because they expose a server, not just a screen. That's the whole distinction. Sixth and last of the slot-earners: local inference. The desktop runner that hosts open-weight models on your own metal — the sovereignty lane, for the work that should never leave the machine.
+
+20
+00:07:40,769 --> 00:08:03,260
+Leda: And the honest caveat on local inference: it's not for your everyday driver. The frontier hosted models are still better for most tasks. You run local for the work that's private or offline or yours-only — not because it's the best output, but because it's the only output that never leaves the building. Right tool, narrow job.
+
+21
+00:08:03,610 --> 00:08:27,621
+Zephyr: Zephyr, with the week's moving parts, because a sweep is a snapshot and the snapshot is already aging. One: a local desktop agent from the open-weights camp shipped just this week — a swarm that runs a few hundred sub-agents on open models, on your own machine. That's the sovereignty lane getting a serious new entrant, fast.
+
+22
+00:08:27,971 --> 00:08:55,422
+Zephyr: Two: one of the big European assistants just rebranded its whole surface — same engine, new name, new shopfront. Worth knowing so you're not confused when the old name vanishes. And three, the boring one that actually matters: pricing got restructured across half the majors this month — the big chat tools, the coding tools, a couple of the note and search apps. Re-check what you're paying before you renew anything.
+
+23
+00:08:55,772 --> 00:09:17,063
+Leda: Leda — and the rebrand is my favourite teaching moment of the week. A new name on the same model is not news. It's marketing wearing a press release. The thing that's genuinely newsy underneath all of it is dull and real: the protocol kept spreading, and the prices kept moving. Watch the plumbing and the invoice. Ignore the shopfronts.
+
+24
+00:09:17,413 --> 00:09:38,144
+Zephyr: And one honest gap to flag, since we built a recommendation on it: the agentic browser's local protocol piece is still not out as we record. The remote path works today. The local one is pending. If that's a dealbreaker for your privacy posture, wait for it. If it isn't, you're fine now.
+
+25
+00:09:38,494 --> 00:09:57,825
+Sadachbia: Sadachbia here, and I want to take the discipline seat for a minute, because the most valuable thing a sweep gives you is permission not to act. Restraint is a feature. So here's the short list of famous, good tools we're telling you to skip — not because they're bad, but because you already own what they do.
+
+26
+00:09:58,175 --> 00:10:27,527
+Sadachbia: The standalone desktop assistants from the big two — you have the best general assistant already; a second one is a tab you'll forget. The polished notes apps that clone your vault — you have the networked-notes app, and switching costs you your links for no new capability. And the rival coding surfaces — you already run the coding agent that defines that category. A duplicate isn't an upgrade. It's a decision you have to make every morning about which one to open.
+
+27
+00:10:27,877 --> 00:10:46,648
+Zephyr: And from the operator's chair, that's the expensive failure mode — not buying a bad tool, but buying a redundant good one. Every duplicate is a daily tax in attention. The win isn't more surfaces. It's fewer, each pulling weight the others can't.
+
+28
+00:10:46,998 --> 00:11:12,569
+Enceladus: Let me wire the three together before we close, because the synergy is the actual recommendation. The launcher gets you to the agent in a keystroke. The voice tool gets your intent in at the speed of speech. The browser gives the agent hands on the web. Input, summons, action — three sides of one loop, and all three reachable through the one protocol your orchestrator already speaks.
+
+29
+00:11:12,919 --> 00:11:32,010
+Enceladus: So the compound capability is this: you think it, you say it, the launcher fires it, the agent acts on the live web, and the result lands back in a stack that can already read it. None of those pieces is a new brain. Together they're a faster, wider nervous system around the brain you've got.
+
+30
+00:11:32,360 --> 00:11:56,011
+Erinome: That's the episode. The desktop AI atlas, mid-June. Seventy tools, and the honest answer is three that clear the bar, three more with a caveat, and a long shelf of famous names you can happily ignore. The discipline underneath all of it: don't add a brain, add a limb — and only if it speaks the protocol.
+
+31
+00:11:56,361 --> 00:12:21,972
+Sadachbia: And the last word from me is the human one. The point of every tool on the keep-list is to put more of the day back in your hands — less friction, less retyping, fewer windows. Not so the machine does more for its own sake. So that you're left doing the part that was always yours: deciding what's worth doing. That's the test that outlives any sweep.
+
+32
+00:12:22,322 --> 00:12:30,493
+Erinome: Speak it, summon it, act on it. Three tools, one protocol, one commute. That's the state of play.
+
