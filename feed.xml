@@ -48,6 +48,30 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e49: The Loop Turn — From Prompting to Self-Driving Systems 260614</title>
+      <description>A general State of Play built from the 13–14 June self-sent sweep, where almost
+everything worth keeping pointed at one idea from five directions: the loop turn —
+the week the industry stopped optimising prompts and started engineering loops.
+Five surfaced layers of one machine: the loop-engineering manifesto (Steinberger /
+Cherny — ReAct, Reflexion, Ralph Loop, /goal); autoresearch, which turns a coding
+agent into a self-improving loop gated by its test suite; Omnigent, an open
+(Apache 2.0, Databricks) meta-harness that puts cost caps and policy above your
+agents instead of inside their prompts; local agent swarms on open weights (Kimi
+Work, Kimi K2.7-Code) as the sovereignty lane; and multi-model research routing
+(Perplexity Deep Research in Computer, Ara) as the public-work newsroom. Plus the
+open-weights-are-good-enough-now plank (DiffusionGemma, awesome-local-llm), five
+sequenced implementation plans, the cross-topic synergy (a self-improving,
+budget-governed, sovereignty-aware fleet), and a sceptic whose single demand —
+"show me the stop condition" — frames the whole episode. Cast: Erinome (anchor),
+Laomedeia (builder), Iapetus (sceptic), Despina (ethics/wrap), Algenib
+(industry/human). ~33 min. Companion Vault project: "Loop Engineering" (for_review).
+</description>
+      <pubDate>Sun, 14 Jun 2026 11:30:26 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e49-loop-engineering-260614.mp3" length="40536065" type="audio/mpeg"/>
+      <guid isPermaLink="false">92a31c9e6e39fb53e6c96e2f</guid>
+      <itunes:duration>2024</itunes:duration>
+    </item>
+    <item>
       <title>SoP e48: Augmentation Roundup — week of 2026-06-13</title>
       <description>First weekly Augmentation Roundup after the kickoff. A seven-day sweep
 (6–13 June 2026) of the Claude augmentation landscape, rated ruthlessly
