@@ -48,6 +48,53 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e51: Research Tools Roundup — Literature Analysis and Academic Writing for a Rural Clinician 260616</title>
+      <description>Tonight is research tools — literature search, citation graphs, academic
+writing, reference management, point-of-care references — every layer of
+the stack a working rural clinician reaches for when the question is what
+the evidence actually says. Thirty-plus live tools, named, with INSTALL /
+TRIAL / SKIP / MONITOR verdicts.
+
+Headline up front. Install now, free or near-free — the Zotero MCP plugin
+(connects an existing Zotero library to Claude for semantic search and
+cited drafting), Inciteful (free citation-graph traversal on OpenAlex, no
+account), and NotebookLM at the free tier (audio overviews for the drive).
+Trial for thirty days — Consensus Pro at fifteen US dollars a month for
+the consensus meter on clinical claims, and Undermind Pro at twenty for
+one project-scoped month on a rare-condition deep-dive (snakebite,
+paediatric sepsis subtypes). Monitor — Owkin's Claude for Healthcare
+integration, Heidi Evidence (BMJ + NICE + HealthPathways citation backbone,
+launched February 2026), and OpenEvidence (free, JAMA partnership, used by
+~65% of US physicians — watching for an Australian-clinician sign-up path).
+
+Active skip list, with reasons. Paperpal, Trinka, Writefull, Jenni — Claude
+in the Obsidian vault covers the drafting capability already; save the
+seventy-to-three-hundred dollars a year. Mendeley, Paperpile, Bookends —
+Zotero is the incumbent and the Zotero MCP plugin closes the only gap that
+mattered. Iris.ai — no differentiated capability against the
+Consensus-Elicit-Undermind set for a single clinician. Causaly, BenchSci —
+pharma-tier, not built for clinicians. SciSpace, Scite — covered by
+Consensus or Claude for this workload.
+
+Indigenous data sovereignty filter runs through Segment 10 — CARE
+principles, Maiam nayri Wingara obligations, two questions every tool must
+answer (where stored / what done with prompts). Tools that pass cleanly in
+this stack — Claude (data-residency commitments), Zotero (local-first),
+ResearchRabbit, Inciteful (minimal user data), Writefull (explicit
+no-training commitment). The conservative posture for prompts containing
+Aboriginal community language — keep work inside Claude-plus-vault.
+
+Three cross-tool synergy stacks at three price points: everyday literature
+review at $15/mo, clinic-desk question at institutional cost, rare-condition
+deep-dive at $0-$20/mo. Typical monthly personal spend: $8-$15. Companion
+Vault project: Research-Tools-Stack (for_review). ~46 min.
+</description>
+      <pubDate>Tue, 16 Jun 2026 15:22:04 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e51-research-tools-roundup-260616.mp3" length="58641075" type="audio/mpeg"/>
+      <guid isPermaLink="false">ecb681100b5e6cc4ce975769</guid>
+      <itunes:duration>2928</itunes:duration>
+    </item>
+    <item>
       <title>SoP e50: The Desktop AI Atlas — Seventy Tools, Eight Categories, Three to Install 260615</title>
       <description>REBUILT v2. The themed atlas episode from the mid-June Desktop AI Platforms
 sweep — seventy products across eight categories, every claim verified, every
