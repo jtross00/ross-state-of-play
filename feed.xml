@@ -48,6 +48,30 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e53: STORM — Research Synthesis as a Multi-Perspective Conversation 260619</title>
+      <description>Tonight is one idea held to the light: Stanford OVAL's STORM — Synthesis of Topic
+Outlines through Retrieval and Multi-perspective question asking — and its human-in-the-
+loop successor, Co-STORM. STORM writes long, fully-cited, Wikipedia-style articles from
+scratch by first discovering multiple perspectives on a topic, then simulating
+conversations in which writers holding those perspectives interrogate a retrieval-grounded
+expert, curating the result into an outline before a word of prose is written. The payoff:
+articles judged 25% more organised and 10% broader in coverage than a standard RAG baseline
+(NAACL 2024). Co-STORM adds a round-table you can join — LM experts plus a moderator that
+surfaces "unknown unknowns" — preferred by 70% of users over a search engine and 78% over a
+RAG chatbot (EMNLP 2024). Why it matters for this desk: pip install knowledge-storm, model-
+agnostic via litellm (so it runs on Claude), retrieval-agnostic including VectorRM over your
+OWN local corpus — point it at the Vault and it researches from Jacob's own notes, sovereign,
+~$0.50-2 and 5-15 min per article. The recommendation: self-host on the M4, wrap as an Ada
+Ops module, hold the discipline (a drafting engine for an expert reviewer; verify every
+clinical claim against its source; no protected-lane data in). Companion Vault project:
+STORM-Research-Engine (for_review). ~28 min.
+</description>
+      <pubDate>Fri, 19 Jun 2026 06:59:36 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e53-storm-research-synthesis-260619.mp3" length="20162781" type="audio/mpeg"/>
+      <guid isPermaLink="false">8ea6ef756b6fa69ef4f05c60</guid>
+      <itunes:duration>1006</itunes:duration>
+    </item>
+    <item>
       <title>SoP e52: The Self-Sent Batch — Local AI, Agentic Coding, and Generative Media 260619</title>
       <description>Tonight is the self-sent batch — every link that landed in the inbox from the
 inbox since episode fifty-one. Nine flags, one sweep: local AI you run on your
