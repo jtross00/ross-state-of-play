@@ -48,6 +48,33 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e52: The Self-Sent Batch — Local AI, Agentic Coding, and Generative Media 260619</title>
+      <description>Tonight is the self-sent batch — every link that landed in the inbox from the
+inbox since episode fifty-one. Nine flags, one sweep: local AI you run on your
+own machine (AnythingLLM, Understand-Anything, MLX), agentic coding (Claude Code
+vs Google Antigravity, and the art of loop engineering), generative media
+(Rodin/Hyper3D three-D, free AI character-video), one piece of ambient hardware
+(the Gemini-powered Google Home speaker), and one machine-learning library for
+clinical time-series (sktime). The through-line is sovereignty — most of tonight
+runs on the M-four, not someone else's cloud.
+Headline up front. Install — AnythingLLM as the local document-and-agent front
+end, Understand-Anything as the open-source retrieval engine behind it, sktime in
+the research lane. Trial — Rodin against one real medical-education asset. Monitor
+— MLX as the inference floor, the Gemini speaker as an ambient-capture signal, and
+Antigravity as a second coding agent. Watch-list with a caveat — free AI
+character-video, never for anything that reads as a doctor giving advice.
+Cross-topic dividend: the batch is, almost item for item, the open-source
+production pipeline the medical-education strategy document called for two days
+earlier. Companion Vault project: Local-AI-Stack (for_review). This episode is
+also the resolution of ISS-018 — the TTS credit that produced this voice was the
+open question; that you can hear it is the answer.
+</description>
+      <pubDate>Fri, 19 Jun 2026 06:23:58 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e52-self-sent-batch-260619.mp3" length="25659797" type="audio/mpeg"/>
+      <guid isPermaLink="false">dae9f4aae489415544f41049</guid>
+      <itunes:duration>1281</itunes:duration>
+    </item>
+    <item>
       <title>SoP e51: Research Tools Roundup — Literature Analysis and Academic Writing for a Rural Clinician 260616</title>
       <description>Tonight is research tools — literature search, citation graphs, academic
 writing, reference management, point-of-care references — every layer of
