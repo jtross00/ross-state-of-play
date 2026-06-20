@@ -112,31 +112,6 @@ Kore (memory), Sulafat (AR/XR), Achernar (sovereign), Rasalgethi (creative).
       <itunes:duration>1236</itunes:duration>
     </item>
     <item>
-      <title>SoP e54: Augmentation Roundup — week of 2026-06-20</title>
-      <description>Second weekly Augmentation Roundup. A seven-day sweep (13–20 June 2026) of
-the Claude augmentation landscape, rated ruthlessly against the current stack.
-The week the substrate moved: the Model Context Protocol published its next
-specification as a release candidate — stateless core, plus a Tasks extension
-(long jobs with retries/expiry) and an Apps extension (interactive panels).
-Install shortlist: Claude Code fallback-model routing (the platform answer to
-the cloud-TTS outage that killed e48), nested sub-agents for the research and
-coding seats, and MCPVault — a fully local Obsidian vault server — as the
-featured install (graph/backlink/frontmatter-aware read+write, on-device).
-Build-toward: the MCP RC (don't re-plumb stable rails before the late-July
-finalisation; Tasks is the standard our audio runner already approximates).
-Anti-patterns: enterprise Managed Agents + SSO-provisioned connectors (wrong
-scale for a single rural clinician) and the 20+ legal connectors / 12 legal
-plugins (wrong domain — legal practice, not clinical governance). Cast:
-Erinome (anchor), Kore (survey), Charon (cold open + rating + install
-shortlist), Sulafat (ratings + synergies + featured), Achernar (anti-patterns
-+ sovereignty), Rasalgethi (mechanism beats). ~40 min.
-</description>
-      <pubDate>Sat, 20 Jun 2026 09:23:11 +0930</pubDate>
-      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e54-augmentation-roundup-260620.mp3" length="26534521" type="audio/mpeg"/>
-      <guid isPermaLink="false">af0f1aa81a204797e2331cf8</guid>
-      <itunes:duration>1325</itunes:duration>
-    </item>
-    <item>
       <title>SoP e53: STORM — Research Synthesis as a Multi-Perspective Conversation 260619</title>
       <description>Tonight is one idea held to the light: Stanford OVAL's STORM — Synthesis of Topic
 Outlines through Retrieval and Multi-perspective question asking — and its human-in-the-
