@@ -48,6 +48,62 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e55: Augmentation Roundup — Full Survey 260620</title>
+      <description>The "full survey" companion to the Saturday roundup (e54). Where e54 swept the
+Claude ecosystem, e55 takes the wider lens — five clusters across the whole
+industry, organised around one shift: the leverage has moved from the prompt to
+the loop. (1) LEAD — agentic harnesses and loop-design over prompting: a meta-
+harness that builds harnesses, an autoresearch self-improvement loop, and a
+coding swarm fanning a task across ~300 sub-agents; the lesson for our own
+fleet is to name and measure loops, not tune prompts. (2) AI memory &
+knowledge architecture: hippocampus-inspired associative memory, a persistent
+knowledge layer on a mainstream answer engine, NotebookLM→vault flows — the fix
+for our flat-handover problem is a memory that is a graph, not a folder.
+(3) AR/XR & spatial computing: lightweight spatial glasses, the Android-XR
+partnership, the headset graphics leap, and MIT's AR-ultrasound interpretation
+— which feeds the ALS-AI resuscitation trainer whose IP track opened this week.
+(4) Sovereign / on-device: the curated local-LLM map, open-weights diffusion
+Gemma, and the reality that a 64 GB box already runs a sovereign clinical
+stack — stand up the local router. (5) CLOSER — generative video & creative
+tooling: Grok Imagine 1.5, Google Vids, ImagineArt, Higgsfield + Fable 5, and
+the one with teeth for us, a generative scientific-figure maker. Synergy: the
+harness + the memory + the sovereign box are one architecture; AR-ultrasound +
+on-device models meet at the trainer; the figure-maker + the memory graph + the
+fleet is a production line. Cast: Erinome (anchor + synergy), Charon (agentic),
+Kore (memory), Sulafat (AR/XR), Achernar (sovereign), Rasalgethi (creative).
+~35 min.
+</description>
+      <pubDate>Sat, 20 Jun 2026 15:31:07 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e55-augmentation-roundup-full-survey-260620.mp3" length="24752470" type="audio/mpeg"/>
+      <guid isPermaLink="false">c60a63efafa9242296934dd0</guid>
+      <itunes:duration>1236</itunes:duration>
+    </item>
+    <item>
+      <title>SoP e54: Augmentation Roundup — week of 2026-06-20</title>
+      <description>Second weekly Augmentation Roundup. A seven-day sweep (13–20 June 2026) of
+the Claude augmentation landscape, rated ruthlessly against the current stack.
+The week the substrate moved: the Model Context Protocol published its next
+specification as a release candidate — stateless core, plus a Tasks extension
+(long jobs with retries/expiry) and an Apps extension (interactive panels).
+Install shortlist: Claude Code fallback-model routing (the platform answer to
+the cloud-TTS outage that killed e48), nested sub-agents for the research and
+coding seats, and MCPVault — a fully local Obsidian vault server — as the
+featured install (graph/backlink/frontmatter-aware read+write, on-device).
+Build-toward: the MCP RC (don't re-plumb stable rails before the late-July
+finalisation; Tasks is the standard our audio runner already approximates).
+Anti-patterns: enterprise Managed Agents + SSO-provisioned connectors (wrong
+scale for a single rural clinician) and the 20+ legal connectors / 12 legal
+plugins (wrong domain — legal practice, not clinical governance). Cast:
+Erinome (anchor), Kore (survey), Charon (cold open + rating + install
+shortlist), Sulafat (ratings + synergies + featured), Achernar (anti-patterns
++ sovereignty), Rasalgethi (mechanism beats). ~40 min.
+</description>
+      <pubDate>Sat, 20 Jun 2026 09:23:11 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e54-augmentation-roundup-260620.mp3" length="26534521" type="audio/mpeg"/>
+      <guid isPermaLink="false">af0f1aa81a204797e2331cf8</guid>
+      <itunes:duration>1325</itunes:duration>
+    </item>
+    <item>
       <title>SoP e53: STORM — Research Synthesis as a Multi-Perspective Conversation 260619</title>
       <description>Tonight is one idea held to the light: Stanford OVAL's STORM — Synthesis of Topic
 Outlines through Retrieval and Multi-perspective question asking — and its human-in-the-
