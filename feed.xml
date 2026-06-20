@@ -48,6 +48,39 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e56: Geolibre Rust 260620</title>
+      <description>The desk's first-ever geospatial episode — a single-topic deep dive on Geolibre,
+a four-day-old, pure-Rust geospatial toolkit from OpenGeos (Dr Qiusheng Wu) that
+compiles to WebAssembly and runs ~740 geoprocessing tools in the browser with no
+GDAL and no server. Spun off the JTR tech-stack brief. The thread: this is the
+"rewrite-it-in-Rust" trend (Polars, Ruff, uv) arriving in maps — but trading raw
+speed for reach, since Rust→WASM is the only way to run real geoprocessing in a
+browser without a 30 MB GDAL payload. What it does today (vector/raster/COG,
+PMTiles tile generation, LiDAR, spectral indices, DEM hydrology) and what it does
+NOT (no 3D, no live tile server, no satellite acquisition, no bathymetry feature —
+those live in the separate GeoLibre desktop app). Stack fit, honestly: it feeds the
+renderers (the MapLibre↔PMTiles pairing is the headline), and its real competitor is
+the status quo of standing up a GDAL/Postgres server. Use-case verdicts across the
+fleet: one real yes (Port Pirie bathymetry — COG→PMTiles 2D basemap), a soft maybe
+(Housing-Health GeoParquet ETL join), four clean no's (Earth globe, RCPP70 globe,
+ALS-AI, Sepsis CARE — all 3D or routing, the wrong category), and one subtle truth on
+Indigenous data sovereignty: the in-browser/on-device model is a sovereignty-aligned
+SUBSTRATE (raw low-count Aboriginal data never leaves the device) but enforces zero
+CARE controls itself — suppression stays our auditable code. The velocity (8 versions
+in 4 days, 5 in one day) is read both ways: momentum and instability. Recommendation,
+voiced through Orus: early-adopt-in-experiment — one time-boxed, version-pinned
+/labs/geolibre-demo (Port Pirie COG→PMTiles in-browser, MapLibre display, measure
+wall-clock + bytes vs the current 225 KB JSON), with a clean go/no-go. Cross-fleet
+synergy with the Port Pirie bathymetry lab, the Housing-Health PoC and the ALS-AI
+trainer drawn explicitly. Cast: Erinome (anchor), Orus (architecture), Autonoe
+(cartography), Umbriel (lineage + trend), Despina (sovereignty + ethics). ~25 min.
+</description>
+      <pubDate>Sun, 21 Jun 2026 02:50:03 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e56-geolibre-rust-260621.mp3" length="30541221" type="audio/mpeg"/>
+      <guid isPermaLink="false">ac91cf24788fc08ed67db4ef</guid>
+      <itunes:duration>1525</itunes:duration>
+    </item>
+    <item>
       <title>SoP e55: Augmentation Roundup — Full Survey 260620</title>
       <description>The "full survey" companion to the Saturday roundup (e54). Where e54 swept the
 Claude ecosystem, e55 takes the wider lens — five clusters across the whole
