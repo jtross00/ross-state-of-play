@@ -76,6 +76,73 @@ system willing to say plainly what it is not sure of.
       <itunes:duration>829</itunes:duration>
     </item>
     <item>
+      <title>SoP e42: Agents as Operators 260530</title>
+      <description>Self-sent-email sweep covering 28-30 May 2026 (21 emails, Wednesday/Saturday
+sweep cadence). Five segments: (1) the lead cluster on agents moving from
+autocomplete to proactive operator — Anthropic dynamic workflows, Gemini
+proactive 24/7, Google Agent Engine on BigQuery, GMaps grounding, Claude Code
+memory in production, Centralcoms vertical agents, coding agents in the
+social sciences; (2) the generative media stack consolidating — Nano Banana
+GA on Gemini API, Genspark Slides 5.0, HeyGen-in-Canva, ElevenLabs, SUBMERGE
+cloud render; (3) personal AI as design partner — Archischool feature, seven
+productivity prompts; (4) research-methods echo — h-index citation networks,
+coding agents in social sciences; HAC accountability bridge; Stoic close.
+Cast: Ada (anchor), Turing (architecture), Feynman (mechanism), Osler
+(clinical), Tufte (measurement), Adams (aesthetic), Hermione (evidence),
+Curie (ethics + HAC bridge), Epictetus (close). ~40 minutes.</description>
+      <pubDate>Sat, 30 May 2026 06:03:00 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e42-agents-as-operators-260530.mp3" length="31526925" type="audio/mpeg"/>
+      <guid isPermaLink="false">1eaa49dd21467aaffc367ea0</guid>
+      <itunes:duration>1576</itunes:duration>
+    </item>
+
+    <item>
+      <title>SoP e41: Agent Memory and the Autonomy Curve 260528</title>
+      <description>Self-sent-email sweep covering 26-28 May 2026. Five clusters:
+(1) agent memory architecture phase change — GBrain, Acontext, TencentDB
+Agent Memory, Hermes Desktop, all in the same week; (2) autonomous coding
+agents pass the day-long mark — Qwen 3.7-Max 35-hour runs, harness
+compatibility, cost economics; (3) open-source voice/audio/video AI stack
+consolidates — OmniVoice Studio, Veo 3, Stable Audio 3, LiveKit lip-sync,
+Canva+HeyGen; (4) home lab choices for the clinician-builder — N100 mini
+PCs vs Raspberry Pi, Tailscale+Pi-hole, Cowork+Home Assistant; (5) public
+health echoes — WHO lead poisoning message with Port Pirie context.
+~45 minutes. Cast: Ada Rosalind Ross (anchor, Erinome — first episode in
+the new anchor seat), Alan Turing Ross, Hermione Granger Ross, Richard
+Feynman Ross, Edward Tufte Ross, Marie Curie Ross, William Osler Ross,
+Ansel Adams Ross, Epictetus Ross. v2.3 pipeline @ -13 LUFS.</description>
+      <pubDate>Sat, 30 May 2026 06:02:00 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e41-agent-memory-and-autonomy-260530.mp3" length="35177315" type="audio/mpeg"/>
+      <guid isPermaLink="false">c5c4563d99019fe7b62397fe</guid>
+      <itunes:duration>2196</itunes:duration>
+    </item>
+
+    <item>
+      <title>SoP e40: Home Labs and Home Automation (Ada-anchor remaster)</title>
+      <description>Original e40 (Home Labs and Home Automation) remastered with Ada Rosalind
+Ross (Erinome) in the anchor seat. Cast, content, and segment structure
+identical to the 2026-05-26 production. This MP3 replaces the original at
+the same URL.</description>
+      <pubDate>Tue, 26 May 2026 06:01:00 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e40-home-labs-and-home-automation-260526.mp3" length="56577041" type="audio/mpeg"/>
+      <guid isPermaLink="false">c3cb36432b4ef28de9030182</guid>
+      <itunes:duration>3532</itunes:duration>
+    </item>
+
+    <item>
+      <title>SoP e39: Recreating Worlds (Ada-anchor remaster)</title>
+      <description>Original e39 (Recreating Worlds — VFX, AI, and the new craft of cinematic
+visualisation for non-Hollywood contexts) remastered with Ada Rosalind Ross
+(Erinome) in the anchor seat. Cast, content, and segment structure
+identical to the 2026-05-24 production. This MP3 replaces the original at
+the same URL.</description>
+      <pubDate>Tue, 26 May 2026 06:00:00 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e39-recreating-worlds-260526.mp3" length="66950345" type="audio/mpeg"/>
+      <guid isPermaLink="false">eb7c259500f6089bdb5e9c61</guid>
+      <itunes:duration>4180</itunes:duration>
+    </item>
+
+    <item>
       <title>SoP e54: Modelling a Six-Month Career Decision 260620</title>
       <description>A methods episode, not a verdict. Using a live, in-progress piece of desk analysis as
 the worked example - a doctor choosing between six more months of hospital locum work on
