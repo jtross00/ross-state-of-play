@@ -14,7 +14,6 @@
     <managingEditor>jacob@ada.ross (Jacob Ross)</managingEditor>
     <webMaster>jacob@ada.ross (Jacob Ross)</webMaster>
     <lastBuildDate>Tue, 23 Jun 2026 06:01:33 +0930</lastBuildDate>
-    <itunes:new-feed-url>https://jtross00.github.io/ross-state-of-play/feed.xml</itunes:new-feed-url>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -118,16 +117,16 @@ industry, organised around one shift: the leverage has moved from the prompt to
 the loop. (1) LEAD — agentic harnesses and loop-design over prompting: a meta-
 harness that builds harnesses, an autoresearch self-improvement loop, and a
 coding swarm fanning a task across ~300 sub-agents; the lesson for our own
-fleet is to name and measure loops, not tune prompts. (2) AI memory &
+fleet is to name and measure loops, not tune prompts. (2) AI memory &amp;
 knowledge architecture: hippocampus-inspired associative memory, a persistent
 knowledge layer on a mainstream answer engine, NotebookLM→vault flows — the fix
 for our flat-handover problem is a memory that is a graph, not a folder.
-(3) AR/XR & spatial computing: lightweight spatial glasses, the Android-XR
+(3) AR/XR &amp; spatial computing: lightweight spatial glasses, the Android-XR
 partnership, the headset graphics leap, and MIT's AR-ultrasound interpretation
 — which feeds the ALS-AI resuscitation trainer whose IP track opened this week.
 (4) Sovereign / on-device: the curated local-LLM map, open-weights diffusion
 Gemma, and the reality that a 64 GB box already runs a sovereign clinical
-stack — stand up the local router. (5) CLOSER — generative video & creative
+stack — stand up the local router. (5) CLOSER — generative video &amp; creative
 tooling: Grok Imagine 1.5, Google Vids, ImagineArt, Higgsfield + Fable 5, and
 the one with teeth for us, a generative scientific-figure maker. Synergy: the
 harness + the memory + the sovereign box are one architecture; AR-ultrasound +
