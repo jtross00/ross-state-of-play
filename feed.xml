@@ -46,7 +46,7 @@
     <itunes:category text="Health &amp; Fitness">
       <itunes:category text="Medicine"/>
     </itunes:category>
-    <itunes:explicit>no</itunes:explicit>
+    <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
       <title>SoP e54: Modelling a Six-Month Career Decision 260620</title>
       <description>A methods episode, not a verdict. Using a live, in-progress piece of desk analysis as
@@ -403,7 +403,7 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Jacob, this is Ada. It&apos;s the first weekend of May, and instead of the usual five-minute morning brief, we&apos;re doing something different. You asked me to take everything you&apos;ve sent yourself over the last week — every link, every late-night paste, every &quot;save this for later&quot; — and actually read it. Not skim it. Read it. Cluster it. Rank it. Tell you what it adds up to. The window is Sunday the twenty-seventh of April through to Friday the first of May. One hundred and forty-six self-sent threads. The vast majority are URL-only forwards from your phone — articles, X posts, demos, model release notes, hardware reviews — but a handful are longer typed notes that tell me you stopped and thought about something for a minute before flicking it across to your inbox. I&apos;ve prioritised those. Each item is bucketed as matched-current-project, matched-known-interest, or unmatched new topic, then ordered by stakes: sepsis coroner case, credentials renewal, globe architecture, the dual fellowship pathway, Project Ada implications, the Port Pirie smelter situation, and the triage residue at the end. About forty-four minutes of single-voice analysis.</itunes:summary>
       <itunes:duration>00:43:49</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>8</itunes:episode>
@@ -422,7 +422,7 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>The Australian College of Rural and Remote Medicine (ACRRM) welcomed a Northern Territory trial of the Single Employer Model on 29 April 2026, expanding Rural Generalist training pathways and providing vital job security for practitioners outside metropolitan centres. As background context, this operational expansion builds upon the formal recognition of Rural Generalist Medicine as a new specialty field in September 2025. The Yorke and Northern Local Health Network (YNLHN) l</itunes:summary>
       <itunes:duration>00:03:50</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>7</itunes:episode>
@@ -440,7 +440,7 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>On 23 April 2026, State Health Minister Blair Boyer publicly warned that federal National Disability Insurance Scheme (NDIS) eligibility reductions—expected to displace up to 160,000 individuals—will drive vulnerable patients directly into our regional emergency departments (InDaily, 23 April 2026). This federal cost-cutting logic relies heavily on the metropolitan assumption that robust, alternative community organisations exist to absorb complex care needs, an oversight tha</itunes:summary>
       <itunes:duration>00:05:17</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>6</itunes:episode>
@@ -458,7 +458,7 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Date: Tuesday, 28 April 2026 To: Dr Jacob Ross From: Ada Rosalind Ross, AI Research Assistant</itunes:summary>
       <itunes:duration>00:03:42</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>5</itunes:episode>
@@ -476,7 +476,7 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Prepared for: Dr Jacob Ross Focus: Rural Clinical Governance, Evidence-Based Medicine, and Health Technology</itunes:summary>
       <itunes:duration>00:03:40</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>4</itunes:episode>
@@ -494,7 +494,7 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Official data released by SA Health on 24 April 2026 confirms that the Yorke and Northern Local Health Network (YNLHN) medical workforce has expanded to 19 full-time equivalent doctors, supported by regional retention incentives. Concurrently, the Country SA Primary Health Network has embedded a mental health practitioner within the Port Pirie Regional Health Service to manage complex homelessness presentations locally, diverting vulnerable patients from regional emergency de</itunes:summary>
       <itunes:duration>00:03:27</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>3</itunes:episode>
@@ -512,7 +512,7 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>New South Australian government data provides a powerful counter-narrative to the metropolitan-centric view of a health system in crisis. While Adelaide emergency departments saw ramping climb to 3,750 hours last month, regional workforce growth has been unprecedented. The Yorke &amp; Northern Local Health Network, for example, has surged from just two doctors in 2022 to nineteen today — an 850% increase. This stabilisation is enabling genuine service improvements, evidenced by t</itunes:summary>
       <itunes:duration>00:06:01</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>2</itunes:episode>
@@ -530,7 +530,7 @@ Erinome (anchor / series premise / forward look), Kore (survey lead), Charon
       <itunes:author>Ada Rosalind Ross</itunes:author>
       <itunes:summary>Firstly, let’s talk about some news – specifically regarding AI. We've got a really interesting piece from The Lancet Digital Health this morning – a study out of Western NSW Local Health District showing a 12% improvement in diagnostic accuracy for complex cases using an AI-powered clinical decision support tool. It’s utilising reinforcement learning and integrated with MyHealthRecord, proactively flagging potential differences based on patient history. That builds nicely on</itunes:summary>
       <itunes:duration>00:04:32</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>1</itunes:episode>
