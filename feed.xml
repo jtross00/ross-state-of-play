@@ -48,6 +48,34 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e57: Two Machines, One Mind 260624</title>
+      <description>A small problem with a big lesson. You run the same assistant on two computers,
+a desktop that stays home and a laptop that travels, sharing one memory store,
+and within a week the two quietly stop agreeing about the state of the world.
+The desk takes it apart. Orus, the methods seat, draws the line the whole problem
+hides behind: shared data is solved, but shared state is not, because the thing
+that drifts is what never gets written down in the first place, the decisions and
+half-finished work that live only in one machine's conversations. He walks the
+five leaks, lost conversations, staleness with no freshness signal, stale
+snapshots mid-session, silent write collisions, and capability drift, then the
+cheap fixes: a heartbeat note so the system always knows how current it is, a
+structured handoff that nags until finished, and one canonical truth per project.
+Despina, the ethics seat, presses the deeper point, that one name presenting as
+one mind while running as two partial views is an implied promise, and the real
+danger is the fluent answer built on a stale picture, delivered with full
+confidence. She argues against the seductive fix of wiring the two together for
+live agreement: the real need was continuity, not conversation, and a legible
+history you can read back beats constant chatter you cannot. The thread pulls out
+to the wider field, where the two-machine case is the smallest instance of the
+multi-agent memory problem, and the virtue that scales is calibrated humility, a
+system willing to say plainly what it is not sure of.
+</description>
+      <pubDate>Wed, 24 Jun 2026 03:58:12 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e57-two-machines-one-mind-260624.mp3" length="16619712" type="audio/mpeg"/>
+      <guid isPermaLink="false">9d2094c9935c8f1a0cfe95e7</guid>
+      <itunes:duration>829</itunes:duration>
+    </item>
+    <item>
       <title>SoP e54: Modelling a Six-Month Career Decision 260620</title>
       <description>A methods episode, not a verdict. Using a live, in-progress piece of desk analysis as
 the worked example - a doctor choosing between six more months of hospital locum work on
