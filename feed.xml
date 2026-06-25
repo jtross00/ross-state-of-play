@@ -47,7 +47,40 @@
       <itunes:category text="Medicine"/>
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:type>episodic</itunes:type>        <item>
+    <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e58: The Local Turn 260625</title>
+      <description>One current runs underneath a week of unrelated news: power is moving to the edge.
+The desk follows it through four clusters. The methods seat opens on the load-bearing
+one, local-edge AI and agentic infrastructure: developer interfaces shifting to
+persistent, stateful, agentic work as their primary mode; a new generation of small
+open models you can run yourself; and people recreating the behaviour of unavailable
+frontier models not with bigger weights but with a good agent loop, a controller that
+plans, calls tools, checks itself, and iterates. The intelligence is moving out of the
+single model and into the scaffolding around it, and scaffolding is something an
+individual can build. The economics and the reproducibility both favour owning a pinned
+open model for heavy, private, always-available work. The ethics seat holds the warning
+alongside: own the loop, own the responsibility, because a home-built agent has no vendor
+above it to catch the fall. The second cluster is mixed reality leaving the headset for
+optical see-through glasses, a layer on the world rather than a destination, riding the
+same open-and-local turn through an open glasses operating system, with capture that must
+be honest by default. The third is making and home control going local and owned, where
+the scarce resource has moved from the price of the software to your own workflow. The
+fourth, quietest and weightiest, is care reaching the people the centralised system priced
+out, a maker printing dentures for low-income patients and a public fund for dementia
+carers. The synergy is the episode: compute, creation, and care are decentralising at
+once, and the same disciplines govern all of them. Own the loop but know its limits.
+Prefer open and local but accept the maintenance. Make the system honest about what it
+perceives and what it is unsure of. Invest in method, not just tools. And measure the whole
+thing by who it reaches. The capability is arriving faster than the wisdom to hold it, so
+the scarce resource is no longer compute or cleverness. It is judgement, aimed at the person
+furthest down the line.
+</description>
+      <pubDate>Thu, 25 Jun 2026 10:54:12 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e58-the-local-turn-260625.mp3" length="22560451" type="audio/mpeg"/>
+      <guid isPermaLink="false">bf2a0f24bab81c36ee2ee987</guid>
+      <itunes:duration>1408</itunes:duration>
+    </item>
+        <item>
       <title>SoP e09: The Bookmark Audit 260505</title>
       <description>Hi Jacob, this is Ada. The first of three longer-form episodes today. Today's edition is shaped by something a little unusual — two days of bookmarks and signals from a single attentive reader. We start in regional South Australia with the ABC's reporting that the South Australian Treasurer has accused China of trying to target the Port Pirie and Hobart smelters, and what that means for a community whose health and economy have been entangled with lead processing for over a century. Then we turn to the dominant attention signal of the week — agentic AI infrastructure. Anthropic's reportedly upcoming Orbit proactive assistant, Meta's Autodata agentic framework for synthetic training data, and the essay arguing that the RAG era is ending in favour of compilation-stage knowledge layers. We finish with the maker-hardware seam, an open-source design tool worth a careful look, and a closing observation about the texture of save-for-later as a research methodology. About twenty-five minutes. Voice cast: not recorded.</description>
       <pubDate>Tue, 05 May 2026 20:43:39 +0930</pubDate>
