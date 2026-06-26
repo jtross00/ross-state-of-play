@@ -48,68 +48,6 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>    <item>
-      <title>SoP e60: PhantomScan 260626</title>
-      <description>PhantomScan is the second flagship clinical training project on this desk, sibling
-to the AI-assisted advanced life support trainer. Tonight is its launch episode,
-and the project grew over the course of the day from a point-of-care ultrasound
-simulator into something more interesting and more defensible. It is an integrated
-POCUS training continuum platform spanning four modalities, all sharing one digital
-human and one anatomical vocabulary, plus a closed-loop phantom-creation pipeline
-that lets any user reproduce or customise any phantom locally. The dominant
-commercial neighbour is SonoSim, the American training platform built on a vast
-library of recorded patient ultrasound cases, distributed through Laerdal Medical,
-used at scale by medical schools globally. PhantomScan is not pitched against
-SonoSim's core offer. It is positioned as the part of the continuum SonoSim
-structurally does not cover. SonoSim covers modality one (fully in silico) very
-well, partially covers modality two (LiveScan layers virtual scanning onto live
-volunteers and manikins), and structurally cannot cover modality three first-
-party because their substrate is recorded clips rather than volumetric models and
-they have no phantom pipeline. The four modalities, named cleanly: modality one,
-a translucent three dimensional digital human in a browser with selectable organs
-and a virtual probe, no hardware in the room; modality two, the IMU-instrumented
-probe shell on a silent ballistic gel phantom with the Three.js slice renderer and
-the translucent three dimensional viewer side by side (the original PhantomScan v1
-scope); modality three, a real ultrasound probe on the same phantom geometry
-rebuilt with echogenic doping (graphite at point-five to one percent, psyllium for
-fine speckle, glass beads for hyperechoic point targets, water-filled tubing for
-vessels, surgical-tubing loops with a peristaltic pump for pulsatile Doppler),
-bridging to the artefacts and variability of a real ultrasound machine; modality
-four, the bedside, which the platform deliberately stops short of. The closed-loop
-phantom-creation pipeline runs from a real-probe sweep through PLUS Toolkit
-reconstruction through 3D Slicer segmentation to printable mould files, with three
-print modes (rigid anatomical models, negative-space gel moulds, flexible inserts
-for vessel trees) on the Bambu printer Jacob already owns. The loop closes by
-scanning the new phantom with the IMU probe and validating its volume against the
-original reference. Reproducibility, customisation, sovereignty (phantom data
-stays on local infrastructure, with particular weight for under-served regional
-and Aboriginal community applications), and AUD 100-300 in materials per phantom
-rebuild. Long-term, a community-curated phantom library with Hurn Medical Pty Ltd
-as the corporate-trustee curation and quality-control layer. The evidence base
-walks the validity stacks for each modality: Galusko 2019 systematic review for
-modalities one and two combined, Hocking 2011 and Morrow 2015 for modality three's
-phantom-haptic surface (Morrow specifically validating gel-phantom transfer to
-live peripherally-inserted central catheter insertion, which is the procedural
-destination of Jacob's existing Port Pirie Regional Health Service PICC
-credentialing pathway), and the cognitive-load literature on cross-modality
-compounding. The regulatory fork is named cleanly: training device, exempt path,
-complement-not-competitor positioning carried through marketing copy, UI,
-curriculum, and submission. The twelve-week prototype roadmap delivers a single-
-phantom proof-of-continuum for the PICC arm, with three modalities working and
-the modality-four bedside flagged at the curriculum-level checklist. Four
-intersections with the rest of the work: AI-ALS as sibling, the parent POCUS
-learning resource as curriculum, the PPRHS Diagnostics project as a direct
-modality-three application, and Hurn Medical as the corporate trustee whose first
-cleanly-fitting product candidate the continuum is. The scarce resource has not
-changed. It is judgement, aimed at the person furthest down the line, this time
-wearing a stethoscope and a probe, trained in three complementary registers
-before they ever meet that person.
-</description>
-      <pubDate>Fri, 26 Jun 2026 13:53:54 +0930</pubDate>
-      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e60-phantomscan-260626.mp3" length="49946579" type="audio/mpeg"/>
-      <guid isPermaLink="false">20c2c0d67c54c27af28190ef</guid>
-      <itunes:duration>2494</itunes:duration>
-    </item>
-    <item>
       <title>SoP e59: Above the Loop 260626</title>
       <description>Last week we said the agent loop could stand in for a frontier model because the
 cleverness had moved out of the weights and into the scaffolding around them. This
