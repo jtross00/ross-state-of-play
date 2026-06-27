@@ -1,0 +1,140 @@
+1
+00:00:35,772 --> 00:01:07,044
+Charon: This is State of Play. I'm Charon. Third proper weekly Augmentation Roundup — and if last week was the week the substrate moved, this was the week the tools learned to fail gracefully. The most striking thing in the last seven days wasn't a flashy new capability. It was a maintenance release. A Claude Code build, shipped on the twenty-fifth, whose headline feature is that you can now wind a session back to before you cleared its context — recover the thread you thought you'd thrown away.
+
+2
+00:01:07,394 --> 00:01:48,146
+Charon: That sounds like housekeeping. It isn't, and I'll tell you why it landed for me this week in particular. Our own audio runner — the thing that renders this very show — failed five jobs in a row yesterday. Five. Two episodes only went out because a human pushed them by hand. So when I read a changelog that's nothing but resilience — sessions you can rewind past a clear, background agents that actually stay stopped when you stop them, a third less processor load while a response streams — I don't read housekeeping. I read the week the ecosystem grew up about reliability, on the exact day we got a fresh reminder of why reliability is the whole game.
+
+3
+00:01:48,496 --> 00:02:17,067
+Charon: So that's the frame. A platform release that's pure stability, a couple of enterprise launches that test our sovereignty discipline, a quiet move in the vault layer, and — the featured install — a second voice provider for the runner, which is the literal part we told ourselves to fit a fortnight ago and didn't. Seven candidates. Rated hard against rails that are good but, as of yesterday, demonstrably not invincible. Over to the frame.
+
+4
+00:02:17,417 --> 00:03:07,809
+Erinome: I'm Erinome, the standing anchor. One paragraph of frame, because the frame is the point of this series. There are a dozen feeds that tell you what shipped this week. We tell you what to do about it — measured against the actual stack we run. A fleet of specialised sub-agents that fan out across the work. A personal tracker site with a clinical-simulation build inside it. A private gateway that federates two machines over a network only we can see. This show's own audio runner. A vault that works as a second brain across both machines. And a resuscitation-training project with a three-dimensional capture pipeline behind it. A tool that dazzles in a demo can still do nothing for that. Fit is the test.
+
+5
+00:03:08,159 --> 00:03:39,530
+Erinome: Four ratings, same as always. Strong-yes: install it this week. Try-it: worth one evaluation session, plausible but unproven for us. Monitor: interesting, not yet. And skip — always with a reason, because a skip without a reason is taste pretending to be judgment. And the rule in front of all four: name the gap before you name the tool. If it doesn't fill a hole we actually have, it doesn't matter how clever it is.
+
+6
+00:03:39,880 --> 00:04:28,312
+Erinome: A note on this week. Charon's right that the headline is resilience, and that gives the episode an unusual centre of gravity: the best move on the table is not a new thing to acquire, it's keeping a thing we already run current — and then fixing the one place in the stack we already knew was brittle and put off. Yesterday's five failures make that argument better than I could. The running order: Kore takes the survey, every candidate, functional descriptions only. Then the ratings, traded between Charon and Sulafat, with mechanism beats from Rasalgethi. Then Charon's install shortlist. Then Achernar on what to ignore and guard against. Then Sulafat on synergies and our featured install of the week. Over to the survey.
+
+7
+00:04:28,662 --> 00:04:42,352
+Kore: Kore here. Seven candidates, in three groups: the platform-stability releases, the vault-and-retrieval layer, and voice. Functional descriptions only — the scoring comes after.
+
+8
+00:04:42,702 --> 00:05:58,675
+Kore: Group one, platform stability. The big one is the Claude Code build that shipped on the twenty-fifth — version two-point-one-point-one-nine-one. Its standout: the rewind command can now restore the conversation from before you cleared the context, not just from ordinary mid-session checkpoints — so a clear is no longer a cliff edge. Alongside it, background agents that are stopped now stay stopped instead of quietly restarting, roughly a third less processor load while a response is streaming, sturdier handling of the connections to external tool servers, better sign-in handling for those servers, credential blocking inside the sandbox, and a control for organisations to restrict which models are used. Two more launches sit in this group. One: a beta that lets you tag the assistant into a team chat channel — hand it a task, let it work asynchronously, keep a memory of the channel's context. Two: a beta that lets the tool-execution half of a managed agent run on infrastructure you choose — your own servers, or a managed compute provider — while the reasoning half stays on the vendor's side.
+
+9
+00:05:59,025 --> 00:06:30,257
+Kore: Group two, the vault and retrieval. The note-taking app we build the second brain in shipped a point release this month, and — more interesting — it now carries a built-in command-line interface aimed at scripted, automated workflows. Separately, there's a tool that takes a knowledge vault, builds numerical embeddings of its contents, and exposes semantic search over them as a tool the assistant can call — find-by-meaning, as opposed to find-by-link.
+
+10
+00:06:30,607 --> 00:07:01,959
+Kore: Group three, voice. There's a mature voice server that wraps text-to-speech, voice cloning, and dubbing behind the tool protocol — a drop-in second engine for anything that currently speaks through one provider. And a small reading-aloud plug-in for the vault, for listening to notes. That last one I'll dispatch quickly when we score. Rasalgethi — before the ratings, set the mechanism under the headline, because the whole episode turns on what a checkpoint actually is.
+
+11
+00:07:02,309 --> 00:07:34,821
+Rasalgethi: Rasalgethi. Happily. Think about what a long session with an assistant really is. It's a conversation that builds a tower of context — what you're doing, what you've tried, what you've decided. Now, every so often you "clear" — you knock the tower down on purpose, because it's gotten tall and cluttered and you want a clean start. The trouble is, sometimes you knock it down and immediately realise the thing you needed was three blocks from the bottom. Until this week, that was gone. A clear was a one-way door.
+
+12
+00:07:35,171 --> 00:08:42,464
+Rasalgethi: A checkpoint is a photograph of the tower, taken automatically, at every step. Rewind means: walk back to any photograph and rebuild from there. And the change this week is that the photographs taken before you cleared are still in the album. So the clear stops being a cliff and becomes a ledge you can climb back up. Why does that matter for us specifically? Because we run deep sessions — a sub-agent fans out, spawns its own helpers, the context gets enormous, and the temptation to clear and reset is constant. The fear of clearing is what stops you doing it. Take away the fear — make it reversible — and you'll keep a session clean without losing your nerve. One more beat, quickly, on the retrieval tool, because the contrast is the lesson. Following a link finds what you wrote down as related. An embedding finds what you meant, even if you never linked it. Different questions. Hold that thought — it decides whether that tool is a duplicate of what we installed last week or a complement. Back to the ratings.
+
+13
+00:08:42,814 --> 00:09:30,526
+Charon: Charon. The strongest yes of the week is the least exciting, and I'm completely fine with that. The Claude Code maintenance build — strong-yes, top pick, and it's a one-line upgrade. Here's the gap, and it is not hypothetical after yesterday: we run long, deep, nested sessions, and when one goes wrong our only recovery was to start over and lose the thread. This build makes the thread recoverable — rewind past a clear — and at the same time hardens the connections to every external tool server we depend on, and stops a "stopped" background agent from coming back to life. We run a lot of those tool servers and a lot of background agents. This is free reliability on the exact surfaces that bit us. Upgrade today; there's no argument on the other side.
+
+14
+00:09:30,876 --> 00:10:22,828
+Sulafat: Sulafat — and I want to name the systems point, because it's bigger than one release. The lesson of yesterday's five failures is not "the runner has a bug." It's that staying current is itself a reliability strategy, and it's the one we under-weight because it's boring. There's no repository to admire, no demo to screenshot — just a version number going up. But a third less processor load during streaming, sturdier tool-server connections, better sign-in handling — those are precisely the failure surfaces that produce the silent, intermittent deaths that are hardest to diagnose. So the rating is strong-yes for the upgrade, and the durable lesson is: schedule the boring update before you chase the shiny install. Currency is a feature.
+
+15
+00:10:23,178 --> 00:11:15,730
+Charon: The second voice provider — the voice server behind the tool protocol — I'll call try-it, leaning hard to strong-yes, on one target only: the runner. Sulafat has it as the featured install, so I'll keep my rating tight. The gap is the oldest scar this show has. An episode died outright a fortnight ago to a doubled five-oh-three from our single voice provider. Last week's episode literally prescribed the fix — add a fallback to the runner's voice step — and we didn't do it, and yesterday the runner fell over five times. A drop-in second engine is the part that closes that. The only reason it's try-it and not strong-yes-on-day-one is that the integration needs a real evaluation session against our pipeline, not a blind bolt-on. More from Sulafat shortly.
+
+16
+00:11:16,080 --> 00:11:53,072
+Sulafat: The vault command-line interface — try-it. The gap is narrow but real: there are vault operations we want to run headless and scripted across both machines — normalise a frontmatter field, sweep for stale links — that today need either a custom server or a human in the editor. An official, local command-line surface is the sovereignty-friendly way to script those. It sits beside last week's graph server, it doesn't replace it. One evaluation: pick one repetitive vault chore and try to automate it end-to-end.
+
+17
+00:11:53,422 --> 00:12:42,614
+Sulafat: The semantic-retrieval tool — monitor, with a try-it inside it for one question only. Rasalgethi drew the line cleanly: last week's install searches the vault by link and backlink; this one searches by meaning. That's a genuine complement, not a duplicate — the times you can't find a note are usually the times you never linked it. But two cautions hold it at monitor. One: we have not even granted last week's graph server write access yet — running a second retrieval layer before the first has earned trust is how you end up unable to tell which one is wrong. Two: the sovereignty question — are the embeddings computed and stored on the machine, or shipped to a service? Answer that before it goes anywhere near the vault.
+
+18
+00:12:42,964 --> 00:12:58,895
+Charon: Which leaves the two enterprise betas — the team-chat tagging and the self-hosted execution sandbox — and those are Achernar's, because for us the interesting thing isn't the score, it's why the score is what it is. Over to the guard-rails.
+
+19
+00:12:59,245 --> 00:13:56,057
+Achernar: Achernar. Two betas this week are good engineering and the wrong fit for us, and the why is more useful than the verdict. First: tagging the assistant into a team chat channel to hand off asynchronous work. For a team, that's lovely — shared context, work happening while you sleep, a memory of the channel. For a single rural clinician, it's a collaboration surface with no team on the other side. But the sharper reason is the one that always wins here: a clinical-adjacent operator must never let patient-related material drift into a third-party chat workspace, and a tool whose whole purpose is to live in that workspace makes that drift one careless paste away. Skip — and more than skip, it's a thing to actively keep clinical context out of. Monitor it for the non-clinical side of the world: Rotary, the charity, general comms. Never for the clinical side.
+
+20
+00:13:56,407 --> 00:15:01,780
+Achernar: Second: the self-hosted execution sandbox — run the tool-execution half of an agent on infrastructure you choose. This one is tempting precisely because it wears the language we care about: self-hosted, your own infrastructure, sovereignty. Read the architecture, though. The tools run on your side; the reasoning loop still runs on the vendor's. That's a real and useful split for an enterprise that needs tool-side data residency — but it is not what it sounds like, and the failure mode is believing it is. Self-hosted execution is not self-hosted reasoning. We already hold the line a simpler way — the gateway is private, the sensitive work runs local on our own metal. So: monitor, with a specific trigger — revisit it only if a compute-heavy job, the three-dimensional capture pipeline say, needs burst capacity we can't supply locally. Not as a sovereignty upgrade. It isn't one.
+
+21
+00:15:02,130 --> 00:15:37,962
+Achernar: And the values beat the week actually handed us — it's about the boring upgrade. There's a quiet anti-pattern in how we, and everyone, treat the word "augmentation." We hear it and we think acquisition — a new server, a new skill, a new capability to bolt on. So the genuinely highest-value move of the week — upgrade the tool you already run — feels like it doesn't count, and gets deferred. Yesterday's five failures are the cost of that deferral made visible. Currency is not a lesser kind of augmentation. Often it is the whole of it.
+
+22
+00:15:38,312 --> 00:16:17,864
+Rasalgethi: Rasalgethi, one beat to make Achernar's sovereignty point concrete, because the words are slippery. "Self-hosted" can mean two completely different things, and the gap between them is everything. Imagine you send a letter for translation. Self-hosted execution is: the translator works in a room in your building — but you still post the letter out to a head office somewhere else to decide what it means and what to do about it. Self-hosted reasoning is: the deciding happens in your building too. The first keeps your paper close. Only the second keeps your thinking close. When a vendor says "runs on your infrastructure," always ask which half. For sovereignty, the thinking is the half that matters.
+
+23
+00:16:18,214 --> 00:16:25,025
+Charon: Charon. The shortlist — what to actually do this week, sequenced, three items, no firehose.
+
+24
+00:16:25,375 --> 00:16:54,127
+Charon: One, and it's the un-skippable one: upgrade Claude Code to the twenty-fifth's build, two-point-one-point-one-nine-one or later. One command. It gets us rewind-past-a-clear, background agents that stay stopped, sturdier tool-server connections, better sign-in handling, and lighter processor load while streaming — every one of them a surface that has bitten us or could. Do it before anything else on this list, because the rest of the list runs on top of it.
+
+25
+00:16:54,477 --> 00:17:28,189
+Charon: Two — and this is overdue by a fortnight — wire a second voice provider into the runner, using the voice server behind the tool protocol. This is the featured install and Sulafat has the full case, so the action is just: stand it up, run one real episode through it as a fallback path, and confirm it speaks when the primary is told to fail. One hard gate, non-negotiable: this path renders show scripts only — never one word of clinical text leaves through a third-party voice service.
+
+26
+00:17:28,539 --> 00:17:56,910
+Charon: Three — the low-stakes experiment — trial the vault's command-line interface on a single headless chore. Pick one repetitive thing we do by hand across both machines, a frontmatter normalisation or a stale-link sweep, and script it end-to-end. If it holds, it's a new way to keep the vault tidy without a human in the editor. If it doesn't, we've spent one evaluation session and learned the boundary.
+
+27
+00:17:57,260 --> 00:18:25,951
+Charon: Everything else from the survey is monitor or skip. The semantic-retrieval tool: revisit once last week's graph server has earned write access and we've confirmed local embeddings. The two enterprise betas: admire the engineering, keep clinical context well clear, walk past. Three installs, all reversible, the first two aimed squarely at the reliability the week — and yesterday — told us to care about. Over to Sulafat.
+
+28
+00:18:26,301 --> 00:19:19,733
+Sulafat: Sulafat. The featured install of the week is the second voice provider for the runner — and I want to be honest about why a fallback engine, of all the unglamorous things, gets the feature slot. It's because this show has now told the same story three times. An episode died to a doubled provider error a fortnight ago. The very next episode stood up and said, out loud, the rule: no load-bearing step in this stack should have exactly one provider — and named the runner's voice step as the place we hadn't fixed it. Then yesterday the runner failed five times. The featured install is not novel. It is the part we already knew we needed, that the series itself prescribed, and that we kept not fitting. Featuring it is the show holding itself to its own advice.
+
+29
+00:19:20,083 --> 00:20:04,275
+Sulafat: And the design fits us. A voice server that sits behind the tool protocol means the runner can call a second engine the same way it calls the first — so the fallback is a configuration, not a rewrite. It's reversible: if the second engine is worse, you point back at the first and nothing's lost. And it's sovereignty-clean for this use only, because show scripts are public by design — there is no patient in a podcast. The gate Achernar drew holds the line: this path is for the show, and the show alone. Closing a known single point of failure, with a reversible config change, on a non-clinical surface — that's as close to a free win as this series ever finds.
+
+30
+00:20:04,625 --> 00:20:15,316
+Sulafat: Now the synergies — how these pieces compose with rails we already run, because that's the move this show exists to make. Three combinations.
+
+31
+00:20:15,666 --> 00:20:47,098
+Sulafat: First — rewind-past-a-clear plus last week's nested sub-agents. Last week we lifted the ceiling so a specialist could spawn its own team. That's more power and more ways for a deep run to go sideways. This week's rewind is the guard-rail that makes the extra depth safe to use: when a five-layer fan-out tangles, you walk back to a checkpoint instead of starting from nothing. We installed the throttle last week and the brakes this week. Use them as a pair.
+
+32
+00:20:47,448 --> 00:21:19,258
+Sulafat: Second — the voice fallback plus the runner plus the rule we wrote down last week. This is simply that rule made concrete on the exact step it named. "No single-provider step" stops being a slogan the moment the runner has two voices. And the discipline generalises: walk the rest of the stack this month and ask, of every load-bearing step, what's the second provider — and where the answer is "there isn't one," that's the next fortnight's work.
+
+33
+00:21:19,608 --> 00:22:06,341
+Sulafat: Third — and this is the one to sit with — the vault command-line interface plus last week's graph server plus the self-writing handover we wired a fortnight ago, all across two machines kept in sync. Put them together and you can see the shape: a session ends and writes its own handover; it writes graph-correct, links and frontmatter intact, through the graph server; and a scheduled command-line job tidies and normalises across both machines without a human opening the editor. The vault starts maintaining itself — on our own hardware, on both desks, with nothing leaving. That's not this week's install. It's the direction this week's small pieces point. Over to Erinome to close.
+
+34
+00:22:06,691 --> 00:22:54,283
+Erinome: I'm Erinome. To close, the through-line: this was the week the tools learned to fail gracefully, landing on the exact day our own runner reminded us why that matters. The best moves were not acquisitions. An upgrade we'd have been right to install even in a quiet week, made urgent by five failures in a row. A second voice for the runner that the show itself prescribed a fortnight ago and we finally fit. A command-line surface that lets the vault tidy itself. And underneath, the discipline the week kept teaching: currency is a feature, sovereignty is about where the thinking happens not just where the tools run, and every load-bearing step deserves a second provider.
+
+35
+00:22:54,633 --> 00:23:38,825
+Erinome: Next week, the forward look points two places. One: whether the runner's new second voice actually holds the first time the primary fails — we'll know, because we'll have tested it, and a featured install isn't real until it's been leaned on. Two: the protocol's next specification finalises late next month, so the build-toward window is closing — and a fortnight from now is about the right moment to plan the move from our hand-built rails to the standard. Not what's new. What it means for what we've already built — and, this week especially, for keeping what we've already built running. This has been State of Play. I'm Erinome. See you next week.
+
