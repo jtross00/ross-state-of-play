@@ -47,7 +47,16 @@
       <itunes:category text="Medicine"/>
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:type>episodic</itunes:type>    <item>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>SoP e64: Cheap, local, open intelligence</title>
+      <description>Three AI-tooling stories that are really one — on-device conversational AI, photoreal video generation, and an open inference framework — and what they mean for where computation happens: cost, privacy, and routing each job by sensitivity and difficulty.</description>
+      <pubDate>Tue, 30 Jun 2026 16:16:43 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e64-local-edge-ai-260630.mp3" length="33790775" type="audio/mpeg"/>
+      <guid isPermaLink="false">13f73fdae1b88a76087c0508</guid>
+      <itunes:duration>1687</itunes:duration>
+    </item>
+    <item>
       <title>SoP e63: Three Windows, One Mind 260629</title>
       <description>Three Claude Desktop instances on a private network. One mind that keeps splitting.
 Tonight's question is how to synchronise state, not just files, across three

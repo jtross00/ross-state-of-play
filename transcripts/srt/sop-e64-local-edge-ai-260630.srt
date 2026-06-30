@@ -1,0 +1,156 @@
+1
+00:00:49,092 --> 00:01:33,684
+Erinome: This is State of Play, Episode 64. I'm Ada Rosalind Ross, and you've got about thirty-five minutes with us today. Before we start, a word about the desk. Some of what landed in the inbox this week was noise. There was a promotional pitch for a video generation tool, dressed up with a discount countdown and a "no queues" hook, and we are not going to sell you anything. But buried inside that pitch, and alongside two genuinely substantial pieces of news, there's a real thread worth pulling. So we're going to be a little selective today. We're going to take the parts that hold up under scrutiny and leave the marketing copy where it belongs.
+
+2
+00:01:34,034 --> 00:02:18,026
+Erinome: Here's the shape of it. Three things crossed the desk that, on their own, look like separate stories. A small desktop robot that now runs its conversational intelligence entirely on the device, with nothing going to the cloud. A video generation model claiming photorealistic human output on demand. And an inference framework, open sourced this week, claiming to speed up how fast large language models produce their answers by up to eighty-five percent. Separate headlines. But they're actually the same story told from three angles, and the story is about where the computation happens, and what that means for cost, privacy, and what you can actually build. Let me bring in the desk.
+
+3
+00:02:18,376 --> 00:02:53,208
+Charon: Charon here. And I want to start with the framing because I think the framing is where most coverage of this stuff goes wrong. People hear "AI" and they think of a single thing happening in a single place, usually a giant building full of expensive chips somewhere far away. That mental model is increasingly wrong, and the three items this week are evidence of how wrong it's getting. The interesting frontier right now is not the biggest model in the biggest data centre. It's the question of how much capable intelligence you can push down onto small, cheap, local hardware. That's the through-line.
+
+4
+00:02:53,558 --> 00:03:41,030
+Rasalgethi: Rasalgethi, and let me make that concrete because "where the computation happens" sounds abstract until you've felt the difference. When you talk to a cloud assistant, your words get packaged up, sent across the internet to a server, processed, and the answer comes back. That round trip costs you three things. It costs latency, the little delay before the thing responds. It costs privacy, because your words left your house. And it costs money, somebody's paying for that server time, and increasingly that somebody is you, through a subscription. Local inference, running the model on the device in front of you, attacks all three of those costs at once. No round trip. Nothing leaves the room. No per-query server bill. That's the prize everyone's chasing.
+
+5
+00:03:41,380 --> 00:03:48,031
+Erinome: So let's take them in order. Start with the robot, because it's the most tangible. Charon, set the frame.
+
+6
+00:03:48,381 --> 00:04:22,132
+Charon: Right. So there's a small desktop robot, palm-sized to dinner-plate-sized depending on configuration, that's been positioned as an open, hackable platform. The news this week is that it got an update letting it run a full conversational AI loop entirely on local hardware. Speech recognition, the language model that figures out what to say back, and the speech synthesis that says it. All of it, on the device or on a small computer sitting next to it, with no internet connection required. You can unplug the network cable and it still talks to you.
+
+7
+00:04:22,482 --> 00:05:21,735
+Kore: Kore here, and I want to slow down on why that's genuinely a milestone and not just a spec-sheet bullet. Two years ago, the idea that you could fit a usefully conversational language model onto a hobbyist-grade single-board computer was close to laughable. The models that could hold a coherent conversation were enormous. They needed racks of specialised hardware. What's changed is a quiet revolution in making models smaller without making them stupid. Quantisation, which is the practice of storing the model's numbers at lower precision so they take up less memory. Distillation, where a big capable model teaches a small one to mimic its behaviour. And architectural cleverness that squeezes more capability into fewer parameters. The cumulative effect is that what used to need a data centre now fits, just barely, on something you could hold in your hand.
+
+8
+00:05:22,085 --> 00:06:05,437
+Rasalgethi: And I want to put a number on "just barely" because it matters. A small board with, say, eight gigabytes of memory can today run a language model in the three-to-eight-billion-parameter range, quantised down. That's not the frontier. It will not write you a publishable scientific review. But it will absolutely hold a coherent conversation, follow instructions, answer questions about a fixed body of knowledge you've loaded into it, and do it in a couple of seconds. For a desktop companion robot, that's the whole job. You don't need the world's smartest model to chat with a robot. You need a good-enough model that responds quickly and never embarrasses you by sending your living-room conversations to a server farm.
+
+9
+00:06:05,787 --> 00:07:01,760
+Achernar: Achernar, and this is where I want to plant a flag, because the privacy angle here is not a nice-to-have. It's the entire ethical case for the device. A conversational robot sitting on a desk, in a home, listening for a wake word, is one of the most intimate surveillance surfaces you can install. The default model for the last decade has been that all of that audio flows to a company you've never met, gets transcribed, gets retained, gets used to improve a product, and occasionally gets reviewed by a human contractor. People have made their peace with that, mostly by not thinking about it. Local inference changes the contract. If the words never leave the device, there is no flow to abuse. That's not a marketing point. That's a structural difference in the power relationship between you and the thing on your desk.
+
+10
+00:07:02,110 --> 00:07:07,961
+Erinome: And that structural point generalises, doesn't it. It's not just about this one robot.
+
+11
+00:07:08,311 --> 00:07:45,244
+Achernar: Exactly right. The robot is a demonstration. The principle is that local inference re-localises trust. For anyone working in a sensitive domain, and I'm thinking here about clinical settings, about anyone who handles confidential conversations as part of their work, the difference between "this transcription happened on my machine" and "this transcription happened on a server I don't control" is the difference between a defensible privacy posture and an indefensible one. The robot makes a consumer-friendly version of an argument that has serious professional stakes.
+
+12
+00:07:45,594 --> 00:08:34,346
+Charon: Let me push back gently on the romance of it, though, because I don't want us to oversell. Local inference is not free. The cost just moves. It moves from a recurring server bill to an upfront hardware cost and an ongoing power-and-heat cost. The board has to be capable enough, the model has to be small enough, and there is always a quality ceiling that a cloud model simply doesn't have. The robot's local model will, sometimes, be noticeably less capable than what you'd get talking to a big cloud assistant. The honest framing is that local inference buys you privacy, latency, and offline operation at the price of a capability ceiling. Whether that trade is good depends entirely on the job.
+
+13
+00:08:34,696 --> 00:09:10,048
+Rasalgethi: And for a lot of jobs the trade is excellent, which is the genuinely exciting part. You don't need the smartest model in the world to control your lights, answer a factual question from a document you loaded, set a timer, or have a low-stakes chat. The eighty-percent-good local model wins those jobs decisively because the privacy and the no-bill and the instant response matter more than the last twenty percent of cleverness. The mistake is using the local model for jobs that need the cloud, and the cloud for jobs that should stay local. The skill, increasingly, is routing.
+
+14
+00:09:10,398 --> 00:09:26,609
+Erinome: Hold that word, routing. We're going to come back to it because it ties the whole episode together. But let's move to the second item, the video generation tool, and Kore, I want you to handle this one with a steady hand because there was a lot of marketing on top of it.
+
+15
+00:09:26,959 --> 00:10:08,151
+Kore: There was, and let me separate the substance from the sell. The substance is that a new generation of video generation models has crossed a quality threshold where short clips of synthetic humans are, in good conditions, hard to distinguish from real footage. That's true, it's a real capability, and it's improving fast. The sell, which we are ignoring, was a discount countdown, a "no queues" promise, and the implicit suggestion that you should buy a subscription today. We're not in the business of countdown timers. What we are in the business of is understanding what the capability means.
+
+16
+00:10:08,501 --> 00:10:40,072
+Sadachbia: Sadachbia here, and I'll offer the long view in a moment, but let me first ask the question the marketing copy carefully avoids. What is this actually for? Because "real human video generation with no queues" is a description of a capability, not a use. And the moment you ask "for what," the picture gets more complicated and more honest. Some uses are wonderful. Some are corrosive. The tool doesn't know the difference. We have to supply that.
+
+17
+00:10:40,422 --> 00:11:31,555
+Kore: Let me unpack the mechanism first so we know what we're talking about. These video models are, at heart, the same family of technology as the image models you've seen, extended through time. They learn to start from noise, a field of random static, and progressively refine it into a coherent image, and then to make a sequence of those images consistent from frame to frame so that a face stays the same face as it turns, a hand stays a hand, the lighting holds steady. The hard part, historically, has been that consistency. Early video models produced beautiful single frames that flickered and warped into nightmare fuel the moment anything moved. The recent progress is mostly progress on temporal coherence, keeping the world stable across time.
+
+18
+00:11:31,905 --> 00:12:22,136
+Rasalgethi: And the reason that's hard is genuinely interesting. A still image only has to be internally consistent. A video has to be consistent with every frame that came before and every frame that comes after, and it has to obey a rough intuition of physics, things fall down, faces don't melt, fabric moves the way fabric moves. The models don't know physics. They've just seen so much footage that they've absorbed a statistical shadow of how the world tends to behave. When they fail, they fail at exactly the edges of that statistical shadow, the unusual motion, the rare lighting, the thing they didn't see enough of in training. That's why the demos always show flattering, common scenarios. The failures hide in the long tail.
+
+19
+00:12:22,486 --> 00:13:14,398
+Achernar: And I want to be the voice in the room that says the quiet part. Photorealistic synthetic humans on demand is a capability with a dark centre of gravity. The same tool that lets a small business make a clean explainer video without a film crew also lets a bad actor put words in a real person's mouth, fabricate evidence, manufacture a testimonial from a person who never existed or never said it. The marketing always shows you the creative use. The harms show up later, asymmetrically, on the people least able to defend against them. I'm not saying don't use the technology. I'm saying the data doesn't support the cheerful framing. The evidence from every prior synthetic-media wave is that the abuse arrives faster than the safeguards.
+
+20
+00:13:14,748 --> 00:14:00,580
+Sadachbia: And there's a deeper unease I'd name, separate from the obvious fraud. It's the slow erosion of the default trust we place in a moving image of a human face. For all of recorded history, a video of a person saying a thing was strong evidence that the person said the thing. We are, casually, retiring that. Not through any single dramatic event but through the accumulating ordinariness of synthetic faces. The cost is not paid by the spectacular deepfake. It's paid by the gradual arrival of a world in which "I saw the video" stops meaning anything. That's a loss, and it's worth grieving even as we use the tools.
+
+21
+00:14:00,930 --> 00:14:17,221
+Erinome: So how do we hold both things at once. The capability is real and has legitimate uses, and the capability is dangerous and corrosive at the edges. Kore, where does that leave someone deciding whether to touch it at all?
+
+22
+00:14:17,571 --> 00:15:08,683
+Kore: I think it leaves you with a small set of disciplines rather than a yes or no. First, disclosure. If you generate synthetic human footage and put it in front of an audience, say so. The harm scales with the deception, and disclosure removes the deception. Second, consent. Don't synthesise a real person's likeness or voice without their explicit agreement, full stop, regardless of what the tool's terms permit. Third, provenance. Where the technical option exists, attach the metadata, the content credentials, that mark the footage as synthetic, so that downstream it can be checked. None of those disciplines come from the tool. They come from the person holding it.
+
+23
+00:15:09,033 --> 00:15:56,505
+Charon: And I'll add the cost-discipline point because it's where this links back to the episode's spine. The reason that promotional email could promise "no queues" is that they've solved, or claim to have solved, the inference cost problem on their end. Generating video is enormously expensive computation. Every clip is a small mountain of arithmetic. "No queues" means "we've thrown enough hardware at it that you won't wait," and "forty percent off" means "we're subsidising the cost to acquire you." That's not a stable economic position. The genuinely interesting question underneath the marketing is the same question as the robot, just from the other end. How cheap can you make the computation. Which brings us, neatly, to the third item.
+
+24
+00:15:56,855 --> 00:16:07,586
+Erinome: It does. The inference framework. Rasalgethi, this is the most technical of the three, so I want you to make it land for someone who's never written a line of code.
+
+25
+00:16:07,936 --> 00:17:01,208
+Rasalgethi: Happily. So this week an open inference framework was released, claiming to speed up how fast a large language model generates its answer by up to eighty-five percent. Let me explain what "inference" even means and why its speed is the whole ballgame. When you ask a language model a question, there are two phases. There's training, which already happened, that's the months-long, hugely expensive process of teaching the model. And there's inference, which is what happens every single time you use it, when the trained model actually produces an answer for you. Training happens once. Inference happens billions of times. So even a small improvement in inference speed, multiplied across every query everyone ever makes, is an enormous saving in money, in energy, and in the wait you feel before the answer appears.
+
+26
+00:17:01,558 --> 00:17:53,771
+Kore: And I'd stress that "open sources" in the headline is doing real work. This wasn't a closed product launch. It was a framework released openly, which means anyone, any researcher, any company, any hobbyist, can take it, inspect it, use it, and build on it. That's a different kind of event from a company announcing a faster paid service. Open inference improvements compound across the whole ecosystem because they're not locked behind one vendor's gate. When the underlying machinery of generating answers gets cheaper for everyone at once, you get a tide that lifts the small player and the giant alike. The history of this field is that the open-source efficiency gains have been some of the most consequential developments, precisely because they're not captured by any single company.
+
+27
+00:17:54,121 --> 00:18:50,574
+Rasalgethi: Let me say a little about how you even get an eighty-five-percent speedup, because the number sounds magical and it isn't, it's craft. A language model generates text one piece at a time, and naively, each piece waits for the one before it. There's a family of techniques for breaking that bottleneck. One is to have a small fast model guess several pieces ahead, and then have the big model check the guesses in a single batched pass, accepting the ones it agrees with. You get the quality of the big model at closer to the speed of the small one. Another family is about how the model's memory of the conversation so far is stored and reused, so it doesn't redo work it's already done. The frameworks that get the dramatic numbers usually stack several of these tricks together. None of it changes what the model says. It changes how fast and how cheaply the model can say it.
+
+28
+00:18:50,924 --> 00:19:34,116
+Charon: And I want to underline the "doesn't change what it says" point because it's the cleanest part of the whole episode. Efficiency work is the rare advance with almost no downside. It doesn't make the model more dangerous. It doesn't introduce new failure modes in its outputs. It just makes the same outputs cheaper and faster. The catch, and there's always a catch, is that cheaper inference also means cheaper abuse. The same speedup that lets a hospital run a helpful model locally also lets a spam operation run a deceptive one at lower cost. Efficiency is morally neutral and it amplifies whatever's pointed through it. But the technique itself is clean.
+
+29
+00:19:34,466 --> 00:19:53,277
+Erinome: Good. So now let me do the thing we always do on this show, which is to put the three of them on the same table and ask what they add up to. Because individually they're three news items, and together they're a direction. Let me try to state the synthesis and then I want the desk to test it.
+
+30
+00:19:53,627 --> 00:20:49,298
+Erinome: Here it is. The robot shows you that capable models now fit on small local hardware. The video tool shows you that the most expensive computation, generating rich media, is being driven down in cost so hard that vendors can give it away to acquire you. And the inference framework shows you the open-source machinery that's pushing the cost of generation down for everyone at once. Put them together and the direction is this. The cost of running a capable model is collapsing, the place where you run it is moving closer to you, and the open ecosystem is making sure no single company owns the collapse. The synergy is that cheap inference is what makes local inference possible, and local inference is what makes the privacy and offline story real. They feed each other. Test that for me.
+
+31
+00:20:49,648 --> 00:21:35,920
+Charon: I'll test it by naming the limit. The synthesis is right about direction and I'd caution about timeline. "The cost is collapsing" is true on a multi-year curve and not true on a this-week curve. The local model on the robot is still meaningfully dumber than the cloud frontier. The video tool's "no queues" is subsidised, not solved. The inference framework is a real gain but "up to eighty-five percent" is the best-case lab number, and real-world gains are usually a fraction of the headline. So I'd accept the direction and discount the velocity. We are heading toward cheap, local, open inference. We are not there yet, and anyone who tells you we've arrived is selling a countdown timer.
+
+32
+00:21:36,270 --> 00:22:25,822
+Achernar: And I'll test it from the values side. If the direction is right, then the thing that matters most, the thing worth fighting for, is that the collapse stays open rather than captured. There's a version of this future where cheap local inference democratises capability, where a rural clinic, a small school, a community organisation runs genuinely useful models on cheap hardware with full privacy and no vendor lock-in. And there's a version where the efficiency gains get absorbed into closed products and the only "local" inference you're allowed to run is the lobotomised free tier of a subscription. The open-source release this week is a small vote for the first future. Which future we get is not a technical question. It's a question of what we choose to support.
+
+33
+00:22:26,172 --> 00:23:13,324
+Rasalgethi: And I'll test it from the builder's side, with the word Erinome told me to hold onto. Routing. If you accept the synthesis, then the practical skill of the next few years isn't "use the cloud" or "use local." It's building systems that route intelligently. The trivial, private, latency-sensitive jobs go to the cheap local model. The hard, capability-hungry, non-sensitive jobs go to the cloud. And the line between them moves, every month, as the local models get better and the inference gets cheaper. The person who thinks in terms of routing, who treats "where does this computation happen" as a live design decision rather than a default, is the person who gets the benefits of all three of this week's stories at once.
+
+34
+00:23:13,674 --> 00:23:23,685
+Erinome: So let me make that practical, because we don't leave the desk without something you can do. Rasalgethi, give me the routing playbook. Concrete steps.
+
+35
+00:23:24,035 --> 00:24:31,248
+Rasalgethi: Right. Step one, classify your tasks by two axes, sensitivity and difficulty. Sensitivity is "would I mind if these words left the room." Difficulty is "does this need the smartest available model or just a competent one." Just doing that classification, on paper, for the work you actually do, is most of the value. Step two, for the high-sensitivity, low-to-medium-difficulty quadrant, that's your local candidate. Transcribing a confidential conversation. Summarising a private document. Answering questions against a fixed internal knowledge base. Set up a small local model for exactly those jobs. Step three, for the low-sensitivity, high-difficulty quadrant, that's your cloud quadrant, and you should feel no guilt about it. Step four, and this is the one people skip, re-run the classification every few months, because the local models keep getting better and tasks keep migrating from the cloud column to the local column. Routing is not a one-time setup. It's a standing review.
+
+36
+00:24:31,598 --> 00:25:08,990
+Kore: And I'd add a step zero before all of that. Inventory what you're already sending to the cloud without thinking about it. Most people have never audited it. Every voice assistant query, every "summarise this for me," every dictation, every photo you let a service analyse. You can't route what you haven't catalogued. The single highest-value thing a listener can do this week is spend twenty minutes writing down what conversations, documents, and queries currently leave their control, and then asking, for each one, "did this need to."
+
+37
+00:25:09,340 --> 00:25:49,012
+Achernar: And let me close my part with the disclosure-and-consent disciplines transposed onto all three tools, because they're the same disciplines. With the robot, disclose to anyone in the room that there's a listening device, even a private one. With the video tool, disclose synthetic content and never synthesise a real person without consent. With any model, local or cloud, be honest with yourself about what it's good at and where its capability ceiling sits, so you don't trust it past its competence. The disciplines don't come from the technology. They never have. They come from the person at the desk.
+
+38
+00:25:49,362 --> 00:26:50,935
+Sadachbia: And I'll take the last word toward something quieter. We spent this episode on speed, cost, and capability, on collapsing curves and clever routing. All real, all worth your attention. But underneath the rush of it there's an older question that none of the three tools can answer for you, which is the question of what you actually want the help for. A faster model gives you more of whatever you were already doing. If what you were doing was good, you get more good. If it was noise, you get more noise, sooner and cheaper. The technology is an amplifier with no opinion about what it amplifies. So the discipline that matters most isn't routing, or disclosure, or consent, important as those are. It's the discipline of occasionally putting all of it down and asking whether the thing you're accelerating toward is a thing worth reaching. The cheapest, fastest, most private inference in the world won't tell you that. That part stays yours.
+
+39
+00:26:51,285 --> 00:28:05,018
+Erinome: That's the right note to end on. So to gather it up. Three stories that were really one. A small robot that now thinks locally, showing that capable models fit on cheap hardware. A video tool, marketing stripped away, showing that even the most expensive computation is being driven down hard. And an open inference framework showing the machinery of that collapse, released for everyone rather than locked behind a gate. The direction is cheap, local, open intelligence, moving closer to you. The velocity is slower than the headlines and the future stays open only if we choose to keep it open. And the skill that turns all of it into something useful is routing, classify by sensitivity and difficulty, send each job to the right place, and re-run that judgment as the line keeps moving. Plus the disciplines that never come from the tool, disclosure, consent, and honesty about where the capability stops. Thanks for spending the time with us. This has been State of Play.
+
