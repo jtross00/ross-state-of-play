@@ -13,7 +13,7 @@
     <copyright>Jacob Ross</copyright>
     <managingEditor>jtross00@gmail.com (Jacob Ross)</managingEditor>
     <webMaster>jtross00@gmail.com (Jacob Ross)</webMaster>
-    <lastBuildDate>Mon, 29 Jun 2026 08:29:00 +0930</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 11:29:36 +0930</lastBuildDate>
     <atom:link href="https://jtross00.github.io/ross-state-of-play/feed.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Podcasting 2.0 channel-level guid: UUIDv5 of feed URL (scheme/trailing-slash stripped)
@@ -47,7 +47,16 @@
       <itunes:category text="Medicine"/>
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:type>episodic</itunes:type>
+    <itunes:type>episodic</itunes:type>    <item>
+      <title>SoP e65: Claude Science Ai Workbench Launch 260701</title>
+      <description>Claude Science, an AI workbench for scientists, is now available
+</description>
+      <pubDate>Wed, 01 Jul 2026 11:29:36 +0930</pubDate>
+      <enclosure url="https://jtross00.github.io/ross-state-of-play/audio/sop-e65-claude-science-ai-workbench-launch-260701.mp3" length="36602075" type="audio/mpeg"/>
+      <guid isPermaLink="false">c3d2e443ef5cec202da8c8aa</guid>
+      <itunes:duration>1828</itunes:duration>
+    </item>
+
     <item>
       <title>SoP e64: Cheap, local, open intelligence</title>
       <description>Three AI-tooling stories that are really one — on-device conversational AI, photoreal video generation, and an open inference framework — and what they mean for where computation happens: cost, privacy, and routing each job by sensitivity and difficulty.</description>
